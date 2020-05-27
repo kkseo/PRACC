@@ -1,0 +1,50 @@
+﻿@using umbraco;
+@using umbraco.NodeFactory;
+@using umbraco.cms.businesslogic.web;
+@using umbraco.cms.businesslogic.media;
+@using umbraco.cms.businesslogic.member;
+@using umbraco.cms.businesslogic.relation;
+
+@{  
+  //var rootNode = uQuery.GetRootNode();
+  var startNode = uQuery.GetNode(1049);
+    if (startNode.Children.Count >= 1)
+    {
+        @traverseNode(startNode);
+    }
+}
+
+
+@helper traverseNode(Node uNode){
+    var startNode = uQuery.GetNode(uNode.Id);
+    var children = startNode.GetChildNodes();
+    <ul class="flexnav" data-breakpoint="768">
+        @if(children.ElementAt(0).Level == 2){
+         <li><a href="/">HOME</a></li>
+        }
+        @foreach(var c in children)
+        {
+            //string uHide;
+            string uHide = c.GetProperty("umbracoNaviHide").Value.ToString();
+
+            //uHide = "0";
+            if(uHide != "1"){
+            string lvl = "lvl" + c.Level;
+            <li class="@c.Name.ToLower()">
+                @if(c.Level == 3){
+                    <a href="@c.Url" class="@lvl">@c.Name</a>
+                }
+                else if (c.Level <= 2)
+                {
+                    <a href="@c.Url" class="@lvl">@c.Name.ToUpper()</a>
+                } else {
+                 <!-- nothing //-->   
+                }
+                @*if (c.Children.Count >= 1 && ( Int32.Parse(c.Level.ToString())+1) <= 3){
+                  @traverseNode(c)
+                }*@
+            </li>
+            }
+        }
+    </ul>
+}

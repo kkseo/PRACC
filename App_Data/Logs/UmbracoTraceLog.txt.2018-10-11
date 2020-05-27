@@ -1,0 +1,46 @@
+2018-10-11 03:14:43,085 [13] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 74] Error executing query delete from umbracoLog where datestamp < @oldestPermittedLogEntry and logHeader in ('open','system')
+System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The handle specified is invalid) ---> System.ComponentModel.Win32Exception (0x80004005): The handle specified is invalid
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteNonQuery(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+ClientConnectionId:d67a1b24-ddf7-4b4c-b03c-0c93966581aa
+Error Number:-2146893055,State:0,Class:20
+2018-10-11 03:14:43,679 [13] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 74] Application shutdown. Reason: HostingEnvironment
+2018-10-11 03:19:00,177 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Determining hash of code files on disk
+2018-10-11 03:19:00,239 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Hash determined (took 51ms)
+2018-10-11 03:19:00,256 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-10-11 03:19:01,153 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 895ms)
+2018-10-11 03:19:01,312 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-10-11 03:19:01,322 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 9ms)
+2018-10-11 03:19:01,325 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-10-11 03:19:01,338 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 12ms)
+2018-10-11 03:19:01,339 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-10-11 03:19:01,344 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 6ms)
+2018-10-11 03:19:01,358 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-10-11 03:19:01,367 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 9ms)
+2018-10-11 03:19:01,367 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-10-11 03:19:01,375 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 7ms)
+2018-10-11 03:19:03,758 [15] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 3] Initializing Examine and binding to business logic events
+2018-10-11 03:19:06,439 [15] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 3] Adding examine event handlers for index providers: 3
+2018-10-11 03:19:06,479 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of umbraco.interfaces.IApplication
+2018-10-11 03:19:06,504 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 24ms)
+2018-10-11 03:19:08,411 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of umbraco.interfaces.ITree
+2018-10-11 03:19:08,452 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 41ms)
+2018-10-11 03:20:34,965 [15] INFO  umbraco.content - [Thread 9] Loading content from disk cache...
+2018-10-11 03:21:19,180 [15] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2018-10-11 03:21:19,194 [15] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 13ms)
+2018-10-11 03:22:37,508 [15] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2018-10-11 03:22:37,521 [15] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 13ms)

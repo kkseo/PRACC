@@ -1,0 +1,54 @@
+2020-04-13 02:36:07,231 [32] INFO  umbraco.BusinessLogic.Log - [Thread 38] Log scrubbed.  Removed all items older than 2020-02-13 02:36:06
+2020-04-13 07:28:30,231 [32] INFO  umbraco.BusinessLogic.Log - [Thread 38] Log scrubbed.  Removed all items older than 2020-02-13 07:28:30
+2020-04-13 07:28:30,278 [32] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 38] Application shutdown. Reason: HostingEnvironment
+2020-04-13 07:31:33,278 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Determining hash of code files on disk
+2020-04-13 07:31:33,293 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Hash determined (took 6ms)
+2020-04-13 07:31:33,309 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2020-04-13 07:31:34,746 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1439ms)
+2020-04-13 07:31:34,793 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2020-04-13 07:31:34,809 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+2020-04-13 07:31:34,809 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2020-04-13 07:31:34,809 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2020-04-13 07:31:34,809 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2020-04-13 07:31:34,825 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 4ms)
+2020-04-13 07:31:34,825 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2020-04-13 07:31:34,825 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2020-04-13 07:31:34,825 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2020-04-13 07:31:34,825 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2020-04-13 07:31:35,559 [15] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 12] Initializing Examine and binding to business logic events
+2020-04-13 07:31:36,168 [15] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 12] Adding examine event handlers for index providers: 3
+2020-04-13 07:31:36,200 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.interfaces.IApplication
+2020-04-13 07:31:36,200 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2020-04-13 07:31:36,512 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.interfaces.ITree
+2020-04-13 07:31:36,543 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 23ms)
+2020-04-13 07:31:36,856 [15] INFO  umbraco.content - [Thread 13] Loading content from disk cache...
+2020-04-13 07:32:04,996 [15] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2020-04-13 07:32:04,996 [15] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 7ms)
+2020-04-13 08:42:20,856 [15] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 103] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-04-13 09:10:36,496 [15] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 22] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-04-13 09:10:37,356 [15] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 49] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-04-13 09:11:14,965 [15] INFO  Umbraco.Core.PluginManager - [Thread 65] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2020-04-13 09:11:14,981 [15] INFO  Umbraco.Core.PluginManager - [Thread 65] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 6ms)
+2020-04-13 09:12:00,700 [15] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2020-04-13 09:12:00,700 [15] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2020-04-13 09:12:00,700 [15] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2020-04-13 09:12:00,700 [15] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2020-04-13 09:12:00,700 [15] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2020-04-13 09:12:02,184 [15] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 62] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2020-04-13 09:12:02,184 [15] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 62] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2020-04-13 09:12:02,184 [15] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 62] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2020-04-13 09:12:02,184 [15] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 62] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2020-04-13 09:12:02,184 [15] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 62] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2020-04-13 12:57:28,012 [15] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 17] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...'&content=<php>file_put_conten...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-04-13 15:38:38,950 [15] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 46] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-04-13 15:45:18,075 [15] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 91] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.

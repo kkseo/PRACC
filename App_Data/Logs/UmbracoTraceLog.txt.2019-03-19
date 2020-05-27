@@ -1,0 +1,24 @@
+2019-03-19 13:55:57,468 [18] INFO  umbraco.BasePages.BasePage - [Thread 23] User pracc (Id: 1) logged in
+2019-03-19 13:55:57,796 [18] INFO  Umbraco.Core.PluginManager - [Thread 101] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-03-19 13:55:57,859 [18] INFO  Umbraco.Core.PluginManager - [Thread 101] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 59ms)
+2019-03-19 13:55:58,578 [18] INFO  Umbraco.Core.PluginManager - [Thread 101] Starting resolution types of umbraco.interfaces.ITree
+2019-03-19 13:55:58,625 [18] INFO  Umbraco.Core.PluginManager - [Thread 101] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 48ms)
+2019-03-19 13:56:35,515 [18] INFO  Umbraco.Core.PluginManager - [Thread 101] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2019-03-19 13:56:35,578 [18] INFO  Umbraco.Core.PluginManager - [Thread 101] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 59ms)
+2019-03-19 13:57:23,546 [18] INFO  Umbraco.Core.PluginManager - [Thread 101] Starting resolution types of umbraco.interfaces.IDataType
+2019-03-19 13:57:23,593 [18] INFO  Umbraco.Core.PluginManager - [Thread 101] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 36ms)
+2019-03-19 13:59:00,843 [18] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2019-03-19 13:59:00,843 [18] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 8ms)
+2019-03-19 13:59:04,734 [18] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-03-19 13:59:04,781 [18] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 49ms)
+2019-03-19 13:59:05,093 [18] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 72] Success uploading to parent 2347
+2019-03-19 14:01:02,875 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 84] Content '2019 - Jump Dance Challenge' with Id '2428' has been published.
+2019-03-19 14:01:48,218 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content '2019 - Jump Dance Challenge' with Id '2428' has been published.
+2019-03-19 14:04:18,546 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content '2019 - Jump Dance Challenge' with Id '2428' has been published.
+2019-03-19 14:05:34,031 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content '2019 - Jump Dance Challenge' with Id '2428' has been published.
+2019-03-19 14:05:57,671 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content '2019 - Jump Dance Challenge' with Id '2428' has been published.
+2019-03-19 14:06:18,359 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 84] Content '2019 - Jump Dance Challenge' with Id '2428' has been published.
+2019-03-19 14:09:12,562 [18] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 65] Success uploading to parent 2347
+2019-03-19 14:09:42,859 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 38] Content '2019 - Jump Dance Challenge' with Id '2428' has been published.
+2019-03-19 14:09:44,687 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 38] Content '2019 - Jump Dance Challenge' with Id '2428' has been published.
+2019-03-19 23:11:08,703 [18] INFO  umbraco.BusinessLogic.Log - [Thread 49] Log scrubbed.  Removed all items older than 2019-01-18 23:11:08

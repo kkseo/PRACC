@@ -1,0 +1,40 @@
+2019-02-20 04:27:41,787 [12] INFO  umbraco.BusinessLogic.Log - [Thread 35] Log scrubbed.  Removed all items older than 2018-12-22 04:27:41
+2019-02-20 04:27:41,865 [12] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 35] Application shutdown. Reason: HostingEnvironment
+2019-02-20 04:27:48,694 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Determining hash of code files on disk
+2019-02-20 04:27:48,709 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Hash determined (took 13ms)
+2019-02-20 04:27:48,725 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-02-20 04:27:51,334 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 2602ms)
+2019-02-20 04:27:51,459 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-02-20 04:27:51,475 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+2019-02-20 04:27:51,475 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-02-20 04:27:51,475 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2019-02-20 04:27:51,475 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-02-20 04:27:51,475 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 6ms)
+2019-02-20 04:27:51,506 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-02-20 04:27:51,506 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 8ms)
+2019-02-20 04:27:51,506 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-02-20 04:27:51,522 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 10ms)
+2019-02-20 04:27:52,787 [9] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 4] Initializing Examine and binding to business logic events
+2019-02-20 04:27:53,834 [9] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 4] Adding examine event handlers for index providers: 3
+2019-02-20 04:27:53,850 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of umbraco.interfaces.IApplication
+2019-02-20 04:27:53,865 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 18ms)
+2019-02-20 04:27:54,381 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of umbraco.interfaces.ITree
+2019-02-20 04:27:54,428 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 40ms)
+2019-02-20 04:27:58,100 [9] INFO  umbraco.content - [Thread 16] Loading content from disk cache...
+2019-02-20 04:28:21,944 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-02-20 04:28:21,959 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 10ms)
+2019-02-20 04:34:28,287 [9] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-02-20 04:34:28,303 [9] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 10ms)
+2019-02-20 09:04:05,756 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 15] An unhandled exception occurred
+System.UriFormatException: Invalid URI: The hostname could not be parsed.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Web.Util.UriUtil.BuildUriImpl(String scheme, String serverName, String port, String path, String queryString, Boolean useLegacyRequestUrlGeneration)
+   at System.Web.HttpRequest.BuildUrl(Func`1 pathAccessor)
+   at System.Web.HttpRequest.get_Url()
+   at System.Web.HttpRequestWrapper.get_Url()
+   at Umbraco.Web.UmbracoModule.BeginRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__5(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

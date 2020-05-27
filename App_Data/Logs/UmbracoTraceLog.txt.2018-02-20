@@ -1,0 +1,69 @@
+2018-02-20 08:30:10,609 [20] INFO  umbraco.BasePages.BasePage - [Thread 28] User pracc (Id: 1) logged in
+2018-02-20 08:30:11,234 [20] INFO  Umbraco.Core.PluginManager - [Thread 52] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2018-02-20 08:30:11,249 [20] INFO  Umbraco.Core.PluginManager - [Thread 52] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 12ms)
+2018-02-20 08:30:12,343 [20] INFO  Umbraco.Core.PluginManager - [Thread 52] Starting resolution types of umbraco.interfaces.ITree
+2018-02-20 08:30:12,390 [20] INFO  Umbraco.Core.PluginManager - [Thread 52] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 37ms)
+2018-02-20 08:30:36,327 [20] ERROR dashboardUtilities.FeedProxy - [Thread 57] Exception occurred
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 93.90.118.244:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2018-02-20 08:44:44,968 [20] INFO  Umbraco.Core.PluginManager - [Thread 46] Starting resolution types of umbraco.interfaces.IDataType
+2018-02-20 08:44:44,999 [20] INFO  Umbraco.Core.PluginManager - [Thread 46] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 33ms)
+2018-02-20 08:45:37,312 [20] INFO  umbraco.cms.businesslogic.web.Document - [Thread 41] New document 2247
+2018-02-20 08:46:08,531 [20] INFO  Umbraco.Core.Services.ContentService - [Thread 57] Content 'Show 1' with Id '2247' could not be published because its parent is not published.
+2018-02-20 08:46:08,531 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 57] Content 'Show 1' with Id '2247' has been published.
+2018-02-20 08:46:08,702 [20] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2018-02-20 08:46:08,718 [20] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 17ms)
+2018-02-20 08:46:09,046 [20] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 57] Couldn't find any page with nodeId=2247. This is most likely caused by the page not being published.
+2018-02-20 08:46:16,937 [20] INFO  umbraco.cms.businesslogic.web.Document - [Thread 33] New document 2248
+2018-02-20 08:46:36,468 [20] INFO  Umbraco.Core.Services.ContentService - [Thread 26] Content 'Show 2' with Id '2248' could not be published because its parent is not published.
+2018-02-20 08:46:36,468 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content 'Show 2' with Id '2248' has been published.
+2018-02-20 08:46:36,640 [20] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 26] Couldn't find any page with nodeId=2248. This is most likely caused by the page not being published.
+2018-02-20 08:46:42,218 [20] INFO  umbraco.cms.businesslogic.web.Document - [Thread 13] New document 2249
+2018-02-20 08:47:07,671 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 13] Content 'Show 3' with Id '2249' has been unpublished.
+2018-02-20 12:56:41,437 [20] INFO  umbraco.BasePages.BasePage - [Thread 34] User pracc (Id: 1) logged in
+2018-02-20 12:57:04,327 [20] ERROR dashboardUtilities.FeedProxy - [Thread 14] Exception occurred
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 93.90.118.244:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2018-02-20 12:57:24,468 [20] INFO  umbraco.cms.businesslogic.web.Document - [Thread 31] New document 2250
+2018-02-20 13:38:37,077 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content '2017 - Country Christmas Show' with Id '1663' has been published.
+2018-02-20 13:38:44,218 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content '2018 - Celtic Illusion' with Id '2136' has been published.
+2018-02-20 13:38:57,859 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 34] Content '2018 - Wendy Stapleton' with Id '2168' has been published.
+2018-02-20 13:39:05,234 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 56] Content '2018 - Casablanca' with Id '2189' has been published.
+2018-02-20 13:39:12,249 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content '2018 - The Best of Mike Brady' with Id '2191' has been published.
+2018-02-20 13:39:19,874 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content '2018 - Descendants 2' with Id '2193' has been published.
+2018-02-20 13:39:27,202 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '2018 - Macdeth' with Id '2196' has been published.
+2018-02-20 13:39:34,640 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content '2018 - South Pacific' with Id '2198' has been published.
+2018-02-20 13:39:45,546 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content '2018 - Onstage Dating' with Id '2200' has been published.
+2018-02-20 13:39:52,109 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content '2018 - Rock Around the World' with Id '2202' has been published.
+2018-02-20 13:39:58,234 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content '2018 - 3 Speed Crunch Box Rebooted' with Id '2204' has been published.
+2018-02-20 13:40:05,327 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '2018 - Lego Batman' with Id '2206' has been published.
+2018-02-20 13:40:12,390 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 8] Content '2018 - Cilla Black' with Id '2208' has been published.
+2018-02-20 13:40:20,109 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content '2018 - James Blundell' with Id '2210' has been published.
+2018-02-20 13:40:28,968 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content '2018 - Around the World in 80 Days' with Id '2212' has been published.
+2018-02-20 13:40:36,202 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content '2018 - Mr Snott Bottom' with Id '2214' has been published.
+2018-02-20 13:40:44,593 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content '2018 - Captain Underpants' with Id '2216' has been published.
+2018-02-20 13:40:51,921 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 56] Content '2018 - Michael Buble Tribute Show' with Id '2218' has been published.
+2018-02-20 13:40:59,062 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content '2018 - For Love or Money' with Id '2220' has been published.
+2018-02-20 13:41:09,656 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 34] Content '2018 - Breakfast at Tiffanys' with Id '2222' has been published.
+2018-02-20 13:41:17,765 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 39] Content '2018 - The Beach Boys Summer Holiday Show' with Id '2224' has been published.
+2018-02-20 13:41:25,374 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content '2018 - The Nutcracker Ballet' with Id '2226' has been published.
+2018-02-20 15:59:19,937 [20] INFO  umbraco.BasePages.BasePage - [Thread 54] User pracc (Id: 1) logged in
+2018-02-20 15:59:42,718 [20] ERROR dashboardUtilities.FeedProxy - [Thread 16] Exception occurred
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 93.90.118.244:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2018-02-20 19:24:05,765 [20] INFO  umbraco.BusinessLogic.Log - [Thread 35] Log scrubbed.  Removed all items older than 2017-12-22 19:24:05

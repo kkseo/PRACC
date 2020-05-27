@@ -1,0 +1,130 @@
+2020-05-12 01:43:40,479 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 53] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-05-12 01:51:04,979 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 39] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-05-12 02:31:21,745 [9] INFO  umbraco.BusinessLogic.Log - [Thread 54] Log scrubbed.  Removed all items older than 2020-03-13 02:31:21
+2020-05-12 07:27:28,323 [9] INFO  umbraco.BusinessLogic.Log - [Thread 39] Log scrubbed.  Removed all items older than 2020-03-13 07:27:27
+2020-05-12 07:27:30,354 [9] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 39] Application shutdown. Reason: HostingEnvironment
+2020-05-12 07:30:37,979 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2020-05-12 07:30:37,979 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 3ms)
+2020-05-12 07:30:37,979 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2020-05-12 07:30:39,276 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1305ms)
+2020-05-12 07:30:39,276 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2020-05-12 07:30:39,291 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2020-05-12 07:30:39,291 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2020-05-12 07:30:39,307 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2020-05-12 07:30:39,307 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2020-05-12 07:30:39,307 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2020-05-12 07:30:39,307 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2020-05-12 07:30:39,307 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2020-05-12 07:30:39,307 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2020-05-12 07:30:39,307 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2020-05-12 07:30:39,713 [18] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2020-05-12 07:30:40,088 [18] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2020-05-12 07:30:40,135 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2020-05-12 07:30:40,135 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2020-05-12 07:30:40,448 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2020-05-12 07:30:40,463 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 29ms)
+2020-05-12 07:30:40,666 [18] INFO  umbraco.content - [Thread 7] Loading content from disk cache...
+2020-05-12 07:31:09,495 [18] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2020-05-12 07:31:09,495 [18] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2020-05-12 07:43:51,635 [18] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2020-05-12 07:43:51,666 [18] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 6ms)
+2020-05-12 08:37:57,698 [18] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-05-12 13:43:42,885 [18] INFO  umbraco.BasePages.BasePage - [Thread 67] User pracc (Id: 1) logged in
+2020-05-12 13:43:43,276 [18] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2020-05-12 13:43:43,291 [18] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 5ms)
+2020-05-12 13:43:43,807 [18] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of umbraco.interfaces.ITree
+2020-05-12 13:43:43,838 [18] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 34ms)
+2020-05-12 13:43:48,026 [18] ERROR dashboardUtilities.FeedProxy - [Thread 57] Exception occurred
+System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a send. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.TlsStream.CallProcessAuthentication(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   at System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-05-12 13:43:53,245 [18] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of umbraco.interfaces.IDataType
+2020-05-12 13:43:53,276 [18] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 34ms)
+2020-05-12 13:43:53,838 [18] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 7] Couldn't find any page with nodeId=2928. This is most likely caused by the page not being published.
+2020-05-12 14:01:10,745 [18] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2020-05-12 14:01:10,745 [18] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2020-05-12 14:01:10,745 [18] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2020-05-12 14:01:10,745 [18] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2020-05-12 14:01:10,745 [18] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2020-05-12 15:13:20,198 [18] INFO  umbraco.BusinessLogic.Log - [Thread 55] Log scrubbed.  Removed all items older than 2020-03-13 15:13:19
+2020-05-12 15:13:20,416 [18] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 55] Application shutdown. Reason: ConfigurationChange
+2020-05-12 15:13:41,088 [44] INFO  Umbraco.Core.PluginManager - [Thread 15] Determining hash of code files on disk
+2020-05-12 15:13:41,135 [44] INFO  Umbraco.Core.PluginManager - [Thread 15] Hash determined (took 43ms)
+2020-05-12 15:13:41,135 [44] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2020-05-12 15:13:43,291 [44] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 2166ms)
+2020-05-12 15:13:43,307 [44] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2020-05-12 15:13:43,307 [44] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2020-05-12 15:13:43,307 [44] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2020-05-12 15:13:43,307 [44] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2020-05-12 15:13:43,307 [44] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2020-05-12 15:13:43,307 [44] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2020-05-12 15:13:43,338 [44] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2020-05-12 15:13:43,338 [44] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2020-05-12 15:13:43,338 [44] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2020-05-12 15:13:43,354 [44] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2020-05-12 15:13:44,182 [44] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 15] Initializing Examine and binding to business logic events
+2020-05-12 15:13:45,088 [44] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 15] Adding examine event handlers for index providers: 3
+2020-05-12 15:13:45,135 [44] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.IApplication
+2020-05-12 15:13:45,151 [44] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2020-05-12 15:13:45,604 [44] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.ITree
+2020-05-12 15:13:45,635 [44] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 28ms)
+2020-05-12 15:13:46,291 [44] INFO  umbraco.content - [Thread 27] Loading content from disk cache...
+2020-05-12 15:13:47,604 [44] INFO  Umbraco.Core.PluginManager - [Thread 27] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2020-05-12 15:13:47,635 [44] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 19ms)
+2020-05-12 15:23:10,776 [44] INFO  umbraco.BasePages.BasePage - [Thread 32] User admin (Id: 0) logged in
+2020-05-12 15:23:11,870 [44] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2020-05-12 15:23:11,979 [44] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 104ms)
+2020-05-12 15:23:13,416 [44] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of umbraco.interfaces.ITree
+2020-05-12 15:23:13,729 [44] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 307ms)
+2020-05-12 15:23:31,432 [44] ERROR dashboardUtilities.FeedProxy - [Thread 59] Exception occurred
+System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a send. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.TlsStream.CallProcessAuthentication(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   at System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-05-12 15:25:05,791 [44] INFO  Umbraco.Core.PluginManager - [Thread 27] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2020-05-12 15:25:05,807 [44] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 20ms)
+2020-05-12 15:41:18,963 [44] INFO  Umbraco.Core.PluginManager - [Thread 59] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2020-05-12 15:41:18,979 [44] INFO  Umbraco.Core.PluginManager - [Thread 59] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 6ms)
+2020-05-12 16:56:57,510 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 37] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-05-12 17:03:57,557 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 26] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-05-12 18:13:00,854 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 80] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-05-12 21:34:23,463 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 83] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.

@@ -1,0 +1,28 @@
+2018-07-21 09:09:09,931 [10] INFO  umbraco.BusinessLogic.Log - [Thread 96] Log scrubbed.  Removed all items older than 2018-05-22 09:09:09
+2018-07-21 14:08:28,556 [10] INFO  umbraco.BusinessLogic.Log - [Thread 67] Log scrubbed.  Removed all items older than 2018-05-22 14:08:28
+2018-07-21 14:08:28,603 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 67] Application shutdown. Reason: HostingEnvironment
+2018-07-21 14:09:42,446 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2018-07-21 14:09:42,446 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 5ms)
+2018-07-21 14:09:42,446 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-07-21 14:09:44,165 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1715ms)
+2018-07-21 14:09:44,181 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-07-21 14:09:44,196 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2018-07-21 14:09:44,196 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-07-21 14:09:44,196 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2018-07-21 14:09:44,196 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-07-21 14:09:44,196 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2018-07-21 14:09:44,196 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-07-21 14:09:44,196 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2018-07-21 14:09:44,196 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-07-21 14:09:44,212 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2018-07-21 14:09:44,790 [17] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2018-07-21 14:09:45,337 [17] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2018-07-21 14:09:45,337 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2018-07-21 14:09:45,353 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 12ms)
+2018-07-21 14:09:45,728 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2018-07-21 14:09:45,774 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 38ms)
+2018-07-21 14:09:46,040 [17] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2018-07-21 14:10:14,399 [17] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2018-07-21 14:10:14,399 [17] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 10ms)
+2018-07-21 15:45:31,774 [17] INFO  Umbraco.Core.PluginManager - [Thread 35] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2018-07-21 15:45:31,790 [17] INFO  Umbraco.Core.PluginManager - [Thread 35] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 17ms)

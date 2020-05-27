@@ -1,0 +1,52 @@
+2019-07-17 04:30:01,645 [7] INFO  umbraco.BusinessLogic.Log - [Thread 44] Log scrubbed.  Removed all items older than 2019-05-18 04:30:00
+2019-07-17 04:30:03,270 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 44] Application shutdown. Reason: HostingEnvironment
+2019-07-17 04:38:53,583 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2019-07-17 04:38:53,583 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 3ms)
+2019-07-17 04:38:53,583 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-07-17 04:38:55,083 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1513ms)
+2019-07-17 04:38:55,114 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-07-17 04:38:55,114 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 12ms)
+2019-07-17 04:38:55,114 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-07-17 04:38:55,130 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2019-07-17 04:38:55,130 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-07-17 04:38:55,145 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 11ms)
+2019-07-17 04:38:55,145 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-07-17 04:38:55,145 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2019-07-17 04:38:55,145 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-07-17 04:38:55,161 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 16ms)
+2019-07-17 04:38:55,505 [29] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2019-07-17 04:38:56,005 [29] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2019-07-17 04:38:56,005 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2019-07-17 04:38:56,020 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2019-07-17 04:38:56,692 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2019-07-17 04:38:56,708 [29] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 21ms)
+2019-07-17 04:38:56,942 [29] INFO  umbraco.content - [Thread 22] Loading content from disk cache...
+2019-07-17 04:39:25,239 [29] INFO  Umbraco.Core.PluginManager - [Thread 27] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-07-17 04:39:25,239 [29] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2019-07-17 06:06:40,364 [29] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-07-17 06:06:40,364 [29] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2019-07-17 13:18:11,005 [29] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 92] An unhandled exception occurred
+System.UriFormatException: Invalid URI: The hostname could not be parsed.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Web.Util.UriUtil.BuildUriImpl(String scheme, String serverName, String port, String path, String queryString, Boolean useLegacyRequestUrlGeneration)
+   at System.Web.HttpRequest.BuildUrl(Func`1 pathAccessor)
+   at System.Web.HttpRequest.get_Url()
+   at System.Web.HttpRequestWrapper.get_Url()
+   at Umbraco.Web.UmbracoModule.BeginRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__5(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-07-17 15:58:56,458 [29] INFO  umbraco.BasePages.BasePage - [Thread 99] User pracc (Id: 1) logged in
+2019-07-17 15:58:56,583 [29] INFO  Umbraco.Core.PluginManager - [Thread 74] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-07-17 15:58:56,583 [29] INFO  Umbraco.Core.PluginManager - [Thread 74] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2019-07-17 15:58:56,895 [29] INFO  Umbraco.Core.PluginManager - [Thread 74] Starting resolution types of umbraco.interfaces.ITree
+2019-07-17 15:58:56,927 [29] INFO  Umbraco.Core.PluginManager - [Thread 74] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 20ms)
+2019-07-17 15:59:02,411 [29] INFO  Umbraco.Core.PluginManager - [Thread 58] Starting resolution types of umbraco.interfaces.IDataType
+2019-07-17 15:59:02,427 [29] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 18ms)
+2019-07-17 15:59:39,973 [29] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content '2019 - Bye Bye Birdie (Plenty Valley Christian College)' with Id '2474' has been published.
+2019-07-17 15:59:40,661 [29] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-07-17 15:59:40,677 [29] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 10ms)
+2019-07-17 15:59:52,677 [29] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content '2019 - A Midsummers Nights Dream (Catholic Ladies College)' with Id '2481' has been published.
+2019-07-17 16:00:11,895 [29] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content '2019 - SingOut' with Id '2449' has been published.

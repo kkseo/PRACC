@@ -1,0 +1,18 @@
+2019-10-20 00:00:45,418 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 67] Content 'Sing It With Sharon' with Id '2650' has been unpublished.
+2019-10-20 00:00:45,887 [33] INFO  Umbraco.Core.PluginManager - [Thread 67] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-10-20 00:00:45,887 [33] INFO  Umbraco.Core.PluginManager - [Thread 67] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 10ms)
+2019-10-20 00:00:45,902 [33] INFO  Umbraco.Core.PluginManager - [Thread 67] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-10-20 00:00:45,918 [33] INFO  Umbraco.Core.PluginManager - [Thread 67] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 5ms)
+2019-10-20 01:14:29,121 [33] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 24] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-10-20 02:55:24,934 [33] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 31] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-10-20 04:08:06,684 [33] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 29] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-10-20 08:32:47,496 [33] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 23] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-10-20 10:08:15,277 [33] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-10-20 11:09:51,824 [33] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 95] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-10-20 11:58:15,105 [33] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 32] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-10-20 12:00:36,121 [33] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 42] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-10-20 17:47:51,777 [33] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 65] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-10-20 19:21:30,277 [33] INFO  umbraco.BusinessLogic.Log - [Thread 94] Log scrubbed.  Removed all items older than 2019-08-21 19:21:30
+2019-10-20 20:46:04,746 [33] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 34] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-10-20 23:16:23,277 [33] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 94] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-10-20 23:23:08,512 [33] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 102] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.

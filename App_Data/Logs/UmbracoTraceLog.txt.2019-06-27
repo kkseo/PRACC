@@ -1,0 +1,33 @@
+2019-06-27 10:15:43,841 [22] INFO  umbraco.BusinessLogic.Log - [Thread 74] Log scrubbed.  Removed all items older than 2019-04-28 10:15:43
+2019-06-27 12:38:34,138 [22] INFO  umbraco.BasePages.BasePage - [Thread 83] User pracc (Id: 1) logged in
+2019-06-27 12:40:34,888 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content '2019 - The Travelling Kitchen' with Id '2370' has been published.
+2019-06-27 12:41:30,732 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content '2019 - The Travelling Kitchen' with Id '2370' has been published.
+2019-06-27 12:42:42,060 [22] INFO  umbraco.cms.businesslogic.web.Document - [Thread 7] New document 2473
+2019-06-27 12:44:26,466 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 96] Content 'Show 3' with Id '2473' has been published.
+2019-06-27 15:13:20,373 [22] INFO  umbraco.BusinessLogic.Log - [Thread 103] Log scrubbed.  Removed all items older than 2019-04-28 15:13:20
+2019-06-27 15:13:21,544 [22] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 103] Application shutdown. Reason: HostingEnvironment
+2019-06-27 15:14:13,701 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2019-06-27 15:14:13,716 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 7ms)
+2019-06-27 15:14:13,716 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-06-27 15:14:14,701 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 984ms)
+2019-06-27 15:14:14,748 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-06-27 15:14:14,748 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2019-06-27 15:14:14,748 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-06-27 15:14:14,748 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2019-06-27 15:14:14,748 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-06-27 15:14:14,763 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2019-06-27 15:14:14,763 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-06-27 15:14:14,763 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2019-06-27 15:14:14,763 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-06-27 15:14:14,763 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2019-06-27 15:14:15,091 [15] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2019-06-27 15:14:15,466 [15] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2019-06-27 15:14:15,482 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2019-06-27 15:14:15,482 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2019-06-27 15:14:15,763 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2019-06-27 15:14:15,794 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 21ms)
+2019-06-27 15:14:16,013 [15] INFO  umbraco.content - [Thread 12] Loading content from disk cache...
+2019-06-27 15:14:16,935 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-06-27 15:14:16,935 [15] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2019-06-27 15:23:37,591 [15] INFO  Umbraco.Core.PluginManager - [Thread 20] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-06-27 15:23:37,591 [15] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)

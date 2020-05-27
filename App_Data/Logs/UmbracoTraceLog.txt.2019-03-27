@@ -1,0 +1,185 @@
+2019-03-27 03:17:43,454 [15] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 5] An unhandled exception occurred
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.<>c__DisplayClass1.<IsClientSideRequest>b__0(String x)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+   at Umbraco.Web.UmbracoModule.DisposeHttpContextItems(HttpContext http)
+   at Umbraco.Web.UmbracoModule.<Init>b__9(Object sender, EventArgs args)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-03-27 03:17:44,766 [15] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 5] An unhandled exception occurred
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.<>c__DisplayClass1.<IsClientSideRequest>b__0(String x)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+   at Umbraco.Web.UmbracoModule.DisposeHttpContextItems(HttpContext http)
+   at Umbraco.Web.UmbracoModule.<Init>b__9(Object sender, EventArgs args)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-03-27 03:17:45,344 [15] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 5] An unhandled exception occurred
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.<>c__DisplayClass1.<IsClientSideRequest>b__0(String x)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+   at Umbraco.Web.UmbracoModule.DisposeHttpContextItems(HttpContext http)
+   at Umbraco.Web.UmbracoModule.<Init>b__9(Object sender, EventArgs args)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-03-27 03:17:46,360 [15] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 78] An unhandled exception occurred
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.<>c__DisplayClass1.<IsClientSideRequest>b__0(String x)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+   at Umbraco.Web.UmbracoModule.DisposeHttpContextItems(HttpContext http)
+   at Umbraco.Web.UmbracoModule.<Init>b__9(Object sender, EventArgs args)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-03-27 03:17:46,891 [15] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 5] An unhandled exception occurred
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.<>c__DisplayClass1.<IsClientSideRequest>b__0(String x)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+   at Umbraco.Web.UmbracoModule.DisposeHttpContextItems(HttpContext http)
+   at Umbraco.Web.UmbracoModule.<Init>b__9(Object sender, EventArgs args)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-03-27 03:17:47,407 [15] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 56] An unhandled exception occurred
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.<>c__DisplayClass1.<IsClientSideRequest>b__0(String x)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+   at Umbraco.Web.UmbracoModule.DisposeHttpContextItems(HttpContext http)
+   at Umbraco.Web.UmbracoModule.<Init>b__9(Object sender, EventArgs args)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-03-27 03:17:47,938 [15] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 23] An unhandled exception occurred
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.<>c__DisplayClass1.<IsClientSideRequest>b__0(String x)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+   at Umbraco.Web.UmbracoModule.DisposeHttpContextItems(HttpContext http)
+   at Umbraco.Web.UmbracoModule.<Init>b__9(Object sender, EventArgs args)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-03-27 03:17:48,454 [15] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 91] An unhandled exception occurred
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.<>c__DisplayClass1.<IsClientSideRequest>b__0(String x)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+   at Umbraco.Web.UmbracoModule.DisposeHttpContextItems(HttpContext http)
+   at Umbraco.Web.UmbracoModule.<Init>b__9(Object sender, EventArgs args)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-03-27 03:17:48,985 [15] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 56] An unhandled exception occurred
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.<>c__DisplayClass1.<IsClientSideRequest>b__0(String x)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+   at Umbraco.Web.UmbracoModule.DisposeHttpContextItems(HttpContext http)
+   at Umbraco.Web.UmbracoModule.<Init>b__9(Object sender, EventArgs args)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-03-27 03:17:49,500 [15] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 5] An unhandled exception occurred
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.<>c__DisplayClass1.<IsClientSideRequest>b__0(String x)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+   at Umbraco.Web.UmbracoModule.DisposeHttpContextItems(HttpContext http)
+   at Umbraco.Web.UmbracoModule.<Init>b__9(Object sender, EventArgs args)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-03-27 03:17:50,016 [15] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 21] An unhandled exception occurred
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.<>c__DisplayClass1.<IsClientSideRequest>b__0(String x)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+   at Umbraco.Web.UmbracoModule.DisposeHttpContextItems(HttpContext http)
+   at Umbraco.Web.UmbracoModule.<Init>b__9(Object sender, EventArgs args)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-03-27 03:17:50,532 [15] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 96] An unhandled exception occurred
+System.ArgumentException: Illegal characters in path.
+   at System.IO.Path.CheckInvalidPathChars(String path, Boolean checkAdditional)
+   at System.IO.Path.GetExtension(String path)
+   at Umbraco.Core.UriExtensions.<>c__DisplayClass1.<IsClientSideRequest>b__0(String x)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Core.UriExtensions.IsClientSideRequest(Uri url)
+   at Umbraco.Web.UmbracoModule.DisposeHttpContextItems(HttpContext http)
+   at Umbraco.Web.UmbracoModule.<Init>b__9(Object sender, EventArgs args)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-03-27 05:14:23,282 [15] INFO  umbraco.BusinessLogic.Log - [Thread 68] Log scrubbed.  Removed all items older than 2019-01-26 05:14:23
+2019-03-27 10:09:37,329 [15] INFO  umbraco.BusinessLogic.Log - [Thread 24] Log scrubbed.  Removed all items older than 2019-01-26 10:09:37
+2019-03-27 10:09:37,360 [15] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 24] Application shutdown. Reason: HostingEnvironment
+2019-03-27 10:10:01,110 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Determining hash of code files on disk
+2019-03-27 10:10:01,125 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Hash determined (took 10ms)
+2019-03-27 10:10:01,141 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-03-27 10:10:01,829 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 682ms)
+2019-03-27 10:10:01,875 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-03-27 10:10:01,875 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+2019-03-27 10:10:01,875 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-03-27 10:10:01,891 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2019-03-27 10:10:01,891 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-03-27 10:10:01,891 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2019-03-27 10:10:01,891 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-03-27 10:10:01,891 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 7ms)
+2019-03-27 10:10:01,891 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-03-27 10:10:01,907 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 7ms)
+2019-03-27 10:10:02,282 [14] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 12] Initializing Examine and binding to business logic events
+2019-03-27 10:10:02,657 [14] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 12] Adding examine event handlers for index providers: 3
+2019-03-27 10:10:02,672 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.interfaces.IApplication
+2019-03-27 10:10:02,688 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 15ms)
+2019-03-27 10:10:02,969 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.interfaces.ITree
+2019-03-27 10:10:03,016 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 39ms)
+2019-03-27 10:10:03,438 [14] INFO  umbraco.content - [Thread 9] Loading content from disk cache...
+2019-03-27 10:10:32,079 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-03-27 10:10:32,094 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 17ms)
+2019-03-27 10:30:59,844 [14] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-03-27 10:30:59,844 [14] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 9ms)
+2019-03-27 12:06:01,469 [14] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 38] An unhandled exception occurred
+System.UriFormatException: Invalid URI: The hostname could not be parsed.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Web.Util.UriUtil.BuildUriImpl(String scheme, String serverName, String port, String path, String queryString, Boolean useLegacyRequestUrlGeneration)
+   at System.Web.HttpRequest.BuildUrl(Func`1 pathAccessor)
+   at System.Web.HttpRequest.get_Url()
+   at System.Web.HttpRequestWrapper.get_Url()
+   at Umbraco.Web.UmbracoModule.BeginRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__5(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

@@ -1,0 +1,62 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "masterTemplate1.cshtml";
+}
+
+@section HeaderMeta{
+	<title>@Umbraco.Field("pageTitle") - Plenty Ranges Arts and Convention Centre</title>
+		<meta name="description" content="@Umbraco.Field("pageSubtitle")" />
+		
+}
+
+	
+    <!-- FULL WIDTH DECORATIVE IMAGE //-->
+    <!-- div class="notcontained fullwidth decorativeImage hidden-xs @Umbraco.Field("nodeTypeAlias")"> //-->
+    <div id="decorativeMap" class="notcontained fullwidth decorativeMap"></div>
+
+    <!-- END //-->
+
+    <div class="container">
+        
+        <div class="row pageContent">
+            <div class="col-sm-9">
+				<a name="skip" > </a >
+				<h1>@Umbraco.Field("pageTitle")</h1>
+                <h2>@Umbraco.Field("pageSubtitle")</h2>
+                <div class="fb-like" data-href="@Html.Raw("http://www.pracc.com.au" + @Umbraco.NiceUrl(@Model.Content.Id))" data-layout="button_count" data-action="recommend" data-show-faces="true" data-share="true"></div>
+				@Umbraco.Field("pageContent")
+				</div>
+            <div class="col-sm-3">
+                
+                @RenderPage("~/Views/Partials/_cmTheatreListSubscribe.cshtml")
+
+         	</div>
+    	</div>
+
+    </div>
+
+
+@section FooterExtra {
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpkz0Gy7MLKoo54XWBTC08Y4aaq8K2jS4&sensor=true"></script> 
+    <!-- LIVE API Key: AIzaSyDpkz0Gy7MLKoo54XWBTC08Y4aaq8K2jS4 -- AIzaSyBmiIA8ILmhdINqHpAbNDzHMsMab9oMBV4 //-->
+
+    <script type="text/javascript">
+
+        function initialize() {
+            var mapOptions = {
+                center: new google.maps.LatLng(-37.644047, 145.068352),
+                zoom: 16
+            };
+            var map = new google.maps.Map(document.getElementById("decorativeMap"), mapOptions);
+            // To add the marker to the map, use the 'map' property
+            var myLatlng = new google.maps.LatLng(-37.644047, 145.068352);
+            var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                title: "Plenty Ranges Arts and Convention Centre"
+            });
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+}

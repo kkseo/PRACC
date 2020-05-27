@@ -1,0 +1,88 @@
+2018-02-23 05:27:43,468 [24] INFO  umbraco.BusinessLogic.Log - [Thread 60] Log scrubbed.  Removed all items older than 2017-12-25 05:27:43
+2018-02-23 10:23:01,749 [24] INFO  umbraco.BusinessLogic.Log - [Thread 37] Log scrubbed.  Removed all items older than 2017-12-25 10:23:01
+2018-02-23 10:23:01,859 [24] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 37] Application shutdown. Reason: HostingEnvironment
+2018-02-23 10:23:06,624 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2018-02-23 10:23:06,656 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 15ms)
+2018-02-23 10:23:06,702 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-02-23 10:23:08,843 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 2144ms)
+2018-02-23 10:23:08,906 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-02-23 10:23:08,921 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+2018-02-23 10:23:08,921 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-02-23 10:23:08,921 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2018-02-23 10:23:08,921 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-02-23 10:23:08,937 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 6ms)
+2018-02-23 10:23:08,937 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-02-23 10:23:08,952 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 14ms)
+2018-02-23 10:23:08,952 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-02-23 10:23:08,968 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 7ms)
+2018-02-23 10:23:10,296 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2018-02-23 10:23:12,202 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2018-02-23 10:23:12,218 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2018-02-23 10:23:12,234 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 15ms)
+2018-02-23 10:23:12,546 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2018-02-23 10:23:12,593 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 42ms)
+2018-02-23 10:28:13,046 [10] INFO  umbraco.content - [Thread 21] Loading content from disk cache...
+2018-02-23 10:28:15,906 [10] INFO  Umbraco.Core.PluginManager - [Thread 21] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2018-02-23 10:28:15,906 [10] INFO  Umbraco.Core.PluginManager - [Thread 21] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 10ms)
+2018-02-23 10:39:12,515 [10] INFO  Umbraco.Core.PluginManager - [Thread 21] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2018-02-23 10:39:12,531 [10] INFO  Umbraco.Core.PluginManager - [Thread 21] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 24ms)
+2018-02-23 11:23:11,781 [10] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 35] An unhandled exception occurred
+System.ArgumentException: Parameter '@home' specified but none of the passed arguments have a property with this name (in 'WHERE ([cmsTemplate].[alias] = 'tickets@home')')
+   at Umbraco.Core.Persistence.Database.<>c__DisplayClass1.<ProcessParams>b__0(Match m)
+   at System.Text.RegularExpressions.RegexReplacement.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at Umbraco.Core.Persistence.Database.ProcessParams(String _sql, Object[] args_src, List`1 args_dest)
+   at Umbraco.Core.Persistence.Sql.Build(StringBuilder sb, List`1 args, Sql lhs)
+   at Umbraco.Core.Persistence.Sql.Build(StringBuilder sb, List`1 args, Sql lhs)
+   at Umbraco.Core.Persistence.Sql.Build(StringBuilder sb, List`1 args, Sql lhs)
+   at Umbraco.Core.Persistence.Sql.Build(StringBuilder sb, List`1 args, Sql lhs)
+   at Umbraco.Core.Persistence.Sql.Build(StringBuilder sb, List`1 args, Sql lhs)
+   at Umbraco.Core.Persistence.Sql.Build(StringBuilder sb, List`1 args, Sql lhs)
+   at Umbraco.Core.Persistence.Sql.Build(StringBuilder sb, List`1 args, Sql lhs)
+   at Umbraco.Core.Persistence.Sql.Build()
+   at Umbraco.Core.Persistence.Database.Fetch[T1,T2](Sql sql)
+   at Umbraco.Core.Persistence.Repositories.TemplateRepository.Get(String alias)
+   at Umbraco.Core.Services.FileService.GetTemplate(String alias)
+   at Umbraco.Web.Routing.ContentFinderByNiceUrlAndTemplate.TryFindContent(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.ContentFinderByNotFoundHandlers.HandlePageNotFound(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.ContentFinderByNotFoundHandlers.TryFindContent(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.<FindPublishedContent>b__2a(IContentFinder finder)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContent()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__7(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-02-23 11:23:48,374 [10] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 37] An unhandled exception occurred
+System.ArgumentException: Parameter '@home' specified but none of the passed arguments have a property with this name (in 'WHERE ([cmsTemplate].[alias] = 'tickets@home')')
+   at Umbraco.Core.Persistence.Database.<>c__DisplayClass1.<ProcessParams>b__0(Match m)
+   at System.Text.RegularExpressions.RegexReplacement.Replace(MatchEvaluator evaluator, Regex regex, String input, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator, Int32 count, Int32 startat)
+   at System.Text.RegularExpressions.Regex.Replace(String input, MatchEvaluator evaluator)
+   at Umbraco.Core.Persistence.Database.ProcessParams(String _sql, Object[] args_src, List`1 args_dest)
+   at Umbraco.Core.Persistence.Sql.Build(StringBuilder sb, List`1 args, Sql lhs)
+   at Umbraco.Core.Persistence.Sql.Build(StringBuilder sb, List`1 args, Sql lhs)
+   at Umbraco.Core.Persistence.Sql.Build(StringBuilder sb, List`1 args, Sql lhs)
+   at Umbraco.Core.Persistence.Sql.Build(StringBuilder sb, List`1 args, Sql lhs)
+   at Umbraco.Core.Persistence.Sql.Build(StringBuilder sb, List`1 args, Sql lhs)
+   at Umbraco.Core.Persistence.Sql.Build(StringBuilder sb, List`1 args, Sql lhs)
+   at Umbraco.Core.Persistence.Sql.Build(StringBuilder sb, List`1 args, Sql lhs)
+   at Umbraco.Core.Persistence.Sql.Build()
+   at Umbraco.Core.Persistence.Database.Fetch[T1,T2](Sql sql)
+   at Umbraco.Core.Persistence.Repositories.TemplateRepository.Get(String alias)
+   at Umbraco.Core.Services.FileService.GetTemplate(String alias)
+   at Umbraco.Web.Routing.ContentFinderByNiceUrlAndTemplate.TryFindContent(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.ContentFinderByNotFoundHandlers.HandlePageNotFound(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.ContentFinderByNotFoundHandlers.TryFindContent(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.<FindPublishedContent>b__2a(IContentFinder finder)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContent()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__7(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

@@ -1,0 +1,49 @@
+2019-03-10 02:36:39,231 [36] INFO  umbraco.BusinessLogic.Log - [Thread 23] Log scrubbed.  Removed all items older than 2019-01-09 02:36:39
+2019-03-10 07:28:02,919 [36] INFO  umbraco.BusinessLogic.Log - [Thread 61] Log scrubbed.  Removed all items older than 2019-01-09 07:28:02
+2019-03-10 07:28:03,059 [36] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 61] Application shutdown. Reason: HostingEnvironment
+2019-03-10 07:29:23,075 [12] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2019-03-10 07:29:23,090 [12] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 11ms)
+2019-03-10 07:29:23,106 [12] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-03-10 07:29:24,653 [12] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1559ms)
+2019-03-10 07:29:24,731 [12] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-03-10 07:29:24,747 [12] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+2019-03-10 07:29:24,747 [12] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-03-10 07:29:24,747 [12] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2019-03-10 07:29:24,747 [12] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-03-10 07:29:24,762 [12] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 6ms)
+2019-03-10 07:29:24,762 [12] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-03-10 07:29:24,762 [12] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 8ms)
+2019-03-10 07:29:24,762 [12] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-03-10 07:29:24,778 [12] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 7ms)
+2019-03-10 07:29:25,122 [12] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2019-03-10 07:29:25,590 [12] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2019-03-10 07:29:25,606 [12] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2019-03-10 07:29:25,622 [12] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 19ms)
+2019-03-10 07:29:26,169 [12] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2019-03-10 07:29:26,200 [12] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 38ms)
+2019-03-10 07:29:26,544 [12] INFO  umbraco.content - [Thread 16] Loading content from disk cache...
+2019-03-10 07:29:54,950 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-03-10 07:29:54,965 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 10ms)
+2019-03-10 07:49:19,872 [12] INFO  Umbraco.Core.PluginManager - [Thread 52] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-03-10 07:49:19,887 [12] INFO  Umbraco.Core.PluginManager - [Thread 52] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 17ms)
+2019-03-10 16:37:08,497 [12] WARN  umbraco.macro - [Thread 50] Error loading Partial View (file: ~/Views/MacroPartials/galleryMacroView.cshtml). Exception: System.FormatException: The valueDictionary is not formatted correctly and is missing any of the  'id,nodeId,__NodeId' elements
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache.DictionaryPublishedContent.ValidateAndSetProperty(IDictionary`2 valueDictionary, Action`1 setProperty, String[] potentialKeys)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache.DictionaryPublishedContent..ctor(IDictionary`2 valueDictionary, Func`2 getParent, Func`2 getChildren, Func`3 getProperty, Boolean fromExamine)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache.ConvertFromXPathNavigator(XPathNavigator xpath)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache.GetUmbracoMedia(Int32 id)
+   at Umbraco.Web.PublishedCache.XmlPublishedCache.PublishedMediaCache.GetById(UmbracoContext umbracoContext, Boolean preview, Int32 nodeId)
+   at Umbraco.Web.PublishedCache.ContextualPublishedCache`1.GetById(Boolean preview, Int32 contentId)
+   at Umbraco.Web.UmbracoHelper.DocumentById(Int32 id, ContextualPublishedCache cache, Object ifNotFound)
+   at Umbraco.Web.UmbracoHelper.TypedDocumentById(String id, ContextualPublishedCache cache)
+   at Umbraco.Web.UmbracoHelper.TypedDocumentById(Object id, ContextualPublishedCache cache)
+   at Umbraco.Web.UmbracoHelper.TypedMedia(Object id)
+   at ASP._Page_Views_MacroPartials_galleryMacroView_cshtml.Execute() in c:\inetpub\vhosts\pracc.com.au\httpdocs\Views\MacroPartials\galleryMacroView.cshtml:line 7
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, INode currentPage)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)

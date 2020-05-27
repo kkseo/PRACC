@@ -1,0 +1,60 @@
+2019-03-20 04:09:30,984 [18] INFO  umbraco.BusinessLogic.Log - [Thread 108] Log scrubbed.  Removed all items older than 2019-01-19 04:09:30
+2019-03-20 04:09:31,046 [18] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 108] Application shutdown. Reason: HostingEnvironment
+2019-03-20 04:11:27,562 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Determining hash of code files on disk
+2019-03-20 04:11:27,562 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Hash determined (took 10ms)
+2019-03-20 04:11:27,578 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-03-20 04:11:29,000 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1412ms)
+2019-03-20 04:11:29,000 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-03-20 04:11:29,015 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+2019-03-20 04:11:29,015 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-03-20 04:11:29,015 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2019-03-20 04:11:29,015 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-03-20 04:11:29,031 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 6ms)
+2019-03-20 04:11:29,031 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-03-20 04:11:29,031 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2019-03-20 04:11:29,031 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-03-20 04:11:29,046 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2019-03-20 04:11:29,468 [16] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 14] Initializing Examine and binding to business logic events
+2019-03-20 04:11:29,921 [16] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 14] Adding examine event handlers for index providers: 3
+2019-03-20 04:11:29,937 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.IApplication
+2019-03-20 04:11:29,937 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 13ms)
+2019-03-20 04:11:30,156 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.ITree
+2019-03-20 04:11:30,203 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 35ms)
+2019-03-20 04:11:30,453 [16] INFO  umbraco.content - [Thread 9] Loading content from disk cache...
+2019-03-20 04:11:59,187 [16] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-03-20 04:11:59,203 [16] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 11ms)
+2019-03-20 04:41:56,171 [16] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-03-20 04:41:56,171 [16] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 9ms)
+2019-03-20 12:06:36,765 [16] INFO  umbraco.BasePages.BasePage - [Thread 42] User pracc (Id: 1) logged in
+2019-03-20 12:06:39,500 [16] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-03-20 12:06:39,515 [16] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 28ms)
+2019-03-20 12:06:40,156 [16] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of umbraco.interfaces.ITree
+2019-03-20 12:06:40,187 [16] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 37ms)
+2019-03-20 12:07:54,109 [16] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of umbraco.interfaces.IDataType
+2019-03-20 12:07:54,156 [16] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 33ms)
+2019-03-20 12:08:35,640 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content '2019 - Elvis Forever' with Id '2393' has been published.
+2019-03-20 12:08:36,765 [16] INFO  Umbraco.Core.PluginManager - [Thread 64] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-03-20 12:08:36,796 [16] INFO  Umbraco.Core.PluginManager - [Thread 64] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 27ms)
+2019-03-20 12:08:39,500 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content '2019 - Elvis Forever' with Id '2393' has been published.
+2019-03-20 12:08:41,546 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content '2019 - Elvis Forever' with Id '2393' has been published.
+2019-03-20 12:10:04,031 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-03-20 12:10:28,125 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-03-20 12:10:30,156 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-03-20 12:11:05,703 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 67] Content '2019 - Stage & Screen' with Id '2406' has been published.
+2019-03-20 12:12:46,546 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 5] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-03-20 12:15:58,078 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 69] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-03-20 12:18:49,531 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content '2019 - Karen Carpenter Tribute' with Id '2414' has been published.
+2019-03-20 12:20:35,875 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content '2019 - Back to the 50's & 60's' with Id '2362' has been published.
+2019-03-20 14:50:49,906 [16] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 71] An unhandled exception occurred
+System.UriFormatException: Invalid URI: The hostname could not be parsed.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Web.Util.UriUtil.BuildUriImpl(String scheme, String serverName, String port, String path, String queryString, Boolean useLegacyRequestUrlGeneration)
+   at System.Web.HttpRequest.BuildUrl(Func`1 pathAccessor)
+   at System.Web.HttpRequest.get_Url()
+   at System.Web.HttpRequestWrapper.get_Url()
+   at Umbraco.Web.UmbracoModule.BeginRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__5(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

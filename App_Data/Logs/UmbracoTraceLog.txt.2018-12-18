@@ -1,0 +1,3 @@
+2018-12-18 02:14:49,059 [7] INFO  Umbraco.Core.PluginManager - [Thread 129] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2018-12-18 02:14:49,059 [7] INFO  Umbraco.Core.PluginManager - [Thread 129] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 9ms)
+2018-12-18 23:50:19,356 [7] INFO  umbraco.BusinessLogic.Log - [Thread 111] Log scrubbed.  Removed all items older than 2018-10-19 23:50:19

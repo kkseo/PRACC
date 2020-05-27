@@ -1,0 +1,48 @@
+2018-11-28 00:08:15,971 [11] INFO  umbraco.BusinessLogic.Log - [Thread 9] Log scrubbed.  Removed all items older than 2018-09-29 00:08:15
+2018-11-28 05:07:27,924 [11] INFO  umbraco.BusinessLogic.Log - [Thread 75] Log scrubbed.  Removed all items older than 2018-09-29 05:07:27
+2018-11-28 05:07:27,955 [11] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 75] Application shutdown. Reason: HostingEnvironment
+2018-11-28 05:23:46,080 [39] INFO  Umbraco.Core.PluginManager - [Thread 19] Determining hash of code files on disk
+2018-11-28 05:23:46,096 [39] INFO  Umbraco.Core.PluginManager - [Thread 19] Hash determined (took 8ms)
+2018-11-28 05:23:46,096 [39] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-11-28 05:23:46,752 [39] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 661ms)
+2018-11-28 05:23:46,768 [39] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-11-28 05:23:46,783 [39] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2018-11-28 05:23:46,783 [39] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-11-28 05:23:46,783 [39] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2018-11-28 05:23:46,783 [39] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-11-28 05:23:46,783 [39] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2018-11-28 05:23:46,783 [39] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-11-28 05:23:46,799 [39] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 17ms)
+2018-11-28 05:23:46,815 [39] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-11-28 05:23:46,815 [39] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 7ms)
+2018-11-28 05:23:47,049 [39] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 19] Initializing Examine and binding to business logic events
+2018-11-28 05:23:47,330 [39] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 19] Adding examine event handlers for index providers: 3
+2018-11-28 05:23:47,346 [39] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.interfaces.IApplication
+2018-11-28 05:23:47,346 [39] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 12ms)
+2018-11-28 05:23:47,393 [39] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.interfaces.ITree
+2018-11-28 05:23:47,424 [39] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 35ms)
+2018-11-28 05:27:11,502 [39] INFO  umbraco.content - [Thread 35] Loading content from disk cache...
+2018-11-28 05:27:12,705 [39] INFO  Umbraco.Core.PluginManager - [Thread 35] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2018-11-28 05:27:12,705 [39] INFO  Umbraco.Core.PluginManager - [Thread 35] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 9ms)
+2018-11-28 05:27:16,924 [39] INFO  Umbraco.Core.PluginManager - [Thread 32] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2018-11-28 05:27:16,940 [39] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 10ms)
+2018-11-28 10:17:06,424 [39] INFO  umbraco.BasePages.BasePage - [Thread 49] User pracc (Id: 1) logged in
+2018-11-28 10:17:06,627 [39] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2018-11-28 10:17:06,643 [39] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 8ms)
+2018-11-28 10:17:07,408 [39] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of umbraco.interfaces.ITree
+2018-11-28 10:17:07,455 [39] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 40ms)
+2018-11-28 10:17:33,924 [39] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of umbraco.interfaces.IDataType
+2018-11-28 10:17:33,955 [39] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 32ms)
+2018-11-28 11:50:04,065 [39] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 56] An unhandled exception occurred
+System.UriFormatException: Invalid URI: The hostname could not be parsed.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Web.Util.UriUtil.BuildUriImpl(String scheme, String serverName, String port, String path, String queryString, Boolean useLegacyRequestUrlGeneration)
+   at System.Web.HttpRequest.BuildUrl(Func`1 pathAccessor)
+   at System.Web.HttpRequest.get_Url()
+   at System.Web.HttpRequestWrapper.get_Url()
+   at Umbraco.Web.UmbracoModule.BeginRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__5(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)

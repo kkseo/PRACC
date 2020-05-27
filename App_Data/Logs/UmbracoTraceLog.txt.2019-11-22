@@ -1,0 +1,289 @@
+2019-11-22 00:04:42,652 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 32] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-22 00:09:01,089 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 26] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-22 00:09:06,808 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 51] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-22 01:02:41,589 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 98] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-22 01:25:59,824 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 98] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-22 01:57:27,386 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 94] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-22 04:49:02,449 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 51] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-22 05:46:19,855 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 78] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-22 09:04:40,621 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 51] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-22 09:16:10,949 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 98] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-22 09:40:47,105 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 48] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-22 09:40:54,996 [13] INFO  umbraco.BusinessLogic.Log - [Thread 32] Log scrubbed.  Removed all items older than 2019-09-23 09:40:54
+2019-11-22 09:47:20,183 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 51] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-22 10:18:54,402 [13] INFO  umbraco.BasePages.BasePage - [Thread 32] User pracc (Id: 1) logged in
+2019-11-22 10:18:56,168 [13] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-11-22 10:18:56,230 [13] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 59ms)
+2019-11-22 10:18:56,871 [13] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of umbraco.interfaces.ITree
+2019-11-22 10:18:56,902 [13] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 21ms)
+2019-11-22 10:19:07,027 [13] INFO  Umbraco.Core.PluginManager - [Thread 26] Starting resolution types of umbraco.interfaces.IDataType
+2019-11-22 10:19:07,043 [13] INFO  Umbraco.Core.PluginManager - [Thread 26] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 19ms)
+2019-11-22 10:20:38,871 [13] INFO  umbraco.cms.businesslogic.web.Document - [Thread 64] New document 2894
+2019-11-22 10:25:37,511 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 48] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-22 12:49:45,683 [13] INFO  Umbraco.Core.PluginManager - [Thread 52] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2019-11-22 12:49:45,683 [13] INFO  Umbraco.Core.PluginManager - [Thread 52] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 21ms)
+2019-11-22 12:50:16,621 [13] INFO  Umbraco.Core.PluginManager - [Thread 32] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2019-11-22 12:50:16,621 [13] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 5ms)
+2019-11-22 12:50:17,199 [13] INFO  Umbraco.Core.PluginManager - [Thread 32] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-11-22 12:50:17,199 [13] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 10ms)
+2019-11-22 12:50:17,339 [13] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 32] Success uploading to parent 2347
+2019-11-22 12:50:49,886 [13] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 94] Success uploading to parent 2347
+2019-11-22 12:53:16,793 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 98] Content 'Epping Secondary College Awards Night' with Id '2894' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Epping Secondary College Awards Night' with Id '2894' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Exploring Science (PRACC)' with Id '2833' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Essentially Dance' with Id '2855' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'The EDGE' with Id '2868' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Findon Calisthenics Club' with Id '2752' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Gisborne Dance Academy - Junior Show' with Id '2843' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Gisborne Dance Academy - Senior Showcase' with Id '2845' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Gypsy Fleetwood Mac Trio' with Id '2782' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Isolation Performing Arts Studio' with Id '2891' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Laurimar Primary School' with Id '2731' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Leilas Christmas Show' with Id '2800' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Lennon & McCartney' with Id '2796' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Masters of Choreography' with Id '2715' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Move Dance Co' with Id '2724' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Raieburn Calisthenics' with Id '2741' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Rat Pack Jack' with Id '2798' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Roach Music School' with Id '2756' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Romina's Dance' with Id '2809' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Ross Noble' with Id '2511' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Spectrum' with Id '2837' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Starz Performing Arts' with Id '2861' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'The Classic Arts Presentation Concert 2019' with Id '2665' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'The Robertson Brothers 1960's TV Variety Show' with Id '2709' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'The Travelling Kitchen - Autumn (PRACC)' with Id '2814' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'The Travelling Kitchen - Spring (PRACC)' with Id '2824' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Tom Jones' with Id '2791' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Trilogy' with Id '2851' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'United Dance Industry' with Id '2763' has been published.
+2019-11-22 12:53:56,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Whittlesea Secondary College' with Id '2684' has been published.
+2019-11-22 12:53:59,355 [13] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 51] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2019-11-22 12:56:30,527 [13] INFO  umbraco.cms.businesslogic.web.Document - [Thread 78] New document 2897
+2019-11-22 12:57:06,855 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content 'Show 1' with Id '2897' has been published.
+2019-11-22 12:57:17,996 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 52] Content 'Epping Secondary College Awards Night' with Id '2894' has been published.
+2019-11-22 12:57:18,824 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 85] Content 'Epping Secondary College Awards Night' with Id '2894' has been published.
+2019-11-22 12:57:59,636 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Epping Secondary College Awards Night' with Id '2894' has been published.
+2019-11-22 12:58:14,621 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 52] Content 'Epping Secondary College Awards Night' with Id '2894' has been published.
+2019-11-22 12:58:21,621 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 93] Content 'Epping Secondary College Awards Night' with Id '2894' has been published.
+2019-11-22 13:47:57,996 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 78] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-22 14:11:36,308 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 48] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-22 14:26:48,730 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 98] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-22 14:29:48,574 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 78] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-22 14:29:49,964 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 89] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-22 14:39:14,308 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 85] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-22 14:40:29,699 [13] INFO  umbraco.BusinessLogic.Log - [Thread 94] Log scrubbed.  Removed all items older than 2019-09-23 14:40:28
+2019-11-22 14:40:31,433 [13] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 94] Application shutdown. Reason: HostingEnvironment
+2019-11-22 14:40:55,714 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Determining hash of code files on disk
+2019-11-22 14:40:55,730 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Hash determined (took 8ms)
+2019-11-22 14:40:55,730 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-11-22 14:40:57,121 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1383ms)
+2019-11-22 14:40:57,168 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-11-22 14:40:57,168 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+2019-11-22 14:40:57,168 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-11-22 14:40:57,183 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2019-11-22 14:40:57,183 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-11-22 14:40:57,183 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2019-11-22 14:40:57,183 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-11-22 14:40:57,183 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2019-11-22 14:40:57,183 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-11-22 14:40:57,246 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 54ms)
+2019-11-22 14:40:57,668 [12] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 8] Initializing Examine and binding to business logic events
+2019-11-22 14:40:58,277 [12] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 8] Adding examine event handlers for index providers: 3
+2019-11-22 14:40:58,277 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.interfaces.IApplication
+2019-11-22 14:40:58,293 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2019-11-22 14:40:58,933 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.interfaces.ITree
+2019-11-22 14:40:58,949 [12] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 20ms)
+2019-11-22 14:40:59,199 [12] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2019-11-22 14:41:27,449 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-11-22 14:41:27,464 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2019-11-22 15:22:02,605 [12] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 78] An unhandled exception occurred
+System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=1; handshake=15652;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.<>c__DisplayClass1.<ExecuteAction>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction(Action action)
+   at Umbraco.Core.Persistence.PetaPocoConnectionExtensions.OpenWithRetry(IDbConnection connection, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoConnectionExtensions.OpenWithRetry(IDbConnection connection)
+   at Umbraco.Core.Persistence.Database.OpenSharedConnection()
+   at Umbraco.Core.Persistence.Database.<Query>d__1c`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Persistence.Database.Fetch[T1,T2](Sql sql)
+   at Umbraco.Core.Persistence.Repositories.TemplateRepository.PerformGet(Int32 id)
+   at Umbraco.Core.Persistence.Repositories.RepositoryBase`2.Get(TId id)
+   at Umbraco.Core.Services.FileService.GetTemplate(Int32 id)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__7(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ClientConnectionId:7323a788-2219-42bd-863a-c739b9d41493
+Error Number:-2,State:0,Class:11
+2019-11-22 15:22:04,043 [12] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 76] Error executing query select id, macroUseInEditor, macroRefreshRate, macroAlias, macroName, macroScriptType, macroScriptAssembly, macroXSLT, macroPython, macroDontRender, macroCacheByPage, macroCachePersonalized  from cmsMacro where id = @id
+System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=1; handshake=15652;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:7323a788-2219-42bd-863a-c739b9d41493
+Error Number:-2,State:0,Class:11
+2019-11-22 15:41:34,918 [12] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-11-22 15:41:34,918 [12] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2019-11-22 16:00:17,105 [12] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 99] An unhandled exception occurred
+System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=1; handshake=11316;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.<>c__DisplayClass1.<ExecuteAction>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction(Action action)
+   at Umbraco.Core.Persistence.PetaPocoConnectionExtensions.OpenWithRetry(IDbConnection connection, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoConnectionExtensions.OpenWithRetry(IDbConnection connection)
+   at Umbraco.Core.Persistence.Database.OpenSharedConnection()
+   at Umbraco.Core.Persistence.Database.<Query>d__1c`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Persistence.Database.Fetch[T1,T2](Sql sql)
+   at Umbraco.Core.Persistence.Repositories.TemplateRepository.PerformGet(Int32 id)
+   at Umbraco.Core.Persistence.Repositories.RepositoryBase`2.Get(TId id)
+   at Umbraco.Core.Services.FileService.GetTemplate(Int32 id)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__7(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ClientConnectionId:2b7397ed-d14e-4429-adf9-0be1c482ccbe
+Error Number:-2,State:0,Class:11
+2019-11-22 16:00:17,308 [12] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 99] An unhandled exception occurred
+System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=1; handshake=11316;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.<>c__DisplayClass1.<ExecuteAction>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction(Action action)
+   at Umbraco.Core.Persistence.PetaPocoConnectionExtensions.OpenWithRetry(IDbConnection connection, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoConnectionExtensions.OpenWithRetry(IDbConnection connection)
+   at Umbraco.Core.Persistence.Database.OpenSharedConnection()
+   at Umbraco.Core.Persistence.Database.<Query>d__1c`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Persistence.Database.Fetch[T1,T2](Sql sql)
+   at Umbraco.Core.Persistence.Repositories.TemplateRepository.PerformGet(Int32 id)
+   at Umbraco.Core.Persistence.Repositories.RepositoryBase`2.Get(TId id)
+   at Umbraco.Core.Services.FileService.GetTemplate(Int32 id)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__7(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ClientConnectionId:2b7397ed-d14e-4429-adf9-0be1c482ccbe
+Error Number:-2,State:0,Class:11
+2019-11-22 17:21:33,105 [12] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 102] Error executing query select id, macroUseInEditor, macroRefreshRate, macroAlias, macroName, macroScriptType, macroScriptAssembly, macroXSLT, macroPython, macroDontRender, macroCacheByPage, macroCachePersonalized  from cmsMacro where id = @id
+System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=1; handshake=15422;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteReader(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteReader(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteReader(String commandText, IParameter[] parameters)
+ClientConnectionId:ece8e5eb-57dc-4efb-9812-d457319478db
+Error Number:-2,State:0,Class:11
+2019-11-22 17:21:33,683 [12] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 77] An unhandled exception occurred
+System.Data.SqlClient.SqlException (0x80131904): Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=1; handshake=15422;  ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.<>c__DisplayClass1.<ExecuteAction>b__0()
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction[TResult](Func`1 func)
+   at Umbraco.Core.Persistence.FaultHandling.RetryPolicy.ExecuteAction(Action action)
+   at Umbraco.Core.Persistence.PetaPocoConnectionExtensions.OpenWithRetry(IDbConnection connection, RetryPolicy retryPolicy)
+   at Umbraco.Core.Persistence.PetaPocoConnectionExtensions.OpenWithRetry(IDbConnection connection)
+   at Umbraco.Core.Persistence.Database.OpenSharedConnection()
+   at Umbraco.Core.Persistence.Database.<Query>d__1c`1.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Umbraco.Core.Persistence.Database.Fetch[T1,T2](Sql sql)
+   at Umbraco.Core.Persistence.Repositories.TemplateRepository.Get(String alias)
+   at Umbraco.Core.Services.FileService.GetTemplate(String alias)
+   at Umbraco.Web.Routing.ContentFinderByNiceUrlAndTemplate.TryFindContent(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.ContentFinderByNotFoundHandlers.HandlePageNotFound(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.ContentFinderByNotFoundHandlers.TryFindContent(PublishedContentRequest docRequest)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.<FindPublishedContent>b__2a(IContentFinder finder)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContent()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.FindPublishedContentAndTemplate()
+   at Umbraco.Web.Routing.PublishedContentRequestEngine.PrepareRequest()
+   at Umbraco.Web.UmbracoModule.ProcessRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__7(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ClientConnectionId:ece8e5eb-57dc-4efb-9812-d457319478db
+Error Number:-2,State:0,Class:11
+2019-11-22 17:23:35,089 [12] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 50] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-22 18:19:32,183 [12] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 22] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-22 18:50:15,652 [12] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 34] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-22 18:54:28,293 [12] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 66] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-22 18:57:52,214 [12] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-22 18:58:00,433 [12] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-22 19:08:48,543 [12] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-22 20:23:39,043 [12] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 77] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-22 21:43:21,027 [12] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-22 21:43:46,886 [12] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 52] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-22 23:35:25,199 [12] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 99] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.

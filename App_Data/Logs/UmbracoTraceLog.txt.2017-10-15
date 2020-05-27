@@ -1,0 +1,4 @@
+2017-10-15 00:01:01,257 [44] INFO  Umbraco.Core.PluginManager - [Thread 5] Determining hash of code files on disk
+2017-10-15 00:01:01,273 [44] INFO  Umbraco.Core.PluginManager - [Thread 5] Hash determined (took 11ms)
+2017-10-15 00:01:01,288 [44] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2017-10-15 00:01:01,882 [44] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 588ms)

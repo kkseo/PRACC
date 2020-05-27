@@ -1,0 +1,546 @@
+/* import google font */
+/* @import url(//fonts.googleapis.com/css?family=Pathway+Gothic+One); */
+
+@font-face {
+  font-family: 'Pathway Gothic One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/s/pathwaygothicone/v4/Lqv9ztoTUV8Q0FmQZzPqaAjAnKTMEEQ9po2V9TuH-X8.eot?) format('eot'), url(//fonts.gstatic.com/s/pathwaygothicone/v4/Lqv9ztoTUV8Q0FmQZzPqaBfSZ9PF2sGs8WIylam6T2Y.woff) format('woff');
+}
+
+
+/**********************/
+
+body{ font-family: 'Pathway Gothic One', sans-serif; }
+h1{ font-family: 'Pathway Gothic One', sans-serif; }
+h2{ font-family: 'Pathway Gothic One', sans-serif; }
+h3{ font-family: 'Pathway Gothic One', sans-serif; }
+bold{ font-style:bold;}
+body,h1,h2,h3,h4,h5,h6,p{ font-family: 'Pathway Gothic One' !important, sans-serif; font-style: normal; font-weight: 400;}
+a,a:hover,a:focus{color:#0645AD;}
+
+/* MS Mobile Device Viewport fix */
+@media (max-width:25em) {
+    @-ms-viewport {
+        width: 320px;
+    }
+}
+
+       body.debug div {
+            background-color: #ffbb40;
+        }
+
+
+        .notcontained {
+            background: #666;
+        }
+
+        .fullwidth {
+            width: 100%;
+        }
+
+        div.decorativeImage {
+            height: 20em;
+            background-image: url('/images/heroPracc1600x320.jpg');
+            background-position: center;
+            background-color: none;
+            background-size: auto 100%;
+            background-repeat: repeat-x; 
+            margin-bottom: 30px;
+        }
+
+            div.decorativeImage.TheatreNavLevel1,div.decorativeImage.TheatreContentPage,div.decorativeImage.TheatreShowsRollupPage {
+                background-image: url('/images/heroTheatre1600x320.jpg');
+            }
+            div.decorativeImage.CorporateNavLevel1, div.decorativeImage.CorporateContentPage{
+                background-image: url('/images/heroCorporate1600x320.jpg');
+            }
+            div.decorativeImage.CelebrationsNavLevel1, div.decorativeImage.CelebrationsContentPage {
+                background-image: url('/images/heroCelebrations1600x320.jpg');
+            }
+
+			
+        div.decorativeMap {
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #aaa;
+            width: 100%;
+            height: 20em;
+            margin-bottom: 30px;
+        }
+
+
+        #footerBack {
+            background-color: #4c4c4c ;
+            color: #fff;
+        }
+
+        /* standard ad rotator*/
+        #adRotator {
+            margin-bottom: 30px;
+        }
+            #adRotator .container {
+                color: #fff;
+            }
+
+            #adRotator .container .AdButPad a {
+                display: block;
+                width: 146px; height: 45px;
+                margin-bottom: 30px;
+            }
+
+            .adEventTheatre {
+                background-color: #c08c8c;
+            }
+                .adEventTheatre .container {
+                    background-color: #804141;
+                }
+                    .adEventTheatre .container .AdImgPad img {
+                        border: 8px solid #c07979;
+                    }
+
+            .adCelebrationsParent {
+                background-color: #a294c0;
+            }
+                .adCelebrationsParent .container {
+                    background-color: #5c4b80;
+                }
+                    .adCelebrationsParent .container .AdImgPad img {
+                        border: 8px solid #9784c0;
+                    }
+                
+
+            .adCorporateParent {
+                background-color: #7db0ac;
+            }
+                .adCorporateParent .container {
+                    background-color: #2e605c;
+                }
+                    .adCorporateParent .container .AdImgPad img {
+                        border: 8px solid #6bb0aa;
+                    }
+
+            .adGalleryParent {
+                background-color: #c0947c;
+            }
+                .adGalleryParent .container {
+                    background-color: #804c2e;
+                }
+                    .adGalleryParent .container .AdImgPad img {
+                        border: 8px solid #c08563;
+                    }
+
+
+                    a.moreInfoTheatre { text-indent: -9999px; background: url('/images/advRotButMoreTheatre.gif') left top no-repeat;}
+                    a.buyTickTheatre { text-indent: -9999px; background: url('/images/advRotButBuyTheatre.gif') left top no-repeat;}
+
+                    a.moreInfoCelebrations { text-indent: -9999px;background: url('/images/advRotButMoreCelebration.gif') left top no-repeat;}
+                    a.buyTickCelebrations { text-indent: -9999px;background: url('/images/advRotButBuyCelebration.gif') left top no-repeat;}
+
+                    a.moreInfoCorporate { text-indent: -9999px;background: url('/images/advRotButMoreCorporate.gif') left top no-repeat;}
+                    a.buyTickCorporate { text-indent: -9999px;background: url('/images/advRotButBuyCorporate.gif') left top no-repeat;}
+
+                    a.moreInfoGallery { text-indent: -9999px;background: url('/images/advRotButMoreGallery.gif') left top no-repeat;}
+                    a.buyTickGallery { text-indent: -9999px;background: url('/images/advRotButBuyGallery.gif') left top no-repeat;}
+
+
+            .center-block {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+        /* END END END standard ad rotator */
+        
+
+            div.divLogo a {
+                display: block;
+                height: 160px;
+                background-image: url('/images/praccLogo.gif'); 
+                background-repeat: no-repeat; 
+            }
+            div.divLogo a div {
+                margin: 0; padding: 0;
+                text-indent: -99999px;
+            }
+
+
+        .header {
+            background-color: #fff;
+        }
+        .divNav {
+            margin: 0; padding: 0; 
+            width: auto;
+        }
+
+            .divNav p {
+                margin: 0; padding: 0; 
+            }
+
+        #navTop{
+            margin: 0; padding: 0; 
+            width: auto; 
+            text-align: center;
+            height: 69px;
+        }
+
+        #callUs {
+            font-size: 1.4em;
+            padding-top: 22px;
+            color: #333;
+        }
+            #callUs span.lighter {
+                color: #666;
+            }
+
+        .pageContent {
+            margin-bottom: 15px;
+        }
+
+            .pageContent h1 {
+                font-size: 2.2em;
+                text-shadow: 0 0 1px rgba(0,0,0,0.2);
+            }
+
+            .pageContent h2 {
+                text-shadow: 0 0 1px rgba(0,0,0,0.2);
+                position: relative;
+                top: -15px;
+                font-size: 1.4em
+            }
+        .pageContent p, .pageContent ul, .pageContent td {
+            font-family: Arial, Verdana, sans-serif;
+        }
+
+        img.showRT {
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 30px;
+            border: 8px solid #c07979;
+        }
+
+        .smBoxed {
+            border: 1px solid #ececec;
+            background: #f0f0f0;
+            clear: both;
+        }
+
+        .adverts {
+            text-align: center;
+        }
+        .advertThea { background-color: #804141; background-image: url('/images/hpFeatureThea.jpg'); background-repeat: no-repeat; background-size: 100% 148px;}
+        .advertCele { background-color: #5c4b80; background-image: url('/images/hpFeatureCele.jpg'); background-repeat: no-repeat; background-size: 100% 148px;}
+        .advertCorp { background-color: #2e605c; background-image: url('/images/hpFeatureCorp.jpg'); background-repeat: no-repeat; background-size: 100% 148px;}
+        .advertGall { background-color: #804c2e; background-image: url('/images/hpFeatureGall.jpg'); background-repeat: no-repeat; background-size: 100% 148px;}
+
+            .adverts a {
+                display: block;
+                width: 100%; height: 190px;
+                text-align: center; 
+                font-size: 1.6em; 
+                padding-top: 152px;
+                color: #fff;
+            }
+
+
+        .rightBoxNav {
+            margin: 20px 0; 
+            padding:  1px 15px;
+        }
+
+        .TheatreNavLevel1 .rightBoxNav, .TheatreShowsRollupPage .rightBoxNav, .TheatreContentPage .rightBoxNav, .TheatreShow .rightBoxNav { background-color: #804141;}
+        .CelebrationsNavLevel1 .rightBoxNav, .CelebrationsContentPage .rightBoxNav { background-color: #5c4b80;}
+        .CorporateNavLevel1 .rightBoxNav, .CorporateContentPage .rightBoxNav { background-color: #2e605c;}
+        .GalleriesNavLevel1 .rightBoxNav, .GalleriesContentPage .rightBoxNav { background-color: #804c2e;}
+
+            .rightBoxNav h4, .rightBoxNav p, .rightBoxNav a {
+                color: #fff;
+            }
+            .rightBoxNav h4 {
+                font-size: 1.4em;
+                text-shadow: 0 0 1px rgba(255,255,255,0.1);
+            }
+			
+            .rightBoxNav ul {
+                list-style-type: none;
+                margin:  0;
+                padding: 0 0 0 4px;
+                font-size: 1.0em;
+                line-height: 150%;
+                padding-bottom: 15px;
+            }
+            .rightBoxNav a {
+            }
+
+        .rightBoxEEE {
+            background-color: #eee;
+            margin: 20px 0; 
+            padding:  1px 15px;
+        }
+
+
+        .footer {
+            color: #fff;
+        }
+
+            .footer h4 {
+                font-size: 1.4em;
+            }
+
+        .footer a{
+            color: #fff;
+        }
+
+            .footer ul {
+                margin: 0; padding: 0;
+                list-style-type: none;
+                font-size: 0.9em;
+                line-height: 1.65em
+
+            }
+
+        .fb-like {
+            margin: 3px 0 15px 0;
+        }
+
+		.social{width:144px; height:35px; margin:5px 10px; }
+
+            /* Small devices (tablets, 768px to 959px) */
+            @media (min-width: 768px) AND (max-width: 991px) {
+
+                div.divLogo {
+                    width: 170px;
+                    height: 125px;
+                }
+                    div.divLogo a {
+                        height: 125px;
+                        display: block;
+                        background-image: url('/images/praccLogo.gif');
+                        background-size: 160px 125px;
+                        background-repeat: no-repeat; 
+                    }
+
+                div.decorativeImage {
+                    height: 250px;
+                    background-position: center;
+                    background-color: none;
+                    background-size: auto 100%;
+                    margin-top: 30px;
+                }
+
+                div.decorativeMap {
+                    width: 100%;
+                    height: 250px;
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                }
+
+                .adverts a {
+                    display: block;
+                    width: 172px; height: 147px;
+                    padding-top: 25px;
+                    margin: 0 auto 0 auto;
+                    font-size: 1.5em;
+                    padding-top: 116px;
+                    background-size: 100% 116px;
+                }
+
+                #adRotator .container .AdImgPad img {
+                    width: 172px; height: 99px;
+                }
+
+
+            }
+
+               .youtubeBox, .youtubeBox p a iframe{
+                    width: 560px;
+                    height: 315px;
+                }
+
+
+            /* Small to meduim devices (tablets 768 to 991 ) */
+
+            /* Small devices (tablets, 480px and up to 768) */
+            @media (max-width: 767px) {
+
+
+                .youtubeBox, .youtubeBox p a iframe{
+                    width: 300px;
+                    height: 169px;
+                }
+
+                #callUs {
+                    font-size: 1.6em;
+                    padding-top: 10px;
+                    color: #333;
+                }
+
+                div.decorativeImage {
+                    /* display: none; */
+                }
+                /*div.decorativeImage {
+                    height: 120px;
+                    background-position: center;
+                    background-color: none;
+                    background-size: auto 100%;
+                    margin-top: 15px;
+                }*/
+
+                div.decorativeMap {
+                    width: 100%;
+                    height: 220px;
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+
+                div.divLogo {
+                    text-align: center;
+                    margin-left: auto; 
+                    margin-right: auto;
+                    width: 225px
+                }
+                    div.divLogo a div {
+                        text-align: center;
+                    }
+
+                .adverts a {
+                    display: block;
+                    width: 100%;
+                    height: 88px;
+                    background-image: none;
+                    padding-top: 28px;
+                    margin: 10px auto 0 auto;
+                    font-size: 1.7em;
+                }
+
+                #adRotator .container .AdImgPad, #adRotator .container .AdButPad {
+                    padding-top: 10px;
+                }
+
+                #adRotator .container .AdButPad a {
+                    margin-bottom: 5px
+                }
+                 #adRotator .container .AdImgPad img {
+                    width: 215px; height: 120px;
+                    /*width: 100%; height: auto;  */
+                }
+
+                .adEventParent .container .AdImgPad img {
+                    border: 3px solid #c07979;
+                }
+                .adCelebrationParent .container .AdImgPad img {
+                    border: 3px solid #9784c0;
+                }
+                .adCorporateParent .container .AdImgPad img {
+                    border: 3px solid #6bb0aa;
+                }
+                .adGalleryParent .container .AdImgPad img {
+                    border: 3px solid #c08563;
+                }
+
+                div.center-block a{
+                    display:block;
+                    margin:auto;
+                }
+
+                img.showRT {
+                    display: none;
+                }
+
+            }
+
+
+
+            /****************************************************************/
+
+        .AdButPad {
+            padding-top: 50px; text-align: center;
+        }
+        .AdImgPad {
+            padding-top: 50px; text-align: center;
+        }
+
+        /*********************************************************************/
+        /*********************************************************************/
+        /* RESPONSIVE YOUTUBE EMBED */
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+
+            .video-container iframe,
+            .video-container object,
+            .video-container embed {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+
+        /*********************************************************************/
+        /*********************************************************************/
+
+
+
+a.offscreen {
+ position:absolute;
+ left:-1000px;
+ top:-1000px;
+ width:1px;
+ height:1px;
+ text-align: left; 
+ overflow:hidden;
+ } 
+
+
+a.offscreen:focus, a.offscreen:active, a.offscreen:hover { 
+ position:absolute; 
+ left:0; 
+ top:0; 
+ width:auto; 
+ height:auto; 
+ overflow:visible;
+ background-color:#fff;
+ border: 1px dotted #000;
+ } 
+
+a.skip{color:#000; font:bold; font-weight:600;}
+
+
+/* Alert */
+
+.alert{ background-color:#000; text-align: center; width:100%; color:#fff; font-family: 'Pathway Gothic One' !important, sans-serif; font-style: normal; font-weight: 200; padding:0; margin:0;}
+a,a:hover,a:focus{color:#0645AD; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

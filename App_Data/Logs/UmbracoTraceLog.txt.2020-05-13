@@ -1,0 +1,135 @@
+2020-05-13 00:56:03,401 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 53] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-05-13 01:02:23,807 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 81] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-05-13 09:10:38,495 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 56] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-05-13 09:10:39,370 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 57] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-05-13 09:11:39,448 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 58] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2020-05-13 09:11:39,448 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 58] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2020-05-13 09:11:39,448 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 58] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2020-05-13 09:11:39,448 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 58] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2020-05-13 09:11:39,448 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 58] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2020-05-13 09:11:40,963 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 84] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2020-05-13 09:11:40,963 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 84] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2020-05-13 09:11:40,963 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 84] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2020-05-13 09:11:40,963 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 84] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2020-05-13 09:11:40,963 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 84] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2020-05-13 09:38:56,635 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 88] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-05-13 09:39:14,713 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 74] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2020-05-13 09:39:14,713 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 74] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2020-05-13 09:39:14,713 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 74] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2020-05-13 09:39:14,713 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 74] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2020-05-13 09:39:14,713 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 74] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2020-05-13 10:37:04,635 [44] INFO  umbraco.BasePages.BasePage - [Thread 57] User admin (Id: 0) logged in
+2020-05-13 10:37:09,182 [44] ERROR dashboardUtilities.FeedProxy - [Thread 88] Exception occurred
+System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a send. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.TlsStream.CallProcessAuthentication(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   at System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-05-13 10:38:08,260 [44] ERROR dashboardUtilities.FeedProxy - [Thread 74] Exception occurred
+System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a send. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.TlsStream.CallProcessAuthentication(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   at System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-05-13 10:41:30,495 [44] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of umbraco.interfaces.IDataType
+2020-05-13 10:41:30,791 [44] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 285ms)
+2020-05-13 10:43:09,104 [44] ERROR dashboardUtilities.FeedProxy - [Thread 13] Exception occurred
+System.Net.WebException: The underlying connection was closed: An unexpected error occurred on a send. ---> System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host. ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.FixedSizeReader.ReadPacket(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Net.Security.SslState.StartReceiveBlob(Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.CheckCompletionBeforeNextReceive(ProtocolToken message, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.StartSendBlob(Byte[] incoming, Int32 count, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ForceAuthentication(Boolean receiveFirst, Byte[] buffer, AsyncProtocolRequest asyncRequest)
+   at System.Net.Security.SslState.ProcessAuthentication(LazyAsyncResult lazyResult)
+   at System.Net.TlsStream.CallProcessAuthentication(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Net.TlsStream.ProcessAuthentication(LazyAsyncResult result)
+   at System.Net.TlsStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.PooledStream.Write(Byte[] buffer, Int32 offset, Int32 size)
+   at System.Net.ConnectStream.WriteHeaders(Boolean async)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-05-13 11:01:17,713 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 21] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-05-13 11:01:35,510 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 57] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-05-13 11:08:05,901 [44] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 58] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-05-13 12:27:28,229 [44] INFO  umbraco.BusinessLogic.Log - [Thread 21] Log scrubbed.  Removed all items older than 2020-03-14 12:27:28
+2020-05-13 12:27:28,588 [44] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 21] Application shutdown. Reason: HostingEnvironment
+2020-05-13 12:27:34,713 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2020-05-13 12:27:34,729 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 16ms)
+2020-05-13 12:27:34,745 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2020-05-13 12:27:37,385 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 2648ms)
+2020-05-13 12:27:37,448 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2020-05-13 12:27:37,448 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2020-05-13 12:27:37,448 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2020-05-13 12:27:37,448 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2020-05-13 12:27:37,448 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2020-05-13 12:27:37,448 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 4ms)
+2020-05-13 12:27:37,463 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2020-05-13 12:27:37,463 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 5ms)
+2020-05-13 12:27:37,463 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2020-05-13 12:27:37,463 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 5ms)
+2020-05-13 12:27:38,151 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2020-05-13 12:27:38,682 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2020-05-13 12:27:38,698 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2020-05-13 12:27:38,698 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2020-05-13 12:27:39,557 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2020-05-13 12:27:39,588 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 23ms)
+2020-05-13 12:33:20,838 [10] INFO  umbraco.content - [Thread 24] Loading content from disk cache...
+2020-05-13 12:34:07,698 [10] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2020-05-13 12:34:07,698 [10] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 7ms)
+2020-05-13 12:38:00,307 [10] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2020-05-13 12:38:00,307 [10] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2020-05-13 13:07:37,229 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 42] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-05-13 13:13:00,057 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 39] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-05-13 16:36:21,635 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 63] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2020-05-13 16:36:21,635 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 63] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2020-05-13 16:36:21,635 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 63] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2020-05-13 16:36:21,635 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 63] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2020-05-13 16:36:21,635 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 63] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2020-05-13 20:59:25,948 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 23] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-05-13 21:16:00,526 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 34] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-05-13 21:16:18,495 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 23] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.

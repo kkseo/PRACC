@@ -1,0 +1,83 @@
+2018-03-02 07:47:36,008 [20] INFO  umbraco.BasePages.BasePage - [Thread 66] User pracc (Id: 1) logged in
+2018-03-02 07:48:31,399 [20] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 13] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.PurgeBuffers(Boolean disposing)
+   at System.IO.Compression.DeflateStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Compression.GZipStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at umbraco.presentation.plugins.tinymce3.GzipCompressor.Compress(Stream to_stream)
+   at umbraco.presentation.plugins.tinymce3.GzipModule.ProcessRequest(HttpContext context)
+   at umbraco.presentation.plugins.tinymce3.tinymce3tinymceCompress.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_plugins_tinymce3_tinymce3tinymcecompress_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-03-02 07:49:23,571 [20] INFO  umbraco.cms.businesslogic.web.Document - [Thread 62] New document 2260
+2018-03-02 07:51:10,962 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Wiggles' with Id '2260' has been published.
+2018-03-02 07:51:18,040 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Winter wedding special offer' with Id '1205' has been unpublished.
+2018-03-02 07:52:19,930 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Wiggles' with Id '2260' has been published.
+2018-03-02 07:52:56,415 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 13] Content 'Wiggles' with Id '2260' has been published.
+2018-03-02 07:53:15,102 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Wiggles' with Id '2260' has been published.
+2018-03-02 07:54:40,352 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content 'Wiggles' with Id '2260' has been published.
+2018-03-02 07:55:44,180 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content 'Wiggles' with Id '2260' has been published.
+2018-03-02 07:56:01,758 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 71] Content 'Wiggles' with Id '2260' has been published.
+2018-03-02 08:05:51,571 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content 'Wiggles' with Id '2260' has been published.
+2018-03-02 10:49:45,696 [20] INFO  umbraco.cms.businesslogic.web.Document - [Thread 85] New document 2261
+2018-03-02 10:49:59,040 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content 'Show 3' with Id '2261' has been published.
+2018-03-02 10:50:34,008 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 100] Content '2018 - The Wiggles' with Id '2244' has been published.
+2018-03-02 10:50:59,024 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content 'Wiggles' with Id '2260' has been published.
+2018-03-02 10:52:03,321 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 102] Content 'Show 3' with Id '2261' has been published.
+2018-03-02 11:01:41,383 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content '2018 - The Wiggles' with Id '2244' has been published.
+2018-03-02 11:11:02,508 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content '2018 - The Wiggles' with Id '2244' has been published.
+2018-03-02 11:11:27,477 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content 'Winter wedding special offer' with Id '1205' has been published.
+2018-03-02 11:11:31,993 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 80] Content 'Wiggles' with Id '2260' has been unpublished.
+2018-03-02 11:12:45,337 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 80] Content '2018 - The Wiggles' with Id '2244' has been published.
+2018-03-02 11:18:07,633 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 103] Content '2018 - Ivanhoe Grammar' with Id '2254' has been published.
+2018-03-02 11:23:28,118 [20] INFO  umbraco.BusinessLogic.Log - [Thread 82] Log scrubbed.  Removed all items older than 2018-01-01 11:23:28
+2018-03-02 11:59:11,883 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 98] Content '2018 - The Wiggles' with Id '2244' has been published.
+2018-03-02 11:59:37,477 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 107] Content '2018 - The Wiggles' with Id '2244' has been published.
+2018-03-02 14:11:38,649 [20] INFO  umbraco.BasePages.BasePage - [Thread 93] User pracc (Id: 1) logged in
+2018-03-02 14:11:57,087 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 105] Content '2018 - The Wiggles' with Id '2244' has been published.
+2018-03-02 16:23:08,852 [20] INFO  umbraco.BusinessLogic.Log - [Thread 27] Log scrubbed.  Removed all items older than 2018-01-01 16:23:08
+2018-03-02 16:23:08,977 [20] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 27] Application shutdown. Reason: HostingEnvironment
+2018-03-02 16:23:17,962 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Determining hash of code files on disk
+2018-03-02 16:23:18,008 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Hash determined (took 13ms)
+2018-03-02 16:23:18,008 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-03-02 16:23:20,790 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 2784ms)
+2018-03-02 16:23:20,868 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-03-02 16:23:20,883 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+2018-03-02 16:23:20,883 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-03-02 16:23:20,883 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2018-03-02 16:23:20,883 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-03-02 16:23:20,899 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 6ms)
+2018-03-02 16:23:20,915 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-03-02 16:23:20,915 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 7ms)
+2018-03-02 16:23:20,915 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-03-02 16:23:20,915 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2018-03-02 16:23:21,790 [11] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 8] Initializing Examine and binding to business logic events
+2018-03-02 16:23:23,337 [11] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 8] Adding examine event handlers for index providers: 3
+2018-03-02 16:23:23,368 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.interfaces.IApplication
+2018-03-02 16:23:23,383 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 23ms)
+2018-03-02 16:23:23,602 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.interfaces.ITree
+2018-03-02 16:23:23,633 [11] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 37ms)
+2018-03-02 16:23:24,477 [11] INFO  umbraco.content - [Thread 7] Loading content from disk cache...
+2018-03-02 16:23:26,555 [11] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2018-03-02 16:23:26,555 [11] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 13ms)
+2018-03-02 16:50:36,883 [11] INFO  Umbraco.Core.PluginManager - [Thread 102] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2018-03-02 16:50:36,899 [11] INFO  Umbraco.Core.PluginManager - [Thread 102] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 9ms)

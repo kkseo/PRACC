@@ -1,0 +1,217 @@
+2019-02-14 03:05:08,329 [23] INFO  umbraco.BusinessLogic.Log - [Thread 73] Log scrubbed.  Removed all items older than 2018-12-16 03:05:07
+2019-02-14 03:08:49,798 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2019-02-14 03:08:49,829 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 10ms)
+2019-02-14 03:08:49,829 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-02-14 03:08:58,439 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 8607ms)
+2019-02-14 03:08:58,564 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-02-14 03:08:58,579 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+2019-02-14 03:08:58,579 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-02-14 03:08:58,579 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2019-02-14 03:08:58,579 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-02-14 03:08:58,579 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2019-02-14 03:08:58,595 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-02-14 03:08:58,595 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2019-02-14 03:08:58,595 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-02-14 03:08:58,611 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 10ms)
+2019-02-14 03:08:59,486 [22] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2019-02-14 03:09:00,345 [22] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2019-02-14 03:09:00,376 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2019-02-14 03:09:00,392 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 16ms)
+2019-02-14 03:09:03,517 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2019-02-14 03:09:03,548 [22] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 33ms)
+2019-02-14 03:09:03,892 [22] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2019-02-14 03:09:07,064 [22] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-02-14 03:09:07,079 [22] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 10ms)
+2019-02-14 03:25:00,954 [22] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 35] Error executing query delete from umbracoLog where datestamp < @oldestPermittedLogEntry and logHeader in ('open','system')
+System.Data.SqlClient.SqlException (0x80131904): SHUTDOWN is in progress.
+Login failed for user 'web24PraccUmbUser'.
+A severe error occurred on the current command.  The results, if any, should be discarded.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteNonQuery(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+ClientConnectionId:49f78363-89c6-4866-8780-631efe0dad87
+Error Number:6005,State:1,Class:14
+2019-02-14 03:25:01,079 [22] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 35] Application shutdown. Reason: HostingEnvironment
+2019-02-14 03:28:53,915 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2019-02-14 03:28:53,962 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 39ms)
+2019-02-14 03:28:53,977 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-02-14 03:29:00,649 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 6664ms)
+2019-02-14 03:29:00,868 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-02-14 03:29:00,868 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+2019-02-14 03:29:00,868 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-02-14 03:29:00,884 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2019-02-14 03:29:00,884 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-02-14 03:29:00,884 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2019-02-14 03:29:00,884 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-02-14 03:29:00,899 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 7ms)
+2019-02-14 03:29:00,899 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-02-14 03:29:00,899 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2019-02-14 03:29:01,587 [18] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2019-02-14 03:29:04,899 [18] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2019-02-14 03:29:04,931 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2019-02-14 03:29:04,946 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 16ms)
+2019-02-14 03:29:06,649 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2019-02-14 03:29:06,681 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 34ms)
+2019-02-14 03:33:54,509 [18] INFO  umbraco.content - [Thread 28] Loading content from disk cache...
+2019-02-14 03:34:31,431 [18] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-02-14 03:34:31,462 [18] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 34ms)
+2019-02-14 08:35:53,540 [18] INFO  Umbraco.Core.PluginManager - [Thread 63] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-02-14 08:35:53,556 [18] INFO  Umbraco.Core.PluginManager - [Thread 63] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 20ms)
+2019-02-14 10:55:07,759 [18] INFO  umbraco.BasePages.BasePage - [Thread 68] User pracc (Id: 1) logged in
+2019-02-14 10:55:07,962 [18] INFO  Umbraco.Core.PluginManager - [Thread 85] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-02-14 10:55:07,962 [18] INFO  Umbraco.Core.PluginManager - [Thread 85] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 8ms)
+2019-02-14 10:55:08,165 [18] INFO  Umbraco.Core.PluginManager - [Thread 85] Starting resolution types of umbraco.interfaces.ITree
+2019-02-14 10:55:08,212 [18] INFO  Umbraco.Core.PluginManager - [Thread 85] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 50ms)
+2019-02-14 10:55:15,290 [18] INFO  Umbraco.Core.PluginManager - [Thread 71] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2019-02-14 10:55:15,321 [18] INFO  Umbraco.Core.PluginManager - [Thread 71] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 24ms)
+2019-02-14 10:55:23,806 [18] INFO  Umbraco.Core.PluginManager - [Thread 65] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-02-14 10:55:23,821 [18] INFO  Umbraco.Core.PluginManager - [Thread 65] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 16ms)
+2019-02-14 10:55:23,868 [18] INFO  Umbraco.Core.PluginManager - [Thread 65] Starting resolution types of umbraco.interfaces.IDataType
+2019-02-14 10:55:23,915 [18] INFO  Umbraco.Core.PluginManager - [Thread 65] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 31ms)
+2019-02-14 11:42:26,477 [18] INFO  Umbraco.Core.PluginManager - [Thread 84] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2019-02-14 11:42:26,477 [18] INFO  Umbraco.Core.PluginManager - [Thread 84] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 8ms)
+2019-02-14 11:42:27,540 [18] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 84] Success uploading to parent 2347
+2019-02-14 11:43:11,368 [18] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 68] Success uploading to parent 2347
+2019-02-14 11:43:53,540 [18] INFO  umbraco.cms.businesslogic.web.Document - [Thread 70] New document 2406
+2019-02-14 11:49:05,665 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 69] Content '2019 Stage & Screen' with Id '2406' has been published.
+2019-02-14 11:49:37,165 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 65] Content '2019 Stage & Screen' with Id '2406' has been published.
+2019-02-14 11:49:50,009 [18] INFO  umbraco.cms.businesslogic.web.Document - [Thread 69] New document 2407
+2019-02-14 11:50:27,274 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 68] Content 'Show 1' with Id '2407' has been published.
+2019-02-14 11:51:37,384 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content '2019 Stage & Screen' with Id '2406' has been published.
+2019-02-14 14:15:24,431 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 68] Content '2019 Stage & Screen' with Id '2406' has been published.
+2019-02-14 14:24:54,181 [18] INFO  umbraco.cms.businesslogic.web.Document - [Thread 80] New document 2408
+2019-02-14 14:38:33,681 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 13] Content '2019 - Karen Carpenter Tribute' with Id '2408' has been published.
+2019-02-14 14:41:59,243 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 71] Content '2019 - Karen Carpenter Tribute' with Id '2408' has been published.
+2019-02-14 14:42:20,399 [18] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 71] Success uploading to parent 2347
+2019-02-14 14:43:08,696 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 69] Content '2019 - Karen Carpenter Tribute' with Id '2408' has been published.
+2019-02-14 14:44:01,149 [18] INFO  umbraco.cms.businesslogic.web.Document - [Thread 80] New document 2410
+2019-02-14 14:44:25,040 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 69] Content 'Show 1' with Id '2410' has been published.
+2019-02-14 14:44:29,946 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 13] Content 'Show 1' with Id '2410' has been published.
+2019-02-14 14:46:08,306 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 80] Content '2019 - Karen Carpenter Tribute' with Id '2408' has been published.
+2019-02-14 14:46:09,306 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content '2019 - Karen Carpenter Tribute' with Id '2408' has been published.
+2019-02-14 14:47:18,759 [18] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 68] Success uploading to parent 2347
+2019-02-14 14:51:24,681 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content '2019 - Karen Carpenter Tribute' with Id '2408' has been published.
+2019-02-14 14:51:34,415 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 82] Content '2019 - Karen Carpenter Tribute' with Id '2408' has been published.
+2019-02-14 14:52:05,602 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content '2019 - Karen Carpenter Tribute' with Id '2408' has been published.
+2019-02-14 14:52:18,321 [18] INFO  umbraco.cms.businesslogic.web.Document - [Thread 70] New document 2412
+2019-02-14 14:52:24,774 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Show 1 (1)' with Id '2412' has been unpublished.
+2019-02-14 14:52:29,759 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Show 1' with Id '2410' has been published.
+2019-02-14 14:57:03,634 [18] INFO  umbraco.cms.businesslogic.web.Document - [Thread 71] New document 2413
+2019-02-14 14:59:08,852 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content '2019 - Santa Claus Is Coming To Town' with Id '2413' has been published.
+2019-02-14 15:01:02,868 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-02-14 15:01:31,009 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content '2019 - Santa Claus Is Coming To Town' with Id '2413' has been unpublished.
+2019-02-14 15:01:43,556 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content '2019 - Santa Claus Is Coming to Town (1)' with Id '2408' has been published.
+2019-02-14 15:01:52,665 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-02-14 15:01:59,868 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-02-14 15:02:00,337 [18] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 72] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.PurgeBuffers(Boolean disposing)
+   at System.IO.Compression.DeflateStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Compression.GZipStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at umbraco.presentation.plugins.tinymce3.GzipCompressor.Compress(Stream to_stream)
+   at umbraco.presentation.plugins.tinymce3.GzipModule.ProcessRequest(HttpContext context)
+   at umbraco.presentation.plugins.tinymce3.tinymce3tinymceCompress.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_plugins_tinymce3_tinymce3tinymcecompress_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-02-14 15:02:01,806 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-02-14 15:03:07,524 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-02-14 15:04:45,790 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-02-14 15:05:28,134 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-02-14 15:05:30,040 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-02-14 15:05:36,993 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-02-14 15:07:00,009 [18] INFO  umbraco.cms.businesslogic.web.Document - [Thread 64] New document 2414
+2019-02-14 15:07:15,306 [18] INFO  umbraco.cms.businesslogic.web.Document - [Thread 64] New document 2415
+2019-02-14 15:07:39,556 [18] INFO  Umbraco.Core.Services.ContentService - [Thread 63] Content 'Show 1' with Id '2415' could not be published because its parent is not published.
+2019-02-14 15:07:39,556 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 63] Content 'Show 1' with Id '2415' has been published.
+2019-02-14 15:07:39,727 [18] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 63] Couldn't find any page with nodeId=2415. This is most likely caused by the page not being published.
+2019-02-14 15:07:47,821 [18] INFO  Umbraco.Core.Services.ContentService - [Thread 64] Content 'Show 1' with Id '2415' could not be published because its parent is not published.
+2019-02-14 15:07:47,821 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content 'Show 1' with Id '2415' has been published.
+2019-02-14 15:07:47,977 [18] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 64] Couldn't find any page with nodeId=2415. This is most likely caused by the page not being published.
+2019-02-14 15:16:32,431 [18] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 7] Success uploading to parent 2347
+2019-02-14 15:16:32,899 [18] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 67] Success uploading to parent 2347
+2019-02-14 15:18:00,712 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content '2019 - Karen Carpenter Tribute' with Id '2414' has been published.
+2019-02-14 15:18:00,837 [18] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 66] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2019-02-14 15:19:50,852 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content '2019 - Karen Carpenter Tribute' with Id '2414' has been published.
+2019-02-14 15:19:57,837 [18] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 76] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2019-02-14 15:20:00,040 [18] INFO  Umbraco.Core.PluginManager - [Thread 66] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2019-02-14 15:20:00,040 [18] INFO  Umbraco.Core.PluginManager - [Thread 66] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 0ms)
+2019-02-14 15:20:21,837 [18] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 67] Success uploading to parent 2347
+2019-02-14 15:24:20,462 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content '2019 - Karen Carpenter Tribute' with Id '2414' has been published.
+2019-02-14 15:24:44,477 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 63] Content '2019 - Karen Carpenter Tribute' with Id '2414' has been published.
+2019-02-14 15:24:56,868 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 91] Content '2019 - Karen Carpenter Tribute' with Id '2414' has been published.
+2019-02-14 15:25:00,852 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content '2019 - Karen Carpenter Tribute' with Id '2414' has been published.
+2019-02-14 15:25:19,727 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content '2019 - Karen Carpenter Tribute' with Id '2414' has been published.
+2019-02-14 15:25:21,415 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content '2019 - Karen Carpenter Tribute' with Id '2414' has been published.
+2019-02-14 15:28:23,212 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 91] Content '2019 - Karen Carpenter Tribute' with Id '2414' has been published.
+2019-02-14 15:31:07,602 [18] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 95] Success uploading to parent 2347
+2019-02-14 15:32:46,399 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content '2019 - Karen Carpenter Tribute' with Id '2414' has been published.
+2019-02-14 15:33:11,634 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'Show 1' with Id '2415' has been published.
+2019-02-14 15:33:13,571 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 95] Content 'Show 1' with Id '2415' has been published.
+2019-02-14 15:33:27,243 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content '2019 - Karen Carpenter Tribute' with Id '2414' has been published.
+2019-02-14 15:35:51,399 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content '2019 - Karen Carpenter Tribute' with Id '2414' has been published.
+2019-02-14 15:35:52,759 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content '2019 - Karen Carpenter Tribute' with Id '2414' has been published.
+2019-02-14 15:36:03,540 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 56] Content '2019 - Karen Carpenter Tribute' with Id '2414' has been published.
+2019-02-14 15:36:16,884 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content '2019 - Karen Carpenter Tribute' with Id '2414' has been published.
+2019-02-14 15:36:16,977 [18] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 40] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2019-02-14 15:37:53,993 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content '2019 Back to the 50's & 60's' with Id '2362' has been published.
+2019-02-14 15:38:02,149 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 49] Content '2019 Back to the 50's & 60's' with Id '2362' has been published.
+2019-02-14 15:38:12,571 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 34] Content '2019 - Johnny Cash & June Carter Show' with Id '2357' has been published.
+2019-02-14 15:38:34,665 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content '2019 - Elvis Forever' with Id '2393' has been published.
+2019-02-14 15:38:37,227 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content '2019 - Elvis Forever' with Id '2393' has been published.
+2019-02-14 15:39:24,024 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 49] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-02-14 15:39:46,477 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 49] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-02-14 15:39:54,743 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 34] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-14 15:41:05,821 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-14 15:41:24,259 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-02-14 15:44:20,524 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content '2019 - Karen Carpenter Tribute' with Id '2414' has been published.
+2019-02-14 15:45:51,196 [18] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 96] Success uploading to parent 2347
+2019-02-14 15:48:52,602 [18] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 36] Success uploading to parent 2347
+2019-02-14 15:49:37,649 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-14 15:49:43,462 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-14 15:49:43,649 [18] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 96] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2019-02-14 15:49:44,274 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-14 15:49:48,868 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 45] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-14 15:50:11,415 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 96] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-14 15:50:15,587 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 96] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-14 15:50:28,415 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 67] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-14 15:52:23,774 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-02-14 15:52:32,931 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-02-14 15:52:34,477 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-02-14 15:53:07,743 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-02-14 15:53:09,477 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 90] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-02-14 15:53:27,946 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-02-14 15:53:38,212 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-02-14 15:53:39,602 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-02-14 15:54:00,852 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-02-14 15:54:03,946 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-02-14 15:54:08,009 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content '2019 - SOS ABBA' with Id '2399' has been published.

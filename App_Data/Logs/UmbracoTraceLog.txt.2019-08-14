@@ -1,0 +1,70 @@
+2019-08-14 00:40:59,836 [9] INFO  Umbraco.Core.PluginManager - [Thread 65] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-08-14 00:40:59,836 [9] INFO  Umbraco.Core.PluginManager - [Thread 65] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2019-08-14 00:46:25,586 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 42] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 00:49:58,429 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 61] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 03:21:50,554 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 83] An unhandled exception occurred
+System.UriFormatException: Invalid URI: The hostname could not be parsed.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Web.Util.UriUtil.BuildUriImpl(String scheme, String serverName, String port, String path, String queryString, Boolean useLegacyRequestUrlGeneration)
+   at System.Web.HttpRequest.BuildUrl(Func`1 pathAccessor)
+   at System.Web.HttpRequest.get_Url()
+   at System.Web.HttpRequestWrapper.get_Url()
+   at Umbraco.Web.UmbracoModule.BeginRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__5(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-08-14 06:51:56,539 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 08:16:38,945 [9] INFO  Umbraco.Core.PluginManager - [Thread 105] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-08-14 08:16:39,039 [9] INFO  Umbraco.Core.PluginManager - [Thread 105] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 86ms)
+2019-08-14 08:16:40,398 [9] INFO  Umbraco.Core.PluginManager - [Thread 105] Starting resolution types of umbraco.interfaces.ITree
+2019-08-14 08:16:40,429 [9] INFO  Umbraco.Core.PluginManager - [Thread 105] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 29ms)
+2019-08-14 08:16:49,648 [9] INFO  Umbraco.Core.PluginManager - [Thread 50] Starting resolution types of umbraco.interfaces.IDataType
+2019-08-14 08:16:49,679 [9] INFO  Umbraco.Core.PluginManager - [Thread 50] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 18ms)
+2019-08-14 08:20:55,601 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content 'Eucalypt Room' with Id '2567' has been published.
+2019-08-14 08:20:57,039 [9] INFO  Umbraco.Core.PluginManager - [Thread 64] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-08-14 08:20:57,054 [9] INFO  Umbraco.Core.PluginManager - [Thread 64] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 10ms)
+2019-08-14 08:52:44,179 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 95] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 09:14:53,164 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 88] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 09:22:30,523 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 102] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 09:34:45,054 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 82] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 09:44:10,320 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 108] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 09:45:47,258 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 63] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 09:46:01,929 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 91] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 09:57:00,961 [9] INFO  umbraco.BasePages.BasePage - [Thread 85] User pracc (Id: 1) logged in
+2019-08-14 09:58:55,758 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'SingOut' with Id '2449' has been published.
+2019-08-14 09:59:12,414 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content 'SingOut' with Id '2449' has been published.
+2019-08-14 10:05:33,054 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 69] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 10:10:10,492 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 23] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 11:41:36,414 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 28] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 11:41:55,461 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 68] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 11:51:31,945 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 11:53:51,023 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 12:33:37,586 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 107] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 12:33:55,742 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 36] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 12:43:27,664 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 48] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 13:23:11,383 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 68] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 13:49:59,539 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 37] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 13:50:24,648 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 36] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 14:14:59,539 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 37] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 14:15:37,570 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 28] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 14:21:58,008 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 107] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 14:36:46,117 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 36] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 14:40:10,633 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 65] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 15:24:49,773 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 50] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 15:25:34,976 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 76] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 16:24:14,945 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 50] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 16:39:08,914 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 16:57:38,851 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 98] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 17:17:46,086 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 50] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 17:46:51,336 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 32] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 18:11:44,742 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 18:12:01,523 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 105] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 19:37:04,117 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 76] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 19:37:07,476 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 72] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 21:04:09,711 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 50] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 21:04:30,523 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 105] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 23:31:27,539 [9] INFO  umbraco.BusinessLogic.Log - [Thread 42] Log scrubbed.  Removed all items older than 2019-06-15 23:31:27
+2019-08-14 23:46:32,289 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 32] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-14 23:47:26,054 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 76] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.

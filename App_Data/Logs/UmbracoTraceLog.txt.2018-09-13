@@ -1,0 +1,124 @@
+2018-09-13 03:06:08,200 [12] INFO  umbraco.BusinessLogic.Log - [Thread 50] Log scrubbed.  Removed all items older than 2018-07-15 03:06:07
+2018-09-13 03:06:08,231 [12] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 50] Application shutdown. Reason: HostingEnvironment
+2018-09-13 03:08:04,294 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2018-09-13 03:08:04,325 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 14ms)
+2018-09-13 03:08:04,340 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-09-13 03:08:04,778 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 438ms)
+2018-09-13 03:08:04,809 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-09-13 03:08:04,825 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+2018-09-13 03:08:04,825 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-09-13 03:08:04,825 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2018-09-13 03:08:04,825 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-09-13 03:08:04,840 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 6ms)
+2018-09-13 03:08:04,840 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-09-13 03:08:04,840 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 7ms)
+2018-09-13 03:08:04,840 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-09-13 03:08:04,856 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 8ms)
+2018-09-13 03:08:05,356 [15] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2018-09-13 03:08:06,028 [15] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2018-09-13 03:08:06,028 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2018-09-13 03:08:06,044 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 15ms)
+2018-09-13 03:08:06,481 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2018-09-13 03:08:06,544 [15] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 40ms)
+2018-09-13 03:23:51,419 [15] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 18] Error executing query delete from umbracoLog where datestamp < @oldestPermittedLogEntry and logHeader in ('open','system')
+System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The handle specified is invalid) ---> System.ComponentModel.Win32Exception (0x80004005): The handle specified is invalid
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, DbConnectionPool pool, String accessToken, Boolean applyTransientFaultHandling, SqlAuthenticationProviderManager sqlAuthProviderManager)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteNonQuery(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+ClientConnectionId:1a1329e4-cca4-4574-8c0b-ac020d696ae4
+Error Number:-2146893055,State:0,Class:20
+2018-09-13 03:23:51,637 [15] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 18] Application shutdown. Reason: HostingEnvironment
+2018-09-13 03:30:18,185 [26] INFO  Umbraco.Core.PluginManager - [Thread 25] Determining hash of code files on disk
+2018-09-13 03:30:18,217 [26] INFO  Umbraco.Core.PluginManager - [Thread 25] Hash determined (took 12ms)
+2018-09-13 03:30:18,232 [26] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-09-13 03:30:22,451 [26] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 4221ms)
+2018-09-13 03:30:22,607 [26] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-09-13 03:30:22,623 [26] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+2018-09-13 03:30:22,623 [26] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-09-13 03:30:22,623 [26] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2018-09-13 03:30:22,623 [26] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-09-13 03:30:22,638 [26] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 8ms)
+2018-09-13 03:30:22,638 [26] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-09-13 03:30:22,654 [26] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 10ms)
+2018-09-13 03:30:22,654 [26] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-09-13 03:30:22,654 [26] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 8ms)
+2018-09-13 03:30:23,842 [26] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 25] Initializing Examine and binding to business logic events
+2018-09-13 03:30:25,170 [26] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 25] Adding examine event handlers for index providers: 3
+2018-09-13 03:30:25,185 [26] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of umbraco.interfaces.IApplication
+2018-09-13 03:30:25,201 [26] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 16ms)
+2018-09-13 03:30:26,201 [26] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of umbraco.interfaces.ITree
+2018-09-13 03:30:26,263 [26] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 59ms)
+2018-09-13 03:30:26,935 [26] INFO  umbraco.content - [Thread 13] Loading content from disk cache...
+2018-09-13 03:30:53,920 [26] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2018-09-13 03:30:53,935 [26] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 10ms)
+2018-09-13 05:40:08,748 [26] INFO  Umbraco.Core.PluginManager - [Thread 60] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2018-09-13 05:40:08,779 [26] INFO  Umbraco.Core.PluginManager - [Thread 60] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 43ms)
+2018-09-13 11:37:45,045 [26] INFO  Umbraco.Core.PluginManager - [Thread 60] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2018-09-13 11:37:45,045 [26] INFO  Umbraco.Core.PluginManager - [Thread 60] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 21ms)
+2018-09-13 11:37:45,342 [26] INFO  Umbraco.Core.PluginManager - [Thread 60] Starting resolution types of umbraco.interfaces.ITree
+2018-09-13 11:37:45,373 [26] INFO  Umbraco.Core.PluginManager - [Thread 60] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 33ms)
+2018-09-13 11:38:16,638 [26] INFO  Umbraco.Core.PluginManager - [Thread 59] Starting resolution types of umbraco.interfaces.IDataType
+2018-09-13 11:38:16,670 [26] INFO  Umbraco.Core.PluginManager - [Thread 59] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 30ms)
+2018-09-13 11:39:32,092 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content '2018 - Romina's Dance' with Id '2322' has been published.
+2018-09-13 11:39:32,967 [26] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2018-09-13 11:39:32,982 [26] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 20ms)
+2018-09-13 11:39:42,467 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 56] Content '2018 - Romina's Dance' with Id '2322' has been published.
+2018-09-13 11:43:34,029 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content '2018 - Romina's Dance' with Id '2322' has been published.
+2018-09-13 12:19:19,763 [26] INFO  umbraco.cms.businesslogic.web.Document - [Thread 46] New document 2326
+2018-09-13 12:38:42,951 [26] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2018-09-13 12:38:43,029 [26] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 77ms)
+2018-09-13 12:39:51,138 [26] INFO  Umbraco.Core.PluginManager - [Thread 47] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2018-09-13 12:39:51,170 [26] INFO  Umbraco.Core.PluginManager - [Thread 47] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 33ms)
+2018-09-13 12:39:52,779 [26] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 47] Success uploading to parent -1
+2018-09-13 12:40:05,326 [26] INFO  Umbraco.Core.PluginManager - [Thread 76] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2018-09-13 12:40:05,326 [26] INFO  Umbraco.Core.PluginManager - [Thread 76] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 0ms)
+2018-09-13 12:40:19,873 [26] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 76] Success uploading to parent 2101
+2018-09-13 12:42:01,607 [26] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 76] Success uploading to parent 2101
+2018-09-13 12:46:20,435 [26] INFO  umbraco.cms.businesslogic.web.Document - [Thread 77] New document 2330
+2018-09-13 12:55:08,357 [26] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 80] Success uploading to parent 2101
+2018-09-13 12:59:37,342 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content '2018 - Sirius College - Foundation - Year 2' with Id '2326' has been published.
+2018-09-13 13:03:10,092 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 80] Content '2018 - Sirius College - Foundation - Year 2' with Id '2326' has been published.
+2018-09-13 13:03:10,654 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content '2018 - Sirius College - Foundation - Year 2' with Id '2326' has been published.
+2018-09-13 13:03:11,107 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content '2018 - Sirius College - Foundation - Year 2' with Id '2326' has been published.
+2018-09-13 13:03:18,763 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 65] Content 'Show 1' with Id '2330' has been published.
+2018-09-13 16:30:01,607 [26] INFO  umbraco.BasePages.BasePage - [Thread 79] User pracc (Id: 1) logged in
+2018-09-13 16:30:25,529 [26] INFO  umbraco.cms.businesslogic.web.Document - [Thread 85] New document 2332
+2018-09-13 16:32:54,138 [26] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 47] Success uploading to parent 2101
+2018-09-13 16:33:52,951 [26] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 42] An unhandled exception occurred
+System.Net.ProtocolViolationException: You must write ContentLength bytes to the request stream before calling [Begin]GetResponse.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.umbraco_client.tinymce3.plugins.spellchecker.GoogleSpellChecker.SendRequest(String lang, String data)
+   at umbraco.presentation.umbraco_client.tinymce3.plugins.spellchecker.GoogleSpellChecker.CheckWords(String language, String[] words)
+   at umbraco.presentation.umbraco_client.tinymce3.plugins.spellchecker.GoogleSpellChecker.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-09-13 16:42:31,748 [26] INFO  umbraco.cms.businesslogic.web.Document - [Thread 42] New document 2334
+2018-09-13 16:56:05,498 [26] INFO  Umbraco.Core.Services.ContentService - [Thread 77] Content 'Show 1' with Id '2334' could not be published because its parent is not published.
+2018-09-13 16:56:05,498 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content 'Show 1' with Id '2334' has been published.
+2018-09-13 16:56:05,654 [26] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 77] Couldn't find any page with nodeId=2334. This is most likely caused by the page not being published.
+2018-09-13 16:56:08,576 [26] INFO  Umbraco.Core.Services.ContentService - [Thread 83] Content 'Show 1' with Id '2334' could not be published because its parent is not published.
+2018-09-13 16:56:08,576 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 83] Content 'Show 1' with Id '2334' has been published.
+2018-09-13 16:56:08,717 [26] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 83] Couldn't find any page with nodeId=2334. This is most likely caused by the page not being published.
+2018-09-13 16:57:57,732 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content '2018 - Sirius College Year 3 - Year 5' with Id '2332' has been published.
+2018-09-13 16:58:56,935 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content '2018 - Sirius College Year 3 - Year 5' with Id '2332' has been published.
+2018-09-13 16:58:57,201 [26] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 77] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2018-09-13 16:59:29,482 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content '2018 - Sirius College Year 3 - Year 5' with Id '2332' has been published.
+2018-09-13 16:59:38,904 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 65] Content '2018 - Sirius College - Foundation - Year 2' with Id '2326' has been published.
+2018-09-13 16:59:46,763 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content '2018 - Sirius College: Foundation - Year 2' with Id '2326' has been published.
+2018-09-13 16:59:59,654 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 80] Content '2018 - Sirius College: Year 3 - Year 5' with Id '2332' has been published.
+2018-09-13 17:01:05,388 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content '2018 - Sirius College: Year 3 - Year 5' with Id '2332' has been published.
+2018-09-13 17:04:35,217 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content '2018 - Sirius College: Year 3 - Year 5' with Id '2332' has been published.

@@ -1,0 +1,71 @@
+2019-05-07 10:22:41,450 [11] INFO  umbraco.BasePages.BasePage - [Thread 81] User pracc (Id: 1) logged in
+2019-05-07 10:22:41,700 [11] INFO  Umbraco.Core.PluginManager - [Thread 51] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-05-07 10:22:41,716 [11] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 20ms)
+2019-05-07 10:22:42,403 [11] INFO  Umbraco.Core.PluginManager - [Thread 51] Starting resolution types of umbraco.interfaces.ITree
+2019-05-07 10:22:42,450 [11] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 43ms)
+2019-05-07 10:28:09,185 [11] INFO  Umbraco.Core.PluginManager - [Thread 76] Starting resolution types of umbraco.interfaces.IDataType
+2019-05-07 10:28:09,216 [11] INFO  Umbraco.Core.PluginManager - [Thread 76] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 34ms)
+2019-05-07 10:28:58,606 [11] INFO  umbraco.cms.businesslogic.web.Document - [Thread 55] New document 2454
+2019-05-07 10:39:31,169 [11] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2019-05-07 10:39:31,200 [11] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 34ms)
+2019-05-07 10:41:07,544 [11] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2019-05-07 10:41:07,560 [11] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 8ms)
+2019-05-07 10:41:08,325 [11] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-05-07 10:41:08,341 [11] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 17ms)
+2019-05-07 10:41:08,497 [11] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 83] Success uploading to parent 2347
+2019-05-07 10:42:54,497 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content 'Raw 2019' with Id '2454' has been unpublished.
+2019-05-07 10:43:37,091 [11] INFO  umbraco.cms.businesslogic.web.Document - [Thread 43] New document 2456
+2019-05-07 10:50:19,560 [11] INFO  umbraco.cms.businesslogic.web.Document - [Thread 105] New document 2457
+2019-05-07 10:51:29,497 [11] INFO  umbraco.cms.businesslogic.web.Document - [Thread 74] New document 2458
+2019-05-07 10:53:34,935 [11] INFO  Umbraco.Core.Services.ContentService - [Thread 46] Content 'Show 2' with Id '2458' could not be published because its parent is not published.
+2019-05-07 10:53:34,935 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 46] Content 'Show 2' with Id '2458' is awaiting release and could not be published.
+2019-05-07 10:54:18,513 [11] INFO  Umbraco.Core.Services.ContentService - [Thread 111] Content 'Show 1' with Id '2457' could not be published because its parent is not published.
+2019-05-07 10:54:18,513 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 111] Content 'Show 1' with Id '2457' is awaiting release and could not be published.
+2019-05-07 10:54:36,966 [11] INFO  Umbraco.Core.Services.ContentService - [Thread 93] Content 'Show 1' with Id '2457' could not be published because its parent is not published.
+2019-05-07 10:54:36,966 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 93] Content 'Show 1' with Id '2457' is awaiting release and could not be published.
+2019-05-07 10:54:58,700 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 88] Content '2019 - RAW 2019 Dance Exclusive' with Id '2456' has been published.
+2019-05-07 11:11:45,028 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 106] Content '2019 - RAW 2019 Dance Exclusive' with Id '2456' has been published.
+2019-05-07 11:12:35,403 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 106] Content 'Show 1' with Id '2457' has been published.
+2019-05-07 11:14:00,606 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content 'Show 1' with Id '2457' is awaiting release and could not be published.
+2019-05-07 11:14:12,763 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 100] Content 'Show 1' with Id '2457' is awaiting release and could not be published.
+2019-05-07 11:14:17,638 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 98] Content '2019 - Corporate' with Id '2452' has been published.
+2019-05-07 11:18:26,044 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 112] Content '2019 - RAW 2019 Dance Exclusive' with Id '2456' is awaiting release and could not be published.
+2019-05-07 11:19:11,153 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 88] Content '2019 - RAW 2019 Dance Exclusive' with Id '2456' is awaiting release and could not be published.
+2019-05-07 11:19:20,028 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 59] Content '2019 - RAW 2019 Dance Exclusive' with Id '2456' is awaiting release and could not be published.
+2019-05-07 11:19:23,435 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 106] Content '2019 - RAW 2019 Dance Exclusive' with Id '2456' is awaiting release and could not be published.
+2019-05-07 11:19:37,481 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 100] Content 'Show 1' with Id '2457' is awaiting release and could not be published.
+2019-05-07 11:19:44,138 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content 'Show 1' with Id '2457' is awaiting release and could not be published.
+2019-05-07 11:20:24,810 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 102] Content 'Show 1' with Id '2457' is awaiting release and could not be published.
+2019-05-07 11:21:58,310 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 98] Content '2019 - RAW 2019 Dance Exclusive' with Id '2456' is awaiting release and could not be published.
+2019-05-07 11:22:16,716 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content '2019 - RAW 2019 Dance Exclusive' with Id '2456' has been published.
+2019-05-07 11:22:52,044 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 90] Content '2019 - RAW 2019 Dance Exclusive' with Id '2456' has been published.
+2019-05-07 11:26:24,513 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content '2019 - RAW 2019 Dance Exclusive' with Id '2456' has been published.
+2019-05-07 11:26:29,606 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 102] Content '2019 - RAW 2019 Dance Exclusive' with Id '2456' has been published.
+2019-05-07 12:09:43,700 [11] INFO  umbraco.BusinessLogic.Log - [Thread 65] Log scrubbed.  Removed all items older than 2019-03-08 12:09:43
+2019-05-07 17:09:18,778 [11] INFO  umbraco.BusinessLogic.Log - [Thread 124] Log scrubbed.  Removed all items older than 2019-03-08 17:09:18
+2019-05-07 17:09:18,919 [11] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 124] Application shutdown. Reason: HostingEnvironment
+2019-05-07 17:09:39,997 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2019-05-07 17:09:40,028 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 13ms)
+2019-05-07 17:09:40,044 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-05-07 17:09:43,028 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 2975ms)
+2019-05-07 17:09:43,091 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-05-07 17:09:43,106 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+2019-05-07 17:09:43,106 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-05-07 17:09:43,106 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+2019-05-07 17:09:43,106 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-05-07 17:09:43,122 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 6ms)
+2019-05-07 17:09:43,122 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-05-07 17:09:43,138 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 7ms)
+2019-05-07 17:09:43,138 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-05-07 17:09:43,138 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 7ms)
+2019-05-07 17:09:44,200 [11] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2019-05-07 17:09:45,106 [11] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2019-05-07 17:09:45,138 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2019-05-07 17:09:45,153 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 19ms)
+2019-05-07 17:09:45,935 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2019-05-07 17:09:45,981 [11] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 36ms)
+2019-05-07 17:09:46,513 [11] INFO  umbraco.content - [Thread 19] Loading content from disk cache...
+2019-05-07 17:09:49,200 [11] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-05-07 17:09:49,216 [11] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 10ms)
+2019-05-07 17:18:37,372 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-05-07 17:18:37,388 [11] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 17ms)

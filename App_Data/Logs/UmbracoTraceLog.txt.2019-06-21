@@ -1,0 +1,43 @@
+2019-06-21 09:08:48,749 [52] INFO  umbraco.cms.businesslogic.web.Document - [Thread 57] New document 2469
+2019-06-21 09:10:25,202 [52] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content '2019 - Corporate' with Id '2452' has been unpublished.
+2019-06-21 09:14:18,265 [52] INFO  Umbraco.Core.PluginManager - [Thread 100] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2019-06-21 09:14:18,390 [52] INFO  Umbraco.Core.PluginManager - [Thread 100] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 119ms)
+2019-06-21 09:14:20,093 [52] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 100] Success uploading to parent 2347
+2019-06-21 09:15:11,905 [52] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 74] Success uploading to parent 2347
+2019-06-21 09:15:53,249 [52] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content '2019 - Mutlicultural Theatre Association' with Id '2469' has been published.
+2019-06-21 09:16:11,186 [52] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 96] Content '2019 - Mutlicultural Theatre Association' with Id '2469' has been published.
+2019-06-21 09:16:25,233 [52] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 96] Content '2019 - Mutlicultural Theatre Association' with Id '2469' has been published.
+2019-06-21 09:16:53,265 [52] INFO  umbraco.cms.businesslogic.web.Document - [Thread 89] New document 2472
+2019-06-21 09:19:00,921 [52] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 102] Content 'Show 1' with Id '2472' has been published.
+2019-06-21 09:19:22,077 [52] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 13] Content '2019 - Mutlicultural Theatre Association' with Id '2469' has been published.
+2019-06-21 09:21:03,421 [52] INFO  umbraco.BusinessLogic.Log - [Thread 5] Log scrubbed.  Removed all items older than 2019-04-22 09:21:03
+2019-06-21 09:24:33,093 [52] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 5] Content '2019 - Mutlicultural Theatre Association' with Id '2469' has been published.
+2019-06-21 10:18:50,530 [52] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 112] Content '2019 - Mutlicultural Theatre Association' with Id '2469' has been unpublished.
+2019-06-21 10:38:08,468 [52] INFO  umbraco.BasePages.BasePage - [Thread 120] User pracc (Id: 1) logged in
+2019-06-21 14:13:34,733 [52] INFO  umbraco.BusinessLogic.Log - [Thread 79] Log scrubbed.  Removed all items older than 2019-04-22 14:13:34
+2019-06-21 14:13:34,796 [52] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 79] Application shutdown. Reason: HostingEnvironment
+2019-06-21 14:13:57,140 [11] INFO  Umbraco.Core.PluginManager - [Thread 6] Determining hash of code files on disk
+2019-06-21 14:13:57,155 [11] INFO  Umbraco.Core.PluginManager - [Thread 6] Hash determined (took 6ms)
+2019-06-21 14:13:57,155 [11] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-06-21 14:13:58,421 [11] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1258ms)
+2019-06-21 14:13:58,468 [11] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-06-21 14:13:58,468 [11] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2019-06-21 14:13:58,468 [11] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-06-21 14:13:58,483 [11] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2019-06-21 14:13:58,483 [11] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-06-21 14:13:58,483 [11] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2019-06-21 14:13:58,515 [11] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-06-21 14:13:58,515 [11] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2019-06-21 14:13:58,515 [11] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-06-21 14:13:58,515 [11] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2019-06-21 14:13:59,077 [11] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 6] Initializing Examine and binding to business logic events
+2019-06-21 14:13:59,608 [11] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 6] Adding examine event handlers for index providers: 3
+2019-06-21 14:13:59,624 [11] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of umbraco.interfaces.IApplication
+2019-06-21 14:13:59,624 [11] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2019-06-21 14:13:59,811 [11] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of umbraco.interfaces.ITree
+2019-06-21 14:13:59,843 [11] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 20ms)
+2019-06-21 14:14:00,280 [11] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2019-06-21 14:14:01,452 [11] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-06-21 14:14:01,468 [11] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 7ms)
+2019-06-21 14:28:21,171 [11] INFO  Umbraco.Core.PluginManager - [Thread 34] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-06-21 14:28:21,186 [11] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)

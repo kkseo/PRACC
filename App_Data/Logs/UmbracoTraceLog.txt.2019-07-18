@@ -1,0 +1,82 @@
+2019-07-18 04:39:03,098 [29] INFO  umbraco.BusinessLogic.Log - [Thread 92] Log scrubbed.  Removed all items older than 2019-05-19 04:39:03
+2019-07-18 09:12:50,927 [29] INFO  umbraco.BasePages.BasePage - [Thread 72] User admin (Id: 0) logged in
+2019-07-18 09:14:30,692 [29] INFO  umbraco.cms.businesslogic.web.Document - [Thread 97] New document 2489
+2019-07-18 09:30:00,223 [29] INFO  umbraco.BusinessLogic.Log - [Thread 20] Log scrubbed.  Removed all items older than 2019-05-19 09:30:00
+2019-07-18 09:30:00,239 [29] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 20] Application shutdown. Reason: HostingEnvironment
+2019-07-18 09:30:04,348 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2019-07-18 09:30:04,348 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 6ms)
+2019-07-18 09:30:04,364 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-07-18 09:30:05,270 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 898ms)
+2019-07-18 09:30:05,317 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-07-18 09:30:05,317 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2019-07-18 09:30:05,317 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-07-18 09:30:05,317 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2019-07-18 09:30:05,317 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-07-18 09:30:05,333 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2019-07-18 09:30:05,395 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-07-18 09:30:05,395 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2019-07-18 09:30:05,395 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-07-18 09:30:05,395 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2019-07-18 09:30:05,723 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2019-07-18 09:30:06,505 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2019-07-18 09:30:06,520 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2019-07-18 09:30:06,520 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2019-07-18 09:30:06,786 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2019-07-18 09:30:06,817 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 21ms)
+2019-07-18 09:31:26,973 [7] INFO  umbraco.content - [Thread 20] Loading content from disk cache...
+2019-07-18 09:31:34,911 [7] INFO  Umbraco.Core.PluginManager - [Thread 20] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-07-18 09:31:34,911 [7] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2019-07-18 09:36:06,380 [7] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-07-18 09:36:06,380 [7] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2019-07-18 09:39:46,255 [7] INFO  Umbraco.Core.PluginManager - [Thread 49] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-07-18 09:39:46,255 [7] INFO  Umbraco.Core.PluginManager - [Thread 49] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 5ms)
+2019-07-18 09:39:46,567 [7] INFO  Umbraco.Core.PluginManager - [Thread 49] Starting resolution types of umbraco.interfaces.ITree
+2019-07-18 09:39:46,583 [7] INFO  Umbraco.Core.PluginManager - [Thread 49] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 20ms)
+2019-07-18 09:40:13,067 [7] INFO  Umbraco.Core.PluginManager - [Thread 46] Starting resolution types of umbraco.interfaces.IDataType
+2019-07-18 09:40:13,083 [7] INFO  Umbraco.Core.PluginManager - [Thread 46] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 18ms)
+2019-07-18 09:41:27,208 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 57] Content 'Tickets' with Id '2489' has been published.
+2019-07-18 09:41:27,411 [7] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-07-18 09:41:27,411 [7] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 10ms)
+2019-07-18 09:41:32,036 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Tickets' with Id '2489' had its release date removed, because it was unpublished.
+2019-07-18 09:41:32,036 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Tickets' with Id '2489' has been unpublished.
+2019-07-18 11:35:57,880 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 112] New document 2490
+2019-07-18 11:40:36,536 [7] INFO  Umbraco.Core.PluginManager - [Thread 110] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2019-07-18 11:40:36,536 [7] INFO  Umbraco.Core.PluginManager - [Thread 110] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 10ms)
+2019-07-18 11:41:52,411 [7] INFO  Umbraco.Core.PluginManager - [Thread 49] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2019-07-18 11:41:52,411 [7] INFO  Umbraco.Core.PluginManager - [Thread 49] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 4ms)
+2019-07-18 11:41:52,864 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 49] Success uploading to parent 2347
+2019-07-18 11:42:40,317 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content 'Alice in Wonderland Jnr (Ivanhoe Grammar Plenty Campus)' with Id '2490' has been published.
+2019-07-18 11:42:51,630 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 14] New document 2492
+2019-07-18 11:42:56,817 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 110] New document 2493
+2019-07-18 11:43:18,583 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'Show 1' with Id '2492' has been published.
+2019-07-18 11:44:26,442 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 114] Content 'Show 2' with Id '2493' has been published.
+2019-07-18 11:45:03,270 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Alice in Wonderland Jnr (Ivanhoe Grammar Plenty Campus)' with Id '2490' has been published.
+2019-07-18 11:46:43,083 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content '2019 - Alice in Wonderland Jnr (Ivanhoe Grammar Plenty Campus)' with Id '2490' has been published.
+2019-07-18 11:47:14,520 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content '2019 - Wild Wogs 2' with Id '2445' has been published.
+2019-07-18 11:50:23,473 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content '2019 - Alice in Wonderland Jnr (Ivanhoe Grammar Plenty Campus)' with Id '2490' has been published.
+2019-07-18 11:50:49,802 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content '2019 - Alice in Wonderland Jnr (Ivanhoe Grammar Plenty Campus)' with Id '2490' has been published.
+2019-07-18 11:58:10,739 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 49] Content '2019 - Alice in Wonderland Jnr (Ivanhoe Grammar Plenty Campus)' with Id '2490' has been published.
+2019-07-18 11:58:16,817 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 114] Content '2019 - Alice in Wonderland Jnr (Ivanhoe Grammar Plenty Campus)' with Id '2490' has been published.
+2019-07-18 14:31:03,567 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 108] New document 2494
+2019-07-18 14:32:17,583 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 54] New document 2495
+2019-07-18 14:38:12,223 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 84] New document 2496
+2019-07-18 14:42:43,098 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 52] Success uploading to parent 2347
+2019-07-18 14:44:31,130 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 90] Content '2019 - Peter Pan Jr (Hume Anglican Grammar)' with Id '2496' has been published.
+2019-07-18 14:44:49,192 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 71] New document 2498
+2019-07-18 14:45:22,130 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'Show 1' with Id '2498' has been published.
+2019-07-18 14:45:27,536 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 54] New document 2499
+2019-07-18 14:45:39,270 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content 'Show 2' with Id '2499' has been published.
+2019-07-18 14:45:45,130 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 10] New document 2500
+2019-07-18 14:45:58,864 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Show 3' with Id '2500' has been published.
+2019-07-18 14:46:27,770 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 52] Content '2019 - Peter Pan Jr (Hume Anglican Grammar)' with Id '2496' has been published.
+2019-07-18 15:19:17,770 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content 'Theatre' with Id '1064' has been published.
+2019-07-18 15:19:17,770 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content 'Celebrations' with Id '1065' has been published.
+2019-07-18 15:19:17,770 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content 'Corporate' with Id '1066' has been published.
+2019-07-18 15:19:17,770 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content 'Contact' with Id '1071' has been published.
+2019-07-18 15:19:17,770 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content 'Galleries' with Id '1290' has been published.
+2019-07-18 15:19:17,770 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content 'Global Hidden Items' with Id '1147' has been published.
+2019-07-18 15:19:18,255 [7] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 10] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2019-07-18 15:59:31,927 [7] INFO  umbraco.BasePages.BasePage - [Thread 73] User pracc (Id: 1) logged in
+2019-07-18 15:59:47,317 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content '2019 - Alice in Wonderland Jnr (Ivanhoe Grammar Plenty Campus)' with Id '2490' has been published.
+2019-07-18 20:30:35,927 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content 'Show 1' with Id '2463' had its release date removed, because it was unpublished.
+2019-07-18 20:30:35,927 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content 'Show 1' with Id '2463' has been unpublished.

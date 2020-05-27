@@ -1,0 +1,58 @@
+2019-07-03 09:40:26,731 [7] INFO  umbraco.BasePages.BasePage - [Thread 101] User pracc (Id: 1) logged in
+2019-07-03 09:41:26,590 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 101] Content '2019 - The Travelling Kitchen' with Id '2370' has been published.
+2019-07-03 09:41:44,403 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 98] Content '2019 - The Travelling Kitchen' with Id '2370' has been published.
+2019-07-03 09:42:36,684 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content '2019 - The Travelling Kitchen' with Id '2370' has been published.
+2019-07-03 11:12:39,043 [7] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 96] An unhandled exception occurred
+System.UriFormatException: Invalid URI: The hostname could not be parsed.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Web.Util.UriUtil.BuildUriImpl(String scheme, String serverName, String port, String path, String queryString, Boolean useLegacyRequestUrlGeneration)
+   at System.Web.HttpRequest.BuildUrl(Func`1 pathAccessor)
+   at System.Web.HttpRequest.get_Url()
+   at System.Web.HttpRequestWrapper.get_Url()
+   at Umbraco.Web.UmbracoModule.BeginRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__5(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-07-03 11:13:29,200 [7] INFO  umbraco.BusinessLogic.Log - [Thread 115] Log scrubbed.  Removed all items older than 2019-05-04 11:13:29
+2019-07-03 12:11:09,950 [7] INFO  umbraco.BasePages.BasePage - [Thread 110] User pracc (Id: 1) logged in
+2019-07-03 12:13:08,387 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 96] New document 2481
+2019-07-03 12:21:13,137 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 98] Success uploading to parent 2347
+2019-07-03 12:21:14,309 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 119] Success uploading to parent 2347
+2019-07-03 12:21:32,637 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 119] Content '2019 - Bye Bye Birdie (Plenty Valley Christian College) (1)' with Id '2475' has been unpublished.
+2019-07-03 12:24:39,481 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 115] Content '2019 - Catholic Ladies College' with Id '2481' has been published.
+2019-07-03 12:24:45,825 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 115] New document 2484
+2019-07-03 12:25:03,371 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 113] Content 'Show1' with Id '2484' has been published.
+2019-07-03 12:25:09,715 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 98] New document 2485
+2019-07-03 12:25:32,153 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 96] Content 'Show 2' with Id '2485' has been published.
+2019-07-03 12:25:32,309 [7] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 116] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2019-07-03 12:25:35,371 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 119] Content '2019 - Catholic Ladies College' with Id '2481' has been published.
+2019-07-03 12:26:04,246 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 101] Content '2019 - Catholic Ladies College' with Id '2481' has been published.
+2019-07-03 16:13:05,887 [7] INFO  umbraco.BusinessLogic.Log - [Thread 110] Log scrubbed.  Removed all items older than 2019-05-04 16:13:05
+2019-07-03 16:13:05,903 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 110] Application shutdown. Reason: HostingEnvironment
+2019-07-03 16:15:11,340 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2019-07-03 16:15:11,340 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 3ms)
+2019-07-03 16:15:11,340 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-07-03 16:15:12,668 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1317ms)
+2019-07-03 16:15:12,684 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-07-03 16:15:12,684 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2019-07-03 16:15:12,684 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-07-03 16:15:12,684 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2019-07-03 16:15:12,684 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-07-03 16:15:12,700 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2019-07-03 16:15:12,715 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-07-03 16:15:12,715 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2019-07-03 16:15:12,715 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-07-03 16:15:12,715 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2019-07-03 16:15:13,184 [18] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2019-07-03 16:15:13,512 [18] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2019-07-03 16:15:13,528 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2019-07-03 16:15:13,528 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2019-07-03 16:15:13,778 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2019-07-03 16:15:13,793 [18] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 19ms)
+2019-07-03 16:15:13,934 [18] INFO  umbraco.content - [Thread 5] Loading content from disk cache...
+2019-07-03 16:15:14,590 [18] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-07-03 16:15:14,590 [18] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 7ms)
+2019-07-03 17:31:10,121 [18] INFO  Umbraco.Core.PluginManager - [Thread 68] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-07-03 17:31:10,121 [18] INFO  Umbraco.Core.PluginManager - [Thread 68] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)

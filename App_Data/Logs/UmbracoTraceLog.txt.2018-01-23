@@ -1,0 +1,64 @@
+2018-01-23 00:22:36,992 [18] INFO  umbraco.BusinessLogic.Log - [Thread 119] Log scrubbed.  Removed all items older than 2017-11-24 00:22:36
+2018-01-23 00:22:37,070 [18] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 119] Application shutdown. Reason: HostingEnvironment
+2018-01-23 00:23:29,586 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2018-01-23 00:23:29,633 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 27ms)
+2018-01-23 00:23:29,649 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-01-23 00:23:35,414 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 5773ms)
+2018-01-23 00:23:35,539 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-01-23 00:23:35,539 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+2018-01-23 00:23:35,539 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-01-23 00:23:35,539 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2018-01-23 00:23:35,555 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-01-23 00:23:35,570 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 7ms)
+2018-01-23 00:23:35,602 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-01-23 00:23:35,617 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 7ms)
+2018-01-23 00:23:35,617 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-01-23 00:23:35,617 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 7ms)
+2018-01-23 00:23:36,914 [8] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2018-01-23 00:23:38,914 [8] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2018-01-23 00:23:38,977 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2018-01-23 00:23:38,992 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 16ms)
+2018-01-23 00:23:39,242 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2018-01-23 00:23:39,289 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 39ms)
+2018-01-23 00:23:41,586 [8] INFO  umbraco.content - [Thread 10] Loading content from disk cache...
+2018-01-23 00:24:06,086 [8] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2018-01-23 00:24:06,086 [8] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 9ms)
+2018-01-23 02:52:35,727 [8] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2018-01-23 02:52:35,727 [8] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 9ms)
+2018-01-23 09:51:11,586 [8] INFO  umbraco.BasePages.BasePage - [Thread 49] User pracc (Id: 1) logged in
+2018-01-23 09:51:13,602 [8] INFO  Umbraco.Core.PluginManager - [Thread 53] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2018-01-23 09:51:13,649 [8] INFO  Umbraco.Core.PluginManager - [Thread 53] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 57ms)
+2018-01-23 09:51:14,367 [8] INFO  Umbraco.Core.PluginManager - [Thread 53] Starting resolution types of umbraco.interfaces.ITree
+2018-01-23 09:51:14,399 [8] INFO  Umbraco.Core.PluginManager - [Thread 53] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 36ms)
+2018-01-23 09:51:25,695 [8] INFO  Umbraco.Core.PluginManager - [Thread 34] Starting resolution types of umbraco.interfaces.IDataType
+2018-01-23 09:51:25,727 [8] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 39ms)
+2018-01-23 09:51:28,914 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content '2017 - Starz Performing Arts' with Id '2123' has been unpublished.
+2018-01-23 09:51:29,945 [8] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2018-01-23 09:51:29,961 [8] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 29ms)
+2018-01-23 09:51:30,774 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'Show1' with Id '2124' has been unpublished.
+2018-01-23 09:51:36,727 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content '2017 - Lauren Wall School of Dance' with Id '2120' has been unpublished.
+2018-01-23 09:51:36,930 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'Show 1' with Id '2122' has been unpublished.
+2018-01-23 09:51:41,617 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content '2017 - Beat Dance School' with Id '2080' has been unpublished.
+2018-01-23 09:51:41,836 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content 'Show 1' with Id '2081' has been unpublished.
+2018-01-23 09:52:05,164 [8] INFO  umbraco.cms.businesslogic.web.Document - [Thread 55] New document 2240
+2018-01-23 09:59:59,352 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content '2018 - Straight Outta Compo' with Id '2240' has been published.
+2018-01-23 10:00:23,570 [8] INFO  umbraco.cms.businesslogic.web.Document - [Thread 68] New document 2241
+2018-01-23 10:00:36,227 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 68] Content 'SHOW1' with Id '2241' has been published.
+2018-01-23 10:01:07,414 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content '2018 - Straight Outta Compo' with Id '2240' has been published.
+2018-01-23 10:07:47,852 [8] INFO  umbraco.BasePages.BasePage - [Thread 43] User pracc (Id: 1) logged in
+2018-01-23 10:08:09,133 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 61] Content '2018 - Straight Outta Compo' with Id '2240' has been published.
+2018-01-23 10:16:11,195 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content '2018 - Straight Outta Compo' with Id '2240' has been published.
+2018-01-23 10:19:14,445 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 68] Content '2018 - Straight Outta Compo' with Id '2240' has been published.
+2018-01-23 10:20:10,320 [8] INFO  Umbraco.Core.PluginManager - [Thread 68] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2018-01-23 10:20:10,336 [8] INFO  Umbraco.Core.PluginManager - [Thread 68] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 20ms)
+2018-01-23 10:20:27,914 [8] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2018-01-23 10:20:27,930 [8] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 8ms)
+2018-01-23 10:20:28,649 [8] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 31] Success uploading to parent 2101
+2018-01-23 10:20:43,555 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content '2018 - Straight Outta Compo' with Id '2240' has been published.
+2018-01-23 10:22:18,789 [8] INFO  umbraco.BasePages.BasePage - [Thread 31] User pracc (Id: 1) logged in
+2018-01-23 10:22:37,461 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content '2018 - Straight Outta Compo' with Id '2240' has been published.
+2018-01-23 10:22:46,367 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content '2018 - Straight Outta Compo' with Id '2240' has been published.
+2018-01-23 10:22:52,649 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 61] Content '2018 - Straight Outta Compo' with Id '2240' has been published.
+2018-01-23 10:23:05,274 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 61] Content '2018 - Straight Outta Compo' with Id '2240' has been published.
+2018-01-23 10:23:57,977 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content '2018 - Straight Outta Compo' with Id '2240' has been published.
+2018-01-23 10:25:53,555 [8] INFO  umbraco.BasePages.BasePage - [Thread 68] User pracc (Id: 1) logged in

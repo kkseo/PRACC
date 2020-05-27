@@ -1,0 +1,154 @@
+2018-12-06 11:11:17,643 [26] INFO  umbraco.BusinessLogic.Log - [Thread 151] Log scrubbed.  Removed all items older than 2018-10-07 11:11:17
+2018-12-06 12:23:50,721 [26] INFO  umbraco.BasePages.BasePage - [Thread 51] User pracc (Id: 1) logged in
+2018-12-06 12:23:50,956 [26] INFO  Umbraco.Core.PluginManager - [Thread 151] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2018-12-06 12:23:50,987 [26] INFO  Umbraco.Core.PluginManager - [Thread 151] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 21ms)
+2018-12-06 12:23:51,221 [26] INFO  Umbraco.Core.PluginManager - [Thread 151] Starting resolution types of umbraco.interfaces.ITree
+2018-12-06 12:23:51,268 [26] INFO  Umbraco.Core.PluginManager - [Thread 151] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 46ms)
+2018-12-06 12:25:03,706 [26] INFO  umbraco.cms.businesslogic.web.Document - [Thread 151] New document 2344
+2018-12-06 12:25:03,784 [26] INFO  Umbraco.Core.PluginManager - [Thread 151] Starting resolution types of umbraco.interfaces.IDataType
+2018-12-06 12:25:03,815 [26] INFO  Umbraco.Core.PluginManager - [Thread 151] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 32ms)
+2018-12-06 12:41:18,268 [26] INFO  umbraco.cms.businesslogic.web.Document - [Thread 143] New document 2345
+2018-12-06 12:41:33,862 [26] INFO  Umbraco.Core.Services.ContentService - [Thread 151] Content 'Show 1' with Id '2345' could not be published because its parent is not published.
+2018-12-06 12:41:33,878 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 151] Content 'Show 1' with Id '2345' has been published.
+2018-12-06 12:41:34,018 [26] INFO  Umbraco.Core.PluginManager - [Thread 151] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2018-12-06 12:41:34,049 [26] INFO  Umbraco.Core.PluginManager - [Thread 151] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 21ms)
+2018-12-06 12:41:34,299 [26] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 151] Couldn't find any page with nodeId=2345. This is most likely caused by the page not being published.
+2018-12-06 12:42:57,518 [26] INFO  Umbraco.Core.PluginManager - [Thread 121] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2018-12-06 12:42:57,534 [26] INFO  Umbraco.Core.PluginManager - [Thread 121] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 14ms)
+2018-12-06 12:45:46,549 [26] INFO  Umbraco.Core.PluginManager - [Thread 151] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2018-12-06 12:45:46,565 [26] INFO  Umbraco.Core.PluginManager - [Thread 151] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 8ms)
+2018-12-06 12:45:47,503 [26] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 151] Success uploading to parent 2347
+2018-12-06 12:45:48,128 [26] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 106] Success uploading to parent 2347
+2018-12-06 12:48:33,362 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 164] Content '2019 - Menopause' with Id '2344' has been published.
+2018-12-06 12:50:40,487 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content '2019 - Menopause' with Id '2344' has been published.
+2018-12-06 12:51:32,362 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 121] Content '2017 - Country Christmas Show' with Id '1663' has been unpublished.
+2018-12-06 12:51:32,721 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 121] Content 'Show 1' with Id '1678' has been unpublished.
+2018-12-06 12:51:40,503 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content '2018 - For Love or Money' with Id '2220' has been unpublished.
+2018-12-06 12:51:40,690 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content 'Show 1' with Id '2221' has been unpublished.
+2018-12-06 12:51:52,628 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 143] Content '2018 - The Wiggles' with Id '2244' has been unpublished.
+2018-12-06 12:52:12,909 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 164] Content '2018 - Breakfast at Tiffanys' with Id '2222' has been unpublished.
+2018-12-06 12:52:13,143 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 164] Content 'Show 1' with Id '2223' has been unpublished.
+2018-12-06 12:52:17,596 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 164] Content '2018 - Captain Underpants' with Id '2216' has been unpublished.
+2018-12-06 12:52:17,799 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 164] Content 'Show 1' with Id '2217' has been unpublished.
+2018-12-06 12:52:20,487 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content '2018 - Mr Snott Bottom' with Id '2214' has been unpublished.
+2018-12-06 12:52:20,706 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'Show 1' with Id '2215' has been unpublished.
+2018-12-06 12:52:23,674 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content '2018 - Around the World in 80 Days' with Id '2212' has been unpublished.
+2018-12-06 12:52:23,940 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content 'Show 1' with Id '2213' has been unpublished.
+2018-12-06 12:52:26,487 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 143] Content '2018 - Cilla Black' with Id '2208' has been unpublished.
+2018-12-06 12:52:26,690 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 143] Content 'Show 1' with Id '2209' has been unpublished.
+2018-12-06 12:52:29,581 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content '2018 - James Blundell' with Id '2210' has been unpublished.
+2018-12-06 12:52:29,799 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'Show 1' with Id '2211' has been unpublished.
+2018-12-06 12:52:32,784 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content '2018 - Lego Batman' with Id '2206' has been unpublished.
+2018-12-06 12:52:33,096 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'Show 1' with Id '2207' has been unpublished.
+2018-12-06 12:52:36,081 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 164] Content '2018 - 3 Speed Crunch Box Rebooted' with Id '2204' has been unpublished.
+2018-12-06 12:52:36,284 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 164] Content 'Show 1' with Id '2205' has been unpublished.
+2018-12-06 12:52:39,878 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 106] Content '2018 - Rock Around the World' with Id '2202' has been unpublished.
+2018-12-06 12:52:40,065 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 106] Content 'Show 1' with Id '2203' has been unpublished.
+2018-12-06 12:52:43,081 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content '2018 - Onstage Dating' with Id '2200' has been unpublished.
+2018-12-06 12:52:43,253 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content 'Show 1' with Id '2201' has been unpublished.
+2018-12-06 12:52:46,284 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content '2018 - South Pacific' with Id '2198' has been unpublished.
+2018-12-06 12:52:46,518 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Show 1' with Id '2199' has been unpublished.
+2018-12-06 12:52:49,409 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content '2018 - Macdeth' with Id '2196' has been unpublished.
+2018-12-06 12:52:49,596 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'Show 1' with Id '2197' has been unpublished.
+2018-12-06 12:52:52,503 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content '2018 - Descendants 2' with Id '2193' has been unpublished.
+2018-12-06 12:52:52,690 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content 'Show 1' with Id '2195' has been unpublished.
+2018-12-06 12:52:55,846 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 121] Content '2018 - The Best of Mike Brady' with Id '2191' has been unpublished.
+2018-12-06 12:52:56,065 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 121] Content 'Show 1' with Id '2192' has been unpublished.
+2018-12-06 12:52:59,018 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 154] Content '2018 - Casablanca' with Id '2189' has been unpublished.
+2018-12-06 12:52:59,299 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 154] Content 'Show 1' with Id '2190' has been unpublished.
+2018-12-06 12:53:02,299 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content '2018 - Wendy Stapleton' with Id '2168' has been unpublished.
+2018-12-06 12:53:02,518 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content 'Show 1' with Id '2169' has been unpublished.
+2018-12-06 12:53:06,221 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 121] Content '2018 - Peppa Pig's Surprise' with Id '2145' has been unpublished.
+2018-12-06 12:53:06,487 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 121] Content 'Show 1' with Id '2146' has been unpublished.
+2018-12-06 12:53:06,534 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 121] Content 'Show 2' with Id '2147' has been unpublished.
+2018-12-06 12:53:09,721 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 143] Content '2018 - Celtic Illusion' with Id '2136' has been unpublished.
+2018-12-06 12:53:09,924 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 143] Content 'Show 1' with Id '2138' has been unpublished.
+2018-12-06 12:53:14,331 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 154] Content '2018 DanceXclusive' with Id '2338' has been unpublished.
+2018-12-06 12:53:14,596 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 154] Content 'Show 2' with Id '2340' has been unpublished.
+2018-12-06 12:53:14,643 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 154] Content 'Show 1' with Id '2339' has been unpublished.
+2018-12-06 12:53:17,565 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 143] Content '2018 - Sirius College: Year 3 - Year 5' with Id '2332' has been unpublished.
+2018-12-06 12:53:17,846 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 143] Content 'Show 1' with Id '2334' has been unpublished.
+2018-12-06 12:53:21,065 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 106] Content '2018 - Sirius College: Foundation - Year 2' with Id '2326' has been unpublished.
+2018-12-06 12:53:21,253 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 106] Content 'Show 1' with Id '2330' has been unpublished.
+2018-12-06 12:53:25,221 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 164] Content '2018 - Stassman's 'iTedE'' with Id '2097' has been unpublished.
+2018-12-06 12:53:25,471 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 164] Content 'Show 2' with Id '2233' has been unpublished.
+2018-12-06 12:53:25,534 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 164] Content 'Show1' with Id '2098' has been unpublished.
+2018-12-06 12:53:28,909 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 106] Content '2018 - Romina's Dance' with Id '2322' has been unpublished.
+2018-12-06 12:53:29,190 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 106] Content 'Show 1' with Id '2324' has been unpublished.
+2018-12-06 12:53:29,253 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 106] Content 'Show 2' with Id '2325' has been unpublished.
+2018-12-06 12:53:32,362 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content '2018 - Essentially Dance' with Id '2317' has been unpublished.
+2018-12-06 12:53:32,612 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'Show 2' with Id '2319' has been unpublished.
+2018-12-06 12:53:32,659 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'Show 1' with Id '2318' has been unpublished.
+2018-12-06 12:53:37,831 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 164] Content '2018 - Reservoir West Primary School' with Id '2308' has been unpublished.
+2018-12-06 12:53:38,081 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 164] Content 'Show 3' with Id '2312' has been unpublished.
+2018-12-06 12:53:38,128 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 164] Content 'Show 2' with Id '2311' has been unpublished.
+2018-12-06 12:53:38,159 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 164] Content 'Show 1' with Id '2310' has been unpublished.
+2018-12-06 12:53:41,456 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 151] Content '2018 - Assumption College Kilmore Dance' with Id '2303' has been unpublished.
+2018-12-06 12:53:41,674 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 151] Content 'Show1' with Id '2306' has been unpublished.
+2018-12-06 12:53:48,018 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 121] Content '2018 - Apollo Parkways Primary School' with Id '2298' has been unpublished.
+2018-12-06 12:53:48,253 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 121] Content 'Show 1' with Id '2300' has been unpublished.
+2018-12-06 12:53:48,284 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 121] Content 'Show 2' with Id '2301' has been unpublished.
+2018-12-06 12:53:48,331 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 121] Content 'Show 3' with Id '2302' has been unpublished.
+2018-12-06 12:53:51,065 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content '2018 - Mill Park Heights Primary School' with Id '2291' has been unpublished.
+2018-12-06 12:53:51,362 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content 'Show 4' with Id '2297' has been unpublished.
+2018-12-06 12:53:51,393 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content 'Show 3' with Id '2296' has been unpublished.
+2018-12-06 12:53:51,471 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content 'Show 2' with Id '2295' has been unpublished.
+2018-12-06 12:53:51,518 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content 'Show 1' with Id '2294' has been unpublished.
+2018-12-06 12:53:54,737 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content '2018 - Hazel Glen College' with Id '2284' has been unpublished.
+2018-12-06 12:53:55,018 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Show 4' with Id '2288' has been unpublished.
+2018-12-06 12:53:55,049 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Show 3' with Id '2287' has been unpublished.
+2018-12-06 12:53:55,096 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Show 2' with Id '2286' has been unpublished.
+2018-12-06 12:53:55,128 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Show 1' with Id '2285' has been unpublished.
+2018-12-06 12:53:58,049 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 154] Content '2018 - Hume Grammar' with Id '2281' has been unpublished.
+2018-12-06 12:53:58,299 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 154] Content 'Show 2' with Id '2283' has been unpublished.
+2018-12-06 12:53:58,346 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 154] Content 'Show 1' with Id '2282' has been unpublished.
+2018-12-06 12:54:01,299 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content '2018 - Dancexclusive Raw' with Id '2274' has been unpublished.
+2018-12-06 12:54:01,518 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'Show 2' with Id '2278' has been unpublished.
+2018-12-06 12:54:01,581 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'Show 1' with Id '2277' has been unpublished.
+2018-12-06 12:54:04,206 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 151] Content '2018 - Assumption College Kilmore' with Id '2269' has been unpublished.
+2018-12-06 12:54:04,487 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 151] Content 'Show 3' with Id '2273' has been unpublished.
+2018-12-06 12:54:04,549 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 151] Content 'Show 2' with Id '2272' has been unpublished.
+2018-12-06 12:54:04,596 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 151] Content 'Show 1' with Id '2271' has been unpublished.
+2018-12-06 12:54:07,440 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content '2018 - Ivanhoe Grammar' with Id '2254' has been unpublished.
+2018-12-06 12:54:07,549 [26] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 151] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2018-12-06 12:54:07,721 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'Show 3' with Id '2259' has been unpublished.
+2018-12-06 12:54:07,768 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'Show 2' with Id '2258' has been unpublished.
+2018-12-06 12:54:07,831 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'Show 1' with Id '2257' has been unpublished.
+2018-12-06 12:54:10,768 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 106] Content '2018 - Together We Dance Showcase' with Id '2250' has been unpublished.
+2018-12-06 12:54:10,971 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 106] Content 'Show 1' with Id '2253' has been unpublished.
+2018-12-06 12:54:13,753 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 164] Content '2018 - Beats on Pointe' with Id '2236' has been unpublished.
+2018-12-06 12:54:14,049 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 164] Content 'Show 1' with Id '2237' has been unpublished.
+2018-12-06 12:54:14,284 [26] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 51] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2018-12-06 12:54:17,659 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content '2018 - Ben McCarthy' with Id '2230' has been unpublished.
+2018-12-06 12:54:17,831 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'Show 1' with Id '2232' has been unpublished.
+2018-12-06 12:54:22,299 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 164] Content '2018 - Straight Outta Compo' with Id '2240' has been unpublished.
+2018-12-06 12:54:22,534 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 164] Content 'SHOW1' with Id '2241' has been unpublished.
+2018-12-06 12:54:31,018 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 151] Content '2018 - Michael Buble Tribute Show' with Id '2218' has been unpublished.
+2018-12-06 12:54:31,253 [26] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 151] Content 'Show 1' with Id '2219' has been unpublished.
+2018-12-06 16:07:34,284 [26] INFO  umbraco.BusinessLogic.Log - [Thread 83] Log scrubbed.  Removed all items older than 2018-10-07 16:07:34
+2018-12-06 16:07:34,299 [26] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 83] Application shutdown. Reason: HostingEnvironment
+2018-12-06 16:09:10,768 [20] INFO  Umbraco.Core.PluginManager - [Thread 15] Determining hash of code files on disk
+2018-12-06 16:09:10,784 [20] INFO  Umbraco.Core.PluginManager - [Thread 15] Hash determined (took 10ms)
+2018-12-06 16:09:10,784 [20] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-12-06 16:09:11,471 [20] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 681ms)
+2018-12-06 16:09:11,471 [20] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-12-06 16:09:11,487 [20] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+2018-12-06 16:09:11,487 [20] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-12-06 16:09:11,487 [20] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2018-12-06 16:09:11,487 [20] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-12-06 16:09:11,503 [20] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 8ms)
+2018-12-06 16:09:11,518 [20] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-12-06 16:09:11,534 [20] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 18ms)
+2018-12-06 16:09:11,549 [20] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-12-06 16:09:11,549 [20] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 13ms)
+2018-12-06 16:09:11,799 [20] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 15] Initializing Examine and binding to business logic events
+2018-12-06 16:09:12,190 [20] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 15] Adding examine event handlers for index providers: 3
+2018-12-06 16:09:12,206 [20] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.IApplication
+2018-12-06 16:09:12,206 [20] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 13ms)
+2018-12-06 16:09:12,518 [20] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.ITree
+2018-12-06 16:09:12,549 [20] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 37ms)
+2018-12-06 16:09:13,065 [20] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2018-12-06 16:09:14,112 [20] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2018-12-06 16:09:14,143 [20] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 17ms)
+2018-12-06 19:19:33,096 [20] INFO  Umbraco.Core.PluginManager - [Thread 106] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2018-12-06 19:19:33,112 [20] INFO  Umbraco.Core.PluginManager - [Thread 106] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 9ms)

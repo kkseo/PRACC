@@ -1,0 +1,51 @@
+2019-06-18 14:13:45,171 [13] INFO  umbraco.BasePages.BasePage - [Thread 88] User pracc (Id: 1) logged in
+2019-06-18 14:13:45,296 [13] INFO  Umbraco.Core.PluginManager - [Thread 21] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-06-18 14:13:45,311 [13] INFO  Umbraco.Core.PluginManager - [Thread 21] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 21ms)
+2019-06-18 14:13:45,765 [13] INFO  Umbraco.Core.PluginManager - [Thread 21] Starting resolution types of umbraco.interfaces.ITree
+2019-06-18 14:13:45,780 [13] INFO  Umbraco.Core.PluginManager - [Thread 21] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 22ms)
+2019-06-18 14:13:55,686 [13] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of umbraco.interfaces.IDataType
+2019-06-18 14:13:55,686 [13] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 18ms)
+2019-06-18 14:13:56,936 [13] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 51] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.PurgeBuffers(Boolean disposing)
+   at System.IO.Compression.DeflateStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Compression.GZipStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at umbraco.presentation.plugins.tinymce3.GzipCompressor.Compress(Stream to_stream)
+   at umbraco.presentation.plugins.tinymce3.GzipModule.ProcessRequest(HttpContext context)
+   at umbraco.presentation.plugins.tinymce3.tinymce3tinymceCompress.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_plugins_tinymce3_tinymce3tinymcecompress_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-06-18 14:14:57,046 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content '2019 - The Travelling Kitchen' with Id '2370' has been published.
+2019-06-18 14:14:57,952 [13] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-06-18 14:14:57,968 [13] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 10ms)
+2019-06-18 14:15:11,702 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 88] Content '2019 - The Travelling Kitchen' with Id '2370' has been published.
+2019-06-18 14:15:29,374 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 49] Content '2019 - The Travelling Kitchen' with Id '2370' has been published.
+2019-06-18 14:15:59,233 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 88] Content '2019 - The Travelling Kitchen' with Id '2370' has been published.
+2019-06-18 14:16:19,593 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content '2019 - The Travelling Kitchen' with Id '2370' has been published.
+2019-06-18 14:16:38,718 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 88] Content '2019 - The Travelling Kitchen' with Id '2370' has been published.
+2019-06-18 14:24:56,468 [13] INFO  umbraco.cms.businesslogic.web.Document - [Thread 88] New document 2468
+2019-06-18 14:25:16,093 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 106] Content 'Show 2' with Id '2468' has been published.
+2019-06-18 14:25:37,030 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 104] Content '2019 - The Travelling Kitchen' with Id '2370' has been published.
+2019-06-18 14:25:49,452 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 104] Content '2019 - The Travelling Kitchen' with Id '2370' has been published.
+2019-06-18 14:26:05,046 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 106] Content '2019 - The Travelling Kitchen' with Id '2370' has been published.
+2019-06-18 23:14:32,171 [13] INFO  umbraco.BusinessLogic.Log - [Thread 118] Log scrubbed.  Removed all items older than 2019-04-19 23:14:32

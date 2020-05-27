@@ -1,0 +1,294 @@
+2017-12-06 09:13:34,367 [17] INFO  umbraco.BasePages.BasePage - [Thread 33] User pracc (Id: 1) logged in
+2017-12-06 09:14:15,508 [17] INFO  Umbraco.Core.PluginManager - [Thread 43] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2017-12-06 09:14:15,539 [17] INFO  Umbraco.Core.PluginManager - [Thread 43] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 43ms)
+2017-12-06 09:14:18,711 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 43] Success uploading to parent 2101
+2017-12-06 09:14:19,039 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 38] Success uploading to parent 2101
+2017-12-06 09:14:19,336 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 39] Success uploading to parent 2101
+2017-12-06 09:14:19,633 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 64] Success uploading to parent 2101
+2017-12-06 09:14:19,945 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 33] Success uploading to parent 2101
+2017-12-06 09:14:20,273 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 69] Success uploading to parent 2101
+2017-12-06 09:14:20,586 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 42] Success uploading to parent 2101
+2017-12-06 09:14:20,930 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 13] Success uploading to parent 2101
+2017-12-06 09:14:21,273 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 61] Success uploading to parent 2101
+2017-12-06 09:51:35,523 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 26] Success uploading to parent 2101
+2017-12-06 09:51:36,023 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 43] Success uploading to parent 2101
+2017-12-06 09:51:36,398 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 61] Success uploading to parent 2101
+2017-12-06 09:51:36,664 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 28] Success uploading to parent 2101
+2017-12-06 09:51:36,883 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 33] Success uploading to parent 2101
+2017-12-06 09:51:37,273 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 41] Success uploading to parent 2101
+2017-12-06 09:51:37,664 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 45] Success uploading to parent 2101
+2017-12-06 09:51:37,914 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 40] Success uploading to parent 2101
+2017-12-06 09:51:38,492 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 53] Success uploading to parent 2101
+2017-12-06 09:51:38,867 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 23] Success uploading to parent 2101
+2017-12-06 09:51:39,148 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 28] Success uploading to parent 2101
+2017-12-06 09:51:39,430 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 64] Success uploading to parent 2101
+2017-12-06 09:51:39,805 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 30] Success uploading to parent 2101
+2017-12-06 09:51:40,039 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 26] Success uploading to parent 2101
+2017-12-06 09:51:40,461 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 33] Success uploading to parent 2101
+2017-12-06 09:51:40,867 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 43] Success uploading to parent 2101
+2017-12-06 09:51:41,117 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 53] Success uploading to parent 2101
+2017-12-06 09:51:41,633 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 39] Success uploading to parent 2101
+2017-12-06 09:51:42,039 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 61] Success uploading to parent 2101
+2017-12-06 09:51:42,430 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 23] Success uploading to parent 2101
+2017-12-06 09:54:02,898 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 45] New document 2168
+2017-12-06 09:55:48,555 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 23] New document 2169
+2017-12-06 09:56:23,398 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 64] Content 'Show 1' with Id '2169' could not be published because its parent is not published.
+2017-12-06 09:56:23,398 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content 'Show 1' with Id '2169' is awaiting release and could not be published.
+2017-12-06 09:56:33,242 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 30] Content 'Show 1' with Id '2169' could not be published because its parent is not published.
+2017-12-06 09:56:33,242 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 30] Content 'Show 1' with Id '2169' is awaiting release and could not be published.
+2017-12-06 09:56:38,180 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 41] Content 'Show 1' with Id '2169' could not be published because its parent is not published.
+2017-12-06 09:56:38,180 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Show 1' with Id '2169' has been published.
+2017-12-06 09:56:38,367 [17] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2169. This is most likely caused by the page not being published.
+2017-12-06 10:13:04,414 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 38] Content '2018 - Wendy Stapleton' with Id '2168' has been published.
+2017-12-06 10:13:08,633 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 38] Content '2018 - Wendy Stapleton' with Id '2168' had its release date removed, because it was unpublished.
+2017-12-06 10:13:08,633 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 38] Content '2018 - Wendy Stapleton' with Id '2168' has been unpublished.
+2017-12-06 10:14:07,211 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 25] Success uploading to parent 2101
+2017-12-06 10:14:07,586 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 41] Success uploading to parent 2101
+2017-12-06 10:14:07,992 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 39] Success uploading to parent 2101
+2017-12-06 10:14:08,398 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 61] Success uploading to parent 2101
+2017-12-06 10:14:08,805 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 25] Success uploading to parent 2101
+2017-12-06 10:14:09,695 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 40] Success uploading to parent 2101
+2017-12-06 10:14:10,570 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 26] Success uploading to parent 2101
+2017-12-06 10:14:11,320 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 40] Success uploading to parent 2101
+2017-12-06 10:14:12,055 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 53] Success uploading to parent 2101
+2017-12-06 10:14:12,523 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 61] Success uploading to parent 2101
+2017-12-06 10:14:12,852 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 26] Success uploading to parent 2101
+2017-12-06 10:14:13,289 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 33] Success uploading to parent 2101
+2017-12-06 10:14:13,711 [17] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 28] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2017-12-06 10:14:14,039 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 25] Success uploading to parent 2101
+2017-12-06 10:14:14,852 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 23] Success uploading to parent 2101
+2017-12-06 10:14:15,398 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 28] Success uploading to parent 2101
+2017-12-06 10:14:15,852 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 30] Success uploading to parent 2101
+2017-12-06 10:14:16,352 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 33] Success uploading to parent 2101
+2017-12-06 10:14:16,898 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 23] Success uploading to parent 2101
+2017-12-06 10:14:17,367 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 61] Success uploading to parent 2101
+2017-12-06 10:17:43,398 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 43] New document 2189
+2017-12-06 10:22:20,914 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 13] New document 2190
+2017-12-06 10:22:36,914 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 38] Content 'Show 1' with Id '2190' could not be published because its parent is not published.
+2017-12-06 10:22:36,914 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 38] Content 'Show 1' with Id '2190' has been published.
+2017-12-06 10:22:37,148 [17] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 38] Couldn't find any page with nodeId=2190. This is most likely caused by the page not being published.
+2017-12-06 10:23:09,148 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 33] New document 2191
+2017-12-06 10:27:04,617 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 38] New document 2192
+2017-12-06 10:27:19,617 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 61] Content 'Show 1' with Id '2192' could not be published because its parent is not published.
+2017-12-06 10:27:19,617 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 61] Content 'Show 1' with Id '2192' has been published.
+2017-12-06 10:27:19,805 [17] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 61] Couldn't find any page with nodeId=2192. This is most likely caused by the page not being published.
+2017-12-06 10:27:31,133 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 40] New document 2193
+2017-12-06 10:30:19,508 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 42] New document 2194
+2017-12-06 10:30:29,195 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Show 1 (1)' with Id '2194' has been unpublished.
+2017-12-06 10:30:35,273 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 43] New document 2195
+2017-12-06 10:31:54,258 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 41] New document 2196
+2017-12-06 10:35:13,633 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 43] New document 2197
+2017-12-06 10:35:28,945 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 43] Content 'Show 1' with Id '2197' could not be published because its parent is not published.
+2017-12-06 10:35:28,945 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content 'Show 1' with Id '2197' has been published.
+2017-12-06 10:35:29,117 [17] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2197. This is most likely caused by the page not being published.
+2017-12-06 10:36:35,867 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 79] New document 2198
+2017-12-06 10:40:06,461 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 41] New document 2199
+2017-12-06 10:42:03,648 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 41] New document 2200
+2017-12-06 10:43:38,148 [17] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 9] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2017-12-06 10:45:36,680 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 41] New document 2201
+2017-12-06 10:45:52,398 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 43] Content 'Show 1' with Id '2201' could not be published because its parent is not published.
+2017-12-06 10:45:52,398 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content 'Show 1' with Id '2201' has been published.
+2017-12-06 10:45:52,648 [17] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2201. This is most likely caused by the page not being published.
+2017-12-06 10:46:12,602 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 9] New document 2202
+2017-12-06 10:49:44,008 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 41] New document 2203
+2017-12-06 10:49:59,211 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 9] Content 'Show 1' with Id '2203' could not be published because its parent is not published.
+2017-12-06 10:49:59,211 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Show 1' with Id '2203' has been published.
+2017-12-06 10:49:59,367 [17] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 9] Couldn't find any page with nodeId=2203. This is most likely caused by the page not being published.
+2017-12-06 10:50:59,883 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 9] New document 2204
+2017-12-06 10:53:09,648 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 73] New document 2205
+2017-12-06 10:53:29,742 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 81] Content 'Show 1' with Id '2205' could not be published because its parent is not published.
+2017-12-06 10:53:29,742 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Show 1' with Id '2205' has been published.
+2017-12-06 10:53:29,930 [17] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 81] Couldn't find any page with nodeId=2205. This is most likely caused by the page not being published.
+2017-12-06 10:53:48,773 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 41] New document 2206
+2017-12-06 10:55:40,789 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 76] New document 2207
+2017-12-06 10:55:55,586 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 86] Content 'Show 1' with Id '2207' could not be published because its parent is not published.
+2017-12-06 10:55:55,586 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'Show 1' with Id '2207' has been published.
+2017-12-06 10:55:55,711 [17] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 86] Couldn't find any page with nodeId=2207. This is most likely caused by the page not being published.
+2017-12-06 10:57:03,586 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 41] New document 2208
+2017-12-06 11:01:30,070 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 9] New document 2209
+2017-12-06 11:01:42,742 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 78] Content 'Show 1' with Id '2209' could not be published because its parent is not published.
+2017-12-06 11:01:42,742 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content 'Show 1' with Id '2209' has been published.
+2017-12-06 11:01:42,898 [17] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 78] Couldn't find any page with nodeId=2209. This is most likely caused by the page not being published.
+2017-12-06 11:02:11,477 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 87] New document 2210
+2017-12-06 11:09:57,023 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 73] New document 2211
+2017-12-06 11:11:49,117 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 76] Content 'Show 1' with Id '2211' could not be published because its parent is not published.
+2017-12-06 11:11:49,117 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content 'Show 1' with Id '2211' has been published.
+2017-12-06 11:11:49,273 [17] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 76] Couldn't find any page with nodeId=2211. This is most likely caused by the page not being published.
+2017-12-06 11:12:26,055 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 87] New document 2212
+2017-12-06 11:16:44,055 [17] INFO  umbraco.BusinessLogic.Log - [Thread 41] Log scrubbed.  Removed all items older than 2017-10-07 11:16:44
+2017-12-06 11:18:25,164 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 87] New document 2213
+2017-12-06 11:20:42,023 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 83] New document 2214
+2017-12-06 11:22:48,836 [17] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 81] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2017-12-06 11:23:35,367 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 41] New document 2215
+2017-12-06 11:23:48,273 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 41] Content 'Show 1' with Id '2215' could not be published because its parent is not published.
+2017-12-06 11:23:48,273 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Show 1' with Id '2215' has been published.
+2017-12-06 11:23:48,461 [17] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2215. This is most likely caused by the page not being published.
+2017-12-06 11:24:09,305 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 75] New document 2216
+2017-12-06 11:29:29,695 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 81] New document 2217
+2017-12-06 11:29:43,336 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 9] Content 'Show 1' with Id '2217' could not be published because its parent is not published.
+2017-12-06 11:29:43,336 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Show 1' with Id '2217' has been published.
+2017-12-06 11:29:43,555 [17] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 9] Couldn't find any page with nodeId=2217. This is most likely caused by the page not being published.
+2017-12-06 11:30:16,555 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 83] New document 2218
+2017-12-06 11:32:47,695 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 81] New document 2219
+2017-12-06 11:33:00,539 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 81] Content 'Show 1' with Id '2219' could not be published because its parent is not published.
+2017-12-06 11:33:00,539 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Show 1' with Id '2219' has been published.
+2017-12-06 11:33:00,727 [17] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 81] Couldn't find any page with nodeId=2219. This is most likely caused by the page not being published.
+2017-12-06 11:33:39,805 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 87] New document 2220
+2017-12-06 11:37:54,477 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 76] New document 2221
+2017-12-06 11:38:16,102 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 87] Content 'Show 1' with Id '2221' could not be published because its parent is not published.
+2017-12-06 11:38:16,102 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content 'Show 1' with Id '2221' has been published.
+2017-12-06 11:38:16,289 [17] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 87] Couldn't find any page with nodeId=2221. This is most likely caused by the page not being published.
+2017-12-06 11:41:40,945 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 80] New document 2222
+2017-12-06 11:43:42,836 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 9] New document 2223
+2017-12-06 11:44:16,117 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 75] Content 'Show 1' with Id '2223' could not be published because its parent is not published.
+2017-12-06 11:44:16,117 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content 'Show 1' with Id '2223' has been published.
+2017-12-06 11:44:16,273 [17] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 75] Couldn't find any page with nodeId=2223. This is most likely caused by the page not being published.
+2017-12-06 11:45:09,664 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 75] New document 2224
+2017-12-06 11:46:57,508 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 75] New document 2225
+2017-12-06 11:47:15,023 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 73] Content 'Show 1' with Id '2225' could not be published because its parent is not published.
+2017-12-06 11:47:15,023 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content 'Show 1' with Id '2225' has been published.
+2017-12-06 11:47:15,211 [17] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 73] Couldn't find any page with nodeId=2225. This is most likely caused by the page not being published.
+2017-12-06 11:47:17,617 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 86] Content 'Show 1' with Id '2225' could not be published because its parent is not published.
+2017-12-06 11:47:17,617 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'Show 1' with Id '2225' has been published.
+2017-12-06 11:47:17,789 [17] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 86] Couldn't find any page with nodeId=2225. This is most likely caused by the page not being published.
+2017-12-06 11:48:29,898 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 73] New document 2226
+2017-12-06 11:52:17,727 [17] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 6] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2017-12-06 11:53:28,867 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 83] Success uploading to parent 2101
+2017-12-06 11:54:08,305 [17] INFO  umbraco.cms.businesslogic.web.Document - [Thread 86] New document 2227
+2017-12-06 11:54:42,523 [17] INFO  Umbraco.Core.Services.ContentService - [Thread 9] Content 'Show 1' with Id '2227' could not be published because its parent is not published.
+2017-12-06 11:54:42,523 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Show 1' with Id '2227' has been published.
+2017-12-06 11:54:42,695 [17] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 9] Couldn't find any page with nodeId=2227. This is most likely caused by the page not being published.
+2017-12-06 13:20:05,227 [17] INFO  umbraco.BasePages.BasePage - [Thread 9] User pracc (Id: 1) logged in
+2017-12-06 14:42:39,602 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content '2017 - PRACC Movies - Grease 1 & 2' with Id '1702' has been unpublished.
+2017-12-06 14:42:39,773 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content 'Show 1' with Id '1703' has been unpublished.
+2017-12-06 14:42:43,320 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content '2017 - PRACC Movies - Cars 2' with Id '1709' has been unpublished.
+2017-12-06 14:42:43,523 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content 'Show 1' with Id '1710' has been unpublished.
+2017-12-06 14:42:46,711 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content '2017 - PRACC Movies - Frozen' with Id '1711' has been unpublished.
+2017-12-06 14:42:46,852 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'Show 1' with Id '1712' has been unpublished.
+2017-12-06 14:42:56,195 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content '2017 - Victorian State Ballet' with Id '1718' has been unpublished.
+2017-12-06 14:42:56,383 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content 'Show1' with Id '1720' has been unpublished.
+2017-12-06 14:42:56,414 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content 'Show2' with Id '1721' has been unpublished.
+2017-12-06 14:42:59,523 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content '2017 - 50s & 60s' with Id '1649' has been unpublished.
+2017-12-06 14:42:59,727 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Show 1' with Id '1664' has been unpublished.
+2017-12-06 14:43:05,461 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content '2017 - HollywoodHits' with Id '1650' has been unpublished.
+2017-12-06 14:43:05,602 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Show 1' with Id '1665' has been unpublished.
+2017-12-06 14:43:09,336 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 6] Content '2017 - PRACC Movies - Dirty Dancing' with Id '1743' has been unpublished.
+2017-12-06 14:43:09,508 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 6] Content 'Show 1' with Id '1755' has been unpublished.
+2017-12-06 14:43:12,773 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content '2017 - Bon Jovi Show' with Id '1651' has been unpublished.
+2017-12-06 14:43:12,914 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content 'Show 1' with Id '1666' has been unpublished.
+2017-12-06 14:43:15,539 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content '2017 - Hazel Glen College - Annie' with Id '2047' has been unpublished.
+2017-12-06 14:43:15,742 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Show 3' with Id '2051' has been unpublished.
+2017-12-06 14:43:15,805 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Show 2' with Id '2050' has been unpublished.
+2017-12-06 14:43:15,836 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Show 1' with Id '2049' has been unpublished.
+2017-12-06 14:43:20,289 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content '2017 - Ivanhoe Grammar School - Seussical Junior' with Id '2052' has been unpublished.
+2017-12-06 14:43:20,461 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Show 2' with Id '2055' has been unpublished.
+2017-12-06 14:43:20,492 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Show 1' with Id '2054' has been unpublished.
+2017-12-06 14:43:23,352 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content '2017 - Catholic Ladies College - Alice in Wonderland' with Id '2060' has been unpublished.
+2017-12-06 14:43:23,555 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content 'Show 1' with Id '2063' has been unpublished.
+2017-12-06 14:43:23,586 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content 'Show 2' with Id '2064' has been unpublished.
+2017-12-06 14:43:26,148 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content '2017 - Early Rock Legends' with Id '1652' has been unpublished.
+2017-12-06 14:43:26,305 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Show 1' with Id '1667' has been unpublished.
+2017-12-06 14:43:28,820 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content '2017 - Coranderrk' with Id '1653' has been unpublished.
+2017-12-06 14:43:28,977 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content 'Show 1' with Id '1668' has been unpublished.
+2017-12-06 14:43:31,695 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 46] Content '2017 - Hume Anglican Grammar' with Id '2069' has been unpublished.
+2017-12-06 14:43:31,914 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 46] Content 'Show 3' with Id '2072' has been unpublished.
+2017-12-06 14:43:31,945 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 46] Content 'Show 2' with Id '2071' has been unpublished.
+2017-12-06 14:43:31,977 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 46] Content 'Show 1' with Id '2070' has been unpublished.
+2017-12-06 14:43:34,789 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content '2017 - PRACC Movies - Sing' with Id '2076' has been unpublished.
+2017-12-06 14:43:34,961 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'Show1' with Id '2077' has been unpublished.
+2017-12-06 14:43:38,977 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content '2017 - Drags Aloud' with Id '1654' has been unpublished.
+2017-12-06 14:43:39,148 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Show 1' with Id '1669' has been unpublished.
+2017-12-06 14:43:44,727 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content '2017 - Wendy Stapleton' with Id '1655' has been unpublished.
+2017-12-06 14:43:44,883 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content 'Show 1' with Id '1670' has been unpublished.
+2017-12-06 14:43:48,352 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 6] Content '2017 - SingOut' with Id '1760' has been unpublished.
+2017-12-06 14:43:48,539 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 6] Content 'Show 2' with Id '1762' has been unpublished.
+2017-12-06 14:43:48,586 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 6] Content 'Show 1' with Id '1761' has been unpublished.
+2017-12-06 14:44:52,398 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content '2017 - Assumption College Kilmore' with Id '2084' has been unpublished.
+2017-12-06 14:44:52,555 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Show1' with Id '2085' has been unpublished.
+2017-12-06 14:44:58,227 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 80] Content '2017 - Straight Outta Compo' with Id '1763' has been unpublished.
+2017-12-06 14:44:58,414 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 80] Content 'Show 1' with Id '1765' has been unpublished.
+2017-12-06 14:45:01,664 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content '2017 - The Bizzare Gazzard' with Id '1656' has been unpublished.
+2017-12-06 14:45:01,820 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Show 1' with Id '1671' has been unpublished.
+2017-12-06 14:45:04,430 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 57] Content '2017 - Golden Hits Lottery' with Id '1657' has been unpublished.
+2017-12-06 14:45:04,586 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 57] Content 'Show 1' with Id '1672' has been unpublished.
+2017-12-06 14:45:07,336 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content '2017 - Marymede Catholic College' with Id '1768' has been unpublished.
+2017-12-06 14:45:07,555 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Mary3' with Id '1772' has been unpublished.
+2017-12-06 14:45:07,586 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Mary2' with Id '1771' has been unpublished.
+2017-12-06 14:45:07,617 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Mary1' with Id '1770' has been unpublished.
+2017-12-06 14:45:10,367 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content '2017 - Plenty Valley Christian College' with Id '2090' has been unpublished.
+2017-12-06 14:45:10,570 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content 'Show 2' with Id '2092' has been unpublished.
+2017-12-06 14:45:10,602 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content 'Show 1' with Id '2091' has been unpublished.
+2017-12-06 14:45:13,680 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content '2017 - Dancexclusive Raw 2017' with Id '1794' has been unpublished.
+2017-12-06 14:45:13,883 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content 'Show 2' with Id '1796' has been unpublished.
+2017-12-06 14:45:13,930 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content 'Show 1' with Id '1795' has been unpublished.
+2017-12-06 14:45:36,508 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 46] Content '2017 - Kenny & Dolly Tribute' with Id '1658' has been unpublished.
+2017-12-06 14:45:36,648 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 46] Content 'Show 1' with Id '1673' has been unpublished.
+2017-12-06 14:45:39,461 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 83] Content '2017 - All My Lovin' with Id '1659' has been unpublished.
+2017-12-06 14:45:39,633 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 83] Content 'Show 1' with Id '1674' has been unpublished.
+2017-12-06 14:45:42,133 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content '2017 - PRACC Movies - Trolls' with Id '1798' has been unpublished.
+2017-12-06 14:45:42,289 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content 'Show 1' with Id '1799' has been unpublished.
+2017-12-06 14:45:44,789 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 83] Content '2017 - Viewbank College' with Id '2106' has been unpublished.
+2017-12-06 14:45:44,930 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 83] Content 'Show 1' with Id '2108' has been unpublished.
+2017-12-06 14:45:47,836 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content '2017 - Mill Park Secondary College' with Id '2109' has been unpublished.
+2017-12-06 14:45:48,023 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Show1' with Id '2111' has been unpublished.
+2017-12-06 14:45:50,711 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content '2017 - PRACC Movies - Jurassic World' with Id '1801' has been unpublished.
+2017-12-06 14:45:50,883 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Show 1' with Id '1803' has been unpublished.
+2017-12-06 14:45:53,445 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content '2017 - MCB Wizard of Oz' with Id '1660' has been unpublished.
+2017-12-06 14:45:53,617 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Show 1' with Id '1675' has been unpublished.
+2017-12-06 14:45:56,133 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content '2017 - 20th Century Blondes' with Id '1661' has been unpublished.
+2017-12-06 14:45:56,289 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content 'Show 1' with Id '1676' has been unpublished.
+2017-12-06 14:45:59,039 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content '2017 - PRACC Movies - Magic Mike' with Id '1805' has been unpublished.
+2017-12-06 14:45:59,195 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content 'Show 1' with Id '1807' has been unpublished.
+2017-12-06 14:46:01,742 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content '2017 - Dancexclusive' with Id '2112' has been unpublished.
+2017-12-06 14:46:01,930 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content 'Show2' with Id '2115' has been unpublished.
+2017-12-06 14:46:02,055 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content 'Show1' with Id '2114' has been unpublished.
+2017-12-06 14:46:15,836 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content '2017 - Northern Health' with Id '2116' has been unpublished.
+2017-12-06 14:46:16,008 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'Show 2' with Id '2118' has been unpublished.
+2017-12-06 14:46:16,055 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'Show 1' with Id '2117' has been unpublished.
+2017-12-06 14:46:19,383 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 6] Content '2017 - PRACC Movies - Moana' with Id '1808' has been unpublished.
+2017-12-06 14:46:19,539 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 6] Content 'Show 1' with Id '1809' has been unpublished.
+2017-12-06 14:46:22,945 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content '2017 - Elvis' with Id '1662' has been unpublished.
+2017-12-06 14:46:23,133 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Show 1' with Id '1677' has been unpublished.
+2017-12-06 14:46:57,617 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content '2017 - The Wizard of Oz' with Id '1692' has been unpublished.
+2017-12-06 14:46:57,789 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'Show 1' with Id '1693' has been unpublished.
+2017-12-06 14:47:13,930 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content '2017 - BenMcCarthy' with Id '1686' has been unpublished.
+2017-12-06 14:47:14,070 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content 'Show 1' with Id '1687' has been unpublished.
+2017-12-06 14:47:22,477 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content '2017 - Masters Of Choreography' with Id '1689' has been unpublished.
+2017-12-06 14:47:22,633 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Show 1' with Id '1690' has been unpublished.
+2017-12-06 14:50:46,414 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 83] Content 'The Wiggles - Cancelled' with Id '1716' has been unpublished.
+2017-12-06 14:50:46,586 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 83] Content 'Show 1' with Id '1717' has been unpublished.
+2017-12-06 15:02:09,055 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 75] Success uploading to parent 2101
+2017-12-06 15:02:09,414 [17] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 41] Success uploading to parent 2101
+2017-12-06 15:02:57,805 [17] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 60] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2017-12-06 15:05:44,492 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content '2018 - Peppa Pig's Surprise' with Id '2145' has been published.
+2017-12-06 15:59:58,773 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content '2018 - Peppa Pig's Surprise' with Id '2145' has been unpublished.
+2017-12-06 16:00:26,523 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 83] Content '2018 - Peppa Pig's Surprise' with Id '2145' has been published.
+2017-12-06 16:02:56,148 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 80] Content '2018 - Peppa Pig's Surprise' with Id '2145' has been published.
+2017-12-06 16:02:56,273 [17] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 83] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2017-12-06 16:15:45,180 [17] INFO  umbraco.BusinessLogic.Log - [Thread 76] Log scrubbed.  Removed all items older than 2017-10-07 16:15:45
+2017-12-06 16:15:45,227 [17] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 76] Application shutdown. Reason: HostingEnvironment
+2017-12-06 16:16:02,648 [11] INFO  Umbraco.Core.PluginManager - [Thread 3] Determining hash of code files on disk
+2017-12-06 16:16:02,680 [11] INFO  Umbraco.Core.PluginManager - [Thread 3] Hash determined (took 12ms)
+2017-12-06 16:16:02,695 [11] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2017-12-06 16:16:05,727 [11] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 3029ms)
+2017-12-06 16:16:05,773 [11] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2017-12-06 16:16:05,773 [11] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+2017-12-06 16:16:05,773 [11] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2017-12-06 16:16:05,789 [11] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 9ms)
+2017-12-06 16:16:05,789 [11] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2017-12-06 16:16:05,789 [11] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2017-12-06 16:16:05,805 [11] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2017-12-06 16:16:05,805 [11] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2017-12-06 16:16:05,805 [11] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2017-12-06 16:16:05,820 [11] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 7ms)
+2017-12-06 16:16:06,492 [11] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 3] Initializing Examine and binding to business logic events
+2017-12-06 16:16:07,211 [11] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 3] Adding examine event handlers for index providers: 3
+2017-12-06 16:16:07,242 [11] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of umbraco.interfaces.IApplication
+2017-12-06 16:16:07,258 [11] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 14ms)
+2017-12-06 16:16:07,305 [11] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of umbraco.interfaces.ITree
+2017-12-06 16:16:07,336 [11] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 35ms)
+2017-12-06 16:16:33,336 [11] INFO  umbraco.content - [Thread 7] Loading content from disk cache...
+2017-12-06 16:16:34,398 [11] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2017-12-06 16:16:34,414 [11] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 13ms)
+2017-12-06 16:16:57,648 [11] INFO  Umbraco.Core.PluginManager - [Thread 7] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2017-12-06 16:16:57,664 [11] INFO  Umbraco.Core.PluginManager - [Thread 7] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 8ms)

@@ -1,0 +1,740 @@
+2019-11-25 00:40:28,730 [15] INFO  umbraco.BusinessLogic.Log - [Thread 56] Log scrubbed.  Removed all items older than 2019-09-26 00:40:28
+2019-11-25 00:42:28,714 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Determining hash of code files on disk
+2019-11-25 00:42:28,730 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Hash determined (took 5ms)
+2019-11-25 00:42:28,730 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-11-25 00:42:29,324 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 590ms)
+2019-11-25 00:42:29,339 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-11-25 00:42:29,339 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2019-11-25 00:42:29,339 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-11-25 00:42:29,339 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2019-11-25 00:42:29,339 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-11-25 00:42:29,355 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2019-11-25 00:42:29,355 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-11-25 00:42:29,355 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2019-11-25 00:42:29,355 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-11-25 00:42:29,355 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 3ms)
+2019-11-25 00:42:29,511 [9] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 16] Initializing Examine and binding to business logic events
+2019-11-25 00:42:29,746 [9] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 16] Adding examine event handlers for index providers: 3
+2019-11-25 00:42:29,746 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of umbraco.interfaces.IApplication
+2019-11-25 00:42:29,761 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2019-11-25 00:42:30,277 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Starting resolution types of umbraco.interfaces.ITree
+2019-11-25 00:42:30,293 [9] INFO  Umbraco.Core.PluginManager - [Thread 16] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 21ms)
+2019-11-25 00:42:30,433 [9] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2019-11-25 00:42:59,433 [9] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-11-25 00:42:59,449 [9] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2019-11-25 01:45:07,597 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 89] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 03:35:30,051 [9] INFO  Umbraco.Core.PluginManager - [Thread 86] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-11-25 03:35:30,051 [9] INFO  Umbraco.Core.PluginManager - [Thread 86] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 14ms)
+2019-11-25 03:59:00,816 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 52] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 05:59:22,066 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 83] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 05:59:31,207 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 83] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 05:59:36,394 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 68] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 06:02:35,988 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 77] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 09:07:56,504 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 83] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 11:10:30,644 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 33] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 11:10:31,910 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 33] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 11:12:48,004 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 11:12:49,269 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 11:13:22,879 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2019-11-25 11:13:22,879 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2019-11-25 11:13:22,879 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2019-11-25 11:13:22,879 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2019-11-25 11:13:22,879 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2019-11-25 11:13:24,472 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2019-11-25 11:13:24,472 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2019-11-25 11:13:24,472 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2019-11-25 11:13:24,472 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2019-11-25 11:13:24,472 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2019-11-25 11:23:34,926 [9] INFO  umbraco.BasePages.BasePage - [Thread 53] User pracc (Id: 1) logged in
+2019-11-25 11:23:35,191 [9] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-11-25 11:23:35,222 [9] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 24ms)
+2019-11-25 11:23:35,722 [9] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of umbraco.interfaces.ITree
+2019-11-25 11:23:35,754 [9] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 22ms)
+2019-11-25 11:30:35,254 [9] INFO  Umbraco.Core.PluginManager - [Thread 38] Starting resolution types of umbraco.interfaces.IDataType
+2019-11-25 11:30:35,269 [9] INFO  Umbraco.Core.PluginManager - [Thread 38] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 18ms)
+2019-11-25 12:00:34,457 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 38] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 12:11:59,738 [9] INFO  Umbraco.Core.Services.ContentService - [Thread 38] Content 'Show 2' with Id '2867' could not be published because its parent is not published.
+2019-11-25 12:11:59,754 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 38] Content 'Show 2' with Id '2867' has been published.
+2019-11-25 12:11:59,847 [9] INFO  Umbraco.Core.PluginManager - [Thread 38] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-11-25 12:11:59,863 [9] INFO  Umbraco.Core.PluginManager - [Thread 38] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 16ms)
+2019-11-25 12:12:00,035 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 38] Couldn't find any page with nodeId=2867. This is most likely caused by the page not being published.
+2019-11-25 12:12:01,738 [9] INFO  Umbraco.Core.Services.ContentService - [Thread 35] Content 'Show 1' with Id '2866' could not be published because its parent is not published.
+2019-11-25 12:12:01,738 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Show 1' with Id '2866' has been published.
+2019-11-25 12:12:01,847 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 35] Couldn't find any page with nodeId=2866. This is most likely caused by the page not being published.
+2019-11-25 12:13:58,504 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Lauren Wall School of Dance' with Id '2864' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Lauren Wall School of Dance' with Id '2864' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Laurimar Primary School' with Id '2731' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Leilas Christmas Show' with Id '2800' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Lennon & McCartney' with Id '2796' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Masters of Choreography' with Id '2715' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Move Dance Co' with Id '2724' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Raieburn Calisthenics' with Id '2741' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Rat Pack Jack' with Id '2798' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Roach Music School' with Id '2756' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Romina's Dance' with Id '2809' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Ross Noble' with Id '2511' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Spectrum' with Id '2837' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Starz Performing Arts' with Id '2861' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'The Classic Arts Presentation Concert 2019' with Id '2665' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'The Robertson Brothers 1960's TV Variety Show' with Id '2709' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'The Travelling Kitchen - Autumn (PRACC)' with Id '2814' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'The Travelling Kitchen - Spring (PRACC)' with Id '2824' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Tom Jones' with Id '2791' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Trilogy' with Id '2851' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'United Dance Industry' with Id '2763' has been published.
+2019-11-25 12:14:42,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Whittlesea Secondary College' with Id '2684' has been published.
+2019-11-25 12:14:44,941 [9] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 28] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2019-11-25 12:19:48,597 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Lauren Wall School of Dance' with Id '2864' has been published.
+2019-11-25 12:19:57,519 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 38] Content 'Lauren Wall School of Dance' with Id '2864' has been published.
+2019-11-25 12:20:31,269 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content 'Lauren Wall School of Dance' with Id '2864' has been published.
+2019-11-25 12:21:15,894 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 15] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 12:21:34,066 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 59] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 12:21:36,160 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 59] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 12:21:40,441 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 33] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 12:23:39,597 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 18] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 12:25:51,332 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 59] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 12:26:49,285 [9] INFO  umbraco.BasePages.BasePage - [Thread 31] User pracc (Id: 1) logged in
+2019-11-25 12:33:23,769 [9] INFO  umbraco.cms.businesslogic.web.Document - [Thread 21] New document 2898
+2019-11-25 12:41:09,347 [9] INFO  Umbraco.Core.PluginManager - [Thread 21] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2019-11-25 12:41:09,379 [9] INFO  Umbraco.Core.PluginManager - [Thread 21] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 16ms)
+2019-11-25 12:41:36,629 [9] INFO  Umbraco.Core.PluginManager - [Thread 29] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2019-11-25 12:41:36,629 [9] INFO  Umbraco.Core.PluginManager - [Thread 29] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 5ms)
+2019-11-25 12:41:37,254 [9] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 29] Success uploading to parent 2711
+2019-11-25 12:41:38,160 [9] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 64] Success uploading to parent 2711
+2019-11-25 12:42:53,816 [9] INFO  umbraco.cms.businesslogic.web.Document - [Thread 33] New document 2901
+2019-11-25 12:43:18,441 [9] INFO  Umbraco.Core.Services.ContentService - [Thread 47] Content 'Show 1' with Id '2901' could not be published because its parent is not published.
+2019-11-25 12:43:18,441 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Show 1' with Id '2901' has been published.
+2019-11-25 12:43:18,535 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=2901. This is most likely caused by the page not being published.
+2019-11-25 13:15:29,613 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 53] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 13:17:24,066 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 59] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 13:37:01,035 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 18] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 13:37:38,019 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 29] Content 'Shades of Buble' with Id '2898' has been published.
+2019-11-25 13:37:59,051 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Shades of Buble' with Id '2898' has been published.
+2019-11-25 13:39:24,738 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Shades of Buble' with Id '2898' has been published.
+2019-11-25 13:39:30,644 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content 'Shades of Bublé' with Id '2898' has been published.
+2019-11-25 13:39:49,019 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Shades of Bublé' with Id '2898' has been published.
+2019-11-25 13:42:46,207 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Shades of Bublé' with Id '2898' has been published.
+2019-11-25 13:42:46,207 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Spectrum' with Id '2837' has been published.
+2019-11-25 13:42:46,207 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Starz Performing Arts' with Id '2861' has been published.
+2019-11-25 13:42:46,207 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'The Classic Arts Presentation Concert 2019' with Id '2665' has been published.
+2019-11-25 13:42:46,207 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'The Robertson Brothers 1960's TV Variety Show' with Id '2709' has been published.
+2019-11-25 13:42:46,207 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'The Travelling Kitchen - Autumn (PRACC)' with Id '2814' has been published.
+2019-11-25 13:42:46,207 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'The Travelling Kitchen - Spring (PRACC)' with Id '2824' has been published.
+2019-11-25 13:42:46,207 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Tom Jones' with Id '2791' has been published.
+2019-11-25 13:42:46,207 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Trilogy' with Id '2851' has been published.
+2019-11-25 13:42:46,207 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'United Dance Industry' with Id '2763' has been published.
+2019-11-25 13:42:46,207 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Whittlesea Secondary College' with Id '2684' has been published.
+2019-11-25 13:42:47,191 [9] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 17] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2019-11-25 13:43:04,988 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Bev Palmer Performing Arts Showcase' with Id '2879' has been unpublished.
+2019-11-25 13:43:31,379 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 59] Content 'Adrenaline Dance' with Id '2745' has been unpublished.
+2019-11-25 13:43:31,441 [9] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 47] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2019-11-25 13:43:45,332 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Dance Discovery' with Id '2876' has been unpublished.
+2019-11-25 13:43:56,676 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content 'Show 3' with Id '2738' has been unpublished.
+2019-11-25 13:47:13,785 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 59] Content 'Dance Revolution' with Id '2735' has been unpublished.
+2019-11-25 13:47:27,472 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content 'DanceXclusive' with Id '2758' has been unpublished.
+2019-11-25 13:47:43,785 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Electrix Dance Studio' with Id '2668' has been unpublished.
+2019-11-25 15:33:57,504 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 22] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 16:48:46,394 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 33] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 16:49:21,566 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 29] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 17:30:55,988 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 18] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 17:35:42,847 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 33] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 17:36:45,472 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 33] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 17:41:50,754 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 17:43:05,613 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 21] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 17:44:16,472 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 59] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 17:44:30,347 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 17:47:55,238 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 18:17:42,222 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 17] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 18:52:56,926 [9] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2019-11-25 18:52:56,926 [9] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 0ms)
+2019-11-25 18:52:56,941 [9] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of umbraco.presentation.umbracobase.RestExtension
+2019-11-25 18:52:56,957 [9] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.presentation.umbracobase.RestExtension, found 1 (took 11ms)
+2019-11-25 19:52:39,066 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 21] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 20:15:39,613 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 20] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 20:23:43,957 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 65] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 20:29:28,535 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 65] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 21:40:39,691 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 71] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 21:42:59,785 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 76] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 21:43:16,363 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 75] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 21:45:31,394 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 84] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 21:45:47,988 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 30] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 21:45:48,019 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 30] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...re/?nv=hpa<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:45:56,722 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 76] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ts/?nv=adr<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:45:58,879 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 41] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...it/?nv=adr<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:01,097 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 71] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:03,285 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 41] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...act?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:05,504 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 41] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ts/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:07,722 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 41] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...io/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:09,847 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 30] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ol/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:11,926 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 41] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...te/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:14,113 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 84] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...nd/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:16,347 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 75] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...cs/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:18,551 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 75] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...er/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:20,738 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 71] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...c)/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:22,926 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 76] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...c)/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:25,144 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 30] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ht/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:27,332 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 15] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...c)/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:29,504 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 84] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ce/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:31,707 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 30] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ge/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:33,816 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 15] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ub/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:35,957 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 41] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ow/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:38,160 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 84] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...se/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:40,363 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 30] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...io/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:42,519 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 84] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...io/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:44,629 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 15] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ce/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:46,785 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 76] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ol/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:48,894 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 71] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ow/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:51,097 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 30] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ey/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:53,269 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 41] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...hy/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:55,504 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 75] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...co/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:57,707 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 15] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...cs/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:46:59,910 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 84] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ck/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:02,129 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 85] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ol/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:04,332 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 15] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ce/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:06,551 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 75] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...le/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:08,707 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 76] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...wn/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:12,926 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 75] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...um/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:15,129 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 75] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ts/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:17,410 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 76] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...19/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:19,660 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 41] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ow/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:21,863 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 84] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...c)/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:23,926 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 85] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...c)/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:26,144 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 41] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...es/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:28,316 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 41] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...gy/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:30,551 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 84] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ry/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:32,801 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 85] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ge/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:34,957 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 21:47:34,972 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 41] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...re/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:37,129 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 85] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...gs/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:39,222 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 85] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ce/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:41,457 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 84] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...on/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:43,691 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 15] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...ce/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:47:45,972 [9] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 15] An unhandled exception occurred
+System.Web.HttpRequestValidationException (0x80004005): A potentially dangerous Request.RawUrl value was detected from the client (="...on/?nv=foo<?=print(23894789938...").
+   at System.Web.HttpRequest.ValidateString(String value, String collectionKey, RequestValidationSource requestCollection)
+   at System.Web.HttpRequest.get_RawUrl()
+   at System.Web.HttpRequestWrapper.get_RawUrl()
+   at ClientDependency.Core.Module.MimeTypeCompressor.GetSupportedPath()
+   at ClientDependency.Core.Module.MimeTypeCompressor.AddCompression()
+   at ClientDependency.Core.Module.ClientDependencyModule.HandleRequest(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-11-25 21:51:43,941 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 56] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 21:54:01,676 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 13] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 21:54:18,363 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 15] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 21:56:32,113 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 82] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 21:56:48,691 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 21:59:04,910 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 28] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 21:59:21,957 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 13] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 22:01:36,426 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 66] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 22:01:53,066 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 66] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 22:04:07,394 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 82] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 22:04:23,926 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 66] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 22:06:39,238 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 76] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 22:06:56,160 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 51] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 22:09:11,426 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 15] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 22:44:44,019 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 51] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-25 22:45:09,191 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 51] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-25 23:47:57,410 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 63] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.

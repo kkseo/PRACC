@@ -1,0 +1,130 @@
+2017-12-01 13:07:27,465 [20] INFO  umbraco.BasePages.BasePage - [Thread 96] User pracc (Id: 1) logged in
+2017-12-01 13:07:50,684 [20] INFO  umbraco.cms.businesslogic.web.Document - [Thread 77] New document 2139
+2017-12-01 13:08:37,059 [20] INFO  Umbraco.Core.Services.ContentService - [Thread 99] Content 'Ticketing Policy' with Id '2139' could not be published because of invalid properties.
+2017-12-01 13:08:45,918 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 96] Content 'Ticketing Policy' with Id '2139' has been published.
+2017-12-01 13:09:12,809 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 93] Content 'Ticketing Policy' with Id '2139' has been published.
+2017-12-01 13:09:12,809 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 93] Content 'Seating Map' with Id '1079' has been published.
+2017-12-01 13:09:12,809 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 93] Content 'Photo Gallery' with Id '1082' has been published.
+2017-12-01 13:09:12,809 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 93] Content 'Downloads' with Id '1766' has been published.
+2017-12-01 13:17:07,903 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 108] Content 'Ticketing Policy' with Id '2139' has been published.
+2017-12-01 13:17:47,465 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 96] Content 'Ticketing Policy' with Id '2139' has been published.
+2017-12-01 13:19:19,918 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 110] Content 'Ticketing Policy' with Id '2139' has been published.
+2017-12-01 13:19:53,747 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content '2017 - PRACC Movies - Dirty Dancing' with Id '1743' has been unpublished.
+2017-12-01 13:19:59,418 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content '2017 - HollywoodHits' with Id '1650' has been unpublished.
+2017-12-01 13:20:04,590 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 99] Content '2017 - 50s & 60s' with Id '1649' has been unpublished.
+2017-12-01 13:20:09,512 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content '2017 - Ivanhoe Grammar School - Seussical Junior' with Id '2052' has been unpublished.
+2017-12-01 13:20:14,825 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 100] Content '2017 - Early Rock Legends' with Id '1652' has been unpublished.
+2017-12-01 13:20:20,403 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 89] Content '2017 - PRACC Movies - Sing' with Id '2076' has been unpublished.
+2017-12-01 13:20:27,731 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content '2017 - SingOut' with Id '1760' has been unpublished.
+2017-12-01 13:20:30,856 [20] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 112] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.WriteDeflaterOutput(Boolean isAsync)
+   at System.IO.Compression.DeflateStream.PurgeBuffers(Boolean disposing)
+   at System.IO.Compression.DeflateStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Compression.GZipStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at umbraco.presentation.plugins.tinymce3.GzipCompressor.Compress(Stream to_stream)
+   at umbraco.presentation.plugins.tinymce3.GzipModule.ProcessRequest(HttpContext context)
+   at umbraco.presentation.plugins.tinymce3.tinymce3tinymceCompress.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_plugins_tinymce3_tinymce3tinymcecompress_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-12-01 13:20:34,981 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 107] Content '2017 - Straight Outta Compo' with Id '1763' has been unpublished.
+2017-12-01 13:20:39,309 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 102] Content '2017 - Assumption College Kilmore' with Id '2084' has been unpublished.
+2017-12-01 13:20:43,918 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 80] Content '2017 - Golden Hits Lottery' with Id '1657' has been unpublished.
+2017-12-01 13:20:48,762 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 89] Content '2017 - Plenty Valley Christian College' with Id '2090' has been unpublished.
+2017-12-01 13:20:55,418 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 95] Content '2017 - Kenny & Dolly Tribute' with Id '1658' has been unpublished.
+2017-12-01 13:21:00,793 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 99] Content '2017 - All My Lovin' with Id '1659' has been unpublished.
+2017-12-01 13:21:05,809 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 113] Content '2017 - Viewbank College' with Id '2106' has been unpublished.
+2017-12-01 13:21:10,403 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content '2017 - Mill Park Secondary College' with Id '2109' has been unpublished.
+2017-12-01 13:21:14,481 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 95] Content '2017 - MCB Wizard of Oz' with Id '1660' has been unpublished.
+2017-12-01 13:21:18,981 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 108] Content '2017 - 20th Century Blondes' with Id '1661' has been unpublished.
+2017-12-01 13:21:22,965 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 100] Content '2017 - Dancexclusive' with Id '2112' has been unpublished.
+2017-12-01 13:21:27,356 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 99] Content '2017 - PRACC Movies - Moana' with Id '1808' has been unpublished.
+2017-12-01 13:21:31,887 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 100] Content '2017 - Northern Health' with Id '2116' has been unpublished.
+2017-12-01 13:21:37,997 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 100] Content '2017 - Elvis' with Id '1662' has been unpublished.
+2017-12-01 13:22:33,840 [20] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 96] Couldn't find any page with nodeId=1421. This is most likely caused by the page not being published.
+2017-12-01 13:22:33,840 [20] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 96] Couldn't find any page with nodeId=1422. This is most likely caused by the page not being published.
+2017-12-01 13:22:40,231 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 107] Content '2017 - Beat Dance School' with Id '2080' has been published.
+2017-12-01 13:23:05,481 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 105] Content '2018 - Stassman's 'iTedE'' with Id '2097' has been published.
+2017-12-01 13:23:16,887 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 91] Content '2017 - Country Christmas Show' with Id '1663' has been published.
+2017-12-01 13:23:27,575 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content '2017 - Lauren Wall School of Dance' with Id '2120' has been published.
+2017-12-01 13:23:39,059 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content '2017 - Starz Performing Arts' with Id '2123' has been published.
+2017-12-01 13:23:47,137 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 107] Content '2018 - Celtic Illusion' with Id '2136' has been published.
+2017-12-01 13:26:20,434 [20] INFO  umbraco.BasePages.BasePage - [Thread 100] User pracc (Id: 1) logged in
+2017-12-01 13:27:07,075 [20] INFO  Umbraco.Core.PluginManager - [Thread 91] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2017-12-01 13:27:07,122 [20] INFO  Umbraco.Core.PluginManager - [Thread 91] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 57ms)
+2017-12-01 13:27:22,981 [20] INFO  Umbraco.Core.PluginManager - [Thread 96] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2017-12-01 13:27:22,981 [20] INFO  Umbraco.Core.PluginManager - [Thread 96] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 7ms)
+2017-12-01 13:27:23,543 [20] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 96] Success uploading to parent 1196
+2017-12-01 13:29:54,872 [20] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 80] Success uploading to parent 1196
+2017-12-01 13:30:04,856 [20] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 97] Success uploading to parent 1196
+2017-12-01 13:30:05,153 [20] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 110] Success uploading to parent 1196
+2017-12-01 13:30:57,559 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 90] Content 'Downloads' with Id '1766' has been published.
+2017-12-01 13:32:26,200 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content 'Downloads' with Id '1766' has been published.
+2017-12-01 13:32:55,965 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 89] Content 'Theatre Hire' with Id '1080' has been published.
+2017-12-01 13:33:51,731 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Seating Map' with Id '1079' has been published.
+2017-12-01 13:34:06,450 [20] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 90] Couldn't find any page with nodeId=1808. This is most likely caused by the page not being published.
+2017-12-01 13:34:06,450 [20] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 90] Couldn't find any page with nodeId=2076. This is most likely caused by the page not being published.
+2017-12-01 13:34:06,450 [20] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 90] Couldn't find any page with nodeId=1808. This is most likely caused by the page not being published.
+2017-12-01 13:34:32,965 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 99] Content 'PRACC Movies' with Id '2059' has been unpublished.
+2017-12-01 13:39:54,028 [20] INFO  umbraco.cms.businesslogic.web.Document - [Thread 108] New document 2144
+2017-12-01 13:40:44,528 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 102] Content 'Theatre Hire' with Id '1080' has been published.
+2017-12-01 13:40:44,528 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 102] Content 'Ticketing Policy' with Id '2139' has been published.
+2017-12-01 13:40:44,528 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 102] Content 'Seating Map' with Id '1079' has been published.
+2017-12-01 13:54:53,856 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 100] Content 'Technical Elements' with Id '2144' has been published.
+2017-12-01 13:54:53,981 [20] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 80] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2017-12-01 13:55:56,840 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 112] Content 'Technical Elements' with Id '2144' has been published.
+2017-12-01 13:56:24,997 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 91] Content 'Theatre Hire' with Id '1080' has been published.
+2017-12-01 13:57:06,778 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 91] Content 'Theatre Hire' with Id '1080' has been published.
+2017-12-01 13:59:54,762 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 93] Content '2018 - Stassman's 'iTedE'' with Id '2097' has been published.
+2017-12-01 14:00:25,372 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content '2017 - Lauren Wall School of Dance' with Id '2120' has been published.
+2017-12-01 14:00:25,481 [20] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 93] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2017-12-01 14:00:44,637 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 113] Content '2018 - Celtic Illusion' with Id '2136' has been published.
+2017-12-01 14:01:18,512 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 90] Content '2017 - Starz Performing Arts' with Id '2123' has been published.
+2017-12-01 15:17:43,512 [20] INFO  umbraco.BusinessLogic.Log - [Thread 95] Log scrubbed.  Removed all items older than 2017-10-02 15:17:43
+2017-12-01 15:34:20,403 [20] INFO  umbraco.BasePages.BasePage - [Thread 97] User pracc (Id: 1) logged in
+2017-12-01 20:15:40,372 [20] INFO  umbraco.BusinessLogic.Log - [Thread 110] Log scrubbed.  Removed all items older than 2017-10-02 20:15:40
+2017-12-01 20:15:40,559 [20] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 110] Application shutdown. Reason: HostingEnvironment
+2017-12-01 20:17:30,325 [21] INFO  Umbraco.Core.PluginManager - [Thread 19] Determining hash of code files on disk
+2017-12-01 20:17:30,340 [21] INFO  Umbraco.Core.PluginManager - [Thread 19] Hash determined (took 9ms)
+2017-12-01 20:17:30,340 [21] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2017-12-01 20:17:32,153 [21] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1810ms)
+2017-12-01 20:17:32,153 [21] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2017-12-01 20:17:32,168 [21] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2017-12-01 20:17:32,168 [21] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2017-12-01 20:17:32,168 [21] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2017-12-01 20:17:32,168 [21] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2017-12-01 20:17:32,168 [21] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2017-12-01 20:17:32,184 [21] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2017-12-01 20:17:32,184 [21] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2017-12-01 20:17:32,184 [21] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2017-12-01 20:17:32,184 [21] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2017-12-01 20:17:32,684 [21] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 19] Initializing Examine and binding to business logic events
+2017-12-01 20:17:33,215 [21] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 19] Adding examine event handlers for index providers: 3
+2017-12-01 20:17:33,215 [21] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.interfaces.IApplication
+2017-12-01 20:17:33,231 [21] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 17ms)
+2017-12-01 20:17:33,325 [21] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.interfaces.ITree
+2017-12-01 20:17:33,340 [21] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 35ms)
+2017-12-01 20:17:33,590 [21] INFO  umbraco.content - [Thread 13] Loading content from disk cache...
+2017-12-01 20:18:02,356 [21] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2017-12-01 20:18:02,372 [21] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 10ms)
+2017-12-01 21:09:46,934 [21] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2017-12-01 21:09:46,950 [21] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 9ms)

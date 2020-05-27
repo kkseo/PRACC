@@ -1,0 +1,268 @@
+2019-08-07 09:06:13,029 [25] INFO  Umbraco.Core.PluginManager - [Thread 65] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-08-07 09:06:13,044 [25] INFO  Umbraco.Core.PluginManager - [Thread 65] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 16ms)
+2019-08-07 09:06:13,482 [25] INFO  Umbraco.Core.PluginManager - [Thread 65] Starting resolution types of umbraco.interfaces.ITree
+2019-08-07 09:06:13,513 [25] INFO  Umbraco.Core.PluginManager - [Thread 65] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 20ms)
+2019-08-07 09:06:21,247 [25] INFO  Umbraco.Core.PluginManager - [Thread 75] Starting resolution types of umbraco.interfaces.IDataType
+2019-08-07 09:06:21,279 [25] INFO  Umbraco.Core.PluginManager - [Thread 75] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 18ms)
+2019-08-07 09:08:42,997 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content 'Meetings' with Id '2532' has been published.
+2019-08-07 09:08:43,575 [25] INFO  Umbraco.Core.PluginManager - [Thread 75] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-08-07 09:08:43,575 [25] INFO  Umbraco.Core.PluginManager - [Thread 75] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 10ms)
+2019-08-07 09:09:39,357 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content 'Celebration' with Id '2602' has been published.
+2019-08-07 09:09:50,919 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content 'Performance' with Id '2603' has been published.
+2019-08-07 09:10:03,904 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content 'Exhibition' with Id '2605' has been published.
+2019-08-07 09:38:41,466 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 71] Content 'Woodstock Theatre' with Id '2562' has been published.
+2019-08-07 09:39:08,107 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 67] Content 'Yan Yean Theatre' with Id '2540' has been published.
+2019-08-07 09:39:47,872 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 63] Content 'Yan Yean Theatre' with Id '2540' has been published.
+2019-08-07 09:40:14,232 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content 'Yan Yean Theatre' with Id '2540' has been published.
+2019-08-07 09:40:22,279 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content 'Woodstock Theatre' with Id '2562' has been published.
+2019-08-07 09:40:55,122 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content 'Eucalypt Room' with Id '2567' has been published.
+2019-08-07 09:41:43,857 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content 'Eucalypt Room' with Id '2567' has been published.
+2019-08-07 09:42:11,810 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content 'Eucalypt Room' with Id '2567' has been published.
+2019-08-07 09:42:24,357 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 67] Content 'Yan Yean Theatre' with Id '2540' has been published.
+2019-08-07 09:44:34,450 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content 'Yan Yean Theatre' with Id '2540' has been published.
+2019-08-07 09:44:41,575 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content 'Woodstock Theatre' with Id '2562' has been published.
+2019-08-07 09:44:54,810 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Eucalypt Room' with Id '2567' has been published.
+2019-08-07 09:45:02,497 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content 'Woodstock Theatre' with Id '2562' has been published.
+2019-08-07 09:45:18,935 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content 'Lakeview Room' with Id '2568' has been published.
+2019-08-07 09:45:55,185 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content 'Lakeview Room' with Id '2568' has been published.
+2019-08-07 09:46:26,185 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 71] Content 'Red Gum Room' with Id '2569' has been published.
+2019-08-07 09:46:44,685 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'Blue Gum Room' with Id '2570' has been published.
+2019-08-07 09:46:46,513 [25] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 72] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.PurgeBuffers(Boolean disposing)
+   at System.IO.Compression.DeflateStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Compression.GZipStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at umbraco.presentation.plugins.tinymce3.GzipCompressor.Compress(Stream to_stream)
+   at umbraco.presentation.plugins.tinymce3.GzipModule.ProcessRequest(HttpContext context)
+   at umbraco.presentation.plugins.tinymce3.tinymce3tinymceCompress.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_plugins_tinymce3_tinymce3tinymcecompress_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-08-07 09:47:06,513 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Yan Yean Theatre' with Id '2540' has been published.
+2019-08-07 09:47:18,732 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content 'Woodstock Theatre' with Id '2562' has been published.
+2019-08-07 09:48:51,185 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Yan Yean Theatre' with Id '2540' has been published.
+2019-08-07 09:49:17,372 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 65] Content 'Woodstock Theatre' with Id '2562' has been published.
+2019-08-07 09:49:49,247 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content 'Eucalypt Room' with Id '2567' has been published.
+2019-08-07 09:50:10,904 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Lakeview Room' with Id '2568' has been published.
+2019-08-07 09:50:33,404 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content 'Lakeview Room' with Id '2568' has been published.
+2019-08-07 09:50:46,560 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content 'Lakeview Room' with Id '2568' has been published.
+2019-08-07 09:50:50,872 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 63] Content 'Lakeview Room' with Id '2568' has been published.
+2019-08-07 09:51:03,482 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content 'Red Gum Room' with Id '2569' has been published.
+2019-08-07 09:51:09,591 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content 'Red Gum Room' with Id '2569' has been published.
+2019-08-07 09:51:26,622 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Blue Gum Room' with Id '2570' has been published.
+2019-08-07 09:51:40,716 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content 'Blue Gum Room' with Id '2570' has been published.
+2019-08-07 09:51:54,529 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Blue Gum Room' with Id '2570' has been published.
+2019-08-07 09:52:22,622 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 65] Content 'Blue Gum Room' with Id '2570' has been published.
+2019-08-07 09:52:31,435 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 71] Content 'Red Gum Room' with Id '2569' has been published.
+2019-08-07 09:52:36,450 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Lakeview Room' with Id '2568' has been published.
+2019-08-07 09:52:46,200 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Yan Yean Theatre' with Id '2540' has been published.
+2019-08-07 10:03:19,279 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Red Gum Room' with Id '2569' has been published.
+2019-08-07 10:16:14,107 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content 'Yan Yean Theatre' with Id '2540' has been published.
+2019-08-07 10:26:16,669 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Yan Yean Theatre' with Id '2540' has been published.
+2019-08-07 10:26:29,591 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content 'Woodstock Theatre' with Id '2562' has been published.
+2019-08-07 10:26:40,029 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 65] Content 'Eucalypt Room' with Id '2567' has been published.
+2019-08-07 10:26:47,982 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content 'Lakeview Room' with Id '2568' has been published.
+2019-08-07 10:26:58,560 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content 'Red Gum Room' with Id '2569' has been published.
+2019-08-07 10:27:07,466 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 65] Content 'Blue Gum Room' with Id '2570' has been published.
+2019-08-07 10:27:46,419 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Blue Gum Room' with Id '2570' has been published.
+2019-08-07 10:28:19,029 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content 'Woodstock Theatre' with Id '2562' has been published.
+2019-08-07 10:28:24,435 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Eucalypt Room' with Id '2567' has been published.
+2019-08-07 10:28:24,544 [25] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 63] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2019-08-07 10:28:24,638 [25] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 72] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2019-08-07 10:28:32,216 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content 'Lakeview Room' with Id '2568' has been published.
+2019-08-07 10:28:39,247 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 67] Content 'Red Gum Room' with Id '2569' has been published.
+2019-08-07 10:28:48,935 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Blue Gum Room' with Id '2570' has been published.
+2019-08-07 10:29:50,966 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content 'Yan Yean Theatre' with Id '2540' has been published.
+2019-08-07 10:31:54,888 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Yan Yean Theatre' with Id '2540' has been published.
+2019-08-07 10:32:25,232 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content 'Woodstock Theatre' with Id '2562' has been published.
+2019-08-07 10:43:05,607 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 28] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2019-08-07 10:43:05,607 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 28] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2019-08-07 10:43:05,607 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 28] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2019-08-07 10:43:05,607 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 28] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2019-08-07 10:43:05,607 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 28] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2019-08-07 10:43:33,810 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content 'Event Spaces' with Id '2539' has been published.
+2019-08-07 10:43:34,716 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 72] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2019-08-07 10:43:34,716 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 72] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2019-08-07 10:43:34,716 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 72] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2019-08-07 10:43:34,716 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 72] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2019-08-07 10:43:34,716 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 72] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2019-08-07 10:44:28,638 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 66] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2019-08-07 10:44:28,638 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 66] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2019-08-07 10:44:28,638 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 66] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2019-08-07 10:44:28,638 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 66] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2019-08-07 10:44:28,638 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 66] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2019-08-07 10:44:28,685 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 65] Content 'Event Spaces' with Id '2539' has been published.
+2019-08-07 10:45:29,638 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Event Spaces' with Id '2539' has been published.
+2019-08-07 10:45:30,997 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 28] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2019-08-07 10:45:30,997 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 28] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2019-08-07 10:45:30,997 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 28] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2019-08-07 10:45:30,997 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 28] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2019-08-07 10:45:30,997 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 28] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2019-08-07 10:47:54,810 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content 'Event Spaces' with Id '2539' has been published.
+2019-08-07 10:48:08,419 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 14] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2019-08-07 10:48:08,419 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 14] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2019-08-07 10:48:08,419 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 14] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2019-08-07 10:48:08,419 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 14] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2019-08-07 10:48:08,419 [25] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 14] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2019-08-07 10:52:14,232 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Eucalypt Room' with Id '2567' has been published.
+2019-08-07 10:52:28,247 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'Eucalypt Room' with Id '2567' has been published.
+2019-08-07 10:53:18,825 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Eucalypt Room' with Id '2567' has been published.
+2019-08-07 10:53:31,529 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Yan Yean Theatre' with Id '2540' has been published.
+2019-08-07 10:53:42,794 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'Woodstock Theatre' with Id '2562' has been published.
+2019-08-07 10:53:58,138 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'Lakeview Room' with Id '2568' has been published.
+2019-08-07 10:55:38,700 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content 'Lakeview Room' with Id '2568' has been published.
+2019-08-07 10:56:03,138 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 65] Content 'Eucalypt Room' with Id '2567' has been published.
+2019-08-07 11:00:27,325 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Blue Gum Room' with Id '2570' has been published.
+2019-08-07 11:00:37,716 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Red Gum Room' with Id '2569' has been published.
+2019-08-07 11:01:04,435 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content 'Conference' with Id '2601' has been published.
+2019-08-07 11:02:14,169 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 71] Content 'Yan Yean Theatre' with Id '2540' has been published.
+2019-08-07 11:02:31,544 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Woodstock Theatre' with Id '2562' has been published.
+2019-08-07 11:02:37,732 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'Woodstock Theatre' with Id '2562' has been published.
+2019-08-07 11:02:48,404 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content 'Eucalypt Room' with Id '2567' has been published.
+2019-08-07 11:02:58,919 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content 'Lakeview Room' with Id '2568' has been published.
+2019-08-07 11:03:15,013 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Red Gum Room' with Id '2569' has been published.
+2019-08-07 11:03:41,997 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 65] Content 'Blue Gum Room' with Id '2570' has been published.
+2019-08-07 11:16:42,779 [25] INFO  umbraco.BasePages.BasePage - [Thread 77] User pracc (Id: 1) logged in
+2019-08-07 11:47:56,404 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 67] Content 'Celebration' with Id '2602' has been published.
+2019-08-07 11:48:29,935 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 63] Content 'Performance' with Id '2603' has been published.
+2019-08-07 11:49:02,216 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content 'Exhibition' with Id '2605' has been published.
+2019-08-07 11:49:03,950 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 67] Content 'Exhibition' with Id '2605' has been published.
+2019-08-07 11:49:05,497 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Exhibition' with Id '2605' has been published.
+2019-08-07 11:49:17,872 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 67] Content 'Exhibition' with Id '2605' has been published.
+2019-08-07 11:49:46,138 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content 'Exhibition' with Id '2605' has been published.
+2019-08-07 11:50:17,107 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Meetings' with Id '2532' has been published.
+2019-08-07 11:50:36,591 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Conference' with Id '2601' has been published.
+2019-08-07 11:50:50,841 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content 'Performance' with Id '2603' has been published.
+2019-08-07 11:52:04,232 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 65] Content 'Celebration' with Id '2602' has been published.
+2019-08-07 11:53:18,044 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 65] Content 'Celebration' with Id '2602' has been published.
+2019-08-07 11:57:57,779 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content 'Exhibition' with Id '2605' has been published.
+2019-08-07 12:37:51,794 [25] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 77] An unhandled exception occurred
+System.UriFormatException: Invalid URI: The hostname could not be parsed.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Web.Util.UriUtil.BuildUriImpl(String scheme, String serverName, String port, String path, String queryString, Boolean useLegacyRequestUrlGeneration)
+   at System.Web.HttpRequest.BuildUrl(Func`1 pathAccessor)
+   at System.Web.HttpRequest.get_Url()
+   at System.Web.HttpRequestWrapper.get_Url()
+   at Umbraco.Web.UmbracoModule.BeginRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__5(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-08-07 12:45:04,950 [25] INFO  umbraco.cms.businesslogic.web.Document - [Thread 78] New document 2626
+2019-08-07 12:46:48,747 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content '2019 - Concordia (Assumption College Kilmore)' with Id '2626' has been published.
+2019-08-07 12:47:09,529 [25] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 73] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.WriteDeflaterOutput(Boolean isAsync)
+   at System.IO.Compression.DeflateStream.PurgeBuffers(Boolean disposing)
+   at System.IO.Compression.DeflateStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Compression.GZipStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at umbraco.presentation.plugins.tinymce3.GzipCompressor.Compress(Stream to_stream)
+   at umbraco.presentation.plugins.tinymce3.GzipModule.ProcessRequest(HttpContext context)
+   at umbraco.presentation.plugins.tinymce3.tinymce3tinymceCompress.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_plugins_tinymce3_tinymce3tinymcecompress_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-08-07 12:47:13,872 [25] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 66] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.WriteDeflaterOutput(Boolean isAsync)
+   at System.IO.Compression.DeflateStream.PurgeBuffers(Boolean disposing)
+   at System.IO.Compression.DeflateStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Compression.GZipStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at umbraco.presentation.plugins.tinymce3.GzipCompressor.Compress(Stream to_stream)
+   at umbraco.presentation.plugins.tinymce3.GzipModule.ProcessRequest(HttpContext context)
+   at umbraco.presentation.plugins.tinymce3.tinymce3tinymceCompress.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_plugins_tinymce3_tinymce3tinymcecompress_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-08-07 12:51:15,654 [25] INFO  umbraco.cms.businesslogic.web.Document - [Thread 28] New document 2627
+2019-08-07 12:51:15,732 [25] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 77] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2019-08-07 12:51:54,325 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content 'Show 1' with Id '2627' has been published.
+2019-08-07 12:52:00,529 [25] INFO  umbraco.cms.businesslogic.web.Document - [Thread 66] New document 2628
+2019-08-07 12:52:10,185 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content 'Show 2' with Id '2628' has been published.
+2019-08-07 12:56:23,919 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content '2019 - Concordia (Assumption College Kilmore)' with Id '2626' has been published.
+2019-08-07 12:57:04,544 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content '2019 - Concordia (Assumption College Kilmore)' with Id '2626' has been published.
+2019-08-07 12:57:29,825 [25] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content '2019 - Concordia (Assumption College Kilmore)' with Id '2626' has been published.
+2019-08-07 17:31:44,794 [25] INFO  umbraco.BusinessLogic.Log - [Thread 23] Log scrubbed.  Removed all items older than 2019-06-08 17:31:44
+2019-08-07 22:29:15,544 [25] INFO  umbraco.BusinessLogic.Log - [Thread 55] Log scrubbed.  Removed all items older than 2019-06-08 22:29:15
+2019-08-07 22:29:15,575 [25] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 55] Application shutdown. Reason: HostingEnvironment
+2019-08-07 22:29:34,872 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2019-08-07 22:29:34,872 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 10ms)
+2019-08-07 22:29:34,888 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-08-07 22:29:36,310 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1422ms)
+2019-08-07 22:29:36,372 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-08-07 22:29:36,388 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2019-08-07 22:29:36,388 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-08-07 22:29:36,388 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2019-08-07 22:29:36,388 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-08-07 22:29:36,388 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2019-08-07 22:29:36,388 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-08-07 22:29:36,404 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2019-08-07 22:29:36,404 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-08-07 22:29:36,404 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2019-08-07 22:29:36,763 [9] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2019-08-07 22:29:37,263 [9] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2019-08-07 22:29:37,279 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2019-08-07 22:29:37,279 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2019-08-07 22:29:37,700 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2019-08-07 22:29:37,732 [9] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 20ms)
+2019-08-07 22:29:38,372 [9] INFO  umbraco.content - [Thread 12] Loading content from disk cache...
+2019-08-07 22:30:06,560 [9] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-08-07 22:30:06,560 [9] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)

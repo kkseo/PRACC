@@ -1,0 +1,53 @@
+2019-11-02 00:00:51,892 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 122] Content 'Top Acts (Marymede Catholic College)' with Id '2849' has been unpublished.
+2019-11-02 00:11:16,329 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 90] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-02 00:21:25,204 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 122] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-02 01:57:17,657 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 15] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-02 02:16:25,689 [22] INFO  umbraco.BusinessLogic.Log - [Thread 33] Log scrubbed.  Removed all items older than 2019-09-03 02:16:25
+2019-11-02 02:16:26,485 [22] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 33] Application shutdown. Reason: HostingEnvironment
+2019-11-02 02:23:14,032 [32] INFO  Umbraco.Core.PluginManager - [Thread 14] Determining hash of code files on disk
+2019-11-02 02:23:14,032 [32] INFO  Umbraco.Core.PluginManager - [Thread 14] Hash determined (took 3ms)
+2019-11-02 02:23:14,032 [32] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-11-02 02:23:15,251 [32] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1212ms)
+2019-11-02 02:23:15,251 [32] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-11-02 02:23:15,267 [32] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2019-11-02 02:23:15,267 [32] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-11-02 02:23:15,267 [32] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2019-11-02 02:23:15,267 [32] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-11-02 02:23:15,267 [32] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2019-11-02 02:23:15,267 [32] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-11-02 02:23:15,282 [32] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2019-11-02 02:23:15,282 [32] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-11-02 02:23:15,282 [32] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2019-11-02 02:23:15,673 [32] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 14] Initializing Examine and binding to business logic events
+2019-11-02 02:23:16,110 [32] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 14] Adding examine event handlers for index providers: 3
+2019-11-02 02:23:16,110 [32] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.IApplication
+2019-11-02 02:23:16,110 [32] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2019-11-02 02:23:16,595 [32] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.ITree
+2019-11-02 02:23:16,626 [32] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 23ms)
+2019-11-02 02:23:16,798 [32] INFO  umbraco.content - [Thread 12] Loading content from disk cache...
+2019-11-02 02:23:45,376 [32] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-11-02 02:23:45,376 [32] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2019-11-02 04:23:08,704 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 69] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-02 04:29:22,860 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 69] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-02 04:29:29,704 [32] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-11-02 04:29:29,720 [32] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2019-11-02 06:58:02,267 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 78] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-02 09:45:28,126 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 52] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-02 10:16:21,892 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 51] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-02 10:20:49,860 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 20] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-02 12:16:36,392 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 22] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-02 12:25:27,235 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-02 13:44:52,001 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 39] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-02 16:21:09,423 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 39] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-11-02 16:34:58,907 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 75] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-02 16:37:16,189 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 75] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-02 16:41:12,829 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 25] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-02 17:21:42,923 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 36] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-02 17:23:06,720 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 67] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-02 17:57:26,204 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 67] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-02 18:21:07,048 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 57] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-11-02 18:30:03,814 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 67] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2019-11-02 18:30:03,814 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 67] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2019-11-02 18:30:03,814 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 67] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2019-11-02 18:30:03,814 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 67] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2019-11-02 18:30:03,814 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 67] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.

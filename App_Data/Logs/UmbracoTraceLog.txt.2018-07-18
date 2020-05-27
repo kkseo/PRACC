@@ -1,0 +1,29 @@
+2018-07-18 01:14:51,228 [14] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 11] An unhandled exception occurred
+System.UriFormatException: Invalid URI: The hostname could not be parsed.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Web.Util.UriUtil.BuildUriImpl(String scheme, String serverName, String port, String path, String queryString, Boolean useLegacyRequestUrlGeneration)
+   at System.Web.HttpRequest.BuildUrl(Func`1 pathAccessor)
+   at System.Web.HttpRequest.get_Url()
+   at System.Web.HttpRequestWrapper.get_Url()
+   at Umbraco.Web.UmbracoModule.BeginRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__5(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-07-18 01:45:44,321 [14] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2018-07-18 01:45:44,337 [14] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 19ms)
+2018-07-18 14:12:14,603 [14] INFO  umbraco.BasePages.BasePage - [Thread 58] User pracc (Id: 1) logged in
+2018-07-18 14:12:15,212 [14] INFO  Umbraco.Core.PluginManager - [Thread 52] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2018-07-18 14:12:15,243 [14] INFO  Umbraco.Core.PluginManager - [Thread 52] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 33ms)
+2018-07-18 14:12:16,024 [14] INFO  Umbraco.Core.PluginManager - [Thread 52] Starting resolution types of umbraco.interfaces.ITree
+2018-07-18 14:12:16,040 [14] INFO  Umbraco.Core.PluginManager - [Thread 52] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 34ms)
+2018-07-18 14:12:23,024 [14] INFO  Umbraco.Core.PluginManager - [Thread 88] Starting resolution types of umbraco.interfaces.IDataType
+2018-07-18 14:12:23,071 [14] INFO  Umbraco.Core.PluginManager - [Thread 88] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 50ms)
+2018-07-18 14:12:52,946 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content '2018 - Mill Park Heights Primary School' with Id '2291' has been published.
+2018-07-18 14:12:53,040 [14] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2018-07-18 14:12:53,056 [14] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 24ms)
+2018-07-18 14:13:04,728 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 12] Content '2018 - Mill Park Heights Primary School' with Id '2291' has been published.
+2018-07-18 14:13:53,087 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content '2018 - Mill Park Heights Primary School' with Id '2291' has been published.
+2018-07-18 14:14:14,446 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 88] Content '2018 - Mill Park Heights Primary School' with Id '2291' has been published.
+2018-07-18 23:09:15,556 [14] INFO  umbraco.BusinessLogic.Log - [Thread 46] Log scrubbed.  Removed all items older than 2018-05-19 23:09:15

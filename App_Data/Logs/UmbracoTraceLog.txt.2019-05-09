@@ -1,0 +1,15 @@
+2019-05-09 14:28:36,716 [14] INFO  umbraco.BasePages.BasePage - [Thread 82] User pracc (Id: 1) logged in
+2019-05-09 14:28:37,044 [14] INFO  Umbraco.Core.PluginManager - [Thread 73] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-05-09 14:28:37,153 [14] INFO  Umbraco.Core.PluginManager - [Thread 73] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 114ms)
+2019-05-09 14:28:37,935 [14] INFO  Umbraco.Core.PluginManager - [Thread 73] Starting resolution types of umbraco.interfaces.ITree
+2019-05-09 14:28:37,966 [14] INFO  Umbraco.Core.PluginManager - [Thread 73] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 40ms)
+2019-05-09 14:28:52,403 [14] INFO  Umbraco.Core.PluginManager - [Thread 45] Starting resolution types of umbraco.interfaces.IDataType
+2019-05-09 14:28:52,481 [14] INFO  Umbraco.Core.PluginManager - [Thread 45] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 65ms)
+2019-05-09 14:31:05,513 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 109] Content 'Theatre' with Id '1064' has been published.
+2019-05-09 14:31:06,481 [14] INFO  Umbraco.Core.PluginManager - [Thread 109] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-05-09 14:31:06,497 [14] INFO  Umbraco.Core.PluginManager - [Thread 109] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 19ms)
+2019-05-09 14:31:50,388 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content 'Theatr' with Id '1064' has been published.
+2019-05-09 14:32:01,231 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 82] Content 'Theatre' with Id '1064' has been published.
+2019-05-09 14:34:34,544 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Catch the train to PRACC' with Id '1205' has been published.
+2019-05-09 14:34:41,028 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content '1 in 10 Delegates go FREE' with Id '2430' has been unpublished.
+2019-05-09 22:09:42,450 [14] INFO  umbraco.BusinessLogic.Log - [Thread 28] Log scrubbed.  Removed all items older than 2019-03-10 22:09:42

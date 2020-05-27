@@ -1,0 +1,210 @@
+2019-02-12 00:01:00,729 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Determining hash of code files on disk
+2019-02-12 00:01:00,744 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Hash determined (took 13ms)
+2019-02-12 00:01:00,760 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-02-12 00:01:07,354 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 6593ms)
+2019-02-12 00:01:07,604 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-02-12 00:01:07,619 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 16ms)
+2019-02-12 00:01:07,651 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-02-12 00:01:07,666 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 11ms)
+2019-02-12 00:01:07,666 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-02-12 00:01:07,666 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 11ms)
+2019-02-12 00:01:07,729 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-02-12 00:01:07,760 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 22ms)
+2019-02-12 00:01:07,760 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-02-12 00:01:07,776 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 9ms)
+2019-02-12 00:01:09,448 [15] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 3] Initializing Examine and binding to business logic events
+2019-02-12 00:01:12,369 [15] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 3] Adding examine event handlers for index providers: 3
+2019-02-12 00:01:12,416 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of umbraco.interfaces.IApplication
+2019-02-12 00:01:12,448 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 28ms)
+2019-02-12 00:01:13,213 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Starting resolution types of umbraco.interfaces.ITree
+2019-02-12 00:01:13,244 [15] INFO  Umbraco.Core.PluginManager - [Thread 3] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 37ms)
+2019-02-12 00:20:00,776 [15] INFO  umbraco.content - [Thread 34] Loading content from disk cache...
+2019-02-12 00:20:38,557 [15] INFO  Umbraco.Core.PluginManager - [Thread 40] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-02-12 00:20:38,588 [15] INFO  Umbraco.Core.PluginManager - [Thread 40] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 43ms)
+2019-02-12 01:47:45,901 [15] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-02-12 01:47:45,901 [15] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 9ms)
+2019-02-12 02:16:20,658 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2019-02-12 02:16:20,673 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 9ms)
+2019-02-12 02:16:20,673 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-02-12 02:16:24,658 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 3985ms)
+2019-02-12 02:16:24,673 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-02-12 02:16:24,673 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2019-02-12 02:16:24,673 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-02-12 02:16:24,689 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 7ms)
+2019-02-12 02:16:24,689 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-02-12 02:16:24,689 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 6ms)
+2019-02-12 02:16:24,689 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-02-12 02:16:24,704 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 14ms)
+2019-02-12 02:16:24,704 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-02-12 02:16:24,720 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 8ms)
+2019-02-12 02:16:25,658 [14] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2019-02-12 02:16:26,923 [14] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2019-02-12 02:16:26,939 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2019-02-12 02:16:26,954 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 12ms)
+2019-02-12 02:16:27,501 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2019-02-12 02:16:27,548 [14] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 39ms)
+2019-02-12 02:16:27,908 [14] INFO  umbraco.content - [Thread 13] Loading content from disk cache...
+2019-02-12 02:16:55,095 [14] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-02-12 02:16:55,111 [14] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 10ms)
+2019-02-12 02:20:31,861 [14] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-02-12 02:20:31,892 [14] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 21ms)
+2019-02-12 08:40:56,829 [14] INFO  umbraco.BasePages.BasePage - [Thread 75] User pracc (Id: 1) logged in
+2019-02-12 08:40:57,314 [14] INFO  Umbraco.Core.PluginManager - [Thread 67] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-02-12 08:40:57,345 [14] INFO  Umbraco.Core.PluginManager - [Thread 67] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 33ms)
+2019-02-12 08:40:58,267 [14] INFO  Umbraco.Core.PluginManager - [Thread 67] Starting resolution types of umbraco.interfaces.ITree
+2019-02-12 08:40:58,298 [14] INFO  Umbraco.Core.PluginManager - [Thread 67] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 35ms)
+2019-02-12 09:26:11,470 [14] INFO  Umbraco.Core.PluginManager - [Thread 56] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2019-02-12 09:26:11,486 [14] INFO  Umbraco.Core.PluginManager - [Thread 56] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 15ms)
+2019-02-12 10:31:26,017 [14] INFO  Umbraco.Core.PluginManager - [Thread 83] Starting resolution types of umbraco.interfaces.IDataType
+2019-02-12 10:31:26,064 [14] INFO  Umbraco.Core.PluginManager - [Thread 83] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 31ms)
+2019-02-12 10:32:21,704 [14] INFO  Umbraco.Core.PluginManager - [Thread 76] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2019-02-12 10:32:21,704 [14] INFO  Umbraco.Core.PluginManager - [Thread 76] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 7ms)
+2019-02-12 10:32:23,939 [14] INFO  Umbraco.Core.PluginManager - [Thread 76] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-02-12 10:32:23,954 [14] INFO  Umbraco.Core.PluginManager - [Thread 76] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 19ms)
+2019-02-12 10:32:24,204 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 76] Success uploading to parent 2347
+2019-02-12 10:35:07,486 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 76] New document 2365
+2019-02-12 10:43:09,454 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content '2019 - World Dance' with Id '2365' has been published.
+2019-02-12 10:46:06,798 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 91] Content '2019 - World Dance' with Id '2365' has been published.
+2019-02-12 10:46:11,986 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content '2019 - World Dance' with Id '2365' has been published.
+2019-02-12 10:51:01,595 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content '2019 - World Dance' with Id '2365' has been published.
+2019-02-12 10:51:36,376 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 93] New document 2366
+2019-02-12 10:52:58,126 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content 'Show 1' with Id '2366' has been published.
+2019-02-12 10:54:11,767 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 80] Content '2019 - World Dance' with Id '2365' has been published.
+2019-02-12 10:55:53,298 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 76] New document 2367
+2019-02-12 11:01:49,345 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 94] Success uploading to parent 2347
+2019-02-12 11:03:02,204 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 93] Content '2019 - Big Science Big Fun' with Id '2367' has been published.
+2019-02-12 11:04:05,392 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 48] New document 2369
+2019-02-12 11:04:55,017 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 67] Content 'Show 1' with Id '2369' has been published.
+2019-02-12 11:07:23,048 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content '2019 - Big Science Big Fun' with Id '2367' has been published.
+2019-02-12 11:08:14,704 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content '2019 - Big Science Big Fun' with Id '2367' has been published.
+2019-02-12 11:09:19,017 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 82] Content '2019 - Big Science Big Fun' with Id '2367' has been published.
+2019-02-12 11:18:58,158 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 61] Content '2019 - Big Science Big Fun' with Id '2367' has been published.
+2019-02-12 11:20:04,517 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content '2019 - Big Science Big Fun' with Id '2367' has been published.
+2019-02-12 11:27:24,267 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 92] Content '2019 - World Dance' with Id '2365' has been published.
+2019-02-12 11:27:39,783 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 61] Content '2019 - World Dance' with Id '2365' has been published.
+2019-02-12 11:28:30,517 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 79] New document 2370
+2019-02-12 11:50:07,033 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 60] Success uploading to parent 2347
+2019-02-12 11:51:54,861 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 67] Content 'The Travelling Kitchen' with Id '2370' has been published.
+2019-02-12 11:52:45,908 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 80] New document 2372
+2019-02-12 11:53:25,376 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content 'Show 1' with Id '2372' has been published.
+2019-02-12 11:55:54,204 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 47] New document 2373
+2019-02-12 11:56:35,220 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 61] Content 'The RooKeepers' with Id '2373' has been unpublished.
+2019-02-12 12:22:37,767 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 63] New document 2374
+2019-02-12 12:28:17,658 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content 'The RooKeepers' with Id '2374' has been published.
+2019-02-12 12:28:29,095 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 88] New document 2375
+2019-02-12 12:28:55,267 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Show 1' with Id '2375' has been published.
+2019-02-12 12:30:26,736 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 82] Success uploading to parent 2347
+2019-02-12 12:31:13,626 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 90] Content 'The RooKeepers' with Id '2374' has been published.
+2019-02-12 12:31:20,876 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content 'The RooKeepers' with Id '2374' has been published.
+2019-02-12 12:36:09,501 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 18] Success uploading to parent 2347
+2019-02-12 12:39:09,079 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 75] Success uploading to parent 2347
+2019-02-12 12:39:45,267 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 76] New document 2379
+2019-02-12 12:42:28,126 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 45] Content 'Brickworks' with Id '2379' has been published.
+2019-02-12 12:42:30,267 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Brickworks' with Id '2379' has been published.
+2019-02-12 12:45:29,783 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 80] New document 2380
+2019-02-12 12:46:08,720 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 56] Content 'Show 1' with Id '2380' has been published.
+2019-02-12 12:48:26,533 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 51] New document 2381
+2019-02-12 12:53:19,642 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 85] Content 'CodeBiotics' with Id '2381' has been published.
+2019-02-12 12:53:19,798 [14] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 18] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2019-02-12 12:53:27,439 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 84] Content 'CodeBiotics' with Id '2381' has been published.
+2019-02-12 12:54:03,064 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 83] Content 'CodeBiotics' with Id '2381' has been published.
+2019-02-12 12:54:15,970 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'CodeBiotics' with Id '2381' has been published.
+2019-02-12 12:54:17,251 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 90] Content 'CodeBiotics' with Id '2381' has been published.
+2019-02-12 12:54:25,236 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content 'CodeBiotics' with Id '2381' has been published.
+2019-02-12 12:54:26,314 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content 'CodeBiotics' with Id '2381' has been published.
+2019-02-12 12:54:53,345 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 92] New document 2382
+2019-02-12 12:55:21,970 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content 'Show 1' with Id '2382' has been published.
+2019-02-12 12:55:24,001 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'Show 1' with Id '2382' has been published.
+2019-02-12 12:55:28,939 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Show 1' with Id '2382' has been published.
+2019-02-12 12:55:40,142 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Show 1' with Id '2382' has been published.
+2019-02-12 12:58:21,376 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 83] Content 'Brickworks' with Id '2379' has been published.
+2019-02-12 13:06:15,642 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 85] Content 'The RooKeepers' with Id '2374' has been published.
+2019-02-12 13:07:54,611 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 92] Content '2019 - Big Science Big Fun' with Id '2367' has been published.
+2019-02-12 13:08:08,423 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content '2019 - Big Science Big Fun' with Id '2367' has been published.
+2019-02-12 13:14:48,204 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 92] Content '2019 - Big Science Big Fun' with Id '2367' has been published.
+2019-02-12 13:14:50,251 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 83] Content '2019 - Big Science Big Fun' with Id '2367' has been published.
+2019-02-12 13:20:37,923 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'The Travelling Kitchen' with Id '2370' has been published.
+2019-02-12 13:20:41,111 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'The Travelling Kitchen' with Id '2370' has been published.
+2019-02-12 14:01:43,033 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 85] Success uploading to parent 2347
+2019-02-12 14:02:52,579 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content 'CodeBiotics' with Id '2381' has been published.
+2019-02-12 14:14:06,079 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 78] Success uploading to parent 2347
+2019-02-12 14:14:54,189 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content 'Brickworks' with Id '2379' has been published.
+2019-02-12 14:21:36,892 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 74] Success uploading to parent 2347
+2019-02-12 14:22:32,892 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content 'Brickworks' with Id '2379' has been published.
+2019-02-12 14:22:34,314 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Brickworks' with Id '2379' has been published.
+2019-02-12 14:31:16,329 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 79] Success uploading to parent 2347
+2019-02-12 14:31:52,720 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 85] Success uploading to parent 2347
+2019-02-12 14:32:19,267 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 73] Success uploading to parent 2347
+2019-02-12 14:34:10,079 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 85] Content 'The RooKeepers' with Id '2374' has been published.
+2019-02-12 14:36:24,579 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content 'The Travelling Kitchen' with Id '2370' has been published.
+2019-02-12 14:36:24,736 [14] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 67] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2019-02-12 14:37:10,611 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 90] Content 'The Travelling Kitchen' with Id '2370' has been published.
+2019-02-12 14:38:52,345 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 63] Content '2019 - World Dance' with Id '2365' has been published.
+2019-02-12 14:38:54,329 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 67] Content '2019 - World Dance' with Id '2365' has been published.
+2019-02-12 14:41:00,486 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 83] Success uploading to parent 2347
+2019-02-12 14:41:41,392 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 89] Content '2019 - Big Science Big Fun' with Id '2367' has been published.
+2019-02-12 14:48:17,579 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 61] Content '2019 - World Dance' with Id '2365' has been published.
+2019-02-12 14:49:02,611 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 82] Content '2019 - Big Science Big Fun' with Id '2367' has been published.
+2019-02-12 14:49:23,486 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 85] Content 'The Travelling Kitchen' with Id '2370' has been published.
+2019-02-12 14:49:36,611 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content 'The RooKeepers' with Id '2374' has been published.
+2019-02-12 14:49:52,939 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'Brickworks' with Id '2379' has been published.
+2019-02-12 14:50:10,048 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 45] Content 'CodeBiotics' with Id '2381' has been published.
+2019-02-12 14:50:33,189 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content '2019 - Menopause' with Id '2344' has been published.
+2019-02-12 14:51:31,689 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content '2019 - World Dance' with Id '2365' has been published.
+2019-02-12 14:51:33,298 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content '2019 - World Dance' with Id '2365' has been published.
+2019-02-12 15:28:35,689 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 92] Success uploading to parent 2347
+2019-02-12 15:30:37,689 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 18] Success uploading to parent 2347
+2019-02-12 15:32:37,236 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 80] Content '2019 Back to the 50's & 60's' with Id '2362' has been published.
+2019-02-12 15:34:51,111 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 85] Content '2019 Back to the 50's & 60's' with Id '2362' has been published.
+2019-02-12 15:35:36,954 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 82] Content '2019 Back to the 50's & 60's' with Id '2362' has been published.
+2019-02-12 15:38:18,236 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content '2019 Back to the 50's & 60's' with Id '2362' has been published.
+2019-02-12 15:39:27,517 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content '2019 Back to the 50's & 60's' with Id '2362' has been published.
+2019-02-12 15:40:10,095 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 85] New document 2392
+2019-02-12 15:40:21,236 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 91] Content 'Show 1 (1)' with Id '2392' has been unpublished.
+2019-02-12 15:40:21,470 [14] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 79] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2019-02-12 15:40:58,986 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content 'Show 1' with Id '2363' has been published.
+2019-02-12 15:46:59,095 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 89] New document 2393
+2019-02-12 16:01:06,423 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 85] Content '2019 - Elvis Forever' with Id '2393' has been published.
+2019-02-12 16:01:24,751 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 91] New document 2394
+2019-02-12 16:06:40,408 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 83] Success uploading to parent 2347
+2019-02-12 16:06:57,376 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 89] Success uploading to parent 2347
+2019-02-12 16:08:08,673 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content '2019 - Elvis Forever' with Id '2393' has been published.
+2019-02-12 16:09:07,126 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content '2019 - Elvis Forever' with Id '2393' has been published.
+2019-02-12 16:09:26,658 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 93] Content '2019 - Elvis Forever' with Id '2393' has been published.
+2019-02-12 16:09:38,376 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 84] Content '2019 - Elvis Forever' with Id '2393' has been published.
+2019-02-12 16:09:45,970 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Show 1' with Id '2394' has been published.
+2019-02-12 16:10:00,001 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content 'Show 1' with Id '2394' has been published.
+2019-02-12 16:10:01,986 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 61] Content 'Show 1' with Id '2394' has been published.
+2019-02-12 16:10:13,314 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content '2019 - Elvis Forever' with Id '2393' has been published.
+2019-02-12 16:10:15,064 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 89] Content '2019 - Elvis Forever' with Id '2393' has been published.
+2019-02-12 16:16:56,908 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 60] Success uploading to parent 2347
+2019-02-12 16:16:57,236 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 73] Success uploading to parent 2347
+2019-02-12 16:19:38,251 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 47] New document 2399
+2019-02-12 16:23:05,814 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 91] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-02-12 16:25:10,345 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-02-12 16:25:20,814 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 82] New document 2400
+2019-02-12 16:25:52,783 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Show 1' with Id '2400' has been published.
+2019-02-12 16:37:51,314 [14] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 79] Success uploading to parent 2347
+2019-02-12 16:38:26,298 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 64] New document 2402
+2019-02-12 16:45:56,408 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 61] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-12 16:46:07,986 [14] INFO  umbraco.cms.businesslogic.web.Document - [Thread 87] New document 2403
+2019-02-12 16:46:33,970 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'Show 1' with Id '2403' has been published.
+2019-02-12 16:47:56,392 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 67] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-12 16:48:13,454 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-12 16:48:46,845 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 84] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-12 16:49:11,361 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-12 16:50:10,861 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-12 16:51:11,626 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-12 16:51:28,892 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-12 16:51:30,173 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 56] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-12 16:51:48,283 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 91] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-12 16:51:51,158 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-12 16:51:51,251 [14] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 74] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2019-02-12 16:52:37,392 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-12 16:52:37,548 [14] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 63] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2019-02-12 16:53:06,876 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 88] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-12 16:53:25,595 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 91] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-12 16:54:09,189 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 88] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-12 16:56:26,220 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-12 16:58:26,939 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 91] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-02-12 17:01:02,923 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content '2019 - Crooners Around The World' with Id '2402' has been published.

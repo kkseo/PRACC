@@ -1,0 +1,64 @@
+2017-12-14 03:19:09,529 [8] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 30] Error executing query delete from umbracoLog where datestamp < @oldestPermittedLogEntry and logHeader in ('open','system')
+System.Data.SqlClient.SqlException (0x80131904): SHUTDOWN is in progress.
+Login failed for user 'web24PraccUmbUser'.
+A severe error occurred on the current command.  The results, if any, should be discarded.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteNonQuery(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+ClientConnectionId:a8932e98-82b0-482c-8ff8-11ef55f410f7
+Error Number:6005,State:1,Class:14
+2017-12-14 03:19:10,107 [8] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 30] Application shutdown. Reason: HostingEnvironment
+2017-12-14 03:31:50,466 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2017-12-14 03:31:50,466 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 7ms)
+2017-12-14 03:31:50,466 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2017-12-14 03:31:53,357 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 2894ms)
+2017-12-14 03:31:53,372 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2017-12-14 03:31:53,388 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2017-12-14 03:31:53,388 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2017-12-14 03:31:53,388 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2017-12-14 03:31:53,388 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2017-12-14 03:31:53,403 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 6ms)
+2017-12-14 03:31:53,403 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2017-12-14 03:31:53,403 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 7ms)
+2017-12-14 03:31:53,403 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2017-12-14 03:31:53,419 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 12ms)
+2017-12-14 03:31:54,403 [20] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2017-12-14 03:31:55,419 [20] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2017-12-14 03:31:55,450 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2017-12-14 03:31:55,482 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 12ms)
+2017-12-14 03:31:56,013 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2017-12-14 03:31:56,060 [20] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 41ms)
+2017-12-14 03:31:58,653 [20] INFO  umbraco.content - [Thread 27] Loading content from disk cache...
+2017-12-14 03:32:01,232 [20] INFO  Umbraco.Core.PluginManager - [Thread 27] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2017-12-14 03:32:01,247 [20] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 15ms)
+2017-12-14 04:18:14,669 [20] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2017-12-14 04:18:14,700 [20] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 26ms)
+2017-12-14 08:11:57,732 [20] INFO  umbraco.BasePages.BasePage - [Thread 46] User pracc (Id: 1) logged in
+2017-12-14 08:11:58,388 [20] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2017-12-14 08:11:58,388 [20] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 8ms)
+2017-12-14 08:11:58,919 [20] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.interfaces.ITree
+2017-12-14 08:11:58,950 [20] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 37ms)
+2017-12-14 08:12:09,778 [20] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of umbraco.interfaces.IDataType
+2017-12-14 08:12:09,810 [20] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 32ms)
+2017-12-14 08:12:23,638 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 61] Content '2018 - Peppa Pig's Surprise' with Id '2145' has been published.
+2017-12-14 08:12:24,716 [20] INFO  Umbraco.Core.PluginManager - [Thread 61] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2017-12-14 08:12:24,747 [20] INFO  Umbraco.Core.PluginManager - [Thread 61] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 19ms)
+2017-12-14 09:00:21,357 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 45] Content 'Show 1' with Id '2146' has been published.
+2017-12-14 10:06:10,982 [20] INFO  umbraco.BasePages.BasePage - [Thread 31] User pracc (Id: 1) logged in
+2017-12-14 10:07:44,825 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content '2018 - Onstage Dating' with Id '2200' has been published.
+2017-12-14 10:07:48,575 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 8] Content '2018 - Rock Around the World' with Id '2202' has been published.
+2017-12-14 10:07:53,028 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 61] Content '2018 - Onstage Dating' with Id '2200' has been published.
+2017-12-14 10:08:20,607 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 45] Content '2018 - The Best of Mike Brady' with Id '2191' has been published.
+2017-12-14 10:09:36,841 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content '2018 - Captain Underpants' with Id '2216' has been published.
+2017-12-14 11:56:25,653 [20] INFO  umbraco.BasePages.BasePage - [Thread 46] User pracc (Id: 1) logged in
+2017-12-14 11:57:14,419 [20] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content '2018 - Beats on Pointe' with Id '2236' has been published.

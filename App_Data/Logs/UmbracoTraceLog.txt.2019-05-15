@@ -1,0 +1,27 @@
+2019-05-15 09:54:45,282 [7] INFO  umbraco.BasePages.BasePage - [Thread 91] User pracc (Id: 1) logged in
+2019-05-15 09:54:45,938 [7] INFO  Umbraco.Core.PluginManager - [Thread 98] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-05-15 09:54:45,954 [7] INFO  Umbraco.Core.PluginManager - [Thread 98] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 9ms)
+2019-05-15 09:54:47,126 [7] INFO  Umbraco.Core.PluginManager - [Thread 98] Starting resolution types of umbraco.interfaces.ITree
+2019-05-15 09:54:47,157 [7] INFO  Umbraco.Core.PluginManager - [Thread 98] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 34ms)
+2019-05-15 09:54:47,876 [7] INFO  umbraco.BasePages.BasePage - [Thread 91] User pracc (Id: 1) logged in
+2019-05-15 09:54:55,860 [7] INFO  Umbraco.Core.PluginManager - [Thread 98] Starting resolution types of umbraco.interfaces.IDataType
+2019-05-15 09:54:55,891 [7] INFO  Umbraco.Core.PluginManager - [Thread 98] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 38ms)
+2019-05-15 09:55:35,454 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content 'The Lion King Jr (Marymede Catholic College)' with Id '2462' has been published.
+2019-05-15 09:55:36,282 [7] INFO  Umbraco.Core.PluginManager - [Thread 94] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-05-15 09:55:36,297 [7] INFO  Umbraco.Core.PluginManager - [Thread 94] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 17ms)
+2019-05-15 09:56:03,047 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 91] Content 'Show 3' with Id '2465' has been published.
+2019-05-15 09:56:35,407 [7] INFO  umbraco.BasePages.BasePage - [Thread 96] User pracc (Id: 1) logged in
+2019-05-15 10:23:24,047 [7] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 96] An unhandled exception occurred
+System.UriFormatException: Invalid URI: The hostname could not be parsed.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Web.Util.UriUtil.BuildUriImpl(String scheme, String serverName, String port, String path, String queryString, Boolean useLegacyRequestUrlGeneration)
+   at System.Web.HttpRequest.BuildUrl(Func`1 pathAccessor)
+   at System.Web.HttpRequest.get_Url()
+   at System.Web.HttpRequestWrapper.get_Url()
+   at Umbraco.Web.UmbracoModule.BeginRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__5(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-05-15 23:09:44,391 [7] INFO  umbraco.BusinessLogic.Log - [Thread 47] Log scrubbed.  Removed all items older than 2019-03-16 23:09:44

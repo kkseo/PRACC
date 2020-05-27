@@ -1,0 +1,83 @@
+2019-07-02 06:15:44,465 [17] INFO  umbraco.BusinessLogic.Log - [Thread 92] Log scrubbed.  Removed all items older than 2019-05-03 06:15:44
+2019-07-02 11:13:06,278 [17] INFO  umbraco.BusinessLogic.Log - [Thread 20] Log scrubbed.  Removed all items older than 2019-05-03 11:13:06
+2019-07-02 11:13:06,403 [17] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 20] Application shutdown. Reason: HostingEnvironment
+2019-07-02 11:13:12,168 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2019-07-02 11:13:12,184 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 16ms)
+2019-07-02 11:13:12,200 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-07-02 11:13:15,090 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 2899ms)
+2019-07-02 11:13:15,137 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-07-02 11:13:15,137 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 5ms)
+2019-07-02 11:13:15,137 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-07-02 11:13:15,137 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+2019-07-02 11:13:15,137 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-07-02 11:13:15,153 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2019-07-02 11:13:15,168 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-07-02 11:13:15,168 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2019-07-02 11:13:15,168 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-07-02 11:13:15,200 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2019-07-02 11:13:16,028 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2019-07-02 11:13:17,075 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2019-07-02 11:13:17,075 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2019-07-02 11:13:17,090 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2019-07-02 11:13:17,825 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2019-07-02 11:13:17,856 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 22ms)
+2019-07-02 11:13:19,028 [7] INFO  umbraco.content - [Thread 5] Loading content from disk cache...
+2019-07-02 11:13:20,418 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-07-02 11:13:20,418 [7] INFO  Umbraco.Core.PluginManager - [Thread 10] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2019-07-02 11:18:03,731 [7] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-07-02 11:18:03,731 [7] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2019-07-02 11:52:30,246 [7] INFO  umbraco.BasePages.BasePage - [Thread 10] User pracc (Id: 1) logged in
+2019-07-02 11:52:30,371 [7] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-07-02 11:52:30,387 [7] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 5ms)
+2019-07-02 11:52:30,559 [7] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of umbraco.interfaces.ITree
+2019-07-02 11:52:30,575 [7] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 20ms)
+2019-07-02 11:52:39,950 [7] INFO  Umbraco.Core.PluginManager - [Thread 76] Starting resolution types of umbraco.interfaces.IDataType
+2019-07-02 11:52:39,996 [7] INFO  Umbraco.Core.PluginManager - [Thread 76] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 18ms)
+2019-07-02 12:08:25,340 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 73] New document 2474
+2019-07-02 12:08:26,153 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 72] New document 2475
+2019-07-02 12:09:19,075 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'TheatreA' with Id '1064' has been published.
+2019-07-02 12:09:19,200 [7] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-07-02 12:09:19,200 [7] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 10ms)
+2019-07-02 12:09:42,575 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Theatre' with Id '1064' has been published.
+2019-07-02 12:15:54,153 [7] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2019-07-02 12:15:54,153 [7] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 8ms)
+2019-07-02 12:16:27,512 [7] INFO  Umbraco.Core.PluginManager - [Thread 78] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2019-07-02 12:16:27,528 [7] INFO  Umbraco.Core.PluginManager - [Thread 78] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 6ms)
+2019-07-02 12:16:28,012 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 78] Success uploading to parent 2347
+2019-07-02 12:16:28,762 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 73] Success uploading to parent 2347
+2019-07-02 12:19:20,200 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content '2019 - Bye Bye Birdie (Plenty Valley Christian College)' with Id '2474' has been published.
+2019-07-02 12:19:25,309 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content '2019 - Bye Bye Birdie (Plenty Valley Christian College)' with Id '2474' has been published.
+2019-07-02 12:19:48,340 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content '2019 - Bye Bye Birdie (Plenty Valley Christian College)' with Id '2474' has been published.
+2019-07-02 12:19:56,246 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 73] Content '2019 - Bye Bye Birdie (Plenty Valley Christian College)' with Id '2474' has been published.
+2019-07-02 12:20:04,825 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content '2019 - Bye Bye Birdie (Plenty Valley Christian College)' with Id '2474' has been published.
+2019-07-02 12:20:16,559 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 42] New document 2478
+2019-07-02 12:20:53,200 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Show1' with Id '2478' has been published.
+2019-07-02 12:20:59,731 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 78] New document 2479
+2019-07-02 12:21:16,840 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Show 2' with Id '2479' has been published.
+2019-07-02 12:21:24,418 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 52] New document 2480
+2019-07-02 12:21:40,387 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content 'Show3' with Id '2480' has been published.
+2019-07-02 12:22:08,778 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content '2019 - Bye Bye Birdie (Plenty Valley Christian College)' with Id '2474' has been published.
+2019-07-02 12:22:18,559 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 61] Content '2019 - Bye Bye Birdie (Plenty Valley Christian College)' with Id '2474' has been published.
+2019-07-02 12:22:30,731 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content '2019 - Bye Bye Birdie (Plenty Valley Christian College)' with Id '2474' has been published.
+2019-07-02 12:22:37,809 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content '2019 - Bye Bye Birdie (Plenty Valley Christian College)' with Id '2474' has been published.
+2019-07-02 12:24:05,512 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content '2019 - SingOut' with Id '2449' has been published.
+2019-07-02 12:24:09,278 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content '2019 - SingOut' with Id '2449' has been published.
+2019-07-02 12:24:25,418 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content '2019 - The Wiggles' with Id '2435' has been unpublished.
+2019-07-02 12:25:16,950 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content '2019 - The Lion King Jr (Marymede Catholic College)' with Id '2462' has been published.
+2019-07-02 12:25:54,059 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content '2019 - The Lion King Jr (Marymede Catholic College)' with Id '2462' has been published.
+2019-07-02 12:26:10,012 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 23] Content '2019 - Bye Bye Birdie (Plenty Valley Christian College)' with Id '2474' has been published.
+2019-07-02 13:58:11,012 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 57] Content '2019 - Wild Wogs 2' with Id '2445' has been published.
+2019-07-02 13:59:04,731 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content '2019 - The Travelling Kitchen' with Id '2370' has been published.
+2019-07-02 13:59:14,653 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content '2019 - The Travelling Kitchen' with Id '2370' has been published.
+2019-07-02 13:59:46,168 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content 'Upcoming Events' with Id '1107' has been published.
+2019-07-02 14:00:31,434 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 50] Content 'Upcoming Events' with Id '1107' has been published.
+2019-07-02 14:00:36,075 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 57] Content 'Upcoming Events' with Id '1107' has been published.
+2019-07-02 14:00:49,731 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Upcoming Events' with Id '1107' has been published.
+2019-07-02 14:23:32,309 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content 'Contact' with Id '1071' has been published.
+2019-07-02 14:23:39,075 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content 'Contact' with Id '1071' has been published.
+2019-07-02 15:17:59,903 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'Special Offers' with Id '1424' has been unpublished.
+2019-07-02 15:28:02,325 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 30] Content 'Events' with Id '1090' has been unpublished.
+2019-07-02 15:28:45,965 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 30] Content 'Community Events' with Id '1458' has been unpublished.
+2019-07-02 15:28:53,340 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 69] Content 'Special Offers' with Id '1424' has been unpublished.
+2019-07-02 15:29:17,965 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 30] Content 'Special Offers' with Id '1422' has been unpublished.
+2019-07-02 15:29:21,184 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 34] Content 'Community Events' with Id '1421' has been unpublished.

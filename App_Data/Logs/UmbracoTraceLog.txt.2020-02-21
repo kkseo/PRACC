@@ -1,0 +1,219 @@
+2020-02-21 04:32:50,237 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 79] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 04:35:44,222 [23] INFO  umbraco.BusinessLogic.Log - [Thread 82] Log scrubbed.  Removed all items older than 2019-12-23 04:35:44
+2020-02-21 08:02:59,518 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 108] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 08:54:25,362 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 102] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 09:18:02,956 [23] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 88] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 09:30:34,643 [23] INFO  umbraco.BusinessLogic.Log - [Thread 114] Log scrubbed.  Removed all items older than 2019-12-23 09:30:34
+2020-02-21 09:30:34,753 [23] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 114] Application shutdown. Reason: HostingEnvironment
+2020-02-21 09:31:45,237 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Determining hash of code files on disk
+2020-02-21 09:31:45,253 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Hash determined (took 5ms)
+2020-02-21 09:31:45,253 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2020-02-21 09:31:45,862 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 594ms)
+2020-02-21 09:31:45,878 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2020-02-21 09:31:45,893 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2020-02-21 09:31:45,893 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2020-02-21 09:31:45,893 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2020-02-21 09:31:45,893 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2020-02-21 09:31:45,893 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2020-02-21 09:31:45,893 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2020-02-21 09:31:45,893 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2020-02-21 09:31:45,893 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2020-02-21 09:31:45,909 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2020-02-21 09:31:46,175 [16] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 14] Initializing Examine and binding to business logic events
+2020-02-21 09:31:46,487 [16] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 14] Adding examine event handlers for index providers: 3
+2020-02-21 09:31:46,487 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.IApplication
+2020-02-21 09:31:46,503 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2020-02-21 09:31:46,534 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Starting resolution types of umbraco.interfaces.ITree
+2020-02-21 09:31:46,597 [16] INFO  Umbraco.Core.PluginManager - [Thread 14] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 61ms)
+2020-02-21 09:31:46,831 [16] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2020-02-21 09:32:14,268 [16] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2020-02-21 09:32:14,268 [16] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2020-02-21 09:33:19,018 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 9] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 09:34:50,659 [16] INFO  Umbraco.Core.PluginManager - [Thread 21] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2020-02-21 09:34:50,659 [16] INFO  Umbraco.Core.PluginManager - [Thread 21] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2020-02-21 09:45:51,175 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 26] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 09:50:31,753 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 09:52:50,565 [16] INFO  umbraco.BasePages.BasePage - [Thread 56] User pracc (Id: 1) logged in
+2020-02-21 09:52:51,237 [16] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2020-02-21 09:52:51,253 [16] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 5ms)
+2020-02-21 09:52:51,581 [16] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of umbraco.interfaces.ITree
+2020-02-21 09:52:51,597 [16] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 20ms)
+2020-02-21 09:52:58,425 [16] ERROR dashboardUtilities.FeedProxy - [Thread 69] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-02-21 09:53:01,331 [16] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of umbraco.interfaces.IDataType
+2020-02-21 09:53:01,347 [16] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 18ms)
+2020-02-21 09:53:13,847 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 35] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 09:59:16,159 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 80] Content 'Bluey's Big Play' with Id '2928' has been published.
+2020-02-21 09:59:16,784 [16] INFO  Umbraco.Core.PluginManager - [Thread 80] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2020-02-21 09:59:16,800 [16] INFO  Umbraco.Core.PluginManager - [Thread 80] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 10ms)
+2020-02-21 10:11:27,143 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 10:11:36,300 [16] INFO  umbraco.cms.businesslogic.web.Document - [Thread 26] New document 2966
+2020-02-21 10:13:40,362 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 10:13:51,800 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 34] Content 'Show 5' with Id '2966' has been published.
+2020-02-21 10:24:54,534 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 10:30:29,253 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 90] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 10:48:36,706 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 114] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 10:59:01,472 [16] ERROR dashboardUtilities.FeedProxy - [Thread 88] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-02-21 11:13:57,268 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 72] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 11:20:12,940 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 121] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 11:42:22,722 [16] INFO  umbraco.BasePages.BasePage - [Thread 72] User pracc (Id: 1) logged in
+2020-02-21 11:42:26,237 [16] ERROR dashboardUtilities.FeedProxy - [Thread 118] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-02-21 11:48:46,284 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 88] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 11:55:37,659 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Jump Dance Challenge - Together We Dance Showcase 2020' with Id '2962' is awaiting release and could not be published.
+2020-02-21 12:03:10,097 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 68] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 12:15:36,097 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 88] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 12:17:10,112 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 68] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 12:24:10,143 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 108] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 12:25:36,159 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 128] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 12:28:33,643 [16] INFO  umbraco.BasePages.BasePage - [Thread 35] User pracc (Id: 1) logged in
+2020-02-21 12:28:37,347 [16] ERROR dashboardUtilities.FeedProxy - [Thread 35] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-02-21 12:29:44,331 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 12:36:45,581 [16] INFO  umbraco.cms.businesslogic.web.Document - [Thread 35] New document 2968
+2020-02-21 12:37:05,143 [16] INFO  umbraco.cms.businesslogic.web.Document - [Thread 60] New document 2969
+2020-02-21 12:37:17,128 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 91] Content 'show 1 ' with Id '2968' has been unpublished.
+2020-02-21 12:37:25,534 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 116] Content 'Show 2 ' with Id '2969' has been unpublished.
+2020-02-21 12:37:36,300 [16] INFO  umbraco.cms.businesslogic.web.Document - [Thread 73] New document 2970
+2020-02-21 12:37:41,862 [16] INFO  umbraco.cms.businesslogic.web.Document - [Thread 79] New document 2971
+2020-02-21 12:51:45,784 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 31] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 13:09:12,487 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 37] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 13:52:32,862 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 20] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 14:05:50,050 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 31] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 14:06:15,112 [16] INFO  umbraco.BasePages.BasePage - [Thread 74] User pracc (Id: 1) logged in
+2020-02-21 14:06:18,862 [16] ERROR dashboardUtilities.FeedProxy - [Thread 24] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-02-21 14:07:01,393 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content 'Seating Map' with Id '1079' has been unpublished.
+2020-02-21 14:07:15,628 [16] INFO  umbraco.cms.businesslogic.web.Document - [Thread 91] New document 2972
+2020-02-21 14:07:22,097 [16] INFO  Umbraco.Core.Services.ContentService - [Thread 10] Content 'Guides & Forms' with Id '2972' could not be published because of invalid properties.
+2020-02-21 14:07:34,722 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 20] Content 'Guides & Forms' with Id '2972' has been published.
+2020-02-21 14:07:47,800 [16] INFO  umbraco.cms.businesslogic.web.Document - [Thread 31] New document 2973
+2020-02-21 14:08:05,362 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 14:08:15,597 [16] INFO  umbraco.cms.businesslogic.web.Document - [Thread 95] New document 2974
+2020-02-21 14:08:31,159 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 95] Content 'Woodstock Theatre' with Id '2974' has been published.
+2020-02-21 14:11:08,581 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'Guides & Forms' with Id '2972' has been published.
+2020-02-21 14:12:15,409 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 14:13:00,237 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 79] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 14:23:26,268 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 14:23:39,847 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 60] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 14:23:52,987 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 14:24:29,409 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 14:25:13,003 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 91] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 14:25:17,456 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 14:25:23,097 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 73] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 14:25:38,878 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 14:26:34,831 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 14:26:38,768 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 14:26:41,643 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 14:26:46,847 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 128] Content 'Woodstock Theatre' with Id '2974' has been published.
+2020-02-21 14:28:15,565 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 14:28:33,128 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 38] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 14:28:47,643 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 14:29:11,815 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 14:31:01,847 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 14:33:41,815 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 116] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 14:36:37,706 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 79] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 14:39:09,050 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 20] Content 'Woodstock Theatre' with Id '2974' has been unpublished.
+2020-02-21 14:39:26,643 [16] ERROR dashboardUtilities.FeedProxy - [Thread 24] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-02-21 14:39:41,550 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 116] Content 'Woodstock Theatre' with Id '2975' has been published.
+2020-02-21 14:39:49,097 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Woodstock Theatre' with Id '2975' has been published.
+2020-02-21 14:42:14,940 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content 'Woodstock Theatre' with Id '2975' has been published.
+2020-02-21 14:42:29,253 [16] INFO  Umbraco.Core.PluginManager - [Thread 97] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2020-02-21 14:42:30,003 [16] INFO  Umbraco.Core.PluginManager - [Thread 97] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 747ms)
+2020-02-21 14:43:45,425 [16] INFO  Umbraco.Core.PluginManager - [Thread 38] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2020-02-21 14:43:45,456 [16] INFO  Umbraco.Core.PluginManager - [Thread 38] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 34ms)
+2020-02-21 14:43:46,331 [16] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 38] Success uploading to parent 1196
+2020-02-21 14:44:32,940 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 90] Content 'Eucalypt Room' with Id '2567' has been published.
+2020-02-21 14:44:47,393 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'Lakeview Room' with Id '2568' has been published.
+2020-02-21 14:45:00,268 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content 'Red Gum Room' with Id '2569' has been published.
+2020-02-21 14:45:13,800 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content 'Blue Gum Room' with Id '2570' has been published.
+2020-02-21 14:45:14,081 [16] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 20] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2020-02-21 14:47:17,331 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Yan Yean Theatre' with Id '2540' has been published.
+2020-02-21 14:47:58,534 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 128] Content 'Woodstock Theatre' with Id '2562' has been published.
+2020-02-21 14:48:17,487 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Woodstock Theatre' with Id '2562' has been published.
+2020-02-21 14:48:39,628 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 93] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 14:49:42,956 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 38] Content 'Woodstock Theatre' with Id '2562' has been published.
+2020-02-21 14:49:45,722 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 128] Content 'Yan Yean Theatre' with Id '2540' has been published.
+2020-02-21 14:50:14,362 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 91] Content 'Yan Yean Theatre' with Id '2540' has been published.
+2020-02-21 14:51:01,112 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 90] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 14:52:55,065 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 14:53:14,987 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 128] Content 'Woodstock Theatre' with Id '2975' has been published.
+2020-02-21 14:53:43,472 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content 'Woodstock Theatre' with Id '2975' has been published.
+2020-02-21 14:53:52,925 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 20] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 14:54:36,190 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 14:55:02,909 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Woodstock Theatre' with Id '2975' has been published.
+2020-02-21 14:59:35,331 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 90] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 15:00:22,784 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 37] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 15:03:05,440 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 116] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 15:03:20,597 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 90] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 15:03:38,628 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content 'Woodstock Theatre' with Id '2975' has been published.
+2020-02-21 15:04:18,097 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 91] Content 'Woodstock Theatre' with Id '2975' has been published.
+2020-02-21 15:04:24,690 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 15:04:30,972 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 38] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 15:04:40,487 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 15:04:43,940 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 20] Content 'Woodstock Theatre' with Id '2975' has been published.
+2020-02-21 15:04:56,128 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 20] Content 'Woodstock Theatre' with Id '2975' has been published.
+2020-02-21 15:04:56,253 [16] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 74] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2020-02-21 15:05:01,925 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 92] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 15:27:09,597 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 15:30:40,362 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 128] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 15:31:18,331 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 15:31:58,925 [16] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 93] Success uploading to parent 1196
+2020-02-21 15:33:41,034 [16] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 74] Success uploading to parent 1196
+2020-02-21 15:33:41,300 [16] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 73] Success uploading to parent 1196
+2020-02-21 15:33:41,503 [16] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 93] Success uploading to parent 1196
+2020-02-21 15:33:41,690 [16] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 79] Success uploading to parent 1196
+2020-02-21 15:33:58,112 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 20] Content 'Yan Yean Theatre' with Id '2973' has been published.
+2020-02-21 15:37:04,128 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 92] Content 'Woodstock Theatre' with Id '2975' has been published.
+2020-02-21 15:38:08,675 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 91] Content 'Woodstock Theatre' with Id '2973' has been published.
+2020-02-21 15:38:20,065 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 116] Content 'Yan Yean Theatre' with Id '2975' has been published.
+2020-02-21 15:38:26,472 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content 'Woodstock Theatre' with Id '2973' has been published.
+2020-02-21 15:38:41,893 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 20] Content 'Yan Yean Theatre' with Id '2975' has been published.
+2020-02-21 15:40:49,675 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content 'Yan Yean Theatre' with Id '2975' has been published.
+2020-02-21 15:41:13,518 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 74] Content 'Woodstock Theatre' with Id '2973' has been published.
+2020-02-21 15:43:21,534 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content 'Woodstock Theatre' with Id '2973' has been published.
+2020-02-21 15:47:12,503 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 116] Content 'Woodstock Theatre' with Id '2973' has been published.
+2020-02-21 15:49:28,925 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Woodstock Theatre' with Id '2973' has been published.
+2020-02-21 15:49:46,503 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content 'Woodstock Theatre' with Id '2973' has been published.
+2020-02-21 15:51:03,425 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 116] Content 'Yan Yean Theatre' with Id '2975' has been published.
+2020-02-21 15:52:28,284 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content 'Yan Yean Theatre' with Id '2975' has been published.
+2020-02-21 15:52:32,534 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 24] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 15:52:33,581 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Woodstock Theatre' with Id '2973' has been published.
+2020-02-21 15:55:52,237 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 20] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 15:58:57,862 [16] ERROR dashboardUtilities.FeedProxy - [Thread 10] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-02-21 15:59:40,972 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content 'Woodstock Theatre' with Id '2973' has been published.
+2020-02-21 15:59:51,893 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'Yan Yean Theatre' with Id '2975' has been published.
+2020-02-21 16:00:02,347 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 93] Content 'Yan Yean Theatre' with Id '2975' has been published.
+2020-02-21 16:00:06,690 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 92] Content 'Yan Yean Theatre' with Id '2975' has been published.
+2020-02-21 16:00:08,815 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 91] Content 'Woodstock Theatre' with Id '2973' has been published.
+2020-02-21 18:36:17,487 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 129] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 19:21:59,409 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 8] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 20:24:59,472 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 105] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-21 20:51:46,128 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 85] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 21:42:17,331 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 109] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 22:33:42,690 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 5] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-21 23:46:13,253 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 69] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.

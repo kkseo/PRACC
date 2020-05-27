@@ -1,0 +1,48 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using System.Collections;
+
+@{
+    // Get root node:
+    var root = Model.Content.AncestorOrSelf(1);
+
+    // Get all descendants, filter by type:
+    var nodes = root.Descendants("HomePageAdvertisement").Where("Visible");
+
+    ArrayList nodeList = new ArrayList();
+                    
+    // Loop through the filtered nodes, add to int[] array. make sure item does not appear in array
+    // this will get all of the unique shows.
+    foreach (var node in nodes)
+    {
+        <div class="adRotItem adEvent @umbraco.library.GetPreValueAsString(Convert.ToInt32(node.GetPropertyValue("contentTheme")))">
+            <div class="col-xs-12 col-sm-6" style="padding: 10px 0 0 15px;">
+                <h2>@node.GetPropertyValue("adHeading")</h2>
+                @Html.Raw(node.GetPropertyValue("adContent"))
+            </div>
+            <div class="col-xs-12 col-sm-3 AdButPad center-block">
+                @{
+                    if (node.GetPropertyValue("webpageLink").ToString().Length >= 2)
+                    {
+                        <a href="@library.NiceUrl(int.Parse(node.GetPropertyValue("webpageLink").ToString()))?nv=adr"  class="@Html.Raw("moreInfo" + @umbraco.library.GetPreValueAsString(Convert.ToInt32(node.GetPropertyValue("contentTheme"))))">More Information</a>
+                    }
+                    if (node.IsNull("ticketsEventCode") == false || node.GetPropertyValue("ticketsCode").ToString().Length >= 2)
+                    {
+                        <a href="http://purchase.tickets.com/buy/TicketPurchase?event_val=@node.GetPropertyValue("ticketsCode")&agency=PLENTYRANGES&organ_val=26805&schedule=list" class="@Html.Raw("buyTick" + @umbraco.library.GetPreValueAsString(Convert.ToInt32(node.GetPropertyValue("contentTheme"))))">Buy Tickets: @node.GetPropertyValue("adHeading")</a>
+                    }
+                }
+            </div>
+            <div class="col-xs-12 col-sm-3 AdImgPad center-block">
+                @{
+                    if (node.GetPropertyValue("adImage").ToString().Length >= 2)
+                    {
+                        var mediaItem = Umbraco.TypedMedia(int.Parse(node.GetPropertyValue("adImage").ToString()));
+                        <img src="@mediaItem.GetPropertyValue("umbracoFile")" width="215" height="120" alt=" " class="showRT"/> //@Umbraco.Field("adImage")
+                    } else {
+                        <img src="/images/shownoimage.jpg" width="215" height="120" alt="@Umbraco.Field("adHeading")" style="float: left; margin-right: 20px; margin-bottom: 30px;"/>
+                    }
+                }
+            </div>
+        </div>
+
+    }
+}

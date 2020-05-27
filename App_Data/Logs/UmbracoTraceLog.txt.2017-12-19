@@ -1,0 +1,7 @@
+2017-12-19 00:50:45,017 [18] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2017-12-19 13:33:11,829 [18] INFO  umbraco.BasePages.BasePage - [Thread 84] User pracc (Id: 1) logged in
+2017-12-19 13:33:13,282 [18] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2017-12-19 13:33:13,298 [18] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 21ms)
+2017-12-19 13:33:13,532 [18] INFO  Umbraco.Core.PluginManager - [Thread 17] Starting resolution types of umbraco.interfaces.ITree
+2017-12-19 13:33:13,563 [18] INFO  Umbraco.Core.PluginManager - [Thread 17] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 39ms)
+2017-12-19 23:23:45,751 [18] INFO  umbraco.BusinessLogic.Log - [Thread 90] Log scrubbed.  Removed all items older than 2017-10-20 23:23:45

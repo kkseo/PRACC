@@ -1,0 +1,54 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "masterTemplate1.cshtml";
+}
+
+@section HeaderMeta{
+	<title>Plenty Ranges Arts and Convention Centre</title>	
+}
+	
+	<div class="alert"><h3>PRACC has cancelled all scheduled events and performances for the foreseeable future and is closed to the public until further notice. <br />These measures have been put in place to help stop the spread of coronavirus (COVID-19) and protect our community and staff.<br />
+If you have purchased tickets from PRACC to an event that has been cancelled, you will be notified directly and refunds will be processed automatically. <br />You do not need to contact PRACC. Thank you for your patience as we navigate this ever-changing situation. <h3></div>
+	
+    <!-- FULL WIDTH DECORATIVE IMAGE //-->
+    <div class="notcontained fullwidth decorativeImage hidden-xs"></div>
+    <!-- END //-->
+
+    <div class="container">
+        
+        <!--
+		<div class="row">
+            <div class="col-sm-3 col-xs-6 adverts"><a href="/theatre/?nv=hpa" class="advertThea">THEATRE</a></div>
+            <div class="col-sm-3 col-xs-6 adverts"><a href="/celebrations/?nv=hpa" class="advertCele">CELEBRATIONS</a></div>
+            <div class="col-sm-3 col-xs-6 adverts"><a href="/corporate/?nv=hpa" class="advertCorp">CORPORATE</a></div>
+            <div class="col-sm-3 col-xs-6 adverts"><a href="/galleries/?nv=hpa" class="advertGall">GALLERIES</a></div>
+        </div>
+		//-->
+
+        <div class="row pageContent">
+            <div class="col-sm-9">
+                <a name="skip" > </a >
+				<h1>@Umbraco.Field("pageTitle")</h1>
+                <h2>@Umbraco.Field("pageSubtitle")</h2>
+                <div class="fb-like" data-href="@Html.Raw("http://www.pracc.com.au" + @Umbraco.NiceUrl(@Model.Content.Id))" data-layout="button_count" data-action="recommend" data-show-faces="true" data-share="true"></div>
+				@Umbraco.Field("pageContent")
+            </div>
+            <div class="col-sm-3">
+
+                @RenderPage("~/Views/Partials/_cmTheatreListSubscribe.cshtml")
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ADVERTISING ROTATOR UNIQUE TO HOME PAGE - MVC PARTIAL VIEW GENERATED //-->
+    <div id="adRotator" class="notcontained fullwidth">
+        <div class="container">
+            <div class="row pageContent adRotCont" id="owl-example" >
+                @RenderPage("~/Views/Partials/_homePageAdvertsRollup.cshtml")
+            </div>
+        </div>
+    </div>
+    <!-- END ADVERTISING ROTATOR UNIQUE TO HOME PAGE - MVC PARTIAL VIEW GENERATED //-->
+    <!-- ************************************************************************ //-->

@@ -1,0 +1,70 @@
+2019-07-19 09:30:05,755 [7] INFO  umbraco.BusinessLogic.Log - [Thread 93] Log scrubbed.  Removed all items older than 2019-05-20 09:30:05
+2019-07-19 09:49:25,364 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 15] New document 2501
+2019-07-19 09:51:15,005 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 75] New document 2502
+2019-07-19 09:52:00,708 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content '2019 - The Greatest Show (Kangaroo Ground Primary School) (1)' with Id '2502' has been unpublished.
+2019-07-19 09:57:04,520 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 93] Success uploading to parent 2347
+2019-07-19 10:00:55,255 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content '2019 - The Greatest Show (Kangaroo Ground Primary School)' with Id '2501' has been published.
+2019-07-19 10:06:35,255 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 34] Content '2019 - The Greatest Show (Kangaroo Ground Primary School)' with Id '2501' has been published.
+2019-07-19 10:06:45,505 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content '2019 - The Greatest Show (Kangaroo Ground Primary School)' with Id '2501' has been published.
+2019-07-19 10:07:10,489 [7] INFO  umbraco.cms.businesslogic.web.Document - [Thread 101] New document 2504
+2019-07-19 10:07:48,255 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 84] Content 'Show 1' with Id '2504' has been published.
+2019-07-19 10:10:16,161 [7] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 93] Success uploading to parent 2347
+2019-07-19 10:11:56,380 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 82] Content '2019 - The Greatest Show (Kangaroo Ground Primary School)' with Id '2501' has been published.
+2019-07-19 10:12:55,427 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 101] Content '2019 - The Greatest Show (Kangaroo Ground Primary School)' with Id '2501' has been published.
+2019-07-19 10:14:27,145 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content '2019 - The Greatest Show (Kangaroo Ground Primary School)' with Id '2501' has been published.
+2019-07-19 14:30:01,583 [7] INFO  umbraco.BusinessLogic.Log - [Thread 108] Log scrubbed.  Removed all items older than 2019-05-20 14:30:00
+2019-07-19 14:30:01,848 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 108] Application shutdown. Reason: HostingEnvironment
+2019-07-19 14:30:08,286 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Determining hash of code files on disk
+2019-07-19 14:30:08,286 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Hash determined (took 3ms)
+2019-07-19 14:30:08,286 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-07-19 14:30:09,692 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1405ms)
+2019-07-19 14:30:09,708 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-07-19 14:30:09,708 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2019-07-19 14:30:09,708 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-07-19 14:30:09,723 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 9ms)
+2019-07-19 14:30:09,723 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-07-19 14:30:09,723 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 4ms)
+2019-07-19 14:30:09,739 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-07-19 14:30:09,739 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2019-07-19 14:30:09,739 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-07-19 14:30:09,739 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2019-07-19 14:30:10,208 [12] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 9] Initializing Examine and binding to business logic events
+2019-07-19 14:30:10,848 [12] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 9] Adding examine event handlers for index providers: 3
+2019-07-19 14:30:10,864 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.IApplication
+2019-07-19 14:30:10,895 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 17ms)
+2019-07-19 14:30:12,020 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of umbraco.interfaces.ITree
+2019-07-19 14:30:12,036 [12] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 20ms)
+2019-07-19 14:30:12,208 [12] INFO  umbraco.content - [Thread 15] Loading content from disk cache...
+2019-07-19 14:30:13,458 [12] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-07-19 14:30:13,473 [12] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 7ms)
+2019-07-19 15:02:10,567 [12] INFO  Umbraco.Core.PluginManager - [Thread 53] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-07-19 15:02:10,567 [12] INFO  Umbraco.Core.PluginManager - [Thread 53] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2019-07-19 16:48:19,255 [12] INFO  umbraco.BasePages.BasePage - [Thread 15] User pracc (Id: 1) logged in
+2019-07-19 16:48:24,192 [12] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-07-19 16:48:24,208 [12] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 5ms)
+2019-07-19 16:48:24,520 [12] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.ITree
+2019-07-19 16:48:24,552 [12] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 22ms)
+2019-07-19 16:50:34,583 [12] INFO  umbraco.cms.businesslogic.web.Document - [Thread 33] New document 2506
+2019-07-19 16:50:34,630 [12] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of umbraco.interfaces.IDataType
+2019-07-19 16:50:34,645 [12] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 20ms)
+2019-07-19 16:53:19,692 [12] INFO  umbraco.cms.businesslogic.web.Document - [Thread 22] New document 2507
+2019-07-19 16:56:10,067 [12] INFO  Umbraco.Core.Services.ContentService - [Thread 127] Content 'Show 1' with Id '2507' could not be published because its parent is not published.
+2019-07-19 16:56:10,083 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 127] Content 'Show 1' with Id '2507' has been published.
+2019-07-19 16:56:10,192 [12] INFO  Umbraco.Core.PluginManager - [Thread 127] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-07-19 16:56:10,192 [12] INFO  Umbraco.Core.PluginManager - [Thread 127] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 9ms)
+2019-07-19 16:56:10,302 [12] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 127] Couldn't find any page with nodeId=2507. This is most likely caused by the page not being published.
+2019-07-19 16:57:19,927 [12] INFO  Umbraco.Core.PluginManager - [Thread 68] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2019-07-19 16:57:19,942 [12] INFO  Umbraco.Core.PluginManager - [Thread 68] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 9ms)
+2019-07-19 16:58:41,973 [12] INFO  Umbraco.Core.PluginManager - [Thread 49] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2019-07-19 16:58:41,989 [12] INFO  Umbraco.Core.PluginManager - [Thread 49] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 4ms)
+2019-07-19 16:58:42,802 [12] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 49] Success uploading to parent 2347
+2019-07-19 16:59:24,192 [12] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 119] Success uploading to parent 2347
+2019-07-19 17:03:09,770 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content '2019 - Doga Melbourne Concert (Musicult Inc)' with Id '2506' has been published.
+2019-07-19 17:07:19,786 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content '2019 - Doga Melbourne Concert (Musicult Inc)' with Id '2506' has been published.
+2019-07-19 17:08:10,270 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content '2019 - Doga Melbourne Concert (Musicult Inc)' with Id '2506' has been published.
+2019-07-19 17:11:52,239 [12] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 23] Success uploading to parent 2347
+2019-07-19 17:12:04,520 [12] INFO  Umbraco.Core.PluginManager - [Thread 27] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2019-07-19 17:12:04,520 [12] INFO  Umbraco.Core.PluginManager - [Thread 27] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 0ms)
+2019-07-19 17:15:44,645 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 118] Content '2019 - Doga Melbourne Concert (Musicult Inc)' with Id '2506' has been published.
+2019-07-19 20:30:39,880 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 120] Content 'Show 2' with Id '2464' had its release date removed, because it was unpublished.
+2019-07-19 20:30:39,880 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 120] Content 'Show 2' with Id '2464' has been unpublished.

@@ -1,0 +1,252 @@
+2020-02-13 00:00:22,397 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 5] Content 'Elvis (PRACC)' with Id '2778' has been unpublished.
+2020-02-13 00:00:22,522 [16] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2020-02-13 00:00:22,522 [16] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 9ms)
+2020-02-13 00:00:22,553 [16] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2020-02-13 00:00:22,553 [16] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 4ms)
+2020-02-13 00:38:16,522 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 68] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-13 02:31:11,772 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 59] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-13 04:02:37,663 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 60] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-13 05:32:59,553 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 59] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-13 05:35:35,100 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 51] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 05:41:52,850 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 07:24:55,850 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 79] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 08:17:26,335 [16] INFO  umbraco.BasePages.BasePage - [Thread 19] User pracc (Id: 1) logged in
+2020-02-13 08:17:26,913 [16] INFO  Umbraco.Core.PluginManager - [Thread 75] Starting resolution types of umbraco.interfaces.ITree
+2020-02-13 08:17:26,960 [16] INFO  Umbraco.Core.PluginManager - [Thread 75] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 35ms)
+2020-02-13 08:18:38,022 [16] INFO  Umbraco.Core.PluginManager - [Thread 75] Starting resolution types of umbraco.interfaces.IDataType
+2020-02-13 08:18:38,053 [16] INFO  Umbraco.Core.PluginManager - [Thread 75] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 19ms)
+2020-02-13 08:19:18,741 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 72] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 08:19:44,803 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 19] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 08:20:00,585 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 79] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 08:20:33,819 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 72] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 08:20:57,897 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content 'Hire' with Id '2531' has been published.
+2020-02-13 08:21:16,538 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Meetings' with Id '2672' has been published.
+2020-02-13 08:21:38,678 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content 'Conference' with Id '2673' has been published.
+2020-02-13 08:21:59,616 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Celebration' with Id '2674' has been published.
+2020-02-13 08:22:17,335 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Performance' with Id '2675' has been published.
+2020-02-13 08:22:30,475 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Exhibition' with Id '2676' has been published.
+2020-02-13 08:23:03,413 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Exhibition' with Id '2676' has been published.
+2020-02-13 08:23:06,585 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 72] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 08:24:12,038 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 67] Content 'Hire' with Id '2531' has been published.
+2020-02-13 08:24:13,991 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 78] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 08:25:35,382 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 72] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 08:40:57,725 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 18] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 08:41:09,944 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 34] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 08:41:57,569 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 18] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 08:42:12,475 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 34] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 08:43:07,319 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Tickets' with Id '2489' has been published.
+2020-02-13 08:44:01,022 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 34] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-13 08:48:07,272 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Tickets' with Id '2489' has been published.
+2020-02-13 09:05:27,038 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 09:12:41,522 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 09:13:22,491 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 09:13:36,522 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 09:16:35,132 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 09:17:22,319 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 09:19:41,085 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 09:20:18,772 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 09:20:53,194 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 09:21:05,491 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 71] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 09:22:32,694 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 09:22:52,382 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 56] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 09:23:26,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 09:23:51,053 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 09:24:30,616 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 09:25:53,241 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 09:27:10,600 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 09:31:03,303 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 71] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 09:32:51,632 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content 'CodeBiotics' with Id '2381' has been unpublished.
+2020-02-13 09:32:51,850 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content 'Show 1' with Id '2382' has been unpublished.
+2020-02-13 09:32:58,507 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content 'Digging for Dinosaurs (PRACC)' with Id '2829' has been published.
+2020-02-13 09:34:20,288 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content 'Digging for Dinosaurs (PRACC)' with Id '2829' has been published.
+2020-02-13 09:34:25,288 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content 'Digging for Dinosaurs' with Id '2829' has been published.
+2020-02-13 09:35:26,272 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'Melbourne Solidarity - YENI TURKU 40TH ANNIVERSARY CONCERTS' with Id '2922' has been published.
+2020-02-13 09:37:22,350 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 56] Content 'Pure Elite Australia' with Id '2935' has been published.
+2020-02-13 09:38:13,663 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content 'Ender Balkir Konseri (Avalanche Cultural Centre Inc.)' with Id '2940' has been published.
+2020-02-13 09:38:30,350 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content 'Pure Elite Australia' with Id '2935' has been published.
+2020-02-13 09:39:37,600 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Masters of Choreography - Raise the Barre' with Id '2910' has been published.
+2020-02-13 09:47:55,366 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content 'Toni Childs Retrospective' with Id '2915' has been published.
+2020-02-13 09:48:59,507 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content 'Toni Childs Retrospective' with Id '2915' has been published.
+2020-02-13 09:49:39,100 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content 'Exploring Science' with Id '2833' has been published.
+2020-02-13 09:50:37,116 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 56] Content 'Exploring Science' with Id '2833' has been published.
+2020-02-13 09:52:04,788 [16] INFO  umbraco.BasePages.BasePage - [Thread 63] User pracc (Id: 1) logged in
+2020-02-13 09:52:06,132 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 56] Content 'Queen Bohemian Rhapsody' with Id '2903' has been published.
+2020-02-13 09:53:04,882 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content 'Gypsy Fleetwood Mac Trio' with Id '2782' has been published.
+2020-02-13 09:53:04,991 [16] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 56] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2020-02-13 09:55:00,147 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'Leilas Christmas Show' with Id '2800' has been published.
+2020-02-13 09:55:44,069 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 52] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 09:56:03,819 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 52] Content 'Lennon & McCartney' with Id '2796' has been published.
+2020-02-13 09:56:40,257 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'Rat Pack Jack' with Id '2798' has been published.
+2020-02-13 09:57:35,085 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'Ross Noble' with Id '2511' has been published.
+2020-02-13 10:00:46,788 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Ross Noble' with Id '2511' has been published.
+2020-02-13 10:01:16,522 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'Shades of Bublé' with Id '2898' has been published.
+2020-02-13 10:01:16,757 [16] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 66] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2020-02-13 10:02:23,928 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Spectrum' with Id '2837' has been published.
+2020-02-13 10:02:35,132 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'Spectrum' with Id '2837' has been published.
+2020-02-13 10:03:13,553 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'The Robertson Brothers 1960's TV Variety Show' with Id '2709' has been published.
+2020-02-13 10:03:25,632 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'The Travelling Kitchen - Autumn' with Id '2814' has been published.
+2020-02-13 10:04:04,147 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'The Travelling Kitchen - Autumn' with Id '2814' has been published.
+2020-02-13 10:04:59,116 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'The Travelling Kitchen - Spring' with Id '2824' has been published.
+2020-02-13 10:06:46,944 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'Tom Jones' with Id '2791' has been published.
+2020-02-13 10:06:53,053 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Tom Jones' with Id '2791' has been published.
+2020-02-13 10:07:22,538 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'Gypsy Fleetwood Mac Trio' with Id '2782' has been published.
+2020-02-13 10:07:36,007 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Melbourne Solidarity - YENI TURKU 40TH ANNIVERSARY CONCERTS' with Id '2922' has been published.
+2020-02-13 10:07:41,038 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Melbourne Solidarity' with Id '2922' has been published.
+2020-02-13 10:08:04,803 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Masters of Choreography - Raise the Barre' with Id '2910' has been published.
+2020-02-13 10:08:21,038 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Ender Balkir Konseri (Avalanche Cultural Centre Inc.)' with Id '2940' has been published.
+2020-02-13 10:08:44,397 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'Lennon & McCartney' with Id '2796' has been published.
+2020-02-13 10:08:56,835 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'Rat Pack Jack' with Id '2798' has been published.
+2020-02-13 10:11:27,741 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 24] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 10:13:46,772 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 20] Content 'Rat Pack Jack' with Id '2798' has been published.
+2020-02-13 10:16:41,257 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'Rat Pack Jack' with Id '2798' has been published.
+2020-02-13 10:18:53,678 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'Rat Pack Jack' with Id '2798' has been published.
+2020-02-13 10:20:49,600 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 10:21:24,991 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content 'Rat Pack Jack' with Id '2798' has been published.
+2020-02-13 10:21:32,632 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Rat Pack Jack' with Id '2798' has been published.
+2020-02-13 10:22:40,647 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 20] Content 'Rat Pack Jack' with Id '2798' has been published.
+2020-02-13 10:23:13,850 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Rat Pack Jack' with Id '2798' has been published.
+2020-02-13 10:29:03,866 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 9] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 10:44:47,928 [16] INFO  umbraco.cms.businesslogic.web.Document - [Thread 40] New document 2947
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Digging for Dinosaurs' with Id '2829' has been published.
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Melbourne Solidarity' with Id '2922' has been published.
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Pure Elite Australia' with Id '2935' has been published.
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Ender Balkir Konseri (Avalanche Cultural Centre Inc.)' with Id '2940' has been published.
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Masters of Choreography - Raise the Barre' with Id '2910' has been published.
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Exploring Science' with Id '2833' has been published.
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Toni Childs Retrospective' with Id '2915' has been published.
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Gypsy Fleetwood Mac Trio' with Id '2782' has been published.
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Queen Bohemian Rhapsody' with Id '2903' has been published.
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Leilas Christmas Show' with Id '2800' has been published.
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Lennon & McCartney' with Id '2796' has been published.
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Rat Pack Jack' with Id '2798' has been published.
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Ross Noble' with Id '2511' has been published.
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Shades of Bublé' with Id '2898' has been published.
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Spectrum' with Id '2837' has been published.
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'The Robertson Brothers 1960's TV Variety Show' with Id '2709' has been published.
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'The Travelling Kitchen - Autumn' with Id '2814' has been published.
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'The Travelling Kitchen - Spring' with Id '2824' has been published.
+2020-02-13 10:45:21,725 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 9] Content 'Tom Jones' with Id '2791' has been published.
+2020-02-13 10:45:22,585 [16] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 20] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2020-02-13 10:54:11,366 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'Rat Pack Jack' with Id '2798' has been published.
+2020-02-13 10:54:42,803 [16] INFO  Umbraco.Core.Services.ContentService - [Thread 9] Content 'TEMPLATE' with Id '2947' could not be published because of invalid properties.
+2020-02-13 11:02:10,850 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content 'TEMPLATE (1)' with Id '2948' has been unpublished.
+2020-02-13 11:03:02,257 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content 'Rat Pack Jack' with Id '2798' has been published.
+2020-02-13 11:03:47,116 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Rat Pack Jack' with Id '2798' has been published.
+2020-02-13 11:04:15,007 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content 'Rat Pack Jack' with Id '2798' has been published.
+2020-02-13 11:05:36,241 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Rat Pack Jack' with Id '2798' has been published.
+2020-02-13 11:09:11,788 [16] INFO  Umbraco.Core.Services.ContentService - [Thread 25] Content 'TEMPLATE' with Id '2947' could not be published because of invalid properties.
+2020-02-13 11:10:47,913 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 45] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 11:10:49,100 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 53] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 11:12:01,460 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 45] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-13 11:12:02,678 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 33] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-13 11:12:14,600 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 53] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2020-02-13 11:12:14,600 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 53] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2020-02-13 11:12:14,600 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 53] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2020-02-13 11:12:14,600 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 53] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2020-02-13 11:12:14,600 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 53] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2020-02-13 11:12:16,116 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 45] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2020-02-13 11:12:16,116 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 45] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2020-02-13 11:12:16,116 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 45] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2020-02-13 11:12:16,116 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 45] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2020-02-13 11:12:16,116 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 45] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2020-02-13 11:21:03,288 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 37] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2020-02-13 11:21:03,288 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 37] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2020-02-13 11:21:03,288 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 37] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2020-02-13 11:21:03,288 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 37] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2020-02-13 11:21:03,288 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 37] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2020-02-13 11:37:29,678 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 11:38:07,819 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 45] Content 'Cash & Diamond' with Id '2794' has been published.
+2020-02-13 11:39:20,850 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Digging for Dinosaurs' with Id '2829' has been published.
+2020-02-13 11:39:21,288 [16] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 33] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2020-02-13 11:40:22,585 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Melbourne Solidarity' with Id '2922' has been published.
+2020-02-13 11:40:33,632 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 69] Content 'Melbourne Solidarity' with Id '2922' has been published.
+2020-02-13 11:41:56,944 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 61] Content 'Pure Elite Australia' with Id '2935' has been published.
+2020-02-13 11:43:19,116 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 45] Content 'Ender Balkir Konseri (Avalanche Cultural Centre Inc.)' with Id '2940' has been published.
+2020-02-13 11:46:09,975 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content 'Masters of Choreography - Raise the Barre' with Id '2910' has been published.
+2020-02-13 11:46:57,960 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content 'Toni Childs Retrospective' with Id '2915' has been published.
+2020-02-13 11:47:07,225 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content 'Toni Childs Retrospective' with Id '2915' has been published.
+2020-02-13 11:47:30,913 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 69] Content 'Toni Childs Retrospective' with Id '2915' has been published.
+2020-02-13 11:48:48,882 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 63] Content 'Toni Childs Retrospective' with Id '2915' has been published.
+2020-02-13 11:49:40,960 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Exploring Science' with Id '2833' has been published.
+2020-02-13 11:51:11,366 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Gypsy Fleetwood Mac Trio' with Id '2782' has been published.
+2020-02-13 11:52:31,835 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 63] Content 'Queen Bohemian Rhapsody' with Id '2903' has been published.
+2020-02-13 11:52:39,960 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'Queen Bohemian Rhapsody' with Id '2903' has been published.
+2020-02-13 11:53:21,116 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 63] Content 'Leilas Christmas Show' with Id '2800' has been published.
+2020-02-13 11:53:52,647 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 61] Content 'Lennon & McCartney' with Id '2796' has been published.
+2020-02-13 11:55:04,460 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Ross Noble' with Id '2511' has been published.
+2020-02-13 11:55:19,053 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Ross Noble' with Id '2511' has been published.
+2020-02-13 12:01:49,163 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content 'Shades of Bublé' with Id '2898' has been published.
+2020-02-13 12:03:01,757 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 69] Content 'Spectrum' with Id '2837' has been published.
+2020-02-13 12:03:18,960 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'Spectrum' with Id '2837' has been published.
+2020-02-13 12:04:29,928 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 45] Content 'The Robertson Brothers 1960's TV Variety Show' with Id '2709' has been published.
+2020-02-13 12:04:42,225 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content 'The Robertson Brothers 1960's TV Variety Show' with Id '2709' has been published.
+2020-02-13 12:04:54,116 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'The Robertson Brothers 1960's TV Variety Show' with Id '2709' has been published.
+2020-02-13 12:07:08,866 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content 'The Travelling Kitchen - Autumn' with Id '2814' has been published.
+2020-02-13 12:07:57,444 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'The Travelling Kitchen - Autumn' with Id '2814' has been published.
+2020-02-13 12:08:09,803 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content 'The Travelling Kitchen - Spring' with Id '2824' has been published.
+2020-02-13 12:08:29,397 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content 'Tom Jones' with Id '2791' has been published.
+2020-02-13 12:09:20,366 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content 'Tickets' with Id '2489' has been published.
+2020-02-13 12:09:56,569 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 34] Content 'Tickets' with Id '2489' has been published.
+2020-02-13 12:28:34,507 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'TEMPLATE (1)' with Id '2949' has been unpublished.
+2020-02-13 12:53:47,741 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 33] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 12:54:27,460 [16] INFO  umbraco.cms.businesslogic.web.Document - [Thread 35] New document 2950
+2020-02-13 12:58:40,897 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Test' with Id '2950' has been unpublished.
+2020-02-13 12:58:41,038 [16] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 37] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2020-02-13 12:58:48,444 [16] INFO  umbraco.cms.businesslogic.web.Document - [Thread 37] New document 2951
+2020-02-13 13:01:51,788 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Test' with Id '2951' has been unpublished.
+2020-02-13 13:19:07,569 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content 'On The Spectrum' with Id '2837' has been published.
+2020-02-13 13:19:12,178 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 63] Content 'On The Spectrum' with Id '2837' has been published.
+2020-02-13 13:23:21,522 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 69] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 13:24:38,897 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 57] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-13 13:29:21,397 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 39] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-02-13 14:21:32,069 [16] INFO  umbraco.BasePages.BasePage - [Thread 77] User admin (Id: 0) logged in
+2020-02-13 14:56:38,460 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 8] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 14:57:00,022 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 20] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 15:07:05,303 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 28] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 15:19:25,647 [16] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 47] An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): c:\inetpub\vhosts\pracc.com.au\httpdocs\Views\TheatreShow.cshtml(146): error CS0103: The name 'pNode' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at StackExchange.Profiling.MVCHelpers.WrappedView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<InvokeActionResultWithFilters>b__17()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilter(IResultFilter filter, ResultExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass1a.<>c__DisplayClass1c.<InvokeActionResultWithFilters>b__19()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at System.Web.Mvc.Controller.<>c__DisplayClass1d.<BeginExecuteCore>b__19()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass1.<MakeVoidDelegate>b__0()
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass8`1.<BeginSynchronous>b__7(IAsyncResult _)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<>c__DisplayClass8.<BeginProcessRequest>b__3(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.<>c__DisplayClass4.<MakeVoidDelegate>b__3(IAsyncResult ar)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()
+   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2020-02-13 16:37:55,100 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 8] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 18:36:25,069 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 18:53:35,132 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 28] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 21:30:52,835 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 79] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 21:35:26,538 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 24] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-02-13 22:32:04,850 [16] INFO  umbraco.BusinessLogic.Log - [Thread 59] Log scrubbed.  Removed all items older than 2019-12-15 22:32:04
+2020-02-13 23:28:03,913 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.

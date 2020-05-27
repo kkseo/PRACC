@@ -1,0 +1,90 @@
+2019-07-31 09:31:30,000 [7] INFO  umbraco.BasePages.BasePage - [Thread 94] User pracc (Id: 1) logged in
+2019-07-31 09:31:30,188 [7] INFO  Umbraco.Core.PluginManager - [Thread 103] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-07-31 09:31:30,219 [7] INFO  Umbraco.Core.PluginManager - [Thread 103] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 45ms)
+2019-07-31 09:31:30,625 [7] INFO  Umbraco.Core.PluginManager - [Thread 103] Starting resolution types of umbraco.interfaces.ITree
+2019-07-31 09:31:30,641 [7] INFO  Umbraco.Core.PluginManager - [Thread 103] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 24ms)
+2019-07-31 09:52:19,078 [7] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of umbraco.interfaces.IDataType
+2019-07-31 09:52:19,109 [7] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 18ms)
+2019-07-31 09:52:24,016 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 9] Couldn't find any page with nodeId=2526. This is most likely caused by the page not being published.
+2019-07-31 09:52:35,578 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 23] Couldn't find any page with nodeId=2526. This is most likely caused by the page not being published.
+2019-07-31 10:05:42,281 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 157] Content 'Hire' with Id '2494' has been published.
+2019-07-31 10:05:42,453 [7] INFO  Umbraco.Core.PluginManager - [Thread 157] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-07-31 10:05:42,453 [7] INFO  Umbraco.Core.PluginManager - [Thread 157] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 10ms)
+2019-07-31 10:05:54,531 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 158] Content 'Hire' with Id '2494' has been published.
+2019-07-31 10:06:31,000 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content 'Hire' with Id '2494' had its release date removed, because it was unpublished.
+2019-07-31 10:06:31,000 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content 'Hire' with Id '2494' has been unpublished.
+2019-07-31 10:06:54,594 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 157] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 10:07:10,609 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 157] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 10:09:40,906 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 157] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 10:10:14,313 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 158] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 10:10:29,063 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 158] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 10:10:35,406 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 158] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 10:10:57,641 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 158] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 10:11:19,203 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 139] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 10:11:25,422 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 139] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 10:11:39,016 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 138] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 10:13:33,188 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 143] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 10:16:57,313 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 155] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 10:17:02,219 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 141] Content 'Hire' with Id '2494' had its release date removed, because it was unpublished.
+2019-07-31 10:17:02,219 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 141] Content 'Hire' with Id '2494' has been unpublished.
+2019-07-31 10:17:07,625 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 137] Couldn't find any page with nodeId=2526. This is most likely caused by the page not being published.
+2019-07-31 10:17:10,844 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 155] Content 'Exhibition' with Id '2526' has been unpublished.
+2019-07-31 10:17:12,625 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 138] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 10:17:15,813 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 155] Content 'Hire' with Id '2494' has been unpublished.
+2019-07-31 10:17:19,297 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 51] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 10:18:09,375 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 153] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 10:18:13,094 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 155] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 11:25:26,375 [7] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 137] An unhandled exception occurred
+System.UriFormatException: Invalid URI: The hostname could not be parsed.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Web.Util.UriUtil.BuildUriImpl(String scheme, String serverName, String port, String path, String queryString, Boolean useLegacyRequestUrlGeneration)
+   at System.Web.HttpRequest.BuildUrl(Func`1 pathAccessor)
+   at System.Web.HttpRequest.get_Url()
+   at System.Web.HttpRequestWrapper.get_Url()
+   at Umbraco.Web.UmbracoModule.BeginRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__5(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-07-31 11:29:42,719 [7] INFO  umbraco.BusinessLogic.Log - [Thread 143] Log scrubbed.  Removed all items older than 2019-06-01 11:29:42
+2019-07-31 13:49:57,547 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 153] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 13:50:02,813 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 140] Content 'Hire' with Id '2494' has been unpublished.
+2019-07-31 13:50:06,516 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 138] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 15:11:55,297 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 143] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 15:12:01,188 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 141] Content 'Hire' with Id '2494' has been unpublished.
+2019-07-31 15:12:04,672 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 143] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 15:12:08,719 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 51] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 15:51:44,297 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Hire' with Id '2494' has been unpublished.
+2019-07-31 15:51:49,406 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 25] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 15:51:56,422 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 155] Couldn't find any page with nodeId=2494. This is most likely caused by the page not being published.
+2019-07-31 15:52:01,078 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 156] Content 'Hire' with Id '2494' has been published.
+2019-07-31 15:52:03,703 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 92] Content 'Hire' with Id '2494' had its release date removed, because it was unpublished.
+2019-07-31 15:52:03,703 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 92] Content 'Hire' with Id '2494' has been unpublished.
+2019-07-31 16:29:30,578 [7] INFO  umbraco.BusinessLogic.Log - [Thread 141] Log scrubbed.  Removed all items older than 2019-06-01 16:29:30
+2019-07-31 16:29:30,594 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 141] Application shutdown. Reason: HostingEnvironment
+2019-07-31 16:34:12,078 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2019-07-31 16:34:12,078 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 3ms)
+2019-07-31 16:34:12,094 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-07-31 16:34:12,813 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 725ms)
+2019-07-31 16:34:12,828 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-07-31 16:34:12,828 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2019-07-31 16:34:12,828 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-07-31 16:34:12,828 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2019-07-31 16:34:12,828 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-07-31 16:34:12,844 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2019-07-31 16:34:12,844 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-07-31 16:34:12,844 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2019-07-31 16:34:12,844 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-07-31 16:34:12,844 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2019-07-31 16:34:13,063 [23] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2019-07-31 16:34:13,328 [23] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2019-07-31 16:34:13,328 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2019-07-31 16:34:13,328 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2019-07-31 16:34:13,766 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2019-07-31 16:34:13,781 [23] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 21ms)
+2019-07-31 16:34:13,922 [23] INFO  umbraco.content - [Thread 9] Loading content from disk cache...
+2019-07-31 16:34:42,938 [23] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-07-31 16:34:42,938 [23] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2019-07-31 17:18:05,266 [23] INFO  Umbraco.Core.PluginManager - [Thread 32] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-07-31 17:18:05,281 [23] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)

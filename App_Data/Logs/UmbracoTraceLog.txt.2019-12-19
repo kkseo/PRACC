@@ -1,0 +1,112 @@
+2019-12-19 00:00:17,224 [32] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Santa Claus Is Coming to Town' with Id '2408' has been unpublished.
+2019-12-19 00:00:17,974 [32] INFO  Umbraco.Core.PluginManager - [Thread 66] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-12-19 00:00:17,990 [32] INFO  Umbraco.Core.PluginManager - [Thread 66] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 10ms)
+2019-12-19 00:00:18,084 [32] INFO  Umbraco.Core.PluginManager - [Thread 66] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-12-19 00:00:18,084 [32] INFO  Umbraco.Core.PluginManager - [Thread 66] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 5ms)
+2019-12-19 01:25:53,740 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 80] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-12-19 01:33:26,443 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 7] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2019-12-19 01:33:26,443 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 7] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2019-12-19 01:33:26,443 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 7] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2019-12-19 01:33:26,443 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 7] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2019-12-19 01:33:26,443 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 7] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2019-12-19 04:39:01,755 [32] INFO  umbraco.BusinessLogic.Log - [Thread 69] Log scrubbed.  Removed all items older than 2019-10-20 04:39:01
+2019-12-19 04:52:53,615 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 98] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-12-19 07:29:09,490 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 69] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-12-19 07:35:17,521 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 34] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-12-19 08:37:42,287 [32] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 34] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-12-19 09:31:11,505 [32] INFO  umbraco.BusinessLogic.Log - [Thread 26] Log scrubbed.  Removed all items older than 2019-10-20 09:31:10
+2019-12-19 09:31:12,162 [32] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 26] Application shutdown. Reason: HostingEnvironment
+2019-12-19 09:31:16,802 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2019-12-19 09:31:16,849 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 29ms)
+2019-12-19 09:31:16,849 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-12-19 09:31:19,568 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 2718ms)
+2019-12-19 09:31:19,646 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-12-19 09:31:19,646 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 11ms)
+2019-12-19 09:31:19,646 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-12-19 09:31:19,646 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2019-12-19 09:31:19,646 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-12-19 09:31:19,646 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 4ms)
+2019-12-19 09:31:19,709 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-12-19 09:31:19,709 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2019-12-19 09:31:19,709 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-12-19 09:31:19,709 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2019-12-19 09:31:20,755 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2019-12-19 09:31:21,537 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2019-12-19 09:31:21,552 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2019-12-19 09:31:21,568 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 11ms)
+2019-12-19 09:31:22,318 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2019-12-19 09:31:22,380 [10] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 64ms)
+2019-12-19 09:31:23,255 [10] INFO  umbraco.content - [Thread 15] Loading content from disk cache...
+2019-12-19 09:31:49,990 [10] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-12-19 09:31:49,990 [10] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2019-12-19 09:57:32,287 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-12-19 10:12:59,521 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-12-19 11:35:49,318 [10] INFO  Umbraco.Core.PluginManager - [Thread 85] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-12-19 11:35:49,318 [10] INFO  Umbraco.Core.PluginManager - [Thread 85] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2019-12-19 11:36:40,927 [10] INFO  umbraco.BasePages.BasePage - [Thread 82] User pracc (Id: 1) logged in
+2019-12-19 11:36:41,068 [10] INFO  Umbraco.Core.PluginManager - [Thread 90] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-12-19 11:36:41,068 [10] INFO  Umbraco.Core.PluginManager - [Thread 90] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 5ms)
+2019-12-19 11:36:41,162 [10] INFO  Umbraco.Core.PluginManager - [Thread 90] Starting resolution types of umbraco.interfaces.ITree
+2019-12-19 11:36:41,177 [10] INFO  Umbraco.Core.PluginManager - [Thread 90] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 20ms)
+2019-12-19 11:36:59,677 [10] INFO  Umbraco.Core.PluginManager - [Thread 91] Starting resolution types of umbraco.interfaces.IDataType
+2019-12-19 11:36:59,693 [10] INFO  Umbraco.Core.PluginManager - [Thread 91] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 18ms)
+2019-12-19 11:39:09,505 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content 'Shades of Bublé' with Id '2898' has been published.
+2019-12-19 11:39:10,287 [10] INFO  Umbraco.Core.PluginManager - [Thread 79] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-12-19 11:39:10,318 [10] INFO  Umbraco.Core.PluginManager - [Thread 79] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 10ms)
+2019-12-19 11:53:25,974 [10] INFO  umbraco.BasePages.BasePage - [Thread 94] User pracc (Id: 1) logged in
+2019-12-19 11:54:08,052 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 101] New document 2910
+2019-12-19 11:54:08,974 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 82] New document 2911
+2019-12-19 11:54:24,584 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 84] Content 'Masters of Choreography - Raise the Barre (1)' with Id '2911' has been unpublished.
+2019-12-19 11:57:52,037 [10] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 94] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.PurgeBuffers(Boolean disposing)
+   at System.IO.Compression.DeflateStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Compression.GZipStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at umbraco.presentation.plugins.tinymce3.GzipCompressor.Compress(Stream to_stream)
+   at umbraco.presentation.plugins.tinymce3.GzipModule.ProcessRequest(HttpContext context)
+   at umbraco.presentation.plugins.tinymce3.tinymce3tinymceCompress.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_plugins_tinymce3_tinymce3tinymcecompress_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-12-19 12:04:00,380 [10] INFO  Umbraco.Core.PluginManager - [Thread 85] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2019-12-19 12:04:00,412 [10] INFO  Umbraco.Core.PluginManager - [Thread 85] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 9ms)
+2019-12-19 12:04:24,755 [10] INFO  Umbraco.Core.PluginManager - [Thread 78] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2019-12-19 12:04:24,755 [10] INFO  Umbraco.Core.PluginManager - [Thread 78] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 5ms)
+2019-12-19 12:04:25,771 [10] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 78] Success uploading to parent 2711
+2019-12-19 12:04:25,990 [10] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 84] Success uploading to parent 2711
+2019-12-19 12:10:44,521 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content 'Masters of Choreography - Raise the Barre' with Id '2910' has been published.
+2019-12-19 12:15:35,052 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content 'Masters of Choreography - Raise the Barre' with Id '2910' had its release date removed, because it was unpublished.
+2019-12-19 12:15:35,052 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content 'Masters of Choreography - Raise the Barre' with Id '2910' has been unpublished.
+2019-12-19 12:16:12,162 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 71] Content 'Masters of Choreography - Raise the Barre' with Id '2910' has been published.
+2019-12-19 12:17:11,412 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 83] Content 'Masters of Choreography - Raise the Barre' with Id '2910' has been published.
+2019-12-19 12:17:59,912 [10] INFO  umbraco.cms.businesslogic.web.Document - [Thread 81] New document 2914
+2019-12-19 12:18:20,021 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content 'Show 1' with Id '2914' has been published.
+2019-12-19 12:18:37,302 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 98] Content 'Show 1' with Id '2914' has been published.
+2019-12-19 12:18:47,334 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 80] Content 'Masters of Choreography - Raise the Barre' with Id '2910' has been published.
+2019-12-19 12:18:50,334 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 90] Content 'Masters of Choreography - Raise the Barre' with Id '2910' has been published.
+2019-12-19 12:18:54,349 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 101] Content 'Masters of Choreography - Raise the Barre' with Id '2910' has been published.
+2019-12-19 12:19:00,130 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 98] Content 'Masters of Choreography - Raise the Barre' with Id '2910' has been published.
+2019-12-19 12:19:44,287 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content 'Masters of Choreography - Raise the Barre' with Id '2910' has been published.
+2019-12-19 12:42:44,459 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 84] Content 'Masters of Choreography - Raise the Barre' with Id '2910' has been published.
+2019-12-19 13:13:08,130 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 91] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-12-19 16:43:54,646 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 55] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-12-19 19:06:30,771 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 50] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.

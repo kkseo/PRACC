@@ -1,0 +1,62 @@
+2019-03-05 06:34:49,912 [24] INFO  umbraco.BusinessLogic.Log - [Thread 80] Log scrubbed.  Removed all items older than 2019-01-04 06:34:49
+2019-03-05 08:47:13,350 [24] INFO  umbraco.BasePages.BasePage - [Thread 20] User pracc (Id: 1) logged in
+2019-03-05 08:47:59,646 [24] INFO  Umbraco.Core.PluginManager - [Thread 61] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2019-03-05 08:48:00,287 [24] INFO  Umbraco.Core.PluginManager - [Thread 61] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 657ms)
+2019-03-05 08:54:08,006 [24] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2019-03-05 08:54:08,037 [24] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 27ms)
+2019-03-05 08:54:10,990 [24] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 54] Success uploading to parent 2347
+2019-03-05 09:02:22,771 [24] INFO  umbraco.cms.businesslogic.web.Document - [Thread 56] New document 2423
+2019-03-05 11:27:55,146 [24] INFO  umbraco.BusinessLogic.Log - [Thread 25] Log scrubbed.  Removed all items older than 2019-01-04 11:27:55
+2019-03-05 11:27:55,225 [24] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 25] Application shutdown. Reason: HostingEnvironment
+2019-03-05 11:28:00,725 [13] INFO  Umbraco.Core.PluginManager - [Thread 5] Determining hash of code files on disk
+2019-03-05 11:28:00,756 [13] INFO  Umbraco.Core.PluginManager - [Thread 5] Hash determined (took 12ms)
+2019-03-05 11:28:00,756 [13] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-03-05 11:28:03,803 [13] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 3035ms)
+2019-03-05 11:28:03,834 [13] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-03-05 11:28:03,850 [13] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+2019-03-05 11:28:03,850 [13] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-03-05 11:28:03,850 [13] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2019-03-05 11:28:03,865 [13] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-03-05 11:28:03,865 [13] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 8ms)
+2019-03-05 11:28:03,881 [13] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-03-05 11:28:03,881 [13] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 7ms)
+2019-03-05 11:28:03,881 [13] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-03-05 11:28:03,896 [13] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 8ms)
+2019-03-05 11:28:05,084 [13] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 5] Initializing Examine and binding to business logic events
+2019-03-05 11:28:06,256 [13] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 5] Adding examine event handlers for index providers: 3
+2019-03-05 11:28:06,381 [13] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IApplication
+2019-03-05 11:28:06,396 [13] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 15ms)
+2019-03-05 11:28:07,037 [13] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.ITree
+2019-03-05 11:28:07,068 [13] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 38ms)
+2019-03-05 11:33:59,568 [13] INFO  umbraco.content - [Thread 37] Loading content from disk cache...
+2019-03-05 11:34:34,381 [13] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-03-05 11:34:34,396 [13] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 15ms)
+2019-03-05 11:43:02,912 [13] INFO  Umbraco.Core.PluginManager - [Thread 43] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-03-05 11:43:02,928 [13] INFO  Umbraco.Core.PluginManager - [Thread 43] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 9ms)
+2019-03-05 12:54:49,350 [13] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-03-05 12:54:49,365 [13] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 9ms)
+2019-03-05 12:54:49,600 [13] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.interfaces.ITree
+2019-03-05 12:54:49,631 [13] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 37ms)
+2019-03-05 12:55:20,084 [13] INFO  Umbraco.Core.PluginManager - [Thread 43] Starting resolution types of umbraco.interfaces.IDataType
+2019-03-05 12:55:20,115 [13] INFO  Umbraco.Core.PluginManager - [Thread 43] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 34ms)
+2019-03-05 12:55:20,725 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content '2019 - Ivanhoe GS Legally Blonde' with Id '2423' has been published.
+2019-03-05 12:55:21,131 [13] INFO  Umbraco.Core.PluginManager - [Thread 43] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-03-05 12:55:21,162 [13] INFO  Umbraco.Core.PluginManager - [Thread 43] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 41ms)
+2019-03-05 12:55:37,787 [13] INFO  umbraco.cms.businesslogic.web.Document - [Thread 33] New document 2424
+2019-03-05 12:56:26,287 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 11] Content 'Show 1' with Id '2424' has been published.
+2019-03-05 12:57:57,506 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 20] Content 'Show 1' with Id '2424' has been published.
+2019-03-05 12:58:20,178 [13] INFO  umbraco.cms.businesslogic.web.Document - [Thread 29] New document 2425
+2019-03-05 12:58:40,631 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content 'Show 2' with Id '2425' has been published.
+2019-03-05 12:58:51,021 [13] INFO  umbraco.cms.businesslogic.web.Document - [Thread 46] New document 2426
+2019-03-05 13:12:09,771 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 49] Content '2019 - Ivanhoe GS Legally Blonde' with Id '2423' has been published.
+2019-03-05 13:12:14,459 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content '2019 - Ivanhoe GS Legally Blonde' with Id '2423' has been published.
+2019-03-05 13:15:38,928 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 46] Content 'Show 3' with Id '2426' has been published.
+2019-03-05 13:16:13,865 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Show 1' with Id '2424' has been published.
+2019-03-05 13:17:14,037 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 29] Content 'Show 1' with Id '2424' has been published.
+2019-03-05 13:24:35,146 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content '2019 - Ivanhoe GS Legally Blonde' with Id '2423' has been published.
+2019-03-05 13:31:00,162 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 46] Couldn't find any page with nodeId=2247. This is most likely caused by the page not being published.
+2019-03-05 13:31:07,396 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=2248. This is most likely caused by the page not being published.
+2019-03-05 13:31:09,506 [13] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 31] Couldn't find any page with nodeId=2261. This is most likely caused by the page not being published.
+2019-03-05 13:31:43,100 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 56] Content '2019 - Ivanhoe GS Legally Blonde' with Id '2423' has been published.
+2019-03-05 13:32:06,678 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content '2019 - Ivanhoe GS Legally Blonde' with Id '2423' has been published.
+2019-03-05 13:35:26,615 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '2019 - Ivanhoe GS Legally Blonde' with Id '2423' has been published.

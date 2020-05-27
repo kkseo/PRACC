@@ -1,0 +1,26 @@
+2017-12-08 09:40:45,508 [16] INFO  umbraco.BasePages.BasePage - [Thread 11] User pracc (Id: 1) logged in
+2017-12-08 09:40:46,195 [16] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2017-12-08 09:40:46,227 [16] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 46ms)
+2017-12-08 09:40:46,898 [16] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.interfaces.ITree
+2017-12-08 09:40:46,930 [16] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 44ms)
+2017-12-08 09:40:57,773 [16] INFO  Umbraco.Core.PluginManager - [Thread 32] Starting resolution types of umbraco.interfaces.IDataType
+2017-12-08 09:40:57,805 [16] INFO  Umbraco.Core.PluginManager - [Thread 32] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 30ms)
+2017-12-08 09:41:18,914 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content '2018 - Peppa Pig's Surprise' with Id '2145' has been published.
+2017-12-08 09:41:18,992 [16] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2017-12-08 09:41:19,008 [16] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 16ms)
+2017-12-08 09:41:42,695 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content '2018 - Celtic Illusion' with Id '2136' has been published.
+2017-12-08 09:42:20,461 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content '2018 - Stassman's 'iTedE'' with Id '2097' has been published.
+2017-12-08 09:42:51,820 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content '2017 - Country Christmas Show' with Id '1663' has been published.
+2017-12-08 11:54:40,336 [16] INFO  umbraco.BasePages.BasePage - [Thread 52] User pracc (Id: 1) logged in
+2017-12-08 13:08:41,148 [16] INFO  umbraco.cms.businesslogic.web.Document - [Thread 19] New document 2230
+2017-12-08 13:27:02,164 [16] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2017-12-08 13:27:02,227 [16] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 48ms)
+2017-12-08 13:27:15,789 [16] INFO  Umbraco.Core.PluginManager - [Thread 13] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2017-12-08 13:27:15,789 [16] INFO  Umbraco.Core.PluginManager - [Thread 13] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 7ms)
+2017-12-08 13:27:16,773 [16] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 13] Success uploading to parent 2101
+2017-12-08 13:28:13,211 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content '2018 - Celtic Illusion' with Id '2136' has been published.
+2017-12-08 14:37:27,664 [16] INFO  umbraco.cms.businesslogic.web.Document - [Thread 19] New document 2232
+2017-12-08 14:37:39,273 [16] INFO  Umbraco.Core.Services.ContentService - [Thread 13] Content 'Show 1' with Id '2232' could not be published because its parent is not published.
+2017-12-08 14:37:39,273 [16] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 13] Content 'Show 1' with Id '2232' has been published.
+2017-12-08 14:37:39,445 [16] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 13] Couldn't find any page with nodeId=2232. This is most likely caused by the page not being published.
+2017-12-08 21:16:45,836 [16] INFO  umbraco.BusinessLogic.Log - [Thread 25] Log scrubbed.  Removed all items older than 2017-10-09 21:16:45

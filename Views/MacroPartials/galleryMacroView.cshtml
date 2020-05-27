@@ -1,0 +1,16 @@
+﻿@inherits Umbraco.Web.Macros.PartialViewMacroPage
+
+   	<div class="flexslider">
+		<ul class="slides">
+        @{
+            if(!String.IsNullOrEmpty(Model.MacroParameters["galleryMediaFolder"].ToString())){
+                var mF = Umbraco.TypedMedia(Model.MacroParameters["galleryMediaFolder"]).Descendants();
+                foreach(var iM in mF){
+		            <li><img src="@iM.GetProperty("umbracoFile").Value.ToString()" alt="@iM.Name" /></li>
+                }
+            } else {
+                <li>No images available.</li>   
+            }
+        }
+		<ul>
+	</div>

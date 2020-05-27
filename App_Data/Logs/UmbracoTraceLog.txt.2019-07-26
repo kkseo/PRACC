@@ -1,0 +1,79 @@
+2019-07-26 09:17:02,400 [12] INFO  umbraco.cms.businesslogic.web.Document - [Thread 48] New document 2520
+2019-07-26 09:20:20,306 [12] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 43] Success uploading to parent 2347
+2019-07-26 09:25:54,931 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content '2019 - St. John XXIII Primary School' with Id '2520' has been published.
+2019-07-26 09:26:51,619 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 82] Content '2019 - St. John XXIII Primary School' with Id '2520' has been published.
+2019-07-26 09:27:15,181 [12] INFO  umbraco.cms.businesslogic.web.Document - [Thread 48] New document 2522
+2019-07-26 09:27:38,228 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content 'Show 1' with Id '2522' has been published.
+2019-07-26 09:27:44,056 [12] INFO  umbraco.cms.businesslogic.web.Document - [Thread 82] New document 2523
+2019-07-26 09:27:54,822 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 77] Content 'Show 1 (1)' with Id '2523' has been published.
+2019-07-26 09:28:01,650 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 85] Content 'Show 2' with Id '2523' has been published.
+2019-07-26 09:28:44,760 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content '2019 - St. John XXIII Primary School' with Id '2520' has been published.
+2019-07-26 09:28:54,650 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content '2019 - St. John XXIII Primary School' with Id '2520' has been published.
+2019-07-26 09:29:19,150 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Upcoming Events' with Id '1107' has been published.
+2019-07-26 09:29:35,041 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 65] Content 'Upcoming Events' with Id '1107' has been published.
+2019-07-26 09:29:42,806 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'Upcoming Events' with Id '1107' has been published.
+2019-07-26 09:35:47,994 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content '2019 - St. John XXIII Primary School' with Id '2520' has been published.
+2019-07-26 09:36:09,400 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 65] Content '2019 - St. John XXIII Primary School' with Id '2520' has been published.
+2019-07-26 09:36:20,416 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 82] Content '2019 - St. John XXIII Primary School' with Id '2520' has been published.
+2019-07-26 09:46:24,244 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content '2019 - Peter Pan Jr (Hume Anglican Grammar)' with Id '2496' has been published.
+2019-07-26 09:47:19,431 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 82] Content '2019 - Peter Pan Jr (Hume Anglican Grammar)' with Id '2496' has been published.
+2019-07-26 09:47:29,463 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content '2019 - Peter Pan Jr (Hume Anglican Grammar)' with Id '2496' has been published.
+2019-07-26 11:47:14,588 [12] INFO  umbraco.BasePages.BasePage - [Thread 13] User pracc (Id: 1) logged in
+2019-07-26 11:59:31,728 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content '2019 - Bye Bye Birdie (Plenty Valley Christian College)' with Id '2474' has been published.
+2019-07-26 12:03:12,056 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content '2019 - Bye Bye Birdie (Plenty Valley Christian College)' with Id '2474' has been published.
+2019-07-26 12:03:32,166 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content '2019 - Brickworks' with Id '2379' has been published.
+2019-07-26 12:03:32,322 [12] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 17] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2019-07-26 12:03:40,994 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content '2019 - CodeBiotics' with Id '2381' has been published.
+2019-07-26 12:03:53,463 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-07-26 12:04:01,463 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-07-26 12:04:13,635 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content '2019 - Stage & Screen' with Id '2406' has been published.
+2019-07-26 12:04:22,713 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 13] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-07-26 12:05:11,572 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content '2019 - A Midsummers Nights Dream (Catholic Ladies College)' with Id '2481' has been published.
+2019-07-26 15:30:07,400 [12] INFO  umbraco.BusinessLogic.Log - [Thread 17] Log scrubbed.  Removed all items older than 2019-05-27 15:30:07
+2019-07-26 17:09:40,885 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content '2020 - Ross Noble' with Id '2511' is awaiting release and could not be published.
+2019-07-26 17:10:14,338 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 18] Content '2020 - Ross Noble' with Id '2511' has been published.
+2019-07-26 17:10:51,775 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content '2020 - Ross Noble' with Id '2511' has been published.
+2019-07-26 17:11:03,072 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content '2020 - Ross Noble' with Id '2511' has been published.
+2019-07-26 17:11:03,181 [12] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 51] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2019-07-26 17:11:08,385 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content '2020 - Ross Noble' with Id '2511' had its release date removed, because it was unpublished.
+2019-07-26 17:11:08,385 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 75] Content '2020 - Ross Noble' with Id '2511' has been unpublished.
+2019-07-26 17:11:33,666 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content '2020 - Ross Noble' with Id '2511' is awaiting release and could not be published.
+2019-07-26 17:11:33,713 [12] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 60] Couldn't find any page with nodeId=2511. This is most likely caused by the page not being published.
+2019-07-26 17:11:44,744 [12] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 72] Couldn't find any page with nodeId=2511. This is most likely caused by the page not being published.
+2019-07-26 17:11:54,588 [12] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 17] Couldn't find any page with nodeId=2511. This is most likely caused by the page not being published.
+2019-07-26 17:12:34,197 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 89] Content '2020 - Ross Noble' with Id '2511' is awaiting release and could not be published.
+2019-07-26 17:12:34,213 [12] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 89] Couldn't find any page with nodeId=2511. This is most likely caused by the page not being published.
+2019-07-26 17:12:37,447 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content '2020 - Ross Noble' with Id '2511' has been published.
+2019-07-26 17:12:59,275 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 89] Content '2020 - Ross Noble' with Id '2511' has been published.
+2019-07-26 17:13:28,260 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 89] Content '2020 - Ross Noble' with Id '2511' has been published.
+2019-07-26 17:13:50,181 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content '2020 - Ross Noble' with Id '2511' had its release date removed, because it was unpublished.
+2019-07-26 17:13:50,181 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 17] Content '2020 - Ross Noble' with Id '2511' has been unpublished.
+2019-07-26 17:13:52,494 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content '2020 - Ross Noble' with Id '2511' has been published.
+2019-07-26 17:14:08,338 [12] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content '2020 - Ross Noble' with Id '2511' has been published.
+2019-07-26 20:29:45,697 [12] INFO  umbraco.BusinessLogic.Log - [Thread 17] Log scrubbed.  Removed all items older than 2019-05-27 20:29:45
+2019-07-26 20:29:45,728 [12] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 17] Application shutdown. Reason: HostingEnvironment
+2019-07-26 20:30:23,728 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Determining hash of code files on disk
+2019-07-26 20:30:23,728 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Hash determined (took 5ms)
+2019-07-26 20:30:23,744 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-07-26 20:30:24,666 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 940ms)
+2019-07-26 20:30:24,681 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-07-26 20:30:24,681 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2019-07-26 20:30:24,681 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-07-26 20:30:24,697 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2019-07-26 20:30:24,697 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-07-26 20:30:24,697 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2019-07-26 20:30:24,697 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-07-26 20:30:24,713 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2019-07-26 20:30:24,713 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-07-26 20:30:24,713 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2019-07-26 20:30:24,947 [15] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 5] Initializing Examine and binding to business logic events
+2019-07-26 20:30:25,197 [15] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 5] Adding examine event handlers for index providers: 3
+2019-07-26 20:30:25,197 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.IApplication
+2019-07-26 20:30:25,213 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2019-07-26 20:30:25,322 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.ITree
+2019-07-26 20:30:25,353 [15] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 20ms)
+2019-07-26 20:32:51,010 [15] INFO  umbraco.content - [Thread 9] Loading content from disk cache...
+2019-07-26 20:32:54,791 [15] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-07-26 20:32:54,806 [15] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2019-07-26 20:46:12,010 [15] INFO  Umbraco.Core.PluginManager - [Thread 60] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-07-26 20:46:12,010 [15] INFO  Umbraco.Core.PluginManager - [Thread 60] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)

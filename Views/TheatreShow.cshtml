@@ -1,0 +1,156 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "masterTemplate1.cshtml";
+}
+
+
+@section HeaderMeta{
+
+	<title>@Umbraco.Field("showName") - Plenty Ranges Arts and Convention Centre</title>
+		
+    <meta name="og:title" content="Coming Show: @Umbraco.Field("showName")" />
+	<meta name="og:site_name" content="Plenty Ranges Arts and Convention Centre" />
+	<meta name="og:url" content="@Html.Raw("http://www.pracc.com.au" + @Umbraco.NiceUrl(@Model.Content.Id))" />
+	<meta name="og:description" content="@Umbraco.StripHtml(Umbraco.Field("shortDescription"))" />
+    @if(Umbraco.Field("largeImage").ToString().Length >= 2 ){
+        var mediaItem = Umbraco.TypedMedia(int.Parse(Umbraco.Field("largeImage").ToString()));
+        <meta name="og:image" content="@mediaItem.GetPropertyValue("umbracoFile")" />
+    } else {
+        <!-- nothing //-->
+    }
+
+}
+
+
+    <!-- FULL WIDTH DECORATIVE IMAGE //-->
+    <div class="notcontained fullwidth decorativeImage hidden-xs @Umbraco.Field("nodeTypeAlias")"></div>
+    <!-- END //-->
+
+    <div class="container @Umbraco.Field("nodeTypeAlias")">
+        
+        <div class="row pageContent">
+            <div class="col-sm-9">
+				    <a name="skip" > </a >
+					<h1>@Umbraco.Field("showName")</h1>
+
+                    <div class="fb-like" data-href="@Html.Raw("http://www.pracc.com.au" + @Umbraco.NiceUrl(@Model.Content.Id))" data-layout="button_count" data-action="recommend" data-show-faces="true" data-share="true"></div>
+
+                    @{
+                        if(Umbraco.Field("largeImage").ToString().Length >= 2 ){
+                            var mediaItem = Umbraco.TypedMedia(int.Parse(Umbraco.Field("largeImage").ToString()));
+                            <img src="@mediaItem.GetPropertyValue("umbracoFile")" width="215" height="120" alt="@Umbraco.Field("showName")" class="showRT"/>
+                        } else {
+                            <img src="/images/shownoimage.jpg" width="215" height="120" alt="@Umbraco.Field("showName")" style="float: left; margin-right: 20px; margin-bottom: 30px;"/>
+                        }
+                    }
+
+				    @Umbraco.Field("description")
+
+                    <div class="row smBoxed">
+                        <div class="col-sm-4">
+                            <h3>Show Times</h3>
+
+                            @{
+                                var children = Model.Content.Children();
+                            
+                                foreach(var ch in children){
+                                    string thisDT = ch.GetPropertyValue("dateAndTime").ToString();
+                                    <p>@library.FormatDateTime(thisDT,"dd/MM/yyyy %h:mm tt ")</p>
+                                }
+                            }
+                        </div>
+                        <div class="col-sm-4">
+                            <h3>Admission Price</h3>
+                            @if (Umbraco.Field("allTickets").ToString().Length >= 2)
+                            {
+                                <p>All Tickets: <strong>@Umbraco.Field("allTickets").ToString()</strong></p>
+                            }
+                            @if (Umbraco.Field("adultTickets").ToString().Length >= 2)
+                            {
+                                <p>Adult Tickets: <strong>@Umbraco.Field("adultTickets").ToString()</strong></p>
+                            }
+                            @if (Umbraco.Field("concessionTickets").ToString().Length >= 2)
+                            {
+                                <p>
+                                    Concession Tickets: <strong>@Umbraco.Field("concessionTickets").ToString()</strong>
+                                    @if (Umbraco.Field("concessionExplanation").ToString().Length >= 2)
+                                    {
+                                        <br /><i>@Umbraco.Field("concessionExplanation").ToString()</i>
+                                    }
+                                </p>
+                            }
+                            @if (Umbraco.Field("childTickets").ToString().Length >= 2)
+                            {
+                                <p>
+                                    Child Tickets: <strong>@Umbraco.Field("childTickets").ToString()</strong>
+                                    @if (Umbraco.Field("childExplanation").ToString().Length >= 2)
+                                    {
+                                        <br /><i>@Umbraco.Field("childExplanation").ToString()</i>
+                                    }
+                                </p>
+                            }
+                            @if (Umbraco.Field("groupTickets").ToString().Length >= 2)
+                            {
+                                <p>
+                                    Group Tickets: <strong>@Umbraco.Field("groupTickets").ToString()</strong>
+                                    @if (Umbraco.Field("groupExplanation").ToString().Length >= 2)
+                                    {
+                                        <br /><i>@Umbraco.Field("groupExplanation").ToString()</i>
+                                    }
+                                </p>
+                            }
+                            @if (Umbraco.Field("familyPass").ToString().Length >= 2)
+                            {
+                                <p>
+                                    Family Pass: <strong>@Umbraco.Field("familyPass").ToString()</strong>
+                                    @if (Umbraco.Field("familyPassExplanation").ToString().Length >= 2)
+                                    {
+                                        <br /><i>@Umbraco.Field("familyPassExplanation").ToString()</i>
+                                    }
+                                </p>
+                            }
+
+                        </div>
+                        <div class="col-sm-4">
+							@if(Umbraco.Field("ticketEventURL").ToString().Length >= 9)
+							{
+								<p><a href="@Umbraco.Field("ticketEventURL").ToString()"><img src="/images/advRotButBuyTheatre.gif" alt="Buy Tickets to @Umbraco.Field("showName")" style="margin-top: 24px; "/></a></p>
+							} else {
+	                            <p><a href="http://purchase.tickets.com/buy/TicketPurchase?event_val=@Umbraco.Field("ticketsEventCode")&agency=PLENTYRANGES&organ_val=26805&schedule=list"><img src="/images/advRotButBuyTheatre.gif" alt="Buy Tickets to @Umbraco.Field("showName")" style="margin-top: 24px; "/></a></p>
+							}
+                        </div>
+                    </div>
+
+                    @if (Umbraco.Field("websiteLink").ToHtmlString().Length >= 2 || Umbraco.Field("youtubeVideoURL").ToString().Length >= 2)
+                    {
+                    <h3>More Info</h3>
+                        if (Umbraco.Field("websiteLink").ToHtmlString().Length >= 2){
+                            <p><a href="@Umbraco.Field("websiteLink").ToHtmlString()">Website: @Umbraco.Field("showName")</a></p>
+                        }
+                        if (Umbraco.Field("youtubeVideoURL").ToString().Length >= 2)
+                        {
+                        <div class="youtubeBox" >
+                            <p><a href="http://www.youtube.com/watch?v=@Umbraco.Field("youtubeVideoURL").ToString()" id="@Umbraco.Field("youtubeVideoURL").ToString()" class="youtube">Youtube Video</a></p>
+                        </div>
+                        }
+                    }
+
+				</div>
+            <div class="col-sm-3">
+
+	            <!-- section for in page navigation (this section only) //-->
+                @{
+                    var parent = Model.Content.AncestorOrSelf(2);
+                    var pNode = uQuery.GetNode(parent.Id);
+                }
+               @* <div class="@pNode.GetProperty("nodeTypeAlias") rightBoxNav" >
+                    @rightSideNavBoxHelper.traverseNode(pNode)
+    	        </div> *@
+
+                @RenderPage("~/Views/Partials/_cmTheatreListSubscribe.cshtml")
+
+
+         	</div>
+    	</div>
+
+    </div>

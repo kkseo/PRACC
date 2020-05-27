@@ -1,0 +1,14 @@
+2018-11-26 10:05:58,721 [17] INFO  umbraco.BasePages.BasePage - [Thread 61] User pracc (Id: 1) logged in
+2018-11-26 10:05:59,080 [17] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2018-11-26 10:05:59,096 [17] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 12ms)
+2018-11-26 10:05:59,393 [17] INFO  Umbraco.Core.PluginManager - [Thread 42] Starting resolution types of umbraco.interfaces.ITree
+2018-11-26 10:05:59,455 [17] INFO  Umbraco.Core.PluginManager - [Thread 42] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 69ms)
+2018-11-26 10:06:59,393 [17] INFO  Umbraco.Core.PluginManager - [Thread 65] Starting resolution types of umbraco.interfaces.IDataType
+2018-11-26 10:06:59,440 [17] INFO  Umbraco.Core.PluginManager - [Thread 65] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 41ms)
+2018-11-26 10:07:12,596 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 65] Content '2018 - Romina's Dance' with Id '2322' has been published.
+2018-11-26 10:07:13,908 [17] INFO  Umbraco.Core.PluginManager - [Thread 65] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2018-11-26 10:07:13,940 [17] INFO  Umbraco.Core.PluginManager - [Thread 65] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 28ms)
+2018-11-26 10:07:26,408 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content '2018 - Essentially Dance' with Id '2317' has been published.
+2018-11-26 10:08:43,627 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 94] Content '2018 - Beat Dance' with Id '2313' has been published.
+2018-11-26 10:08:58,283 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 34] Content '2018 - Beat Dance' with Id '2313' has been published.
+2018-11-26 19:07:55,393 [17] INFO  umbraco.BusinessLogic.Log - [Thread 32] Log scrubbed.  Removed all items older than 2018-09-27 19:07:55

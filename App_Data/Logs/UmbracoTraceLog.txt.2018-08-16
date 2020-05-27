@@ -1,0 +1,45 @@
+2018-08-16 03:17:08,951 [7] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 90] Error executing query delete from umbracoLog where datestamp < @oldestPermittedLogEntry and logHeader in ('open','system')
+System.Data.SqlClient.SqlException (0x80131904): SHUTDOWN is in progress.
+Login failed for user 'web24PraccUmbUser'.
+A severe error occurred on the current command.  The results, if any, should be discarded.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteNonQuery(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+ClientConnectionId:e1b989d3-5cd3-405a-88f9-d066b94aa3ad
+Error Number:6005,State:1,Class:14
+2018-08-16 03:17:10,154 [7] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 90] Application shutdown. Reason: HostingEnvironment
+2018-08-16 03:20:30,012 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Determining hash of code files on disk
+2018-08-16 03:20:30,059 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Hash determined (took 44ms)
+2018-08-16 03:20:30,075 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-08-16 03:20:38,716 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 8640ms)
+2018-08-16 03:20:38,887 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-08-16 03:20:38,887 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2018-08-16 03:20:38,887 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-08-16 03:20:38,903 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2018-08-16 03:20:38,903 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-08-16 03:20:38,903 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 7ms)
+2018-08-16 03:20:38,919 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-08-16 03:20:38,919 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 12ms)
+2018-08-16 03:20:38,919 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-08-16 03:20:38,950 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 14ms)
+2018-08-16 03:20:44,169 [9] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 4] Initializing Examine and binding to business logic events
+2018-08-16 03:20:46,122 [9] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 4] Adding examine event handlers for index providers: 3
+2018-08-16 03:20:46,137 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of umbraco.interfaces.IApplication
+2018-08-16 03:20:46,153 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 18ms)
+2018-08-16 03:20:51,200 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of umbraco.interfaces.ITree
+2018-08-16 03:20:51,247 [9] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 39ms)
+2018-08-16 03:20:52,028 [9] INFO  umbraco.content - [Thread 20] Loading content from disk cache...
+2018-08-16 03:20:58,012 [9] INFO  Umbraco.Core.PluginManager - [Thread 20] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2018-08-16 03:20:58,028 [9] INFO  Umbraco.Core.PluginManager - [Thread 20] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 12ms)
+2018-08-16 03:26:23,559 [9] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2018-08-16 03:26:23,606 [9] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 52ms)

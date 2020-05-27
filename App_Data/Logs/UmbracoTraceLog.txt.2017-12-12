@@ -1,0 +1,63 @@
+2017-12-12 08:53:34,310 [27] INFO  umbraco.BasePages.BasePage - [Thread 100] User pracc (Id: 1) logged in
+2017-12-12 08:56:49,685 [27] INFO  Umbraco.Core.PluginManager - [Thread 84] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2017-12-12 08:56:49,732 [27] INFO  Umbraco.Core.PluginManager - [Thread 84] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 35ms)
+2017-12-12 09:00:33,544 [27] INFO  Umbraco.Core.PluginManager - [Thread 51] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2017-12-12 09:00:33,544 [27] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 7ms)
+2017-12-12 09:00:34,341 [27] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 51] Success uploading to parent 2101
+2017-12-12 09:01:01,638 [27] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 51] Success uploading to parent 2101
+2017-12-12 09:01:18,154 [27] INFO  umbraco.cms.businesslogic.web.Document - [Thread 81] New document 2236
+2017-12-12 09:12:37,810 [27] INFO  umbraco.cms.businesslogic.web.Document - [Thread 92] New document 2237
+2017-12-12 09:12:50,857 [27] INFO  Umbraco.Core.Services.ContentService - [Thread 58] Content 'Show 1' with Id '2237' could not be published because its parent is not published.
+2017-12-12 09:12:50,857 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content 'Show 1' with Id '2237' has been published.
+2017-12-12 09:12:50,998 [27] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 58] Couldn't find any page with nodeId=2237. This is most likely caused by the page not being published.
+2017-12-12 09:12:56,169 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content '2018 - Beats on Pointe' with Id '2236' has been published.
+2017-12-12 12:05:53,185 [27] INFO  umbraco.BasePages.BasePage - [Thread 36] User pracc (Id: 1) logged in
+2017-12-12 12:06:32,779 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content '2018 - Peppa Pig's Surprise' with Id '2145' has been published.
+2017-12-12 12:06:59,935 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content '2018 - Peppa Pig's Surprise' with Id '2145' has been published.
+2017-12-12 12:07:27,076 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content '2018 - Peppa Pig's Surprise' with Id '2145' has been published.
+2017-12-12 12:07:41,341 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 101] Content '2018 - Peppa Pig's Surprise' with Id '2145' has been published.
+2017-12-12 12:08:07,716 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 97] Content '2018 - Peppa Pig's Surprise' with Id '2145' has been published.
+2017-12-12 12:08:27,513 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 38] Content '2018 - Peppa Pig's Surprise' with Id '2145' has been published.
+2017-12-12 12:11:48,216 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 71] Content '2018 - Peppa Pig's Surprise' with Id '2145' has been published.
+2017-12-12 12:12:10,138 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content '2018 - Peppa Pig's Surprise' with Id '2145' has been published.
+2017-12-12 12:12:34,185 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content '2018 - Peppa Pig's Surprise' with Id '2145' has been published.
+2017-12-12 12:19:28,998 [27] INFO  umbraco.BusinessLogic.Log - [Thread 66] Log scrubbed.  Removed all items older than 2017-10-13 12:19:28
+2017-12-12 13:24:15,388 [27] INFO  umbraco.BasePages.BasePage - [Thread 101] User pracc (Id: 1) logged in
+2017-12-12 15:46:22,638 [27] INFO  umbraco.BasePages.BasePage - [Thread 49] User pracc (Id: 1) logged in
+2017-12-12 15:50:31,529 [27] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 50] Success uploading to parent 1196
+2017-12-12 15:51:27,732 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'Downloads' with Id '1766' has been published.
+2017-12-12 16:24:27,607 [27] INFO  umbraco.BasePages.BasePage - [Thread 77] User pracc (Id: 1) logged in
+2017-12-12 16:27:08,763 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 46] Content 'Upcoming Shows' with Id '1107' has been published.
+2017-12-12 16:27:29,888 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'Upcoming Shows' with Id '1107' has been published.
+2017-12-12 16:27:46,185 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 46] Content 'Upcoming Shows' with Id '1107' has been published.
+2017-12-12 16:27:58,748 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 50] Content 'Upcoming Shows' with Id '1107' has been published.
+2017-12-12 16:28:09,591 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 50] Content 'Upcoming Shows' with Id '1107' has been published.
+2017-12-12 16:30:08,419 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'Upcoming Shows' with Id '1107' has been published.
+2017-12-12 16:30:19,748 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 68] Content 'Upcoming Shows' with Id '1107' has been published.
+2017-12-12 17:15:50,373 [27] INFO  umbraco.BusinessLogic.Log - [Thread 42] Log scrubbed.  Removed all items older than 2017-10-13 17:15:50
+2017-12-12 17:15:50,373 [27] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 42] Application shutdown. Reason: HostingEnvironment
+2017-12-12 17:16:02,310 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2017-12-12 17:16:02,326 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 11ms)
+2017-12-12 17:16:02,341 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2017-12-12 17:16:03,576 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1243ms)
+2017-12-12 17:16:03,638 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2017-12-12 17:16:03,654 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+2017-12-12 17:16:03,654 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2017-12-12 17:16:03,654 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2017-12-12 17:16:03,654 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2017-12-12 17:16:03,654 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2017-12-12 17:16:03,654 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2017-12-12 17:16:03,669 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 6ms)
+2017-12-12 17:16:03,669 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2017-12-12 17:16:03,669 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2017-12-12 17:16:04,107 [8] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2017-12-12 17:16:04,763 [8] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2017-12-12 17:16:04,794 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2017-12-12 17:16:04,810 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 14ms)
+2017-12-12 17:16:04,873 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2017-12-12 17:16:04,904 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 35ms)
+2017-12-12 17:16:05,357 [8] INFO  umbraco.content - [Thread 6] Loading content from disk cache...
+2017-12-12 17:16:06,451 [8] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2017-12-12 17:16:06,466 [8] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 10ms)
+2017-12-12 18:12:17,888 [8] INFO  Umbraco.Core.PluginManager - [Thread 58] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2017-12-12 18:12:17,888 [8] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 8ms)

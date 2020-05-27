@@ -1,0 +1,70 @@
+2020-03-13 01:57:03,594 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 12] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 06:09:58,469 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 45] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-13 07:04:36,360 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 85] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-13 07:37:47,860 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 48] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 09:57:53,094 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 13] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-13 10:58:27,704 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 25] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 11:01:57,501 [7] INFO  umbraco.BasePages.BasePage - [Thread 86] User pracc (Id: 1) logged in
+2020-03-13 11:01:57,719 [7] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2020-03-13 11:01:57,797 [7] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 88ms)
+2020-03-13 11:01:57,907 [7] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of umbraco.interfaces.ITree
+2020-03-13 11:01:57,938 [7] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 21ms)
+2020-03-13 11:02:02,797 [7] ERROR dashboardUtilities.FeedProxy - [Thread 59] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-03-13 11:02:06,063 [7] INFO  umbraco.BasePages.BasePage - [Thread 98] User pracc (Id: 1) logged in
+2020-03-13 11:02:17,751 [7] INFO  Umbraco.Core.PluginManager - [Thread 59] Starting resolution types of umbraco.interfaces.IDataType
+2020-03-13 11:02:17,766 [7] INFO  Umbraco.Core.PluginManager - [Thread 59] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 19ms)
+2020-03-13 11:04:41,188 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content 'TICKET SYSTEM OUTAGE' with Id '2430' has been published.
+2020-03-13 11:04:41,891 [7] INFO  Umbraco.Core.PluginManager - [Thread 33] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2020-03-13 11:04:41,907 [7] INFO  Umbraco.Core.PluginManager - [Thread 33] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 10ms)
+2020-03-13 11:05:25,110 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 98] Content 'Catch the train to PRACC' with Id '1205' has been unpublished.
+2020-03-13 11:05:33,688 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'More Indoor & Outdoor Options' with Id '2679' has been unpublished.
+2020-03-13 11:05:48,219 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 98] Content 'COVID-19' with Id '2430' has been published.
+2020-03-13 11:06:50,891 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'COVID-19' with Id '2430' has been published.
+2020-03-13 11:06:56,688 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 91] Couldn't find any page with nodeId=1424. This is most likely caused by the page not being published.
+2020-03-13 11:08:00,376 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content 'COVID-19' with Id '2430' has been published.
+2020-03-13 11:09:36,110 [7] INFO  Umbraco.Core.Services.ContentService - [Thread 91] Content 'COVID-19' with Id '2430' could not be published because of invalid properties.
+2020-03-13 11:10:27,016 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 93] Content 'COVID-19' with Id '2430' has been published.
+2020-03-13 11:11:16,360 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'COVID-19' with Id '2430' has been published.
+2020-03-13 11:11:40,282 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content 'COVID-19' with Id '2430' has been published.
+2020-03-13 11:13:56,282 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'COVID-19' with Id '2430' has been published.
+2020-03-13 11:18:22,876 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 16] Content 'COVID-19' with Id '2430' has been published.
+2020-03-13 11:19:18,266 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 86] Content 'COVID-19' with Id '2430' has been published.
+2020-03-13 11:40:55,282 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 93] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-13 12:31:16,610 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 91] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-13 13:01:24,610 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 24] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-13 13:11:35,110 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 98] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-13 13:31:35,610 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 100] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-13 14:11:28,594 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-13 14:21:23,032 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 16] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-13 15:10:54,844 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 91] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 15:43:08,891 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 100] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-13 15:48:11,813 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 25] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-13 16:11:20,922 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 98] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 16:24:52,704 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 24] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 16:27:42,813 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 16] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 16:46:00,829 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 100] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 16:58:18,626 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 16] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 17:05:06,782 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 26] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-13 17:05:36,469 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 93] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 17:05:39,188 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 98] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 17:12:02,766 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 98] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-13 17:43:47,313 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 17:54:20,829 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 91] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-13 18:27:54,344 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 18:34:38,485 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 98] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-13 18:52:42,891 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 59] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-13 19:12:04,829 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 16] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-13 19:41:08,126 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 100] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 20:16:25,954 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 33] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 20:22:44,141 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 100] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 20:58:05,313 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 59] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 21:33:01,391 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 25] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-13 21:54:56,485 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 69] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 22:30:49,907 [7] INFO  umbraco.BusinessLogic.Log - [Thread 25] Log scrubbed.  Removed all items older than 2020-01-13 22:30:49
+2020-03-13 23:06:20,797 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 15] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 23:12:54,766 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 90] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-13 23:16:57,188 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 15] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.

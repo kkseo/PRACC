@@ -1,0 +1,105 @@
+2020-03-16 02:48:34,995 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 93] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-16 05:00:23,448 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 62] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-16 07:43:13,604 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 46] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-16 08:30:29,339 [14] INFO  umbraco.BusinessLogic.Log - [Thread 69] Log scrubbed.  Removed all items older than 2020-01-16 08:30:28
+2020-03-16 09:10:36,307 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 36] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-16 10:30:24,667 [14] INFO  umbraco.BasePages.BasePage - [Thread 64] User pracc (Id: 1) logged in
+2020-03-16 10:30:24,886 [14] INFO  Umbraco.Core.PluginManager - [Thread 37] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2020-03-16 10:30:24,948 [14] INFO  Umbraco.Core.PluginManager - [Thread 37] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 70ms)
+2020-03-16 10:30:25,057 [14] INFO  Umbraco.Core.PluginManager - [Thread 37] Starting resolution types of umbraco.interfaces.ITree
+2020-03-16 10:30:25,073 [14] INFO  Umbraco.Core.PluginManager - [Thread 37] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 21ms)
+2020-03-16 10:30:30,292 [14] ERROR dashboardUtilities.FeedProxy - [Thread 37] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-03-16 10:30:38,229 [14] INFO  Umbraco.Core.PluginManager - [Thread 61] Starting resolution types of umbraco.interfaces.IDataType
+2020-03-16 10:30:38,261 [14] INFO  Umbraco.Core.PluginManager - [Thread 61] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 19ms)
+2020-03-16 10:30:45,011 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content 'Show 1' with Id '2988' has been published.
+2020-03-16 10:30:45,776 [14] INFO  Umbraco.Core.PluginManager - [Thread 62] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2020-03-16 10:30:45,792 [14] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 11ms)
+2020-03-16 10:30:47,854 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Show 2' with Id '2989' has been published.
+2020-03-16 10:30:50,714 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 63] Content 'Show 3' with Id '2990' has expired and could not be published.
+2020-03-16 10:30:56,057 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Show 3' with Id '2990' has expired and could not be published.
+2020-03-16 10:31:02,042 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 37] Content 'Show 3' with Id '2990' has expired and could not be published.
+2020-03-16 10:31:06,261 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-16 10:32:07,182 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content 'Show 3' with Id '2990' has expired and could not be published.
+2020-03-16 10:32:31,776 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content 'Show 3' with Id '2990' has been published.
+2020-03-16 10:32:45,651 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content 'Ivanhoe Grammar School - Plenty Campus - Matilda' with Id '2982' has been published.
+2020-03-16 10:36:23,089 [14] INFO  umbraco.BasePages.BasePage - [Thread 37] User pracc (Id: 1) logged in
+2020-03-16 10:37:43,651 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content 'Tickets' with Id '2489' has been published.
+2020-03-16 10:37:56,136 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 61] Content 'Tickets' with Id '2489' has been published.
+2020-03-16 10:38:10,182 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content 'Tickets' with Id '2489' has been published.
+2020-03-16 10:39:26,745 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content 'Tickets' with Id '2489' has been published.
+2020-03-16 10:39:42,073 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 61] Content 'Tickets' with Id '2489' has been published.
+2020-03-16 11:43:58,432 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 65] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-16 12:33:24,776 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 28] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-16 13:10:25,698 [14] ERROR dashboardUtilities.FeedProxy - [Thread 26] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-03-16 13:10:41,307 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content 'Playschool' with Id '2967' has been unpublished.
+2020-03-16 13:18:57,339 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content 'Jump Dance Challenge - Together We Dance Showcase 2020' with Id '2962' had its release date removed, because it was unpublished.
+2020-03-16 13:18:57,339 [14] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 78] Content 'Jump Dance Challenge - Together We Dance Showcase 2020' with Id '2962' has been unpublished.
+2020-03-16 13:29:28,245 [14] INFO  umbraco.BusinessLogic.Log - [Thread 21] Log scrubbed.  Removed all items older than 2020-01-16 13:29:28
+2020-03-16 13:29:28,276 [14] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 21] Application shutdown. Reason: HostingEnvironment
+2020-03-16 13:29:31,667 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2020-03-16 13:29:31,682 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 6ms)
+2020-03-16 13:29:31,698 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2020-03-16 13:29:33,276 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1578ms)
+2020-03-16 13:29:33,307 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2020-03-16 13:29:33,307 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2020-03-16 13:29:33,307 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2020-03-16 13:29:33,307 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2020-03-16 13:29:33,323 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2020-03-16 13:29:33,323 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2020-03-16 13:29:33,323 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2020-03-16 13:29:33,339 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2020-03-16 13:29:33,339 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2020-03-16 13:29:33,339 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2020-03-16 13:29:33,761 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2020-03-16 13:29:34,354 [7] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2020-03-16 13:29:34,354 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2020-03-16 13:29:34,386 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2020-03-16 13:29:34,667 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2020-03-16 13:29:34,667 [7] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 23ms)
+2020-03-16 13:29:43,089 [7] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2020-03-16 13:30:03,495 [7] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2020-03-16 13:30:03,495 [7] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2020-03-16 13:54:54,745 [7] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2020-03-16 13:54:54,761 [7] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 24ms)
+2020-03-16 13:54:55,354 [7] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.interfaces.ITree
+2020-03-16 13:54:55,386 [7] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 27ms)
+2020-03-16 13:55:00,729 [7] ERROR dashboardUtilities.FeedProxy - [Thread 44] Exception occurred
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2020-03-16 13:55:09,807 [7] INFO  Umbraco.Core.PluginManager - [Thread 51] Starting resolution types of umbraco.interfaces.IDataType
+2020-03-16 13:55:09,886 [7] INFO  Umbraco.Core.PluginManager - [Thread 51] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 63ms)
+2020-03-16 13:55:30,339 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content 'On The Spectrum' with Id '2837' has been unpublished.
+2020-03-16 13:55:31,042 [7] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2020-03-16 13:55:31,042 [7] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 10ms)
+2020-03-16 13:55:31,886 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'On The Spectrum' with Id '2837' has been unpublished.
+2020-03-16 14:36:41,323 [7] INFO  Umbraco.Core.PluginManager - [Thread 41] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2020-03-16 14:36:41,323 [7] INFO  Umbraco.Core.PluginManager - [Thread 41] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 6ms)
+2020-03-16 15:17:43,854 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 86] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-16 15:24:19,120 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 73] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-16 15:42:22,870 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 88] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-16 16:25:01,386 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 77] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-16 16:35:11,104 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 92] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-16 16:44:58,979 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 85] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-16 17:16:12,464 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 92] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2020-03-16 17:16:12,464 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 92] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2020-03-16 17:16:12,464 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 92] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2020-03-16 17:16:12,464 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 92] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2020-03-16 17:16:12,464 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 92] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2020-03-16 20:16:52,589 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 21] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-16 20:56:30,464 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 46] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-16 21:26:26,745 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-16 21:32:53,542 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 75] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-16 22:03:47,667 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 5] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2020-03-16 22:17:29,870 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 49] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-16 22:33:44,261 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 75] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2020-03-16 23:27:30,589 [7] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 23] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.

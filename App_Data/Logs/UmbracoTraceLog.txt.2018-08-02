@@ -1,0 +1,70 @@
+2018-08-02 04:06:46,784 [14] INFO  umbraco.BusinessLogic.Log - [Thread 61] Log scrubbed.  Removed all items older than 2018-06-03 04:06:46
+2018-08-02 09:05:49,112 [14] INFO  umbraco.BusinessLogic.Log - [Thread 88] Log scrubbed.  Removed all items older than 2018-06-03 09:05:48
+2018-08-02 09:05:49,721 [14] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 88] Application shutdown. Reason: HostingEnvironment
+2018-08-02 09:09:22,002 [27] INFO  Umbraco.Core.PluginManager - [Thread 25] Determining hash of code files on disk
+2018-08-02 09:09:22,002 [27] INFO  Umbraco.Core.PluginManager - [Thread 25] Hash determined (took 5ms)
+2018-08-02 09:09:22,002 [27] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-08-02 09:09:23,752 [27] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1744ms)
+2018-08-02 09:09:23,752 [27] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-08-02 09:09:23,768 [27] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2018-08-02 09:09:23,768 [27] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-08-02 09:09:23,768 [27] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2018-08-02 09:09:23,768 [27] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-08-02 09:09:23,768 [27] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2018-08-02 09:09:23,768 [27] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-08-02 09:09:23,784 [27] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 8ms)
+2018-08-02 09:09:23,784 [27] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-08-02 09:09:23,799 [27] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 8ms)
+2018-08-02 09:09:24,268 [27] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 25] Initializing Examine and binding to business logic events
+2018-08-02 09:09:24,955 [27] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 25] Adding examine event handlers for index providers: 3
+2018-08-02 09:09:24,971 [27] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of umbraco.interfaces.IApplication
+2018-08-02 09:09:24,987 [27] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 17ms)
+2018-08-02 09:09:25,690 [27] INFO  Umbraco.Core.PluginManager - [Thread 25] Starting resolution types of umbraco.interfaces.ITree
+2018-08-02 09:09:25,721 [27] INFO  Umbraco.Core.PluginManager - [Thread 25] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 36ms)
+2018-08-02 09:12:26,534 [27] INFO  umbraco.content - [Thread 23] Loading content from disk cache...
+2018-08-02 09:12:39,034 [27] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2018-08-02 09:12:39,049 [27] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 10ms)
+2018-08-02 09:14:02,643 [27] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2018-08-02 09:14:02,659 [27] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 8ms)
+2018-08-02 11:57:14,096 [27] INFO  umbraco.BasePages.BasePage - [Thread 43] User pracc (Id: 1) logged in
+2018-08-02 11:57:14,659 [27] INFO  Umbraco.Core.PluginManager - [Thread 50] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2018-08-02 11:57:14,674 [27] INFO  Umbraco.Core.PluginManager - [Thread 50] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 7ms)
+2018-08-02 11:57:15,252 [27] INFO  Umbraco.Core.PluginManager - [Thread 50] Starting resolution types of umbraco.interfaces.ITree
+2018-08-02 11:57:15,284 [27] INFO  Umbraco.Core.PluginManager - [Thread 50] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 35ms)
+2018-08-02 11:57:22,002 [27] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of umbraco.interfaces.IDataType
+2018-08-02 11:57:22,034 [27] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 33ms)
+2018-08-02 13:44:18,237 [27] INFO  umbraco.BasePages.BasePage - [Thread 53] User pracc (Id: 1) logged in
+2018-08-02 13:45:05,268 [27] INFO  umbraco.cms.businesslogic.web.Document - [Thread 32] New document 2303
+2018-08-02 13:46:24,315 [27] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2018-08-02 13:46:24,330 [27] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 15ms)
+2018-08-02 13:47:10,471 [27] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2018-08-02 13:47:10,487 [27] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 7ms)
+2018-08-02 13:47:11,127 [27] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2018-08-02 13:47:11,143 [27] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 16ms)
+2018-08-02 13:47:11,346 [27] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 55] Success uploading to parent 2101
+2018-08-02 13:47:12,643 [27] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 55] Success uploading to parent 2101
+2018-08-02 13:49:31,143 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content '2018 - Assumption College Kilmore Dance' with Id '2303' has been published.
+2018-08-02 13:49:37,205 [27] INFO  umbraco.cms.businesslogic.web.Document - [Thread 52] New document 2306
+2018-08-02 13:49:48,924 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 29] Content 'Show1' with Id '2306' has been published.
+2018-08-02 13:50:34,205 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content '2018 - Assumption College Kilmore Dance' with Id '2303' had its release date removed, because it was unpublished.
+2018-08-02 13:50:34,205 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content '2018 - Assumption College Kilmore Dance' with Id '2303' has been unpublished.
+2018-08-02 14:04:24,612 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content '2018 - Assumption College Kilmore Dance' with Id '2303' has been published.
+2018-08-02 14:05:58,221 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content '2018 - Assumption College Kilmore Dance' with Id '2303' has been published.
+2018-08-02 14:06:03,471 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 29] Content '2018 - Assumption College Kilmore Dance' with Id '2303' had its release date removed, because it was unpublished.
+2018-08-02 14:06:03,471 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 29] Content '2018 - Assumption College Kilmore Dance' with Id '2303' has been unpublished.
+2018-08-02 14:06:05,674 [27] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 29] Couldn't find any page with nodeId=2303. This is most likely caused by the page not being published.
+2018-08-02 14:06:19,612 [27] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 52] Couldn't find any page with nodeId=2303. This is most likely caused by the page not being published.
+2018-08-02 14:07:30,752 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 26] Content '2018 - Assumption College Kilmore Dance' with Id '2303' has been published.
+2018-08-02 14:49:46,987 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content '2018 - Assumption College Kilmore Dance' with Id '2303' has been published.
+2018-08-02 14:50:05,909 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content '2018 - Assumption College Kilmore Dance' with Id '2303' has been published.
+2018-08-02 14:50:20,190 [27] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 46] Couldn't find any page with nodeId=2306. This is most likely caused by the page not being published.
+2018-08-02 14:57:41,877 [27] INFO  umbraco.BasePages.BasePage - [Thread 51] User pracc (Id: 1) logged in
+2018-08-02 14:58:13,237 [27] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 53] Couldn't find any page with nodeId=2306. This is most likely caused by the page not being published.
+2018-08-02 15:00:59,112 [27] INFO  umbraco.BasePages.BasePage - [Thread 50] User pracc (Id: 1) logged in
+2018-08-02 15:01:17,424 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 56] Content '2018 - Assumption College Kilmore Dance' with Id '2303' has been published.
+2018-08-02 15:01:41,815 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content '2018 - Assumption College Kilmore Dance' with Id '2303' has been published.
+2018-08-02 15:01:47,034 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 56] Content '2018 - Assumption College Kilmore Dance' with Id '2303' has been published.
+2018-08-02 15:02:00,752 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 56] Content '2018 - Assumption College Kilmore Dance' with Id '2303' has been published.
+2018-08-02 15:02:17,424 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '2018 - Assumption College Kilmore Dance' with Id '2303' had its release date removed, because it was unpublished.
+2018-08-02 15:02:17,424 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 35] Content '2018 - Assumption College Kilmore Dance' with Id '2303' has been unpublished.
+2018-08-02 15:02:54,877 [27] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content '2018 - Assumption College Kilmore Dance' with Id '2303' has been published.

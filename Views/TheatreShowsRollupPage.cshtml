@@ -1,0 +1,108 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using System.Collections;
+@{
+    Layout = "masterTemplate1.cshtml";
+}
+
+
+@section HeaderMeta{
+	<title>@Umbraco.Field("pageTitle") - Plenty Ranges Arts and Convention Centre</title>	
+}
+
+
+    <!-- FULL WIDTH DECORATIVE IMAGE //-->
+    <div class="notcontained fullwidth decorativeImage hidden-xs @Umbraco.Field("nodeTypeAlias")"></div>
+    <!-- END //-->
+
+    <div class="container @Umbraco.Field("nodeTypeAlias")">
+        
+        <div class="row pageContent">
+            <div class="col-sm-9">
+				<a name="skip" > </a >
+				<h1>@Umbraco.Field("pageTitle")</h1>
+                <h2>@Umbraco.Field("pageSubtitle")</h2>
+                <div class="fb-like" data-href="@Html.Raw("http://www.pracc.com.au" + @Umbraco.NiceUrl(@Model.Content.Id))" data-layout="button_count" data-action="recommend" data-show-faces="true" data-share="true"></div>
+				@Umbraco.Field("pageContent")
+				
+				
+				@{
+                    // Get root node:
+                    var root = Model.Content.AncestorOrSelf();
+
+                    // Get all descendants, filter by type:
+                    var nodes = root.Descendants("TheatreShowDateAndTime").Where("Visible").Where("dateAndTime >= DateTime.Now").OrderBy("dateAndTime");
+
+                    ArrayList nodeList = new ArrayList();
+                    
+                    // Loop through the filtered nodes, add to int[] array. make sure item does not appear in array
+                    // this will get all of the unique shows.
+                    foreach (var node in nodes)
+                    {
+        
+                        if (nodeList.IndexOf(node.Parent.Id) < 0)
+                        {
+                            nodeList.Add(node.Parent.Id);
+                        }
+                    }
+                    
+                    foreach(Int32 item in nodeList){
+                       var cNode = uQuery.GetNode(item);
+                        
+                        <h3 style="clear: left; ">@cNode.GetProperty("showName")</h3>
+
+                        <a href="@cNode.Url" >
+                        @if(cNode.GetProperty("largeImage").ToString().Length >= 2 ){
+                            var mediaItem = Umbraco.TypedMedia(int.Parse(cNode.GetProperty("largeImage").ToString()));
+                            <img src="@mediaItem.GetPropertyValue("umbracoFile")" width="215" height="120" alt="@cNode.GetProperty("showName")" class="showRT"/>
+                        } else {
+                            <img src="/images/shownoimage.jpg" width="215" height="120" alt="@cNode.GetProperty("showName")" style="float: left; margin-right: 20px; margin-bottom: 30px;"/>
+                        }
+                        </a>
+
+                        @Html.Raw(cNode.GetProperty("shortDescription"))
+                        <p>
+                            <a href="@cNode.Url" >View Details</a>
+							
+							<!--
+							@if(cNode.GetProperty("ticketEventURL").ToString().Length >= 9)
+							{
+								<br /><a href="@cNode.GetProperty("ticketEventURL").ToString()" class="updated">Buy Tickets</a>
+							} else {
+								if (cNode.GetProperty("ticketsEventCode").ToString().Length >= 1)
+								{
+									<br /><a href="http://purchase.tickets.com/buy/TicketPurchase?event_val=@cNode.GetProperty("ticketsEventCode")&agency=PLENTYRANGES&organ_val=26805&schedule=list" >Buy Tickets</a>
+								}
+							}
+                            //-->
+								
+                            
+                        </p>
+                    }
+				}
+
+				
+				</div>
+            <div class="col-sm-3">
+
+	            <!-- section for in page navigation (this section only) //-->
+                @{
+                    var parent = Model.Content.AncestorOrSelf(2);
+                    var pNode = uQuery.GetNode(parent.Id);
+                }
+                @*<div class="@pNode.GetProperty("nodeTypeAlias") rightBoxNav" >
+                    @rightSideNavBoxHelper.traverseNode(pNode)
+    	        </div>*@
+
+				<div class="rightBoxNav">
+					<h4><a href="https://mpv.tickets.com/?agency=PLENTYRANGESPV_MPV&orgid=54329#/auth/login?fullret=%2Fschedule%2F%3Fagency%3DPLENTYRANGESPV_MPV%26orgid%3D54329%23view%3Dlist">Ticket Login</a> <br /></h4>
+					<h4><a href="https://mpv.tickets.com/schedule/?agency=PLENTYRANGESPV_MPV&orgid=54329#view=list">ProVenue Event List</a> <br /></h4>
+					<h4><a href="https://images.tickets.com/images/primarysales/mtm/mpv_prac_faq.html" target="_blank">Ticketing Quick Guide</a> <br /></h4>
+					<h4><a href="/policies/ticketing-policy/">Ticketing Policy</a></h4>
+				</div>
+
+                @RenderPage("~/Views/Partials/_cmTheatreListSubscribe.cshtml")
+
+         	</div>
+    	</div>
+
+    </div>

@@ -1,0 +1,234 @@
+2019-08-29 02:05:59,107 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 131] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 04:07:03,107 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 133] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-29 07:17:56,685 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 132] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 07:24:14,748 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 131] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 08:16:12,826 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 129] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 09:53:45,873 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 117] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 10:10:20,545 [22] INFO  umbraco.BasePages.BasePage - [Thread 120] User pracc (Id: 1) logged in
+2019-08-29 10:10:29,623 [22] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 133] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.WriteDeflaterOutput(Boolean isAsync)
+   at System.IO.Compression.DeflateStream.PurgeBuffers(Boolean disposing)
+   at System.IO.Compression.DeflateStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Compression.GZipStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at umbraco.presentation.plugins.tinymce3.GzipCompressor.Compress(Stream to_stream)
+   at umbraco.presentation.plugins.tinymce3.GzipModule.ProcessRequest(HttpContext context)
+   at umbraco.presentation.plugins.tinymce3.tinymce3tinymceCompress.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_plugins_tinymce3_tinymce3tinymcecompress_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-08-29 10:18:05,217 [22] INFO  umbraco.BusinessLogic.Log - [Thread 120] Log scrubbed.  Removed all items older than 2019-06-30 10:18:05
+2019-08-29 10:31:42,576 [22] ERROR umbraco.editorControls.tinymce.tinyMCEImageHelper - [Thread 133] Error resizing image in editor
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.DoResize(IDictionary attributes, Int32& finalWidth, Int32& finalHeight, String& newSrc)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.cleanImages(String html)
+2019-08-29 10:31:42,576 [22] ERROR umbraco.editorControls.tinymce.tinyMCEImageHelper - [Thread 133] Error resizing image in editor
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.DoResize(IDictionary attributes, Int32& finalWidth, Int32& finalHeight, String& newSrc)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.cleanImages(String html)
+2019-08-29 10:31:42,607 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 133] Content 'Visit' with Id '2530' has been published.
+2019-08-29 10:44:27,279 [22] ERROR umbraco.editorControls.tinymce.tinyMCEImageHelper - [Thread 118] Error resizing image in editor
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.DoResize(IDictionary attributes, Int32& finalWidth, Int32& finalHeight, String& newSrc)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.cleanImages(String html)
+2019-08-29 10:44:27,279 [22] ERROR umbraco.editorControls.tinymce.tinyMCEImageHelper - [Thread 118] Error resizing image in editor
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.DoResize(IDictionary attributes, Int32& finalWidth, Int32& finalHeight, String& newSrc)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.cleanImages(String html)
+2019-08-29 10:44:27,295 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 118] Content 'Visit' with Id '2530' has been published.
+2019-08-29 10:45:42,889 [22] ERROR umbraco.editorControls.tinymce.tinyMCEImageHelper - [Thread 131] Error resizing image in editor
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.DoResize(IDictionary attributes, Int32& finalWidth, Int32& finalHeight, String& newSrc)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.cleanImages(String html)
+2019-08-29 10:45:42,889 [22] ERROR umbraco.editorControls.tinymce.tinyMCEImageHelper - [Thread 131] Error resizing image in editor
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.DoResize(IDictionary attributes, Int32& finalWidth, Int32& finalHeight, String& newSrc)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.cleanImages(String html)
+2019-08-29 10:45:42,889 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 131] Content 'Visit' with Id '2530' has been published.
+2019-08-29 10:46:34,029 [22] ERROR umbraco.editorControls.tinymce.tinyMCEImageHelper - [Thread 115] Error resizing image in editor
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.DoResize(IDictionary attributes, Int32& finalWidth, Int32& finalHeight, String& newSrc)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.cleanImages(String html)
+2019-08-29 10:46:34,029 [22] ERROR umbraco.editorControls.tinymce.tinyMCEImageHelper - [Thread 115] Error resizing image in editor
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.DoResize(IDictionary attributes, Int32& finalWidth, Int32& finalHeight, String& newSrc)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.cleanImages(String html)
+2019-08-29 10:46:34,045 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 115] Content 'Visit' with Id '2530' has been published.
+2019-08-29 10:48:47,670 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 113] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-29 10:49:36,451 [22] ERROR umbraco.editorControls.tinymce.tinyMCEImageHelper - [Thread 115] Error resizing image in editor
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.DoResize(IDictionary attributes, Int32& finalWidth, Int32& finalHeight, String& newSrc)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.cleanImages(String html)
+2019-08-29 10:49:36,451 [22] ERROR umbraco.editorControls.tinymce.tinyMCEImageHelper - [Thread 115] Error resizing image in editor
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.DoResize(IDictionary attributes, Int32& finalWidth, Int32& finalHeight, String& newSrc)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.cleanImages(String html)
+2019-08-29 10:49:36,451 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 115] Content 'Visit' with Id '2530' has been published.
+2019-08-29 10:49:36,748 [22] ERROR umbraco.editorControls.tinymce.tinyMCEImageHelper - [Thread 115] Error resizing image in editor
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.DoResize(IDictionary attributes, Int32& finalWidth, Int32& finalHeight, String& newSrc)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.cleanImages(String html)
+2019-08-29 10:49:36,748 [22] ERROR umbraco.editorControls.tinymce.tinyMCEImageHelper - [Thread 115] Error resizing image in editor
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.DoResize(IDictionary attributes, Int32& finalWidth, Int32& finalHeight, String& newSrc)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.cleanImages(String html)
+2019-08-29 10:49:36,764 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 115] Content 'Visit' with Id '2530' has been published.
+2019-08-29 10:49:54,670 [22] ERROR umbraco.editorControls.tinymce.tinyMCEImageHelper - [Thread 60] Error resizing image in editor
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.DoResize(IDictionary attributes, Int32& finalWidth, Int32& finalHeight, String& newSrc)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.cleanImages(String html)
+2019-08-29 10:49:54,670 [22] ERROR umbraco.editorControls.tinymce.tinyMCEImageHelper - [Thread 60] Error resizing image in editor
+System.FormatException: Input string was not in a correct format.
+   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.DoResize(IDictionary attributes, Int32& finalWidth, Int32& finalHeight, String& newSrc)
+   at umbraco.editorControls.tinymce.tinyMCEImageHelper.cleanImages(String html)
+2019-08-29 10:49:54,685 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content 'Visit' with Id '2530' has been published.
+2019-08-29 10:52:37,873 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 27] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 10:53:25,732 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content 'Hire' with Id '2531' has been published.
+2019-08-29 10:53:36,623 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 64] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 10:54:05,092 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 64] Content 'Hire' with Id '2531' has been published.
+2019-08-29 10:54:08,482 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 64] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 10:54:11,107 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 64] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-29 10:54:30,514 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 64] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 10:55:35,060 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 38] Content 'Hire' with Id '2531' has been published.
+2019-08-29 10:55:38,295 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 64] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 10:58:27,576 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content 'Contact' with Id '1071' has been published.
+2019-08-29 10:58:27,920 [22] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 63] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2019-08-29 10:58:31,217 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 21] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 10:58:37,514 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 10:58:40,092 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 10] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 11:13:42,014 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 105] Content 'Contact' with Id '1071' has been published.
+2019-08-29 11:17:58,295 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 108] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 11:24:57,732 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 24] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 11:27:30,623 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 72] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 11:27:57,670 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 72] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 11:28:01,764 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 100] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-29 11:32:38,810 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 87] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 11:41:41,123 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content 'Contact' with Id '1071' has been published.
+2019-08-29 12:10:16,920 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 81] Couldn't find any page with nodeId=2541. This is most likely caused by the page not being published.
+2019-08-29 12:10:16,920 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 81] Couldn't find any page with nodeId=2542. This is most likely caused by the page not being published.
+2019-08-29 12:10:16,920 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 81] Couldn't find any page with nodeId=2545. This is most likely caused by the page not being published.
+2019-08-29 12:10:16,920 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 81] Couldn't find any page with nodeId=2543. This is most likely caused by the page not being published.
+2019-08-29 12:10:16,920 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 81] Couldn't find any page with nodeId=2544. This is most likely caused by the page not being published.
+2019-08-29 12:18:16,248 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 65] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 12:56:23,935 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 112] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-29 13:48:15,185 [22] INFO  umbraco.BasePages.BasePage - [Thread 63] User pracc (Id: 1) logged in
+2019-08-29 13:48:42,420 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 112] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 13:49:15,592 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 48] Content 'Masters of Choreography' with Id '2715' has been published.
+2019-08-29 13:50:45,967 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Masters of Choreography' with Id '2715' has been published.
+2019-08-29 13:56:17,029 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Masters of Choreography' with Id '2715' has been published.
+2019-08-29 13:56:17,029 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Peter Pan Jr' with Id '2496' has been published.
+2019-08-29 13:56:17,029 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Plenty Parklands Primary School' with Id '2660' has been published.
+2019-08-29 13:56:17,029 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Ross Noble' with Id '2511' has been published.
+2019-08-29 13:56:17,029 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-08-29 13:56:17,029 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Sing It With Sharon' with Id '2650' has been published.
+2019-08-29 13:56:17,029 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'SingOut' with Id '2449' has been published.
+2019-08-29 13:56:17,029 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'St. John XXIII Primary School' with Id '2520' has been published.
+2019-08-29 13:56:17,029 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Stage & Screen' with Id '2406' has been published.
+2019-08-29 13:56:17,029 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'The Greatest Show' with Id '2501' has been published.
+2019-08-29 13:56:17,029 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'The Robertson Brothers 1960's TV Variety Show' with Id '2709' has been published.
+2019-08-29 13:56:17,029 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Wattle Glen PS' with Id '2654' has been published.
+2019-08-29 13:56:17,029 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Wild Wogs 2' with Id '2445' has been published.
+2019-08-29 13:56:17,029 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'Whittlesea Secondary College' with Id '2684' has been published.
+2019-08-29 14:02:36,498 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 104] Content 'Masters of Choreography' with Id '2715' has been published.
+2019-08-29 14:02:42,295 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content 'The Robertson Brothers 1960's TV Variety Show' with Id '2709' has been published.
+2019-08-29 14:03:10,779 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content 'Tickets' with Id '2489' has been published.
+2019-08-29 14:03:48,920 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content 'The Robertson Brothers 1960's TV Variety Show' with Id '2709' has been published.
+2019-08-29 14:35:30,873 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 58] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 14:35:42,357 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 26] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-29 14:54:44,342 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 98] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 14:56:16,201 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 104] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 14:57:01,935 [22] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 68] Content 'Masters of Choreography' with Id '2715' has been published.
+2019-08-29 14:57:28,920 [22] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 81] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-29 15:15:29,139 [22] INFO  umbraco.BusinessLogic.Log - [Thread 26] Log scrubbed.  Removed all items older than 2019-06-30 15:15:29
+2019-08-29 15:15:29,201 [22] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 26] Application shutdown. Reason: HostingEnvironment
+2019-08-29 15:15:38,060 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Determining hash of code files on disk
+2019-08-29 15:15:38,076 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Hash determined (took 5ms)
+2019-08-29 15:15:38,092 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-08-29 15:15:38,685 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 600ms)
+2019-08-29 15:15:38,717 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-08-29 15:15:38,717 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2019-08-29 15:15:38,717 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-08-29 15:15:38,717 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2019-08-29 15:15:38,717 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-08-29 15:15:38,717 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2019-08-29 15:15:38,732 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-08-29 15:15:38,779 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 55ms)
+2019-08-29 15:15:38,779 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-08-29 15:15:38,779 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2019-08-29 15:15:39,310 [14] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 12] Initializing Examine and binding to business logic events
+2019-08-29 15:15:39,842 [14] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 12] Adding examine event handlers for index providers: 3
+2019-08-29 15:15:39,857 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.interfaces.IApplication
+2019-08-29 15:15:39,857 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2019-08-29 15:15:40,092 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Starting resolution types of umbraco.interfaces.ITree
+2019-08-29 15:15:40,107 [14] INFO  Umbraco.Core.PluginManager - [Thread 12] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 22ms)
+2019-08-29 15:15:40,389 [14] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2019-08-29 15:15:41,623 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-08-29 15:15:41,639 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2019-08-29 15:48:05,076 [14] INFO  Umbraco.Core.PluginManager - [Thread 72] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-08-29 15:48:05,076 [14] INFO  Umbraco.Core.PluginManager - [Thread 72] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2019-08-29 15:51:14,639 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 74] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 15:58:24,029 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 88] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 16:10:27,326 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 75] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-29 16:14:42,467 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 64] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-29 16:15:08,420 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 63] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-29 16:49:36,576 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 79] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-29 16:54:36,404 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 19:01:27,451 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-29 19:15:10,373 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 62] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 19:19:27,139 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 94] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-29 19:25:31,451 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-29 19:33:08,779 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 92] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-29 19:44:39,326 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 77] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-29 20:49:02,826 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 86] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 21:30:55,998 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 31] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 21:42:40,967 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 84] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-08-29 21:49:43,467 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 21:51:29,904 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 86] Couldn't find any page with nodeId=2532. This is most likely caused by the page not being published.
+2019-08-29 21:55:46,935 [14] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.

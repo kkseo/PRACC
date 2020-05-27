@@ -1,0 +1,44 @@
+2019-07-01 01:14:31,715 [17] INFO  umbraco.BusinessLogic.Log - [Thread 50] Log scrubbed.  Removed all items older than 2019-05-02 01:14:31
+2019-07-01 06:13:05,434 [17] INFO  umbraco.BusinessLogic.Log - [Thread 110] Log scrubbed.  Removed all items older than 2019-05-02 06:13:05
+2019-07-01 06:13:05,450 [17] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 110] Application shutdown. Reason: HostingEnvironment
+2019-07-01 06:15:33,731 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2019-07-01 06:15:33,731 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 2ms)
+2019-07-01 06:15:33,731 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-07-01 06:15:34,106 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 375ms)
+2019-07-01 06:15:34,121 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-07-01 06:15:34,121 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2019-07-01 06:15:34,121 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-07-01 06:15:34,121 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2019-07-01 06:15:34,121 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-07-01 06:15:34,137 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2019-07-01 06:15:34,137 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-07-01 06:15:34,137 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2019-07-01 06:15:34,137 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-07-01 06:15:34,153 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2019-07-01 06:15:34,278 [17] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2019-07-01 06:15:34,465 [17] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2019-07-01 06:15:34,465 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2019-07-01 06:15:34,481 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 7ms)
+2019-07-01 06:15:34,668 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2019-07-01 06:15:34,684 [17] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 20ms)
+2019-07-01 06:15:34,840 [17] INFO  umbraco.content - [Thread 14] Loading content from disk cache...
+2019-07-01 06:16:04,215 [17] INFO  Umbraco.Core.PluginManager - [Thread 22] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-07-01 06:16:04,215 [17] INFO  Umbraco.Core.PluginManager - [Thread 22] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 6ms)
+2019-07-01 07:14:44,106 [17] INFO  Umbraco.Core.PluginManager - [Thread 57] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-07-01 07:14:44,106 [17] INFO  Umbraco.Core.PluginManager - [Thread 57] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)
+2019-07-01 12:28:26,887 [17] INFO  umbraco.BasePages.BasePage - [Thread 105] User pracc (Id: 1) logged in
+2019-07-01 12:28:28,621 [17] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-07-01 12:28:28,684 [17] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 57ms)
+2019-07-01 12:28:29,231 [17] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.ITree
+2019-07-01 12:28:29,246 [17] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 20ms)
+2019-07-01 12:28:41,825 [17] INFO  Umbraco.Core.PluginManager - [Thread 15] Starting resolution types of umbraco.interfaces.IDataType
+2019-07-01 12:28:41,856 [17] INFO  Umbraco.Core.PluginManager - [Thread 15] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 28ms)
+2019-07-01 12:29:43,262 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 93] Content 'Rooms & Facilities' with Id '1087' has been published.
+2019-07-01 12:29:44,028 [17] INFO  Umbraco.Core.PluginManager - [Thread 93] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-07-01 12:29:44,028 [17] INFO  Umbraco.Core.PluginManager - [Thread 93] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 10ms)
+2019-07-01 12:32:28,465 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 106] Content 'Rooms & Facilities' with Id '1087' has been published.
+2019-07-01 12:35:22,215 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'Rooms & Facilities' with Id '1087' has been published.
+2019-07-01 12:36:16,965 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 106] Content 'Rooms & Facilities' with Id '1087' has been published.
+2019-07-01 12:36:29,965 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 90] Content 'Rooms & Facilities' with Id '1087' has been published.
+2019-07-01 12:38:46,950 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 93] Content 'Rooms & Facilities' with Id '1087' has been published.
+2019-07-01 12:38:54,418 [17] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 15] Content 'Rooms & Facilities' with Id '1087' has been published.

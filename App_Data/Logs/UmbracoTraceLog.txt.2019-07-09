@@ -1,0 +1,81 @@
+2019-07-09 12:14:44,149 [18] INFO  umbraco.BusinessLogic.Log - [Thread 98] Log scrubbed.  Removed all items older than 2019-05-10 12:14:44
+2019-07-09 14:29:00,946 [18] INFO  umbraco.BasePages.BasePage - [Thread 92] User pracc (Id: 1) logged in
+2019-07-09 14:29:01,071 [18] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-07-09 14:29:01,086 [18] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 12ms)
+2019-07-09 14:29:01,539 [18] INFO  Umbraco.Core.PluginManager - [Thread 5] Starting resolution types of umbraco.interfaces.ITree
+2019-07-09 14:29:01,555 [18] INFO  Umbraco.Core.PluginManager - [Thread 5] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 22ms)
+2019-07-09 14:29:53,852 [18] INFO  Umbraco.Core.PluginManager - [Thread 39] Starting resolution types of umbraco.interfaces.IDataType
+2019-07-09 14:29:53,868 [18] INFO  Umbraco.Core.PluginManager - [Thread 39] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 18ms)
+2019-07-09 14:31:40,493 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content '2019 - The Lion King Jr (Marymede Catholic College)' with Id '2462' has been published.
+2019-07-09 14:31:41,258 [18] INFO  Umbraco.Core.PluginManager - [Thread 76] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-07-09 14:31:41,274 [18] INFO  Umbraco.Core.PluginManager - [Thread 76] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 11ms)
+2019-07-09 14:31:58,055 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 87] Content '2019 - The Lion King Jr (Marymede Catholic College)' with Id '2462' has been published.
+2019-07-09 15:18:37,086 [18] INFO  umbraco.BasePages.BasePage - [Thread 76] User pracc (Id: 1) logged in
+2019-07-09 15:31:36,289 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 24] Content 'Upcoming Events' with Id '1107' has been published.
+2019-07-09 15:34:59,696 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 92] Content 'Upcoming Events' with Id '1107' has been published.
+2019-07-09 15:35:02,539 [18] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 5] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.WriteDeflaterOutput(Boolean isAsync)
+   at System.IO.Compression.DeflateStream.PurgeBuffers(Boolean disposing)
+   at System.IO.Compression.DeflateStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Compression.GZipStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at umbraco.presentation.plugins.tinymce3.GzipCompressor.Compress(Stream to_stream)
+   at umbraco.presentation.plugins.tinymce3.GzipModule.ProcessRequest(HttpContext context)
+   at umbraco.presentation.plugins.tinymce3.tinymce3tinymceCompress.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_plugins_tinymce3_tinymce3tinymcecompress_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-07-09 15:37:29,461 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content 'Ticketing Policy' with Id '2139' has been published.
+2019-07-09 15:43:38,086 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 60] Content 'Ticketing Policy' with Id '2139' has been published.
+2019-07-09 15:44:49,852 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 39] Content 'Upcoming Events' with Id '1107' has been published.
+2019-07-09 15:46:44,493 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 39] Content 'Ticketing Policy' with Id '2139' has been published.
+2019-07-09 15:48:47,883 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 76] Content 'Ticketing Policy' with Id '2139' has been published.
+2019-07-09 16:16:31,414 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'PRACC Ticketing Offline' with Id '2486' has been published.
+2019-07-09 16:18:04,727 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 46] Content 'Upcoming Events' with Id '1107' has been published.
+2019-07-09 16:19:53,102 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 46] Content 'Upcoming Events' with Id '1107' has been published.
+2019-07-09 17:12:52,008 [18] INFO  umbraco.BusinessLogic.Log - [Thread 22] Log scrubbed.  Removed all items older than 2019-05-10 17:12:51
+2019-07-09 17:12:53,133 [18] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 22] Application shutdown. Reason: HostingEnvironment
+2019-07-09 17:16:49,633 [15] INFO  Umbraco.Core.PluginManager - [Thread 23] Determining hash of code files on disk
+2019-07-09 17:16:49,633 [15] INFO  Umbraco.Core.PluginManager - [Thread 23] Hash determined (took 3ms)
+2019-07-09 17:16:49,633 [15] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-07-09 17:16:50,508 [15] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 884ms)
+2019-07-09 17:16:50,524 [15] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-07-09 17:16:50,524 [15] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+2019-07-09 17:16:50,524 [15] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-07-09 17:16:50,524 [15] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2019-07-09 17:16:50,524 [15] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-07-09 17:16:50,539 [15] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2019-07-09 17:16:50,539 [15] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-07-09 17:16:50,539 [15] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 3ms)
+2019-07-09 17:16:50,539 [15] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-07-09 17:16:50,539 [15] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2019-07-09 17:16:50,852 [15] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 23] Initializing Examine and binding to business logic events
+2019-07-09 17:16:51,133 [15] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 23] Adding examine event handlers for index providers: 3
+2019-07-09 17:16:51,149 [15] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of umbraco.interfaces.IApplication
+2019-07-09 17:16:51,149 [15] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 8ms)
+2019-07-09 17:16:51,493 [15] INFO  Umbraco.Core.PluginManager - [Thread 23] Starting resolution types of umbraco.interfaces.ITree
+2019-07-09 17:16:51,508 [15] INFO  Umbraco.Core.PluginManager - [Thread 23] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 20ms)
+2019-07-09 17:16:51,680 [15] INFO  umbraco.content - [Thread 30] Loading content from disk cache...
+2019-07-09 17:16:52,336 [15] INFO  Umbraco.Core.PluginManager - [Thread 30] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-07-09 17:16:52,336 [15] INFO  Umbraco.Core.PluginManager - [Thread 30] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 7ms)
+2019-07-09 17:34:28,336 [15] INFO  Umbraco.Core.PluginManager - [Thread 66] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-07-09 17:34:28,336 [15] INFO  Umbraco.Core.PluginManager - [Thread 66] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 5ms)

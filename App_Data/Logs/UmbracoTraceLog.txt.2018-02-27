@@ -1,0 +1,77 @@
+2018-02-27 01:23:09,243 [33] INFO  umbraco.BusinessLogic.Log - [Thread 38] Log scrubbed.  Removed all items older than 2017-12-29 01:23:09
+2018-02-27 01:23:09,352 [33] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 38] Application shutdown. Reason: HostingEnvironment
+2018-02-27 01:23:11,758 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2018-02-27 01:23:11,790 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 13ms)
+2018-02-27 01:23:11,805 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-02-27 01:23:16,290 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 4472ms)
+2018-02-27 01:23:16,383 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-02-27 01:23:16,383 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 7ms)
+2018-02-27 01:23:16,399 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-02-27 01:23:16,415 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2018-02-27 01:23:16,415 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-02-27 01:23:16,415 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2018-02-27 01:23:16,430 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-02-27 01:23:16,446 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 7ms)
+2018-02-27 01:23:16,446 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-02-27 01:23:16,446 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2018-02-27 01:23:17,508 [8] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2018-02-27 01:23:19,665 [8] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2018-02-27 01:23:19,727 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2018-02-27 01:23:19,758 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 15ms)
+2018-02-27 01:23:19,962 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2018-02-27 01:23:19,993 [8] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 37ms)
+2018-02-27 01:23:24,915 [8] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2018-02-27 01:23:28,430 [8] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2018-02-27 01:23:28,446 [8] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 10ms)
+2018-02-27 09:49:46,712 [8] INFO  Umbraco.Core.PluginManager - [Thread 76] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2018-02-27 09:49:46,727 [8] INFO  Umbraco.Core.PluginManager - [Thread 76] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 28ms)
+2018-02-27 12:15:41,212 [8] INFO  umbraco.BasePages.BasePage - [Thread 68] User pracc (Id: 1) logged in
+2018-02-27 12:15:43,462 [8] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2018-02-27 12:15:43,493 [8] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 28ms)
+2018-02-27 12:15:44,274 [8] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of umbraco.interfaces.ITree
+2018-02-27 12:15:44,321 [8] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 46ms)
+2018-02-27 12:16:08,555 [8] ERROR dashboardUtilities.FeedProxy - [Thread 11] Exception occurred
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 93.90.118.244:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2018-02-27 12:16:23,821 [8] INFO  umbraco.cms.businesslogic.web.Document - [Thread 48] New document 2254
+2018-02-27 12:16:23,883 [8] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of umbraco.interfaces.IDataType
+2018-02-27 12:16:23,930 [8] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 33ms)
+2018-02-27 12:21:28,243 [8] INFO  Umbraco.Core.PluginManager - [Thread 36] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2018-02-27 12:21:28,290 [8] INFO  Umbraco.Core.PluginManager - [Thread 36] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 40ms)
+2018-02-27 12:22:21,368 [8] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2018-02-27 12:22:21,368 [8] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 7ms)
+2018-02-27 12:22:22,165 [8] INFO  Umbraco.Core.PluginManager - [Thread 28] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2018-02-27 12:22:22,180 [8] INFO  Umbraco.Core.PluginManager - [Thread 28] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 17ms)
+2018-02-27 12:22:22,337 [8] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 28] Success uploading to parent 2101
+2018-02-27 12:22:22,727 [8] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 66] Success uploading to parent 2101
+2018-02-27 12:23:26,946 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content '2018 - Ivanhoe Grammar' with Id '2254' has been published.
+2018-02-27 12:27:49,399 [8] INFO  umbraco.cms.businesslogic.web.Document - [Thread 5] New document 2257
+2018-02-27 12:28:03,821 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content 'Show 1' with Id '2257' has been published.
+2018-02-27 12:28:09,290 [8] INFO  umbraco.cms.businesslogic.web.Document - [Thread 26] New document 2258
+2018-02-27 12:29:31,180 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Show 2' with Id '2258' has been published.
+2018-02-27 12:29:41,852 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content 'Show 2' with Id '2258' has been published.
+2018-02-27 12:29:50,227 [8] INFO  umbraco.cms.businesslogic.web.Document - [Thread 80] New document 2259
+2018-02-27 12:30:02,618 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 45] Content 'Show 3' with Id '2259' has been published.
+2018-02-27 12:30:54,274 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 79] Content '2018 - Ivanhoe Grammar' with Id '2254' has been published.
+2018-02-27 14:15:19,883 [8] INFO  umbraco.BasePages.BasePage - [Thread 10] User pracc (Id: 1) logged in
+2018-02-27 14:15:42,493 [8] ERROR dashboardUtilities.FeedProxy - [Thread 45] Exception occurred
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 93.90.118.244:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2018-02-27 14:16:56,915 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content '2018 - Together We Dance Showcase' with Id '2250' has been published.
+2018-02-27 14:16:58,337 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 42] Content '2018 - Together We Dance Showcase' with Id '2250' has been published.
+2018-02-27 14:16:59,462 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content '2018 - Together We Dance Showcase' with Id '2250' has been published.
+2018-02-27 14:18:02,337 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content '2018 - Together We Dance Showcase' with Id '2250' has been published.
+2018-02-27 14:19:12,915 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content '2018 - Together We Dance Showcase' with Id '2250' has been published.
+2018-02-27 14:20:05,821 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 14] Content '2018 - Together We Dance Showcase' with Id '2250' has been published.
+2018-02-27 14:20:24,243 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content '2018 - Together We Dance Showcase' with Id '2250' has been published.
+2018-02-27 14:20:49,915 [8] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content '2018 - Together We Dance Showcase' with Id '2250' has been published.

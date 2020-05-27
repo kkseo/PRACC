@@ -1,0 +1,43 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "masterTemplate1.cshtml";
+}
+
+
+@section HeaderMeta{
+	<title>@Umbraco.Field("pageTitle") - Plenty Ranges Arts and Convention Centre</title>
+		<meta name="description" content=@Umbraco.Field("metaDescription") />
+}
+
+
+    <!-- FULL WIDTH DECORATIVE IMAGE //-->
+    <div class="notcontained fullwidth decorativeImage hidden-xs"></div>
+    <!-- END //-->
+
+    <div class="container @Umbraco.Field("nodeTypeAlias")">
+        
+        <div class="row pageContent">
+            <div class="col-sm-9">
+                <a name="skip" > </a >
+				<h2>@Umbraco.Field("pageTitle")</h2>
+                <h3>@Umbraco.Field("pageSubtitle")</h3>
+                <div class="fb-like" data-href="@Html.Raw("http://www.pracc.com.au" + @Umbraco.NiceUrl(@Model.Content.Id))" data-layout="button_count" data-action="recommend" data-show-faces="true" data-share="true"></div>
+				@Umbraco.Field("pageContent")
+				</div>
+            <div class="col-sm-3">
+
+	            <!-- section for in page navigation (this section only) //-->
+                @{
+                    var parent = Model.Content.AncestorOrSelf(2);
+                    var pNode = uQuery.GetNode(parent.Id);
+                }
+                <div class="@pNode.GetProperty("nodeTypeAlias") rightBoxNav" >
+                    @rightSideNavBoxHelper.traverseNode(pNode)
+    	        </div>
+
+                @RenderPage("~/Views/Partials/_cmTheatreListSubscribe.cshtml")
+
+         	</div>
+    	</div>
+
+    </div>

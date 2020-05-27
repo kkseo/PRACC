@@ -1,0 +1,60 @@
+2019-05-08 04:11:11,044 [11] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 40] An unhandled exception occurred
+System.UriFormatException: Invalid URI: The hostname could not be parsed.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   at System.Uri..ctor(String uriString)
+   at System.Web.Util.UriUtil.BuildUriImpl(String scheme, String serverName, String port, String path, String queryString, Boolean useLegacyRequestUrlGeneration)
+   at System.Web.HttpRequest.BuildUrl(Func`1 pathAccessor)
+   at System.Web.HttpRequest.get_Url()
+   at System.Web.HttpRequestWrapper.get_Url()
+   at Umbraco.Web.UmbracoModule.BeginRequest(HttpContextBase httpContext)
+   at Umbraco.Web.UmbracoModule.<Init>b__5(Object sender, EventArgs e)
+   at System.Web.HttpApplication.SyncEventExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-05-08 07:56:36,216 [11] INFO  umbraco.BasePages.BasePage - [Thread 108] User pracc (Id: 1) logged in
+2019-05-08 07:56:36,450 [11] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-05-08 07:56:36,481 [11] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 19ms)
+2019-05-08 07:56:37,216 [11] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.interfaces.ITree
+2019-05-08 07:56:37,263 [11] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 39ms)
+2019-05-08 09:11:15,075 [11] INFO  Umbraco.Core.PluginManager - [Thread 124] Starting resolution types of umbraco.interfaces.IDataType
+2019-05-08 09:11:15,106 [11] INFO  Umbraco.Core.PluginManager - [Thread 124] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 32ms)
+2019-05-08 09:13:18,169 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content '2019 - RAW 2019 Dancexclusive' with Id '2456' has been published.
+2019-05-08 09:13:19,200 [11] INFO  Umbraco.Core.PluginManager - [Thread 58] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-05-08 09:13:19,216 [11] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 22ms)
+2019-05-08 09:13:33,138 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content '2019 - RAW 2019 Dancexclusive' with Id '2456' has been published.
+2019-05-08 09:13:41,903 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 129] Content '2019 - RAW 2019 Dancexclusive' with Id '2456' has been published.
+2019-05-08 09:13:51,606 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 123] Content '2019 - RAW 2019 Dancexclusive' with Id '2456' has been published.
+2019-05-08 09:14:17,825 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 123] Content '2019 - RAW 2019 Dancexclusive' with Id '2456' has been published.
+2019-05-08 09:14:48,356 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 124] Content '2019 - RAW 2019 Dancexclusive' with Id '2456' has been published.
+2019-05-08 09:16:12,981 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content 'Show 1' with Id '2457' is awaiting release and could not be published.
+2019-05-08 09:16:28,903 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content 'Show 1' with Id '2457' has been published.
+2019-05-08 09:16:33,638 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content 'Show 2' with Id '2458' is awaiting release and could not be published.
+2019-05-08 09:16:36,997 [11] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content 'Show 2' with Id '2458' has been published.
+2019-05-08 17:09:44,981 [11] INFO  umbraco.BusinessLogic.Log - [Thread 124] Log scrubbed.  Removed all items older than 2019-03-09 17:09:44
+2019-05-08 22:09:17,810 [11] INFO  umbraco.BusinessLogic.Log - [Thread 38] Log scrubbed.  Removed all items older than 2019-03-09 22:09:17
+2019-05-08 22:09:17,825 [11] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 38] Application shutdown. Reason: HostingEnvironment
+2019-05-08 22:09:38,778 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Determining hash of code files on disk
+2019-05-08 22:09:38,778 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Hash determined (took 5ms)
+2019-05-08 22:09:38,778 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-05-08 22:09:39,716 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 922ms)
+2019-05-08 22:09:39,763 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-05-08 22:09:39,763 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 8ms)
+2019-05-08 22:09:39,778 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-05-08 22:09:39,778 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2019-05-08 22:09:39,778 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-05-08 22:09:39,778 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 6ms)
+2019-05-08 22:09:39,778 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-05-08 22:09:39,794 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 7ms)
+2019-05-08 22:09:39,794 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-05-08 22:09:39,794 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 7ms)
+2019-05-08 22:09:40,872 [14] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 8] Initializing Examine and binding to business logic events
+2019-05-08 22:09:41,560 [14] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 8] Adding examine event handlers for index providers: 3
+2019-05-08 22:09:41,560 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.interfaces.IApplication
+2019-05-08 22:09:41,575 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 16ms)
+2019-05-08 22:09:41,747 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of umbraco.interfaces.ITree
+2019-05-08 22:09:41,794 [14] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 42ms)
+2019-05-08 22:09:42,138 [14] INFO  umbraco.content - [Thread 11] Loading content from disk cache...
+2019-05-08 22:09:43,450 [14] INFO  Umbraco.Core.PluginManager - [Thread 11] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-05-08 22:09:43,466 [14] INFO  Umbraco.Core.PluginManager - [Thread 11] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 19ms)
+2019-05-08 22:30:51,700 [14] INFO  Umbraco.Core.PluginManager - [Thread 52] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-05-08 22:30:51,700 [14] INFO  Umbraco.Core.PluginManager - [Thread 52] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 10ms)

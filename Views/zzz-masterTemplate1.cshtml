@@ -1,0 +1,153 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Plenty Ranges Arts and Convention Centre</title>
+
+    
+
+    @RenderSection("HeaderMeta", required: false)
+    <meta name="og:image" content="http://www.pracc.com.au/images/praccLogo.gif" />
+
+    <link rel="stylesheet" href="/css/bootstrap.css" />
+    <link rel="stylesheet" href="/css/praccStyle.css" />
+    <style type="text/css">
+	    @Html.Raw("@")import url(//fonts.googleapis.com/css?family=Pathway+Gothic+One);
+	    body,h1,h2,h3,h4,h5,h6,p{ font-family: 'Pathway Gothic One', sans-serif; }
+    </style>
+    <link rel="stylesheet" href="/scripts/oc/owl.carousel.css" />
+    <link rel="stylesheet" href="/scripts/oc/owl.theme.css" />
+
+    <link href="/css/flexnav.css" rel="stylesheet" type="text/css" />
+    <link href="/css/flexslider.css" rel="stylesheet" type="text/css">
+
+    <!-- MS viewport fix for mobile //-->
+    <script type="text/javascript">
+        (function () {
+            if ("-ms-user-select" in document.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) {
+                var msViewportStyle = document.createElement("style");
+                msViewportStyle.appendChild(
+                    document.createTextNode("@Html.Raw("@")-ms-viewport{width:auto!important}")
+                );
+                document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+            }
+        })();
+    </script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-547772-6', 'pracc.com.au');
+	ga('require', 'linkid', 'linkid.js');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+<body >
+
+
+    <div class="container header">
+        <div class="row">
+            <div class="col-sm-3 divLogo">
+                <a href="/"><div>Plenty Ranges Arts and Convention Centre</div></a>
+            </div>
+            <div class="col-sm-9 navbar-right divNav">
+                
+                <div id="navTop" class="">
+                    <p id="callUs">Phone &nbsp;&nbsp;&nbsp;<span class="lighter"><a href="tel:(03)9217-2317">(03) 9217 2317</a></span></p>
+                </div>
+
+                <!-- ************************************* //-->
+                <!-- FLEXNAV NAVIGATION - MVC PARTIAL VIEW //-->
+                <div class="menu-button">Menu</div>
+				@RenderPage("~/Views/Partials/_navigationHeader.cshtml")
+                <!-- END FLEXNAV //-->
+                <!-- *********** //-->
+
+            </div>
+        </div>
+    </div>
+
+    @RenderBody()
+
+    <!-- ******************************************************** //-->
+    <!-- GENERIC FOOTER ON ALL PAGES - MVC PARTIAL VIEW GENERATED //-->
+    <div id="footerBack" class="notcontained fullwidth">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <!-- <h3>Menu</h3> //-->
+                    <div class="row pageContent footer">
+                        
+                        @RenderPage("~/Views/Partials/_navigationFooter.cshtml")
+
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <h3>Contact</h3>
+                    <div class="row pageContent">
+                        <div class="col-sm-6"><p>35 Ferres Blvd, South Morang<br />Melbourne, Australia 3752</p><p><strong>Melway Map 183 A10</strong></p><p>Phone: (03) 9217 2317<br />Email: info@pracc.com.au</p></div>
+                        <div class="col-sm-6"><a href="https://www.facebook.com/Team.PRACC"><img src="/images/findusonfacebook144.gif" width="144" height="35" alt="Find us on Facebook" hspace="5" vspace="5" /></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END GENERIC FOOTER ON ALL PAGES - MVC PARTIAL VIEW GENERATED //-->
+    <!-- ************************************************************ //-->
+
+
+    <!-- GENERIC SCRIPTS TO LOAD ON ALL PAGES //-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="/scripts/bootstrap.js" ></script>
+
+    <script type="text/javascript" src="/scripts/oc/owl.carousel.min.js"></script>
+
+    <script type="text/javascript" src="/scripts/hi/jquery.hoverIntent.minified.js"></script>
+    <script type="text/javascript" src="/scripts/fn/jquery.flexnav.min.js"></script>
+
+    <script type="text/javascript" src="/scripts/pracc.owl.setup.js"></script>
+
+    <script type="text/javascript" src="/scripts/praccVideoInit.js"></script>
+
+    <script type="text/javascript" src="/scripts/fs/jquery.flexslider.js"></script>
+
+    <div id="fb-root" style="display: none;"></div>
+    <script type="text/javascript" charset="utf-8">
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                pauseOnAction: true,
+                pauseOnHover: true, keyboard: true,
+                multipleKeyboard: false,
+                mousewheel: true,
+                pausePlay: true,
+                pauseText: 'Pause',
+                playText: 'Play',
+            });
+        });
+
+    </script>
+
+    @RenderSection("FooterExtra", required: false)
+
+</body>
+</html>

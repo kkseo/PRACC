@@ -1,0 +1,41 @@
+2018-06-05 02:13:17,324 [11] INFO  umbraco.BusinessLogic.Log - [Thread 47] Log scrubbed.  Removed all items older than 2018-04-06 02:13:17
+2018-06-05 02:13:17,465 [11] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 47] Application shutdown. Reason: HostingEnvironment
+2018-06-05 02:13:47,012 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2018-06-05 02:13:47,028 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 17ms)
+2018-06-05 02:13:47,028 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-06-05 02:13:48,653 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 1625ms)
+2018-06-05 02:13:48,668 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-06-05 02:13:48,668 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2018-06-05 02:13:48,668 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-06-05 02:13:48,668 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 5ms)
+2018-06-05 02:13:48,668 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-06-05 02:13:48,684 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 6ms)
+2018-06-05 02:13:48,699 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-06-05 02:13:48,699 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 7ms)
+2018-06-05 02:13:48,715 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-06-05 02:13:48,715 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 6ms)
+2018-06-05 02:13:49,356 [13] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2018-06-05 02:13:49,824 [13] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2018-06-05 02:13:49,840 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2018-06-05 02:13:49,856 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 12ms)
+2018-06-05 02:13:50,418 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2018-06-05 02:13:50,481 [13] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 58ms)
+2018-06-05 02:13:50,981 [13] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2018-06-05 02:14:19,012 [13] INFO  Umbraco.Core.PluginManager - [Thread 8] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2018-06-05 02:14:19,012 [13] INFO  Umbraco.Core.PluginManager - [Thread 8] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 11ms)
+2018-06-05 02:34:05,309 [13] INFO  Umbraco.Core.PluginManager - [Thread 48] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2018-06-05 02:34:05,324 [13] INFO  Umbraco.Core.PluginManager - [Thread 48] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 9ms)
+2018-06-05 09:24:21,809 [13] INFO  umbraco.BasePages.BasePage - [Thread 20] User pracc (Id: 1) logged in
+2018-06-05 09:24:27,653 [13] INFO  Umbraco.Core.PluginManager - [Thread 34] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2018-06-05 09:24:27,668 [13] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 20ms)
+2018-06-05 09:24:27,887 [13] INFO  Umbraco.Core.PluginManager - [Thread 34] Starting resolution types of umbraco.interfaces.ITree
+2018-06-05 09:24:27,918 [13] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 33ms)
+2018-06-05 09:24:47,293 [13] INFO  Umbraco.Core.PluginManager - [Thread 34] Starting resolution types of umbraco.interfaces.IDataType
+2018-06-05 09:24:47,324 [13] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 31ms)
+2018-06-05 09:25:29,699 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 58] Content '2018 - Lego Batman' with Id '2206' has been published.
+2018-06-05 09:25:30,887 [13] INFO  Umbraco.Core.PluginManager - [Thread 58] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2018-06-05 09:25:30,903 [13] INFO  Umbraco.Core.PluginManager - [Thread 58] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 17ms)
+2018-06-05 09:25:42,371 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content '2018 - Captain Underpants' with Id '2216' has been published.
+2018-06-05 09:25:59,715 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 50] Content '2018 - Captain Underpants' with Id '2216' has been published.
+2018-06-05 09:26:52,199 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 30] Content 'Show 1' with Id '2217' has been published.
+2018-06-05 09:27:36,324 [13] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 29] Content '2018 - Lego Batman' with Id '2206' has been published.

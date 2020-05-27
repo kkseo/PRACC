@@ -1,0 +1,15 @@
+2018-11-02 10:54:36,696 [18] INFO  umbraco.BasePages.BasePage - [Thread 35] User pracc (Id: 1) logged in
+2018-11-02 10:54:36,904 [18] INFO  Umbraco.Core.PluginManager - [Thread 37] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2018-11-02 10:54:36,932 [18] INFO  Umbraco.Core.PluginManager - [Thread 37] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 27ms)
+2018-11-02 10:54:37,508 [18] INFO  Umbraco.Core.PluginManager - [Thread 37] Starting resolution types of umbraco.interfaces.ITree
+2018-11-02 10:54:37,542 [18] INFO  Umbraco.Core.PluginManager - [Thread 37] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 34ms)
+2018-11-02 10:54:44,217 [18] INFO  Umbraco.Core.PluginManager - [Thread 66] Starting resolution types of umbraco.interfaces.IDataType
+2018-11-02 10:54:44,249 [18] INFO  Umbraco.Core.PluginManager - [Thread 66] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 32ms)
+2018-11-02 10:55:26,598 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 117] Content 'Upcoming Shows' with Id '1107' has been published.
+2018-11-02 10:55:27,727 [18] INFO  Umbraco.Core.PluginManager - [Thread 117] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2018-11-02 10:55:27,745 [18] INFO  Umbraco.Core.PluginManager - [Thread 117] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 17ms)
+2018-11-02 10:55:53,408 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Upcoming Shows' with Id '1107' has been published.
+2018-11-02 10:56:06,604 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 67] Content 'Upcoming Shows' with Id '1107' has been published.
+2018-11-02 10:56:23,891 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 25] Content 'Upcoming Shows' with Id '1107' has been published.
+2018-11-02 10:56:34,479 [18] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 34] Content 'Upcoming Shows' with Id '1107' has been published.
+2018-11-02 21:20:05,638 [18] INFO  umbraco.BusinessLogic.Log - [Thread 25] Log scrubbed.  Removed all items older than 2018-09-03 21:20:05

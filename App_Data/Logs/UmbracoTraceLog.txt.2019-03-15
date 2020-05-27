@@ -1,0 +1,87 @@
+2019-03-15 03:16:32,392 [38] INFO  umbraco.BusinessLogic.Log - [Thread 158] Log scrubbed.  Removed all items older than 2019-01-14 03:16:32
+2019-03-15 07:59:35,642 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content '2019 - The Travelling Kitchen' with Id '2370' has been published.
+2019-03-15 07:59:43,142 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content '2019 - The RooKeepers' with Id '2374' has been published.
+2019-03-15 07:59:53,173 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content '2019 - Brickworks' with Id '2379' has been published.
+2019-03-15 08:00:02,970 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content '2019 - CodeBiotics' with Id '2381' has been published.
+2019-03-15 08:00:13,376 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 103] Content '2019 - Back to the 50's & 60's' with Id '2362' has been published.
+2019-03-15 08:00:22,439 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content '2019 - Jump Dance Challenge' with Id '2428' has been published.
+2019-03-15 08:00:30,189 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content '2019 - Jump Dance Challenge' with Id '2428' has been published.
+2019-03-15 08:02:06,408 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 21] Content '2019 - Ivanhoe GS Legally Blonde' with Id '2423' has been published.
+2019-03-15 08:02:18,267 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 146] Content '2019 - Stage & Screen' with Id '2406' has been published.
+2019-03-15 08:02:37,330 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 29] Content '2019 - Back to the 50's & 60's' with Id '2362' has been published.
+2019-03-15 08:02:44,017 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 29] Content '2019 - World Dance' with Id '2365' has been published.
+2019-03-15 08:02:56,876 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 141] Content '2019 - Big Science Big Fun' with Id '2367' has been published.
+2019-03-15 08:03:04,908 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 102] Content '2019 - The Travelling Kitchen' with Id '2370' has been published.
+2019-03-15 08:03:13,564 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 141] Content '2019 - The RooKeepers' with Id '2374' has been published.
+2019-03-15 08:03:37,689 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content '2019 - Ivanhoe GS Legally Blonde' with Id '2423' has been published.
+2019-03-15 08:03:48,564 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content '2019 - Jump Dance Challenge' with Id '2428' has been published.
+2019-03-15 08:05:09,501 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 29] Content '2019 - Ivanhoe GS Legally Blonde' with Id '2423' has been published.
+2019-03-15 08:06:22,611 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content '2019 - Brickworks' with Id '2379' has been published.
+2019-03-15 08:06:36,205 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 141] Content '2019 - CodeBiotics' with Id '2381' has been published.
+2019-03-15 08:06:54,189 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 7] Content '2019 - Elvis Forever' with Id '2393' has been published.
+2019-03-15 08:07:07,533 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-03-15 08:07:13,642 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 123] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-03-15 08:07:20,111 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 123] Content '2019 - Stage & Screen' with Id '2406' has been published.
+2019-03-15 08:07:27,376 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 103] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-03-15 08:07:36,064 [38] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 33] Content '2019 - Karen Carpenter Tribute' with Id '2414' has been published.
+2019-03-15 08:09:28,408 [38] INFO  umbraco.BusinessLogic.Log - [Thread 29] Log scrubbed.  Removed all items older than 2019-01-14 08:09:28
+2019-03-15 08:09:28,908 [38] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 29] Application shutdown. Reason: HostingEnvironment
+2019-03-15 08:09:35,048 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Determining hash of code files on disk
+2019-03-15 08:09:35,080 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Hash determined (took 12ms)
+2019-03-15 08:09:35,095 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-03-15 08:09:37,533 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 2445ms)
+2019-03-15 08:09:37,595 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-03-15 08:09:37,611 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 11ms)
+2019-03-15 08:09:37,611 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-03-15 08:09:37,626 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2019-03-15 08:09:37,626 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-03-15 08:09:37,626 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 6ms)
+2019-03-15 08:09:37,626 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-03-15 08:09:37,642 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 9ms)
+2019-03-15 08:09:37,642 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-03-15 08:09:37,658 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 7ms)
+2019-03-15 08:09:38,658 [9] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 6] Initializing Examine and binding to business logic events
+2019-03-15 08:09:39,751 [9] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 6] Adding examine event handlers for index providers: 3
+2019-03-15 08:09:39,783 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of umbraco.interfaces.IApplication
+2019-03-15 08:09:39,798 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 15ms)
+2019-03-15 08:09:40,720 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Starting resolution types of umbraco.interfaces.ITree
+2019-03-15 08:09:40,751 [9] INFO  Umbraco.Core.PluginManager - [Thread 6] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 39ms)
+2019-03-15 08:15:44,892 [9] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-03-15 08:15:44,892 [9] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 11ms)
+2019-03-15 08:15:45,158 [9] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.interfaces.IDataType
+2019-03-15 08:15:45,205 [9] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 65ms)
+2019-03-15 08:15:45,236 [9] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.interfaces.ITree
+2019-03-15 08:15:45,283 [9] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 42ms)
+2019-03-15 08:15:46,033 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content '2019 - Jump Dance Challenge' with Id '2428' has been published.
+2019-03-15 08:15:46,423 [9] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-03-15 08:15:46,423 [9] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 17ms)
+2019-03-15 08:15:46,455 [9] INFO  umbraco.content - [Thread 19] Loading content from disk cache...
+2019-03-15 08:15:46,564 [9] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-03-15 08:15:46,580 [9] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 10ms)
+2019-03-15 08:16:58,892 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 10] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-03-15 08:17:12,736 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 27] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-03-15 10:24:45,298 [9] INFO  Umbraco.Core.PluginManager - [Thread 64] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-03-15 10:24:45,314 [9] INFO  Umbraco.Core.PluginManager - [Thread 64] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 10ms)
+2019-03-15 16:09:03,189 [9] INFO  umbraco.BasePages.BasePage - [Thread 73] User pracc (Id: 1) logged in
+2019-03-15 16:21:07,376 [9] INFO  umbraco.cms.businesslogic.web.Document - [Thread 67] New document 2430
+2019-03-15 16:22:56,986 [9] INFO  Umbraco.Core.PluginManager - [Thread 62] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2019-03-15 16:22:57,001 [9] INFO  Umbraco.Core.PluginManager - [Thread 62] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 23ms)
+2019-03-15 16:23:17,267 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2019-03-15 16:23:17,283 [9] INFO  Umbraco.Core.PluginManager - [Thread 54] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 10ms)
+2019-03-15 16:23:17,923 [9] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 54] Success uploading to parent 1144
+2019-03-15 16:31:36,658 [9] INFO  Umbraco.Core.Services.ContentService - [Thread 38] Content '1 in 10 Delegates go FREE' with Id '2430' could not be published because of invalid properties.
+2019-03-15 16:31:44,876 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content '1 in 10 Delegates go FREE' with Id '2430' has been published.
+2019-03-15 16:31:51,580 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 67] Content 'Catch the train to PRACC' with Id '1205' has been unpublished.
+2019-03-15 16:31:56,595 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 70] Couldn't find any page with nodeId=1424. This is most likely caused by the page not being published.
+2019-03-15 16:32:50,673 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content '1 in 10 Delegates go FREE' with Id '2430' has been published.
+2019-03-15 16:32:53,673 [9] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 73] Couldn't find any page with nodeId=1424. This is most likely caused by the page not being published.
+2019-03-15 16:33:16,267 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 72] Content '1 in 10 Delegates go FREE' with Id '2430' has been published.
+2019-03-15 16:35:08,033 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content 'Special Offers' with Id '1424' has been published.
+2019-03-15 16:36:51,220 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 71] Content 'Special Offers' with Id '1424' has been published.
+2019-03-15 16:37:33,970 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 70] Content '1 in 10 Delegates go FREE' with Id '2430' has been published.
+2019-03-15 16:37:49,251 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content '1 in 10 Delegates go FREE' with Id '2430' has been published.
+2019-03-15 16:38:03,970 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 34] Content '1 in 10 Delegates go FREE' with Id '2430' has been published.
+2019-03-15 16:38:18,361 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content '1 in 10 Delegates go FREE' with Id '2430' has been published.
+2019-03-15 16:38:46,673 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 53] Content '1 in 10 Delegates go FREE' with Id '2430' has been published.
+2019-03-15 16:39:18,533 [9] INFO  Umbraco.Core.Services.ContentService - [Thread 60] Content 'Special Offers' with Id '1424' could not be published because of invalid properties.
+2019-03-15 16:39:33,658 [9] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 68] Content 'Special Offers' with Id '1424' has been published.

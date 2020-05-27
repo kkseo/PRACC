@@ -1,0 +1,11 @@
+2018-11-08 13:58:14,804 [7] INFO  umbraco.BasePages.BasePage - [Thread 85] User pracc (Id: 1) logged in
+2018-11-08 13:58:15,462 [7] INFO  Umbraco.Core.PluginManager - [Thread 76] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2018-11-08 13:58:15,490 [7] INFO  Umbraco.Core.PluginManager - [Thread 76] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 28ms)
+2018-11-08 13:58:16,138 [7] INFO  Umbraco.Core.PluginManager - [Thread 76] Starting resolution types of umbraco.interfaces.ITree
+2018-11-08 13:58:16,193 [7] INFO  Umbraco.Core.PluginManager - [Thread 76] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 55ms)
+2018-11-08 13:58:23,024 [7] INFO  Umbraco.Core.PluginManager - [Thread 78] Starting resolution types of umbraco.interfaces.IDataType
+2018-11-08 13:58:23,056 [7] INFO  Umbraco.Core.PluginManager - [Thread 78] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 33ms)
+2018-11-08 13:59:53,315 [7] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 19] Content '2018 DanceXclusive' with Id '2338' has been published.
+2018-11-08 13:59:53,517 [7] INFO  Umbraco.Core.PluginManager - [Thread 19] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2018-11-08 13:59:53,552 [7] INFO  Umbraco.Core.PluginManager - [Thread 19] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 35ms)
+2018-11-08 22:19:04,102 [7] INFO  umbraco.BusinessLogic.Log - [Thread 74] Log scrubbed.  Removed all items older than 2018-09-09 22:19:04

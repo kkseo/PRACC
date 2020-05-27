@@ -1,0 +1,401 @@
+2019-07-11 03:27:03,555 [28] ERROR umbraco.DataLayer.SqlHelper`1[[System.Data.SqlClient.SqlParameter, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]] - [Thread 104] Error executing query delete from umbracoLog where datestamp < @oldestPermittedLogEntry and logHeader in ('open','system')
+System.Data.SqlClient.SqlException (0x80131904): SHUTDOWN is in progress.
+Login failed for user 'web24PraccUmbUser'.
+A severe error occurred on the current command.  The results, if any, should be discarded.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   at System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at Microsoft.ApplicationBlocks.Data.SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters)
+   at umbraco.DataLayer.SqlHelpers.SqlServer.SqlServerHelper.ExecuteNonQuery(String commandText, SqlParameter[] parameters)
+   at umbraco.DataLayer.SqlHelper`1.ExecuteNonQuery(String commandText, IParameter[] parameters)
+ClientConnectionId:4b29e52c-22a4-499d-8450-7ea8d6a8cfa9
+Error Number:6005,State:1,Class:14
+2019-07-11 03:27:03,946 [28] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 104] Application shutdown. Reason: HostingEnvironment
+2019-07-11 03:30:26,934 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Determining hash of code files on disk
+2019-07-11 03:30:26,950 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Hash determined (took 12ms)
+2019-07-11 03:30:26,950 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2019-07-11 03:30:27,512 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 564ms)
+2019-07-11 03:30:27,559 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2019-07-11 03:30:27,559 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+2019-07-11 03:30:27,559 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2019-07-11 03:30:27,559 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 3ms)
+2019-07-11 03:30:27,559 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2019-07-11 03:30:27,559 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 3ms)
+2019-07-11 03:30:27,590 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2019-07-11 03:30:27,590 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 4ms)
+2019-07-11 03:30:27,590 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2019-07-11 03:30:27,590 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 4ms)
+2019-07-11 03:30:28,512 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 4] Initializing Examine and binding to business logic events
+2019-07-11 03:30:40,778 [10] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 4] Adding examine event handlers for index providers: 3
+2019-07-11 03:30:40,825 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of umbraco.interfaces.IApplication
+2019-07-11 03:30:40,825 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 9ms)
+2019-07-11 03:30:41,903 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Starting resolution types of umbraco.interfaces.ITree
+2019-07-11 03:30:41,934 [10] INFO  Umbraco.Core.PluginManager - [Thread 4] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 22ms)
+2019-07-11 03:30:44,262 [10] INFO  umbraco.content - [Thread 8] Loading content from disk cache...
+2019-07-11 03:30:57,918 [10] INFO  Umbraco.Core.PluginManager - [Thread 9] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2019-07-11 03:30:57,918 [10] INFO  Umbraco.Core.PluginManager - [Thread 9] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 5ms)
+2019-07-11 04:11:04,668 [10] INFO  Umbraco.Core.PluginManager - [Thread 34] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2019-07-11 04:11:04,825 [10] INFO  Umbraco.Core.PluginManager - [Thread 34] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 155ms)
+2019-07-11 06:50:33,778 [10] INFO  umbraco.BasePages.BasePage - [Thread 54] User pracc (Id: 1) logged in
+2019-07-11 06:50:34,075 [10] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2019-07-11 06:50:34,106 [10] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 18ms)
+2019-07-11 06:50:34,247 [10] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of umbraco.interfaces.ITree
+2019-07-11 06:50:34,293 [10] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 22ms)
+2019-07-11 06:51:23,684 [10] INFO  Umbraco.Core.PluginManager - [Thread 47] Starting resolution types of umbraco.interfaces.IDataType
+2019-07-11 06:51:23,715 [10] INFO  Umbraco.Core.PluginManager - [Thread 47] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 18ms)
+2019-07-11 06:51:34,137 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content 'Upcoming Events' with Id '1107' has been unpublished.
+2019-07-11 06:51:34,887 [10] INFO  Umbraco.Core.PluginManager - [Thread 55] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2019-07-11 06:51:34,903 [10] INFO  Umbraco.Core.PluginManager - [Thread 55] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 10ms)
+2019-07-11 06:51:40,012 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 55] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-07-11 06:52:08,622 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'PRACC Ticketing Offline' with Id '2486' has been published.
+2019-07-11 06:59:15,918 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2381. This is most likely caused by the page not being published.
+2019-07-11 06:59:37,668 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 31] Couldn't find any page with nodeId=2474. This is most likely caused by the page not being published.
+2019-07-11 06:59:46,747 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2462. This is most likely caused by the page not being published.
+2019-07-11 07:00:26,325 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content '2019 - Elvis Forever' with Id '2393' has been unpublished.
+2019-07-11 07:00:26,684 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content 'Show 1' with Id '2394' has been unpublished.
+2019-07-11 07:00:31,575 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content '2019 - The Sapphires' with Id '2352' has been unpublished.
+2019-07-11 07:00:31,684 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content 'Show 1' with Id '2356' has been unpublished.
+2019-07-11 07:00:37,200 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content '2019 - Big Science Big Fun' with Id '2367' has been unpublished.
+2019-07-11 07:00:37,325 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content 'Show 1' with Id '2369' has been unpublished.
+2019-07-11 07:00:41,012 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content '2019 - The Travelling Kitchen' with Id '2370' has been unpublished.
+2019-07-11 07:00:41,184 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'Show 3' with Id '2473' has been unpublished.
+2019-07-11 07:00:41,231 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'Show 1' with Id '2372' has been unpublished.
+2019-07-11 07:00:41,293 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'Show 2' with Id '2468' has been unpublished.
+2019-07-11 07:00:44,465 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content '2019 - The RooKeepers' with Id '2374' has been unpublished.
+2019-07-11 07:00:44,575 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'Show 1' with Id '2375' has been unpublished.
+2019-07-11 07:00:50,997 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content '2019 - Karen Carpenter Tribute' with Id '2414' has been unpublished.
+2019-07-11 07:00:51,106 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content 'Show 1' with Id '2415' has been unpublished.
+2019-07-11 07:00:54,356 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content '2019 - Ivanhoe GS Legally Blonde' with Id '2423' has been unpublished.
+2019-07-11 07:00:54,543 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'Show 2' with Id '2425' has been unpublished.
+2019-07-11 07:00:54,559 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'Show 3' with Id '2426' has been unpublished.
+2019-07-11 07:00:54,606 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'Show 1' with Id '2424' has been unpublished.
+2019-07-11 07:00:57,637 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content '2019 - Jump Dance Challenge' with Id '2428' has been unpublished.
+2019-07-11 07:00:57,731 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content 'Show 1' with Id '2429' has been unpublished.
+2019-07-11 07:01:02,215 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 39] Content '2019 - The Wiggles' with Id '2435' has been unpublished.
+2019-07-11 07:01:02,356 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 39] Content 'Show 1' with Id '2441' has been unpublished.
+2019-07-11 07:01:02,387 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 39] Content 'Show 2' with Id '2442' has been unpublished.
+2019-07-11 07:01:02,434 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 39] Content 'Show 3' with Id '2443' has been unpublished.
+2019-07-11 07:01:02,450 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 39] Content 'Show 4' with Id '2467' has been unpublished.
+2019-07-11 07:01:09,497 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content '2019 - Corporate' with Id '2452' has been unpublished.
+2019-07-11 07:01:09,590 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Show 1' with Id '2453' has been unpublished.
+2019-07-11 07:01:41,590 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content '2019 - RAW 2019 Dancexclusive' with Id '2456' has been unpublished.
+2019-07-11 07:01:41,700 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content 'Show 1' with Id '2457' has been unpublished.
+2019-07-11 07:01:41,715 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content 'Show 2' with Id '2458' has been unpublished.
+2019-07-11 07:01:47,778 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content '2019 - Menopause' with Id '2344' has been unpublished.
+2019-07-11 07:01:47,903 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content 'Show 1' with Id '2345' has been unpublished.
+2019-07-11 07:02:12,247 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content '2019 - Back to the 50's & 60's' with Id '2362' has been unpublished.
+2019-07-11 07:02:12,372 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content 'Show 1' with Id '2363' has been unpublished.
+2019-07-11 07:02:15,200 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content '2019 - Johnny Cash & June Carter Show' with Id '2357' has been unpublished.
+2019-07-11 07:02:15,293 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Show 1' with Id '2359' has been unpublished.
+2019-07-11 07:04:32,606 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-07-11 07:14:52,106 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 22] Couldn't find any page with nodeId=2406. This is most likely caused by the page not being published.
+2019-07-11 07:14:53,747 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2379. This is most likely caused by the page not being published.
+2019-07-11 07:15:01,137 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 22] Couldn't find any page with nodeId=2481. This is most likely caused by the page not being published.
+2019-07-11 07:15:06,528 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2462. This is most likely caused by the page not being published.
+2019-07-11 07:15:11,309 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2481. This is most likely caused by the page not being published.
+2019-07-11 07:15:24,622 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 54] Content '2019 - Catholic Ladies College' with Id '2481' could not be published because its parent is not published.
+2019-07-11 07:15:24,622 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content '2019 - Catholic Ladies College' with Id '2481' has been published.
+2019-07-11 07:15:24,715 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2481. This is most likely caused by the page not being published.
+2019-07-11 07:15:37,528 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 36] Content '2019 - A Midsummers Nights Dream (Catholic Ladies College)' with Id '2481' could not be published because its parent is not published.
+2019-07-11 07:15:37,528 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content '2019 - A Midsummers Nights Dream (Catholic Ladies College)' with Id '2481' has been published.
+2019-07-11 07:15:37,622 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 36] Couldn't find any page with nodeId=2481. This is most likely caused by the page not being published.
+2019-07-11 07:15:40,856 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 55] Couldn't find any page with nodeId=2449. This is most likely caused by the page not being published.
+2019-07-11 07:15:48,793 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 31] Couldn't find any page with nodeId=2399. This is most likely caused by the page not being published.
+2019-07-11 07:16:02,153 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 54] Content '2019 - SOS ABBA' with Id '2399' could not be published because its parent is not published.
+2019-07-11 07:16:02,153 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-07-11 07:16:02,293 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2399. This is most likely caused by the page not being published.
+2019-07-11 07:16:04,231 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2381. This is most likely caused by the page not being published.
+2019-07-11 07:16:09,215 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 44] Content '2019 - CodeBiotics' with Id '2381' could not be published because its parent is not published.
+2019-07-11 07:16:09,215 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content '2019 - CodeBiotics' with Id '2381' has been published.
+2019-07-11 07:16:09,309 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2381. This is most likely caused by the page not being published.
+2019-07-11 07:16:10,262 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=2379. This is most likely caused by the page not being published.
+2019-07-11 07:16:14,700 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 44] Content '2019 - Brickworks' with Id '2379' could not be published because its parent is not published.
+2019-07-11 07:16:14,700 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content '2019 - Brickworks' with Id '2379' has been published.
+2019-07-11 07:16:14,793 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2379. This is most likely caused by the page not being published.
+2019-07-11 07:16:16,778 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 31] Couldn't find any page with nodeId=2381. This is most likely caused by the page not being published.
+2019-07-11 07:16:19,340 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 39] Couldn't find any page with nodeId=2399. This is most likely caused by the page not being published.
+2019-07-11 07:16:21,528 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 31] Couldn't find any page with nodeId=2402. This is most likely caused by the page not being published.
+2019-07-11 07:16:24,731 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 41] Content '2019 - Crooners Around The World' with Id '2402' could not be published because its parent is not published.
+2019-07-11 07:16:24,731 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-07-11 07:16:24,934 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2402. This is most likely caused by the page not being published.
+2019-07-11 07:16:25,981 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 36] Couldn't find any page with nodeId=2406. This is most likely caused by the page not being published.
+2019-07-11 07:16:29,309 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 22] Content '2019 - Stage & Screen' with Id '2406' could not be published because its parent is not published.
+2019-07-11 07:16:29,309 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content '2019 - Stage & Screen' with Id '2406' has been published.
+2019-07-11 07:16:29,434 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 22] Couldn't find any page with nodeId=2406. This is most likely caused by the page not being published.
+2019-07-11 07:16:30,606 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 31] Couldn't find any page with nodeId=2408. This is most likely caused by the page not being published.
+2019-07-11 07:16:34,465 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 54] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' could not be published because its parent is not published.
+2019-07-11 07:16:34,465 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-07-11 07:16:34,543 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2408. This is most likely caused by the page not being published.
+2019-07-11 07:16:36,215 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2445. This is most likely caused by the page not being published.
+2019-07-11 07:16:38,403 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2449. This is most likely caused by the page not being published.
+2019-07-11 07:16:39,622 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=2445. This is most likely caused by the page not being published.
+2019-07-11 07:16:41,918 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2449. This is most likely caused by the page not being published.
+2019-07-11 07:33:43,934 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 55] Couldn't find any page with nodeId=2402. This is most likely caused by the page not being published.
+2019-07-11 07:36:55,840 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 31] Content '2019 - Crooners Around The World' with Id '2402' could not be published because its parent is not published.
+2019-07-11 07:36:55,840 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-07-11 07:36:55,934 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 31] Couldn't find any page with nodeId=2402. This is most likely caused by the page not being published.
+2019-07-11 07:37:16,434 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 39] Content '2019 - Crooners Around The World' with Id '2402' could not be published because its parent is not published.
+2019-07-11 07:37:16,434 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 39] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-07-11 07:37:16,606 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 39] Couldn't find any page with nodeId=2402. This is most likely caused by the page not being published.
+2019-07-11 07:40:30,934 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=2402. This is most likely caused by the page not being published.
+2019-07-11 07:41:10,747 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 41] Content '2019 - Crooners Around The World' with Id '2402' could not be published because its parent is not published.
+2019-07-11 07:41:10,747 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-07-11 07:41:10,934 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2402. This is most likely caused by the page not being published.
+2019-07-11 07:42:00,622 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 43] Content '2019 - Crooners Around The World' with Id '2402' could not be published because its parent is not published.
+2019-07-11 07:42:00,622 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-07-11 07:42:00,715 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2402. This is most likely caused by the page not being published.
+2019-07-11 07:42:36,215 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 39] Couldn't find any page with nodeId=2406. This is most likely caused by the page not being published.
+2019-07-11 07:42:42,356 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=2408. This is most likely caused by the page not being published.
+2019-07-11 07:42:43,122 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2406. This is most likely caused by the page not being published.
+2019-07-11 07:42:50,012 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 41] Content '2019 - Stage & Screen' with Id '2406' could not be published because its parent is not published.
+2019-07-11 07:42:50,012 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content '2019 - Stage & Screen' with Id '2406' has been published.
+2019-07-11 07:42:50,090 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2406. This is most likely caused by the page not being published.
+2019-07-11 07:42:51,450 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=2408. This is most likely caused by the page not being published.
+2019-07-11 07:42:58,153 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 41] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' could not be published because its parent is not published.
+2019-07-11 07:42:58,153 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-07-11 07:42:58,247 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2408. This is most likely caused by the page not being published.
+2019-07-11 07:42:59,340 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2445. This is most likely caused by the page not being published.
+2019-07-11 07:43:04,403 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 39] Content '2019 - Wild Wogs 2' with Id '2445' could not be published because its parent is not published.
+2019-07-11 07:43:04,403 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 39] Content '2019 - Wild Wogs 2' with Id '2445' has been published.
+2019-07-11 07:43:04,543 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 39] Couldn't find any page with nodeId=2445. This is most likely caused by the page not being published.
+2019-07-11 07:43:05,934 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 39] Couldn't find any page with nodeId=2449. This is most likely caused by the page not being published.
+2019-07-11 07:43:10,918 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 55] Content '2019 - SingOut' with Id '2449' could not be published because its parent is not published.
+2019-07-11 07:43:10,918 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 55] Content '2019 - SingOut' with Id '2449' has been published.
+2019-07-11 07:43:11,059 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 55] Couldn't find any page with nodeId=2449. This is most likely caused by the page not being published.
+2019-07-11 07:43:17,684 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 40] Content '2019 - Mutlicultural Theatre Association' with Id '2469' could not be published because its parent is not published.
+2019-07-11 07:43:17,684 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content '2019 - Mutlicultural Theatre Association' with Id '2469' has been published.
+2019-07-11 07:43:17,918 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=2469. This is most likely caused by the page not being published.
+2019-07-11 07:43:31,356 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 54] Content '2019 - Mutlicultural Theatre Association' with Id '2469' could not be published because its parent is not published.
+2019-07-11 07:43:31,356 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content '2019 - Mutlicultural Theatre Association' with Id '2469' has been published.
+2019-07-11 07:43:31,465 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2469. This is most likely caused by the page not being published.
+2019-07-11 07:43:32,481 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 22] Couldn't find any page with nodeId=2474. This is most likely caused by the page not being published.
+2019-07-11 07:43:39,778 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 47] Content '2019 - Bye Bye Birdie (Plenty Valley Christian College)' with Id '2474' could not be published because its parent is not published.
+2019-07-11 07:43:39,778 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content '2019 - Bye Bye Birdie (Plenty Valley Christian College)' with Id '2474' has been published.
+2019-07-11 07:43:39,903 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=2474. This is most likely caused by the page not being published.
+2019-07-11 07:43:41,043 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 55] Couldn't find any page with nodeId=2462. This is most likely caused by the page not being published.
+2019-07-11 07:44:04,043 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 31] Content '2019 - The Lion King Jr (Marymede Catholic College)' with Id '2462' could not be published because its parent is not published.
+2019-07-11 07:44:04,043 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content '2019 - The Lion King Jr (Marymede Catholic College)' with Id '2462' has been published.
+2019-07-11 07:44:04,168 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 31] Couldn't find any page with nodeId=2462. This is most likely caused by the page not being published.
+2019-07-11 07:44:05,309 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=2481. This is most likely caused by the page not being published.
+2019-07-11 07:44:11,575 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2462. This is most likely caused by the page not being published.
+2019-07-11 07:44:17,200 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 22] Couldn't find any page with nodeId=2481. This is most likely caused by the page not being published.
+2019-07-11 07:44:23,434 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 54] Content '2019 - A Midsummers Nights Dream (Catholic Ladies College)' with Id '2481' could not be published because its parent is not published.
+2019-07-11 07:44:23,434 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content '2019 - A Midsummers Nights Dream (Catholic Ladies College)' with Id '2481' has been published.
+2019-07-11 07:44:23,559 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2481. This is most likely caused by the page not being published.
+2019-07-11 07:44:36,606 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 55] Couldn't find any page with nodeId=2462. This is most likely caused by the page not being published.
+2019-07-11 07:44:38,965 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2474. This is most likely caused by the page not being published.
+2019-07-11 07:44:40,778 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 22] Couldn't find any page with nodeId=2469. This is most likely caused by the page not being published.
+2019-07-11 07:44:42,762 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2449. This is most likely caused by the page not being published.
+2019-07-11 07:44:43,981 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=2445. This is most likely caused by the page not being published.
+2019-07-11 07:44:45,903 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 55] Couldn't find any page with nodeId=2408. This is most likely caused by the page not being published.
+2019-07-11 07:44:48,137 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2406. This is most likely caused by the page not being published.
+2019-07-11 07:44:51,465 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 55] Couldn't find any page with nodeId=2402. This is most likely caused by the page not being published.
+2019-07-11 07:44:52,465 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2399. This is most likely caused by the page not being published.
+2019-07-11 07:44:54,309 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2402. This is most likely caused by the page not being published.
+2019-07-11 07:44:56,043 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 36] Couldn't find any page with nodeId=2399. This is most likely caused by the page not being published.
+2019-07-11 07:45:08,887 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 47] Content '2019 - SOS ABBA' with Id '2399' could not be published because its parent is not published.
+2019-07-11 07:45:08,887 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-07-11 07:45:09,012 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=2399. This is most likely caused by the page not being published.
+2019-07-11 07:45:10,075 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 55] Couldn't find any page with nodeId=2381. This is most likely caused by the page not being published.
+2019-07-11 07:45:17,450 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 43] Content '2019 - CodeBiotics' with Id '2381' could not be published because its parent is not published.
+2019-07-11 07:45:17,450 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content '2019 - CodeBiotics' with Id '2381' has been published.
+2019-07-11 07:45:17,590 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2381. This is most likely caused by the page not being published.
+2019-07-11 07:45:19,543 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 36] Couldn't find any page with nodeId=2379. This is most likely caused by the page not being published.
+2019-07-11 07:45:30,028 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 31] Content '2019 - Brickworks' with Id '2379' could not be published because its parent is not published.
+2019-07-11 07:45:30,028 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content '2019 - Brickworks' with Id '2379' has been published.
+2019-07-11 07:45:30,168 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 31] Couldn't find any page with nodeId=2379. This is most likely caused by the page not being published.
+2019-07-11 07:45:31,856 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2399. This is most likely caused by the page not being published.
+2019-07-11 07:45:33,012 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 36] Couldn't find any page with nodeId=2402. This is most likely caused by the page not being published.
+2019-07-11 07:45:39,340 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2379. This is most likely caused by the page not being published.
+2019-07-11 07:45:44,450 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 54] Content '2019 - Brickworks' with Id '2379' could not be published because its parent is not published.
+2019-07-11 07:45:44,450 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content '2019 - Brickworks' with Id '2379' has been published.
+2019-07-11 07:45:44,575 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2379. This is most likely caused by the page not being published.
+2019-07-11 07:45:45,793 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2381. This is most likely caused by the page not being published.
+2019-07-11 07:45:50,809 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 39] Content '2019 - CodeBiotics' with Id '2381' could not be published because its parent is not published.
+2019-07-11 07:45:50,809 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 39] Content '2019 - CodeBiotics' with Id '2381' has been published.
+2019-07-11 07:45:50,918 [10] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 43] Index is being optimized, Provider=ExternalIndexer, NodeId=-1
+2019-07-11 07:45:50,950 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 39] Couldn't find any page with nodeId=2381. This is most likely caused by the page not being published.
+2019-07-11 07:45:52,481 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2399. This is most likely caused by the page not being published.
+2019-07-11 07:45:59,403 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 22] Content '2019 - SOS ABBA' with Id '2399' could not be published because its parent is not published.
+2019-07-11 07:45:59,403 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-07-11 07:45:59,512 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 22] Couldn't find any page with nodeId=2399. This is most likely caused by the page not being published.
+2019-07-11 07:46:00,575 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2402. This is most likely caused by the page not being published.
+2019-07-11 07:46:02,997 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2406. This is most likely caused by the page not being published.
+2019-07-11 07:46:09,715 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 36] Content '2019 - Stage & Screen' with Id '2406' could not be published because its parent is not published.
+2019-07-11 07:46:09,715 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content '2019 - Stage & Screen' with Id '2406' has been published.
+2019-07-11 07:46:09,872 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 36] Couldn't find any page with nodeId=2406. This is most likely caused by the page not being published.
+2019-07-11 07:46:14,481 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 44] Content '2019 - Stage & Screen' with Id '2406' could not be published because its parent is not published.
+2019-07-11 07:46:14,481 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content '2019 - Stage & Screen' with Id '2406' has been published.
+2019-07-11 07:46:14,606 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2406. This is most likely caused by the page not being published.
+2019-07-11 07:46:15,543 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=2408. This is most likely caused by the page not being published.
+2019-07-11 07:46:23,293 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 41] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' could not be published because its parent is not published.
+2019-07-11 07:46:23,293 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-07-11 07:46:23,418 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2408. This is most likely caused by the page not being published.
+2019-07-11 07:46:24,528 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 36] Couldn't find any page with nodeId=2445. This is most likely caused by the page not being published.
+2019-07-11 07:46:40,293 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 44] Content '2019 - Wild Wogs 2' with Id '2445' could not be published because its parent is not published.
+2019-07-11 07:46:40,293 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content '2019 - Wild Wogs 2' with Id '2445' has been published.
+2019-07-11 07:46:40,450 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2445. This is most likely caused by the page not being published.
+2019-07-11 07:48:21,731 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 44] Content '2019 - Wild Wogs 2' with Id '2445' could not be published because its parent is not published.
+2019-07-11 07:48:21,731 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content '2019 - Wild Wogs 2' with Id '2445' has been published.
+2019-07-11 07:48:21,856 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2445. This is most likely caused by the page not being published.
+2019-07-11 07:48:22,762 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2449. This is most likely caused by the page not being published.
+2019-07-11 07:48:29,762 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 31] Couldn't find any page with nodeId=2445. This is most likely caused by the page not being published.
+2019-07-11 07:48:40,418 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 41] Content '2019 - Wild Wogs 2' with Id '2445' could not be published because its parent is not published.
+2019-07-11 07:48:40,418 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content '2019 - Wild Wogs 2' with Id '2445' has been published.
+2019-07-11 07:48:40,575 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2445. This is most likely caused by the page not being published.
+2019-07-11 07:48:47,481 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 40] Content '2019 - Wild Wogs 2' with Id '2445' could not be published because its parent is not published.
+2019-07-11 07:48:47,481 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 40] Content '2019 - Wild Wogs 2' with Id '2445' has been published.
+2019-07-11 07:48:47,575 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=2445. This is most likely caused by the page not being published.
+2019-07-11 07:48:47,590 [10] INFO  UmbracoExamine.DataServices.UmbracoLogService - [Thread 36] Index is being optimized, Provider=InternalIndexer, NodeId=-1
+2019-07-11 07:48:48,606 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 36] Couldn't find any page with nodeId=2449. This is most likely caused by the page not being published.
+2019-07-11 07:48:54,668 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2406. This is most likely caused by the page not being published.
+2019-07-11 07:49:02,293 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2408. This is most likely caused by the page not being published.
+2019-07-11 07:49:05,668 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2445. This is most likely caused by the page not being published.
+2019-07-11 07:49:05,887 [10] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 44] An unhandled exception occurred
+System.Web.HttpUnhandledException (0x80004005): Exception of type 'System.Web.HttpUnhandledException' was thrown. ---> System.Web.HttpException (0x800704CD): The remote host closed the connection. The error code is 0x800704CD.
+   at System.Web.Hosting.IIS7WorkerRequest.RaiseCommunicationError(Int32 result, Boolean throwOnDisconnect)
+   at System.Web.Hosting.IIS7WorkerRequest.ExplicitFlush()
+   at System.Web.HttpResponse.Flush(Boolean finalFlush, Boolean async)
+   at System.Web.HttpResponse.Flush()
+   at System.Web.HttpWriter.WriteFromStream(Byte[] data, Int32 offset, Int32 size)
+   at System.Web.HttpResponseStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.Compression.DeflateStream.PurgeBuffers(Boolean disposing)
+   at System.IO.Compression.DeflateStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at System.IO.Compression.GZipStream.Dispose(Boolean disposing)
+   at System.IO.Stream.Close()
+   at umbraco.presentation.plugins.tinymce3.GzipCompressor.Compress(Stream to_stream)
+   at umbraco.presentation.plugins.tinymce3.GzipModule.ProcessRequest(HttpContext context)
+   at umbraco.presentation.plugins.tinymce3.tinymce3tinymceCompress.Page_Load(Object sender, EventArgs e)
+   at System.Web.Util.CalliEventHandlerDelegateProxy.Callback(Object sender, EventArgs e)
+   at System.Web.UI.Control.OnLoad(EventArgs e)
+   at System.Web.UI.Control.LoadRecursive()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.HandleError(Exception e)
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   at System.Web.UI.Page.ProcessRequest()
+   at System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   at System.Web.UI.Page.ProcessRequest(HttpContext context)
+   at ASP.umbraco_plugins_tinymce3_tinymce3tinymcecompress_aspx.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2019-07-11 07:49:06,418 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 31] Couldn't find any page with nodeId=2449. This is most likely caused by the page not being published.
+2019-07-11 07:49:12,590 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 43] Content '2019 - SingOut' with Id '2449' could not be published because its parent is not published.
+2019-07-11 07:49:12,590 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content '2019 - SingOut' with Id '2449' has been published.
+2019-07-11 07:49:12,668 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2449. This is most likely caused by the page not being published.
+2019-07-11 07:49:14,090 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 31] Couldn't find any page with nodeId=2469. This is most likely caused by the page not being published.
+2019-07-11 07:49:21,403 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 54] Content '2019 - Mutlicultural Theatre Association' with Id '2469' could not be published because its parent is not published.
+2019-07-11 07:49:21,403 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content '2019 - Mutlicultural Theatre Association' with Id '2469' has been published.
+2019-07-11 07:49:21,481 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2469. This is most likely caused by the page not being published.
+2019-07-11 07:49:22,403 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 39] Couldn't find any page with nodeId=2449. This is most likely caused by the page not being published.
+2019-07-11 07:49:28,934 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 54] Content '2019 - SingOut' with Id '2449' could not be published because its parent is not published.
+2019-07-11 07:49:28,934 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content '2019 - SingOut' with Id '2449' has been published.
+2019-07-11 07:49:29,043 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2449. This is most likely caused by the page not being published.
+2019-07-11 07:49:31,200 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=2469. This is most likely caused by the page not being published.
+2019-07-11 07:49:43,809 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 36] Content '2019 - Mutlicultural Theatre Association' with Id '2469' could not be published because its parent is not published.
+2019-07-11 07:49:43,809 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content '2019 - Mutlicultural Theatre Association' with Id '2469' has been published.
+2019-07-11 07:49:43,887 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 36] Couldn't find any page with nodeId=2469. This is most likely caused by the page not being published.
+2019-07-11 07:49:54,372 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2474. This is most likely caused by the page not being published.
+2019-07-11 07:50:12,918 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 41] Content '2019 - Bye Bye Birdie (Plenty Valley Christian College)' with Id '2474' could not be published because its parent is not published.
+2019-07-11 07:50:12,918 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 41] Content '2019 - Bye Bye Birdie (Plenty Valley Christian College)' with Id '2474' has been published.
+2019-07-11 07:50:13,028 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2474. This is most likely caused by the page not being published.
+2019-07-11 07:50:14,168 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=2462. This is most likely caused by the page not being published.
+2019-07-11 07:51:07,075 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 44] Content '2019 - The Lion King Jr (Marymede Catholic College)' with Id '2462' could not be published because its parent is not published.
+2019-07-11 07:51:07,075 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content '2019 - The Lion King Jr (Marymede Catholic College)' with Id '2462' has been published.
+2019-07-11 07:51:07,262 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2462. This is most likely caused by the page not being published.
+2019-07-11 07:51:08,684 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2481. This is most likely caused by the page not being published.
+2019-07-11 07:51:30,762 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 22] Content '2019 - A Midsummers Nights Dream (Catholic Ladies College)' with Id '2481' could not be published because its parent is not published.
+2019-07-11 07:51:30,762 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content '2019 - A Midsummers Nights Dream (Catholic Ladies College)' with Id '2481' has been published.
+2019-07-11 07:51:30,872 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 22] Couldn't find any page with nodeId=2481. This is most likely caused by the page not being published.
+2019-07-11 07:55:56,715 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 47] Content '2019 - A Midsummers Nights Dream (Catholic Ladies College)' with Id '2481' could not be published because its parent is not published.
+2019-07-11 07:55:56,715 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content '2019 - A Midsummers Nights Dream (Catholic Ladies College)' with Id '2481' has been published.
+2019-07-11 07:55:56,809 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=2481. This is most likely caused by the page not being published.
+2019-07-11 07:58:16,590 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-07-11 09:38:26,997 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 55] Couldn't find any page with nodeId=2379. This is most likely caused by the page not being published.
+2019-07-11 09:39:36,543 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 36] Couldn't find any page with nodeId=2474. This is most likely caused by the page not being published.
+2019-07-11 09:40:05,887 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=2379. This is most likely caused by the page not being published.
+2019-07-11 09:40:22,387 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 47] Content '2019 - Brickworks' with Id '2379' could not be published because its parent is not published.
+2019-07-11 09:40:22,387 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content '2019 - Brickworks' with Id '2379' has been published.
+2019-07-11 09:40:22,668 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=2379. This is most likely caused by the page not being published.
+2019-07-11 09:40:50,340 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 54] Content '2019 - Brickworks' with Id '2379' could not be published because its parent is not published.
+2019-07-11 09:40:50,340 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content '2019 - Brickworks' with Id '2379' has been published.
+2019-07-11 09:40:50,512 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2379. This is most likely caused by the page not being published.
+2019-07-11 09:42:31,247 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=2381. This is most likely caused by the page not being published.
+2019-07-11 09:42:52,028 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 47] Content '2019 - CodeBiotics' with Id '2381' could not be published because its parent is not published.
+2019-07-11 09:42:52,028 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content '2019 - CodeBiotics' with Id '2381' has been published.
+2019-07-11 09:42:52,106 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=2381. This is most likely caused by the page not being published.
+2019-07-11 09:48:51,622 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2462. This is most likely caused by the page not being published.
+2019-07-11 09:52:22,684 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2474. This is most likely caused by the page not being published.
+2019-07-11 09:52:37,434 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 55] Couldn't find any page with nodeId=2462. This is most likely caused by the page not being published.
+2019-07-11 09:53:12,247 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 36] Content '2019 - The Lion King Jr (Marymede Catholic College)' with Id '2462' could not be published because its parent is not published.
+2019-07-11 09:53:12,247 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content '2019 - The Lion King Jr (Marymede Catholic College)' with Id '2462' has been published.
+2019-07-11 09:53:12,356 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 36] Couldn't find any page with nodeId=2462. This is most likely caused by the page not being published.
+2019-07-11 09:53:24,590 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=2399. This is most likely caused by the page not being published.
+2019-07-11 09:55:11,090 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 55] Couldn't find any page with nodeId=2381. This is most likely caused by the page not being published.
+2019-07-11 09:55:18,653 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 47] Couldn't find any page with nodeId=2399. This is most likely caused by the page not being published.
+2019-07-11 09:55:26,200 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 44] Content '2019 - SOS ABBA' with Id '2399' could not be published because its parent is not published.
+2019-07-11 09:55:26,200 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content '2019 - SOS ABBA' with Id '2399' has been published.
+2019-07-11 09:55:26,309 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2399. This is most likely caused by the page not being published.
+2019-07-11 09:56:39,778 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2402. This is most likely caused by the page not being published.
+2019-07-11 09:56:49,418 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 36] Content '2019 - Crooners Around The World' with Id '2402' could not be published because its parent is not published.
+2019-07-11 09:56:49,418 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content '2019 - Crooners Around The World' with Id '2402' has been published.
+2019-07-11 09:56:49,512 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 36] Couldn't find any page with nodeId=2402. This is most likely caused by the page not being published.
+2019-07-11 09:57:07,075 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 39] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-07-11 09:57:25,903 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-07-11 09:58:05,184 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 39] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-07-11 09:58:17,668 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2406. This is most likely caused by the page not being published.
+2019-07-11 09:58:29,075 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 43] Content '2019 - Stage & Screen' with Id '2406' could not be published because its parent is not published.
+2019-07-11 09:58:29,075 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content '2019 - Stage & Screen' with Id '2406' has been published.
+2019-07-11 09:58:29,200 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2406. This is most likely caused by the page not being published.
+2019-07-11 09:59:32,950 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 31] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-07-11 09:59:41,200 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2408. This is most likely caused by the page not being published.
+2019-07-11 09:59:50,184 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 31] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' could not be published because its parent is not published.
+2019-07-11 09:59:50,184 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content '2019 - Santa Claus Is Coming to Town' with Id '2408' has been published.
+2019-07-11 09:59:50,309 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 31] Couldn't find any page with nodeId=2408. This is most likely caused by the page not being published.
+2019-07-11 10:03:55,965 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 39] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-07-11 10:05:12,950 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 36] Couldn't find any page with nodeId=2449. This is most likely caused by the page not being published.
+2019-07-11 10:05:23,950 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 44] Content '2019 - SingOut' with Id '2449' could not be published because its parent is not published.
+2019-07-11 10:05:23,950 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 44] Content '2019 - SingOut' with Id '2449' has been published.
+2019-07-11 10:05:24,106 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2449. This is most likely caused by the page not being published.
+2019-07-11 10:05:28,434 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 22] Content '2019 - SingOut' with Id '2449' could not be published because its parent is not published.
+2019-07-11 10:05:28,434 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 22] Content '2019 - SingOut' with Id '2449' has been published.
+2019-07-11 10:05:28,543 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 22] Couldn't find any page with nodeId=2449. This is most likely caused by the page not being published.
+2019-07-11 10:06:55,981 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 40] Couldn't find any page with nodeId=2445. This is most likely caused by the page not being published.
+2019-07-11 10:07:29,700 [10] INFO  Umbraco.Core.Services.ContentService - [Thread 36] Content '2019 - Wild Wogs 2' with Id '2445' could not be published because its parent is not published.
+2019-07-11 10:07:29,700 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content '2019 - Wild Wogs 2' with Id '2445' has been published.
+2019-07-11 10:07:29,809 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 36] Couldn't find any page with nodeId=2445. This is most likely caused by the page not being published.
+2019-07-11 10:07:58,184 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 55] Couldn't find any page with nodeId=2379. This is most likely caused by the page not being published.
+2019-07-11 10:08:12,481 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 39] Couldn't find any page with nodeId=2381. This is most likely caused by the page not being published.
+2019-07-11 10:08:26,434 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2399. This is most likely caused by the page not being published.
+2019-07-11 10:08:39,934 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2402. This is most likely caused by the page not being published.
+2019-07-11 10:08:52,012 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 55] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-07-11 10:08:53,418 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2406. This is most likely caused by the page not being published.
+2019-07-11 10:09:07,825 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 39] Couldn't find any page with nodeId=2408. This is most likely caused by the page not being published.
+2019-07-11 10:09:24,059 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 22] Couldn't find any page with nodeId=2445. This is most likely caused by the page not being published.
+2019-07-11 10:09:42,137 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2449. This is most likely caused by the page not being published.
+2019-07-11 10:09:59,575 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 39] Couldn't find any page with nodeId=2469. This is most likely caused by the page not being published.
+2019-07-11 10:10:12,450 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content '2019 - Mutlicultural Theatre Association' with Id '2469' has been unpublished.
+2019-07-11 10:10:12,575 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 36] Content 'Show 1' with Id '2472' has been unpublished.
+2019-07-11 10:10:14,465 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2474. This is most likely caused by the page not being published.
+2019-07-11 10:12:56,575 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2462. This is most likely caused by the page not being published.
+2019-07-11 10:13:47,731 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=2481. This is most likely caused by the page not being published.
+2019-07-11 10:14:12,918 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 54] Couldn't find any page with nodeId=2474. This is most likely caused by the page not being published.
+2019-07-11 10:15:17,325 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 22] Couldn't find any page with nodeId=2481. This is most likely caused by the page not being published.
+2019-07-11 10:15:26,043 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 43] Couldn't find any page with nodeId=2462. This is most likely caused by the page not being published.
+2019-07-11 10:15:44,512 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 41] Couldn't find any page with nodeId=2474. This is most likely caused by the page not being published.
+2019-07-11 10:20:44,356 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 22] Couldn't find any page with nodeId=2481. This is most likely caused by the page not being published.
+2019-07-11 10:20:51,387 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 31] Couldn't find any page with nodeId=2474. This is most likely caused by the page not being published.
+2019-07-11 10:21:43,840 [10] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 44] Couldn't find any page with nodeId=1107. This is most likely caused by the page not being published.
+2019-07-11 10:26:14,872 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 54] Content 'Upcoming Events' with Id '1107' has been published.
+2019-07-11 10:26:51,262 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 47] Content 'Upcoming Events' with Id '1107' has been published.
+2019-07-11 10:28:26,184 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 31] Content 'Catch the train to PRACC' with Id '1205' has been published.
+2019-07-11 10:28:30,856 [10] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 43] Content 'PRACC Ticketing Offline' with Id '2486' has been unpublished.

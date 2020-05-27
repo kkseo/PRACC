@@ -1,0 +1,29 @@
+2018-02-26 10:46:33,196 [33] INFO  umbraco.BasePages.BasePage - [Thread 21] User pracc (Id: 1) logged in
+2018-02-26 10:46:33,852 [33] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2018-02-26 10:46:33,930 [33] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 64ms)
+2018-02-26 10:46:34,212 [33] INFO  Umbraco.Core.PluginManager - [Thread 31] Starting resolution types of umbraco.interfaces.ITree
+2018-02-26 10:46:34,243 [33] INFO  Umbraco.Core.PluginManager - [Thread 31] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 37ms)
+2018-02-26 10:46:59,055 [33] ERROR dashboardUtilities.FeedProxy - [Thread 24] Exception occurred
+System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 93.90.118.244:80
+   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- End of inner exception stack trace ---
+   at System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   at System.Net.WebClient.DownloadString(Uri address)
+   at dashboardUtilities.FeedProxy.Page_Load(Object sender, EventArgs e)
+2018-02-26 10:46:59,680 [33] INFO  Umbraco.Core.PluginManager - [Thread 64] Starting resolution types of umbraco.interfaces.IDataType
+2018-02-26 10:46:59,712 [33] INFO  Umbraco.Core.PluginManager - [Thread 64] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 33ms)
+2018-02-26 10:49:47,758 [33] INFO  Umbraco.Core.PluginManager - [Thread 50] Starting resolution types of Umbraco.Web.BaseRest.RestExtensionAttribute
+2018-02-26 10:49:47,790 [33] INFO  Umbraco.Core.PluginManager - [Thread 50] Completed resolution of types of Umbraco.Web.BaseRest.RestExtensionAttribute, found 2 (took 24ms)
+2018-02-26 10:50:10,915 [33] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of umbraco.cms.businesslogic.media.IMediaFactory
+2018-02-26 10:50:10,930 [33] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.cms.businesslogic.media.IMediaFactory, found 2 (took 8ms)
+2018-02-26 10:50:11,837 [33] INFO  Umbraco.Core.PluginManager - [Thread 24] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2018-02-26 10:50:11,837 [33] INFO  Umbraco.Core.PluginManager - [Thread 24] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 19ms)
+2018-02-26 10:50:11,993 [33] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 24] Success uploading to parent 2101
+2018-02-26 10:50:12,899 [33] INFO  umbraco.presentation.umbraco.webservices.MediaUploader - [Thread 65] Success uploading to parent 2101
+2018-02-26 10:51:29,680 [33] INFO  umbraco.cms.businesslogic.web.Document - [Thread 27] New document 2253
+2018-02-26 10:51:53,555 [33] INFO  Umbraco.Core.Services.ContentService - [Thread 28] Content 'Show 1' with Id '2253' could not be published because its parent is not published.
+2018-02-26 10:51:53,571 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 28] Content 'Show 1' with Id '2253' has been published.
+2018-02-26 10:51:53,915 [33] WARN  Umbraco.Web.Routing.DefaultUrlProvider - [Thread 28] Couldn't find any page with nodeId=2253. This is most likely caused by the page not being published.
+2018-02-26 10:53:05,024 [33] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 32] Content '2018 - Together We Dance Showcase' with Id '2250' has been published.
+2018-02-26 20:29:08,633 [33] INFO  umbraco.BusinessLogic.Log - [Thread 62] Log scrubbed.  Removed all items older than 2017-12-28 20:29:08

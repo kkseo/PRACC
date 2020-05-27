@@ -1,0 +1,54 @@
+2018-09-27 10:28:08,730 [10] INFO  umbraco.BusinessLogic.Log - [Thread 123] Log scrubbed.  Removed all items older than 2018-07-29 10:28:08
+2018-09-27 15:27:28,949 [10] INFO  umbraco.BusinessLogic.Log - [Thread 72] Log scrubbed.  Removed all items older than 2018-07-29 15:27:28
+2018-09-27 15:27:28,964 [10] INFO  Umbraco.Core.UmbracoApplicationBase - [Thread 72] Application shutdown. Reason: HostingEnvironment
+2018-09-27 15:33:50,339 [36] INFO  Umbraco.Core.PluginManager - [Thread 1] Determining hash of code files on disk
+2018-09-27 15:33:50,355 [36] INFO  Umbraco.Core.PluginManager - [Thread 1] Hash determined (took 5ms)
+2018-09-27 15:33:50,355 [36] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+2018-09-27 15:33:50,995 [36] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 16 (took 633ms)
+2018-09-27 15:33:50,995 [36] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+2018-09-27 15:33:50,995 [36] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 6ms)
+2018-09-27 15:33:50,995 [36] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+2018-09-27 15:33:51,011 [36] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 6ms)
+2018-09-27 15:33:51,011 [36] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+2018-09-27 15:33:51,011 [36] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 3 (took 5ms)
+2018-09-27 15:33:51,011 [36] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+2018-09-27 15:33:51,027 [36] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 3 (took 8ms)
+2018-09-27 15:33:51,027 [36] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+2018-09-27 15:33:51,027 [36] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 1 (took 9ms)
+2018-09-27 15:33:51,277 [36] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Initializing Examine and binding to business logic events
+2018-09-27 15:33:51,527 [36] INFO  Umbraco.Web.Search.ExamineEvents - [Thread 1] Adding examine event handlers for index providers: 3
+2018-09-27 15:33:51,527 [36] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.IApplication
+2018-09-27 15:33:51,542 [36] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.IApplication, found 7 (took 14ms)
+2018-09-27 15:33:51,761 [36] INFO  Umbraco.Core.PluginManager - [Thread 1] Starting resolution types of umbraco.interfaces.ITree
+2018-09-27 15:33:51,792 [36] INFO  Umbraco.Core.PluginManager - [Thread 1] Completed resolution of types of umbraco.interfaces.ITree, found 27 (took 34ms)
+2018-09-27 15:40:11,917 [36] INFO  umbraco.content - [Thread 44] Loading content from disk cache...
+2018-09-27 15:40:13,120 [36] INFO  Umbraco.Core.PluginManager - [Thread 44] Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+2018-09-27 15:40:13,136 [36] INFO  Umbraco.Core.PluginManager - [Thread 44] Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 17 (took 10ms)
+2018-09-27 15:47:02,636 [36] INFO  Umbraco.Core.PluginManager - [Thread 45] Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+2018-09-27 15:47:02,652 [36] INFO  Umbraco.Core.PluginManager - [Thread 45] Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 2 (took 10ms)
+2018-09-27 17:08:32,058 [36] INFO  umbraco.BasePages.BasePage - [Thread 81] User pracc (Id: 1) logged in
+2018-09-27 17:08:32,495 [36] INFO  Umbraco.Core.PluginManager - [Thread 89] Starting resolution types of umbraco.BusinessLogic.Actions.IActionHandler
+2018-09-27 17:08:32,511 [36] INFO  Umbraco.Core.PluginManager - [Thread 89] Completed resolution of types of umbraco.BusinessLogic.Actions.IActionHandler, found 1 (took 8ms)
+2018-09-27 17:08:32,683 [36] INFO  Umbraco.Core.PluginManager - [Thread 89] Starting resolution types of umbraco.interfaces.ITree
+2018-09-27 17:08:32,730 [36] INFO  Umbraco.Core.PluginManager - [Thread 89] Completed resolution of types of umbraco.interfaces.ITree, found 36 (took 34ms)
+2018-09-27 17:08:46,886 [36] INFO  Umbraco.Core.PluginManager - [Thread 77] Starting resolution types of umbraco.interfaces.IDataType
+2018-09-27 17:08:46,902 [36] INFO  Umbraco.Core.PluginManager - [Thread 77] Completed resolution of types of umbraco.interfaces.IDataType, found 36 (took 31ms)
+2018-09-27 17:10:08,933 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 89] Content '2018 - Essentially Dance' with Id '2317' has been published.
+2018-09-27 17:10:09,058 [36] INFO  Umbraco.Core.PluginManager - [Thread 89] Starting resolution types of umbraco.interfaces.ICacheRefresher
+2018-09-27 17:10:09,074 [36] INFO  Umbraco.Core.PluginManager - [Thread 89] Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 22 (took 18ms)
+2018-09-27 17:10:20,902 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 51] Content '2018 - Essentially Dance' with Id '2317' has been published.
+2018-09-27 17:56:03,777 [36] INFO  umbraco.BasePages.BasePage - [Thread 66] User pracc (Id: 1) logged in
+2018-09-27 18:01:36,480 [36] ERROR Umbraco.Core.UmbracoApplicationBase - [Thread 101] An unhandled exception occurred
+System.Net.ProtocolViolationException: You must write ContentLength bytes to the request stream before calling [Begin]GetResponse.
+   at System.Net.HttpWebRequest.GetResponse()
+   at umbraco.presentation.umbraco_client.tinymce3.plugins.spellchecker.GoogleSpellChecker.SendRequest(String lang, String data)
+   at umbraco.presentation.umbraco_client.tinymce3.plugins.spellchecker.GoogleSpellChecker.CheckWords(String language, String[] words)
+   at umbraco.presentation.umbraco_client.tinymce3.plugins.spellchecker.GoogleSpellChecker.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2018-09-27 18:03:54,402 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 20] Content '2018 DanceXclusive' with Id '2338' has been published.
+2018-09-27 18:04:16,745 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 62] Content '2018 DanceXclusive' with Id '2338' has been published.
+2018-09-27 18:04:52,683 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 66] Content 'Show 1' with Id '2339' has been published.
+2018-09-27 18:04:56,902 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 101] Content 'Show 2' with Id '2340' has been published.
+2018-09-27 18:05:00,902 [36] INFO  Umbraco.Core.Publishing.PublishingStrategy - [Thread 81] Content '2018 DanceXclusive' with Id '2338' has been published.
